@@ -1,0 +1,11 @@
+TS001 no-recursion
+
+A function does not call itself, so stack usage is bounded by the call graph rather than by the input.
+
+languages: go javascript odin python rust typescript zig
+severity: error
+default: on
+group: stable
+
+TigerStyle: "Use only very simple, explicit control flow for clarity. Do not use recursion to ensure that all executions that should be bounded are bounded."
+NASA P10 Rule 1: "Restrict all code to very simple control flow constructs — do not use goto statements, setjmp or longjmp constructs, and direct or indirect recursion."

@@ -1,0 +1,5 @@
+{
+    "name": "LSP-tigerstyle",
+    "description": "tigerstyle-lsp language server for Sublime Text",
+    "dependencies": []
+}

@@ -1,0 +1,1196 @@
+{
+ "labels": [
+  {
+   "corpus": "flask",
+   "path": "src/flask/helpers.py",
+   "reproduces": true,
+   "row": 649,
+   "rule": "TS001",
+   "verdict": "true"
+  },
+  {
+   "corpus": "flask",
+   "path": "src/flask/json/tag.py",
+   "reproduces": true,
+   "row": 312,
+   "rule": "TS001",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/index/src/literal.rs",
+   "reproduces": true,
+   "row": 717,
+   "rule": "TS001",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/regex/src/ast.rs",
+   "reproduces": true,
+   "row": 74,
+   "rule": "TS001",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/regex/src/ban.rs",
+   "reproduces": true,
+   "row": 39,
+   "rule": "TS001",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/rust/src/time_based_id.rs",
+   "reproduces": true,
+   "row": 37,
+   "rule": "TS001",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/tigerbeetle/inspect.zig",
+   "reproduces": true,
+   "row": 1404,
+   "rule": "TS001",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/vsr/replica.zig",
+   "reproduces": true,
+   "row": 10821,
+   "rule": "TS001",
+   "verdict": "true"
+  },
+  {
+   "corpus": "flask",
+   "path": "src/flask/sansio/blueprints.py",
+   "reproduces": true,
+   "row": 273,
+   "rule": "TS002",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/searcher/src/searcher/glue.rs",
+   "reproduces": true,
+   "row": 1345,
+   "rule": "TS002",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/searcher/src/testutil.rs",
+   "reproduces": true,
+   "row": 516,
+   "rule": "TS002",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/ewah.zig",
+   "reproduces": true,
+   "row": 179,
+   "rule": "TS002",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/scripts/devhub.zig",
+   "reproduces": true,
+   "row": 97,
+   "rule": "TS002",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/vopr.zig",
+   "reproduces": true,
+   "row": 1413,
+   "rule": "TS002",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/vsr/journal.zig",
+   "reproduces": true,
+   "row": 832,
+   "rule": "TS002",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/vsr/replica.zig",
+   "reproduces": true,
+   "row": 2759,
+   "rule": "TS002",
+   "verdict": "true"
+  },
+  {
+   "corpus": "flask",
+   "path": "src/flask/app.py",
+   "reproduces": true,
+   "row": 310,
+   "rule": "TS003",
+   "verdict": "true"
+  },
+  {
+   "corpus": "flask",
+   "path": "src/flask/sansio/blueprints.py",
+   "reproduces": true,
+   "row": 174,
+   "rule": "TS003",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/io/darwin.zig",
+   "reproduces": true,
+   "row": 799,
+   "rule": "TS003",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/io/linux.zig",
+   "reproduces": true,
+   "row": 1028,
+   "rule": "TS003",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/io/windows.zig",
+   "reproduces": true,
+   "row": 907,
+   "rule": "TS003",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/lsm/zig_zag_merge.zig",
+   "reproduces": true,
+   "row": 15,
+   "rule": "TS003",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/core/logger.rs",
+   "reproduces": true,
+   "row": 1,
+   "rule": "TS004",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/lsm/set_associative_cache.zig",
+   "reproduces": true,
+   "row": 1,
+   "rule": "TS004",
+   "verdict": "false"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/static_allocator.zig",
+   "reproduces": true,
+   "row": 1,
+   "rule": "TS004",
+   "verdict": "true"
+  },
+  {
+   "corpus": "flask",
+   "path": "src/flask/app.py",
+   "reproduces": false,
+   "row": 64,
+   "rule": "TS005",
+   "verdict": "false"
+  },
+  {
+   "corpus": "flask",
+   "path": "src/flask/app.py",
+   "reproduces": false,
+   "row": 68,
+   "rule": "TS005",
+   "verdict": "false"
+  },
+  {
+   "corpus": "flask",
+   "path": "src/flask/cli.py",
+   "reproduces": false,
+   "row": 283,
+   "rule": "TS005",
+   "verdict": "false"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/python/samples/two-phase-many/main.py",
+   "reproduces": true,
+   "row": 99,
+   "rule": "TS005",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/python/samples/walkthrough/main.py",
+   "reproduces": false,
+   "row": 295,
+   "rule": "TS005",
+   "verdict": "false"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/vopr.zig",
+   "reproduces": true,
+   "row": 1770,
+   "rule": "TS005",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/globset/src/glob.rs",
+   "reproduces": true,
+   "row": 994,
+   "rule": "TS006",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/ignore/src/walk.rs",
+   "reproduces": true,
+   "row": 1973,
+   "rule": "TS006",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/aof.zig",
+   "reproduces": true,
+   "row": 648,
+   "rule": "TS006",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/io/darwin.zig",
+   "reproduces": true,
+   "row": 599,
+   "rule": "TS006",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/io/linux.zig",
+   "reproduces": true,
+   "row": 132,
+   "rule": "TS006",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/lsm/zig_zag_merge.zig",
+   "reproduces": true,
+   "row": 268,
+   "rule": "TS006",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/repl.zig",
+   "reproduces": true,
+   "row": 123,
+   "rule": "TS006",
+   "verdict": "true"
+  },
+  {
+   "corpus": "flask",
+   "path": "src/flask/cli.py",
+   "reproduces": true,
+   "row": 1023,
+   "rule": "TS007",
+   "verdict": "true"
+  },
+  {
+   "corpus": "flask",
+   "path": "src/flask/config.py",
+   "reproduces": true,
+   "row": 209,
+   "rule": "TS007",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/go/go_bindings.zig",
+   "reproduces": false,
+   "row": 277,
+   "rule": "TS008",
+   "verdict": "false"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/copyhound.zig",
+   "reproduces": true,
+   "row": 99,
+   "rule": "TS008",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/copyhound.zig",
+   "reproduces": true,
+   "row": 99,
+   "rule": "TS008",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/scripts/cfo.zig",
+   "reproduces": true,
+   "row": 459,
+   "rule": "TS008",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/stdx/stdx.zig",
+   "reproduces": true,
+   "row": 481,
+   "rule": "TS008",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/testing/cluster/journal_checker.zig",
+   "reproduces": true,
+   "row": 37,
+   "rule": "TS008",
+   "verdict": "true"
+  },
+  {
+   "corpus": "zls",
+   "path": "src/analysis.zig",
+   "reproduces": true,
+   "row": 1171,
+   "rule": "TS008",
+   "verdict": "true"
+  },
+  {
+   "corpus": "flask",
+   "path": "src/flask/app.py",
+   "reproduces": true,
+   "row": 1601,
+   "rule": "TS009",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/python/samples/walkthrough/main.py",
+   "reproduces": true,
+   "row": 52,
+   "rule": "TS009",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/python/samples/walkthrough/main.py",
+   "reproduces": true,
+   "row": 89,
+   "rule": "TS009",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/python/samples/walkthrough/main.py",
+   "reproduces": true,
+   "row": 250,
+   "rule": "TS009",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/python/samples/walkthrough/main.py",
+   "reproduces": true,
+   "row": 445,
+   "rule": "TS009",
+   "verdict": "true"
+  },
+  {
+   "corpus": "flask",
+   "path": "src/flask/cli.py",
+   "reproduces": true,
+   "row": 1036,
+   "rule": "TS010",
+   "verdict": "false"
+  },
+  {
+   "corpus": "flask",
+   "path": "src/flask/cli.py",
+   "reproduces": true,
+   "row": 1098,
+   "rule": "TS010",
+   "verdict": "false"
+  },
+  {
+   "corpus": "flask",
+   "path": "tests/test_appctx.py",
+   "reproduces": true,
+   "row": 68,
+   "rule": "TS010",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/python/tests/test_basic.py",
+   "reproduces": true,
+   "row": 59,
+   "rule": "TS010",
+   "verdict": "false"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/python/tests/test_basic.py",
+   "reproduces": true,
+   "row": 67,
+   "rule": "TS010",
+   "verdict": "false"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/python/tests/test_basic.py",
+   "reproduces": true,
+   "row": 75,
+   "rule": "TS010",
+   "verdict": "false"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/go/samples/basic/main.go",
+   "reproduces": true,
+   "row": 8,
+   "rule": "TS011",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/go/samples/two-phase-many/main.go",
+   "reproduces": true,
+   "row": 9,
+   "rule": "TS011",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/go/samples/two-phase/main.go",
+   "reproduces": true,
+   "row": 9,
+   "rule": "TS011",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/go/samples/walkthrough/main.go",
+   "reproduces": true,
+   "row": 9,
+   "rule": "TS011",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/python/src/tigerbeetle/__init__.py",
+   "reproduces": true,
+   "row": 1,
+   "rule": "TS011",
+   "verdict": "true"
+  },
+  {
+   "corpus": "flask",
+   "path": "src/flask/views.py",
+   "reproduces": true,
+   "row": 116,
+   "rule": "TS012",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/printer/src/json.rs",
+   "reproduces": true,
+   "row": 480,
+   "rule": "TS012",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "tests/regression.rs",
+   "reproduces": true,
+   "row": 1414,
+   "rule": "TS012",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/rust/src/conversions.rs",
+   "reproduces": true,
+   "row": 15,
+   "rule": "TS012",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/rust/src/conversions.rs",
+   "reproduces": true,
+   "row": 65,
+   "rule": "TS012",
+   "verdict": "true"
+  },
+  {
+   "corpus": "flask",
+   "path": "src/flask/testing.py",
+   "reproduces": true,
+   "row": 101,
+   "rule": "TS013",
+   "verdict": "true"
+  },
+  {
+   "corpus": "flask",
+   "path": "tests/test_appctx.py",
+   "reproduces": true,
+   "row": 221,
+   "rule": "TS013",
+   "verdict": "false"
+  },
+  {
+   "corpus": "flask",
+   "path": "tests/test_async.py",
+   "reproduces": true,
+   "row": 116,
+   "rule": "TS013",
+   "verdict": "false"
+  },
+  {
+   "corpus": "flask",
+   "path": "src/flask/ctx.py",
+   "reproduces": false,
+   "row": 201,
+   "rule": "TS014",
+   "verdict": "false"
+  },
+  {
+   "corpus": "flask",
+   "path": "tests/test_basic.py",
+   "reproduces": false,
+   "row": 1010,
+   "rule": "TS014",
+   "verdict": "false"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/cli/src/lib.rs",
+   "reproduces": true,
+   "row": 219,
+   "rule": "TS014",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/ignore/src/walk.rs",
+   "reproduces": true,
+   "row": 2125,
+   "rule": "TS014",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/printer/src/util.rs",
+   "reproduces": true,
+   "row": 355,
+   "rule": "TS014",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/rust/src/oneshot.rs",
+   "reproduces": true,
+   "row": 56,
+   "rule": "TS014",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/rust/tests/tests.rs",
+   "reproduces": true,
+   "row": 942,
+   "rule": "TS014",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/rust/tests/tests.rs",
+   "reproduces": true,
+   "row": 1184,
+   "rule": "TS014",
+   "verdict": "true"
+  },
+  {
+   "corpus": "flask",
+   "path": "src/flask/app.py",
+   "reproduces": false,
+   "row": 362,
+   "rule": "TS015",
+   "verdict": "false"
+  },
+  {
+   "corpus": "flask",
+   "path": "src/flask/testing.py",
+   "reproduces": false,
+   "row": 296,
+   "rule": "TS015",
+   "verdict": "false"
+  },
+  {
+   "corpus": "requests",
+   "path": "tests/test_hooks.py",
+   "reproduces": true,
+   "row": 14,
+   "rule": "TS015",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/core/flags/complete/bash.rs",
+   "reproduces": true,
+   "row": 82,
+   "rule": "TS016",
+   "verdict": "false"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/lsm/tree_fuzz.zig",
+   "reproduces": true,
+   "row": 203,
+   "rule": "TS016",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/multiversion.zig",
+   "reproduces": true,
+   "row": 1534,
+   "rule": "TS016",
+   "verdict": "true"
+  },
+  {
+   "corpus": "flask",
+   "path": "examples/celery/src/task_app/__init__.py",
+   "reproduces": true,
+   "row": 17,
+   "rule": "TS017",
+   "verdict": "true"
+  },
+  {
+   "corpus": "flask",
+   "path": "examples/tutorial/flaskr/blog.py",
+   "reproduces": true,
+   "row": 121,
+   "rule": "TS017",
+   "verdict": "true"
+  },
+  {
+   "corpus": "requests",
+   "path": "src/requests/_internal_utils.py",
+   "reproduces": true,
+   "row": 48,
+   "rule": "TS017",
+   "verdict": "true"
+  },
+  {
+   "corpus": "requests",
+   "path": "src/requests/utils.py",
+   "reproduces": false,
+   "row": 335,
+   "rule": "TS017",
+   "verdict": "false"
+  },
+  {
+   "corpus": "requests",
+   "path": "tests/test_requests.py",
+   "reproduces": true,
+   "row": 944,
+   "rule": "TS017",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/core/messages.rs",
+   "reproduces": true,
+   "row": 33,
+   "rule": "TS018",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/globset/src/glob.rs",
+   "reproduces": true,
+   "row": 1113,
+   "rule": "TS018",
+   "verdict": "false"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/ignore/src/types.rs",
+   "reproduces": true,
+   "row": 503,
+   "rule": "TS018",
+   "verdict": "false"
+  },
+  {
+   "corpus": "fzf",
+   "path": "src/functions.go",
+   "reproduces": true,
+   "row": 30,
+   "rule": "TS019",
+   "verdict": "true"
+  },
+  {
+   "corpus": "fzf",
+   "path": "src/functions.go",
+   "reproduces": true,
+   "row": 34,
+   "rule": "TS019",
+   "verdict": "true"
+  },
+  {
+   "corpus": "fzf",
+   "path": "src/result_x86.go",
+   "reproduces": true,
+   "row": 8,
+   "rule": "TS019",
+   "verdict": "true"
+  },
+  {
+   "corpus": "fzf",
+   "path": "src/tui/light.go",
+   "reproduces": true,
+   "row": 196,
+   "rule": "TS019",
+   "verdict": "true"
+  },
+  {
+   "corpus": "fzf",
+   "path": "src/util/chars.go",
+   "reproduces": true,
+   "row": 92,
+   "rule": "TS019",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/cli/src/hostname.rs",
+   "reproduces": false,
+   "row": 59,
+   "rule": "TS019",
+   "verdict": "false"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/searcher/src/searcher/mmap.rs",
+   "reproduces": false,
+   "row": 84,
+   "rule": "TS019",
+   "verdict": "false"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/java/src/jni.zig",
+   "reproduces": false,
+   "row": 1645,
+   "rule": "TS019",
+   "verdict": "false"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/java/src/jni.zig",
+   "reproduces": false,
+   "row": 2999,
+   "rule": "TS019",
+   "verdict": "false"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/rust/src/lib.rs",
+   "reproduces": false,
+   "row": 848,
+   "rule": "TS019",
+   "verdict": "false"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/static_allocator.zig",
+   "reproduces": true,
+   "row": 58,
+   "rule": "TS019",
+   "verdict": "false"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/vsr/replica.zig",
+   "reproduces": false,
+   "row": 617,
+   "rule": "TS019",
+   "verdict": "false"
+  },
+  {
+   "corpus": "flask",
+   "path": "src/flask/ctx.py",
+   "reproduces": true,
+   "row": 410,
+   "rule": "TS020",
+   "verdict": "true"
+  },
+  {
+   "corpus": "flask",
+   "path": "src/flask/testing.py",
+   "reproduces": true,
+   "row": 240,
+   "rule": "TS020",
+   "verdict": "true"
+  },
+  {
+   "corpus": "flask",
+   "path": "src/flask/typing.py",
+   "reproduces": false,
+   "row": 8,
+   "rule": "TS020",
+   "verdict": "false"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/ignore/src/lib.rs",
+   "reproduces": true,
+   "row": 311,
+   "rule": "TS020",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/ignore/src/overrides.rs",
+   "reproduces": true,
+   "row": 31,
+   "rule": "TS020",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/python/src/tigerbeetle/client.py",
+   "reproduces": true,
+   "row": 182,
+   "rule": "TS020",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/python/src/tigerbeetle/lib.py",
+   "reproduces": true,
+   "row": 72,
+   "rule": "TS020",
+   "verdict": "true"
+  },
+  {
+   "corpus": "fzf",
+   "path": "src/ansi.go",
+   "reproduces": true,
+   "row": 199,
+   "rule": "TS021",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/printer/src/standard.rs",
+   "reproduces": true,
+   "row": 741,
+   "rule": "TS022",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/ewah.zig",
+   "reproduces": true,
+   "row": 150,
+   "rule": "TS022",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/lsm/node_pool.zig",
+   "reproduces": true,
+   "row": 104,
+   "rule": "TS022",
+   "verdict": "true"
+  },
+  {
+   "corpus": "cobra",
+   "path": "completions.go",
+   "reproduces": true,
+   "row": 793,
+   "rule": "TS023",
+   "verdict": "true"
+  },
+  {
+   "corpus": "fzf",
+   "path": "src/ansi.go",
+   "reproduces": true,
+   "row": 169,
+   "rule": "TS023",
+   "verdict": "true"
+  },
+  {
+   "corpus": "fzf",
+   "path": "src/core.go",
+   "reproduces": true,
+   "row": 604,
+   "rule": "TS023",
+   "verdict": "true"
+  },
+  {
+   "corpus": "fzf",
+   "path": "src/tokenizer.go",
+   "reproduces": true,
+   "row": 124,
+   "rule": "TS023",
+   "verdict": "true"
+  },
+  {
+   "corpus": "zls",
+   "path": "src/features/completions.zig",
+   "reproduces": true,
+   "row": 304,
+   "rule": "TS023",
+   "verdict": "true"
+  },
+  {
+   "corpus": "flask",
+   "path": "tests/test_basic.py",
+   "reproduces": true,
+   "row": 385,
+   "rule": "TS024",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/printer/src/json.rs",
+   "reproduces": true,
+   "row": 1020,
+   "rule": "TS024",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/python/python_bindings.zig",
+   "reproduces": true,
+   "row": 153,
+   "rule": "TS024",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/lsm/segmented_array.zig",
+   "reproduces": true,
+   "row": 543,
+   "rule": "TS024",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/multiversion.zig",
+   "reproduces": true,
+   "row": 1846,
+   "rule": "TS024",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/state_machine/workload.zig",
+   "reproduces": true,
+   "row": 1677,
+   "rule": "TS024",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/vsr/superblock_quorums.zig",
+   "reproduces": true,
+   "row": 206,
+   "rule": "TS024",
+   "verdict": "true"
+  },
+  {
+   "corpus": "flask",
+   "path": "src/flask/app.py",
+   "reproduces": true,
+   "row": 409,
+   "rule": "TS025",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/ignore/src/walk.rs",
+   "reproduces": true,
+   "row": 491,
+   "rule": "TS025",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/ignore/src/walk.rs",
+   "reproduces": true,
+   "row": 1123,
+   "rule": "TS025",
+   "verdict": "true"
+  },
+  {
+   "corpus": "ripgrep",
+   "path": "crates/printer/src/standard.rs",
+   "reproduces": true,
+   "row": 47,
+   "rule": "TS025",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/lsm/manifest_level.zig",
+   "reproduces": true,
+   "row": 1048,
+   "rule": "TS025",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/scripts/cfo.zig",
+   "reproduces": true,
+   "row": 1045,
+   "rule": "TS025",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/testing/fuzz.zig",
+   "reproduces": true,
+   "row": 72,
+   "rule": "TS025",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/vsr.zig",
+   "reproduces": true,
+   "row": 865,
+   "rule": "TS025",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/clients/node/src/translate.zig",
+   "reproduces": true,
+   "row": 254,
+   "rule": "TS026",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/ewah.zig",
+   "reproduces": false,
+   "row": 166,
+   "rule": "TS026",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/trace/event.zig",
+   "reproduces": false,
+   "row": 364,
+   "rule": "TS026",
+   "verdict": "false"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/io/test.zig",
+   "reproduces": false,
+   "row": 779,
+   "rule": "TS027",
+   "verdict": "false"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/lsm/manifest_level.zig",
+   "reproduces": true,
+   "row": 631,
+   "rule": "TS027",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/lsm/node_pool.zig",
+   "reproduces": true,
+   "row": 130,
+   "rule": "TS027",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/scripts/release.zig",
+   "reproduces": true,
+   "row": 1298,
+   "rule": "TS028",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/stdx/flags.zig",
+   "reproduces": true,
+   "row": 66,
+   "rule": "TS028",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/tigerbeetle/main.zig",
+   "reproduces": true,
+   "row": 226,
+   "rule": "TS028",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/tigerbeetle/main.zig",
+   "reproduces": true,
+   "row": 339,
+   "rule": "TS028",
+   "verdict": "false"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/io/windows.zig",
+   "reproduces": true,
+   "row": 816,
+   "rule": "TS030",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/io/windows.zig",
+   "reproduces": true,
+   "row": 1526,
+   "rule": "TS030",
+   "verdict": "true"
+  },
+  {
+   "corpus": "tigerbeetle",
+   "path": "src/lsm/forest_fuzz.zig",
+   "reproduces": true,
+   "row": 1090,
+   "rule": "TS030",
+   "verdict": "true"
+  }
+ ]
+}

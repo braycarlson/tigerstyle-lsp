@@ -1,0 +1,401 @@
+# exit 1
+docs/.vitepress/config.mts:3:17: warning TS015 the expression is an unnamed function
+docs/.vitepress/config.mts:35:101: warning TS012 the line is 104 columns, over the 100 column limit
+docs/.vitepress/config.mts:82:101: warning TS012 the line is 124 columns, over the 100 column limit
+docs/.vitepress/config.mts:107:101: warning TS012 the line is 120 columns, over the 100 column limit
+docs/.vitepress/config.mts:129:101: warning TS012 the line is 116 columns, over the 100 column limit
+docs/.vitepress/config.mts:153:101: warning TS012 the line is 117 columns, over the 100 column limit
+docs/.vitepress/config.mts:199:101: warning TS012 the line is 112 columns, over the 100 column limit
+docs/.vitepress/config.mts:223:101: warning TS012 the line is 116 columns, over the 100 column limit
+docs/.vitepress/config.mts:249:101: warning TS012 the line is 113 columns, over the 100 column limit
+docs/.vitepress/config.mts:276:101: warning TS012 the line is 105 columns, over the 100 column limit
+docs/.vitepress/config.mts:353:101: warning TS012 the line is 272 columns, over the 100 column limit
+docs/.vitepress/config.mts:363:101: warning TS012 the line is 272 columns, over the 100 column limit
+docs/.vitepress/config.mts:378:101: warning TS012 the line is 160 columns, over the 100 column limit
+src/bug_report.rs:29:101: warning TS012 the line is 183 columns, over the 100 column limit
+src/bug_report.rs:46:101: warning TS012 the line is 117 columns, over the 100 column limit
+src/bug_report.rs:51:101: warning TS012 the line is 110 columns, over the 100 column limit
+src/bug_report.rs:72:5: warning TS020 [*] the attribute silences a checker
+src/bug_report.rs:96:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/config.rs:106:101: warning TS012 the line is 118 columns, over the 100 column limit
+src/config.rs:154:101: warning TS012 the line is 116 columns, over the 100 column limit
+src/config.rs:221:13: info TS025 the name leads with the qualifier last; put it last
+src/config.rs:269:101: warning TS012 the line is 113 columns, over the 100 column limit
+src/config.rs:392:24: warning TS023 the condition combines booleans; split it into nested branches
+src/config.rs:406:28: warning TS023 the condition combines booleans; split it into nested branches
+src/config.rs:407:37: info TS025 the name leads with the qualifier new; put it last
+src/config.rs:460:16: error TS001 parse_color_string takes part in a call cycle; give it an explicit stack or a bound
+src/config.rs:1055:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/configs/aws.rs:13:101: warning TS012 the line is 119 columns, over the 100 column limit
+src/configs/aws.rs:14:101: warning TS012 the line is 168 columns, over the 100 column limit
+src/configs/aws.rs:16:101: warning TS012 the line is 315 columns, over the 100 column limit
+src/configs/aws.rs:17:101: warning TS012 the line is 157 columns, over the 100 column limit
+src/configs/aws.rs:48:101: warning TS012 the line is 113 columns, over the 100 column limit
+src/configs/directory.rs:62:31: warning TS012 the line is 153 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+src/configs/mod.rs:113:9: warning TS011 the import brings in every name
+src/configs/os.rs:26:5: warning TS002 the function is 78 lines, over the 70 line limit
+src/configs/status.rs:50:101: warning TS012 the line is 110 columns, over the 100 column limit
+src/configure.rs:38:9: info TS025 the name leads with the qualifier first; put it last
+src/configure.rs:44:13: info TS025 the name leads with the qualifier current; put it last
+src/configure.rs:64:13: info TS025 the name leads with the qualifier new; put it last
+src/configure.rs:94:8: warning TS023 the condition combines booleans; split it into nested branches
+src/configure.rs:111:12: warning TS023 the condition combines booleans; split it into nested branches
+src/configure.rs:197:8: warning TS023 the condition combines booleans; split it into nested branches
+src/configure.rs:209:9: info TS025 the name leads with the qualifier old; put it last
+src/configure.rs:217:13: info TS025 the name leads with the qualifier new; put it last
+src/configure.rs:460:13: info TS025 the name leads with the qualifier new; put it last
+src/configure.rs:525:13: info TS025 the name leads with the qualifier new; put it last
+src/configure.rs:649:13: info TS025 the name leads with the qualifier first; put it last
+src/context/mod.rs:47:9: info TS025 the name leads with the qualifier current; put it last
+src/context/mod.rs:164:13: info TS025 the name leads with the qualifier current; put it last
+src/context/mod.rs:165:13: info TS025 the name leads with the qualifier current; put it last
+src/context/mod.rs:213:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/context/mod.rs:329:5: warning TS002 the function is 76 lines, over the 70 line limit
+src/context/mod.rs:473:101: warning TS012 the line is 103 columns, over the 100 column limit
+src/context/mod.rs:516:8: warning TS023 the condition combines booleans; split it into nested branches
+src/context/mod.rs:549:5: warning TS002 the function is 114 lines, over the 70 line limit
+src/context/mod.rs:569:26: warning TS015 the expression is an unnamed function
+src/context/mod.rs:581:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/context/mod.rs:630:24: warning TS023 the condition combines booleans; split it into nested branches
+src/context/mod.rs:634:101: warning TS012 the line is 136 columns, over the 100 column limit
+src/context/mod.rs:791:13: info TS025 the name leads with the qualifier initial; put it last
+src/context/mod.rs:795:101: warning TS012 the line is 110 columns, over the 100 column limit
+src/context/mod.rs:799:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/context/mod.rs:935:43: warning TS041 Option<Result<F, F::Err>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/context/mod.rs:944:5: error TS028 the default hides the error; handle it or crash on it by name
+src/context/mod.rs:952:5: error TS028 the default hides the error; handle it or crash on it by name
+src/context/mod.rs:1034:5: warning TS002 the function is 110 lines, over the 70 line limit
+src/formatter/parser.rs:2:1: warning TS020 [*] the attribute silences a checker
+src/formatter/parser.rs:5:5: warning TS011 the import brings in every name
+src/formatter/parser.rs:7:5: warning TS011 the import brings in every name
+src/formatter/string_formatter.rs:2:5: warning TS011 the import brings in every name
+src/formatter/string_formatter.rs:12:5: warning TS011 the import brings in every name
+src/formatter/string_formatter.rs:236:5: error TS001 parse takes part in a call cycle; give it an explicit stack or a bound
+src/formatter/string_formatter.rs:236:5: warning TS002 the function is 173 lines, over the 70 line limit
+src/formatter/string_formatter.rs:241:9: error TS001 parse_textgroup takes part in a call cycle; give it an explicit stack or a bound
+src/formatter/string_formatter.rs:249:101: warning TS012 the line is 104 columns, over the 100 column limit
+src/formatter/string_formatter.rs:260:14: warning TS041 Option<Result<Style, StringFormatterError>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/formatter/string_formatter.rs:283:9: warning TS002 the function is 117 lines, over the 70 line limit
+src/formatter/string_formatter.rs:346:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/formatter/string_formatter.rs:360:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/formatter/string_formatter.rs:368:57: error TS001 should_show_elements takes part in a call cycle; give it an explicit stack or a bound
+src/formatter/string_formatter.rs:390:33: error TS001 parse_format takes part in a call cycle; give it an explicit stack or a bound
+src/formatter/string_formatter.rs:476:33: warning TS041 Option<Result<String, StringFormatterError>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/formatter/string_formatter.rs:759:13: info TS025 the name leads with the qualifier first; put it last
+src/init/mod.rs:35:13: info TS025 the name leads with the qualifier current; put it last
+src/init/mod.rs:80:101: warning TS012 the line is 110 columns, over the 100 column limit
+src/init/mod.rs:107:1: warning TS002 the function is 109 lines, over the 70 line limit
+src/lib.rs:29:8: info TS025 the name leads with the qualifier num; put it last
+src/lib.rs:36:8: info TS025 the name leads with the qualifier num; put it last
+src/logger.rs:51:12: warning TS023 the condition combines booleans; split it into nested branches
+src/logger.rs:146:5: warning TS002 the function is 80 lines, over the 70 line limit
+src/logger.rs:365:13: info TS025 the name leads with the qualifier new; put it last
+src/logger.rs:369:13: info TS025 the name leads with the qualifier old; put it last
+src/main.rs:168:1: warning TS002 the function is 149 lines, over the 70 line limit
+src/module.rs:189:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/module.rs:219:17: info TS025 the name leads with the qualifier current; put it last
+src/modules/aws.rs:171:12: warning TS012 the line is 113 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+src/modules/aws.rs:173:12: warning TS012 the line is 126 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+src/modules/aws.rs:245:4: warning TS012 the line is 105 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+src/modules/aws.rs:276:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/aws.rs:281:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/azure.rs:624:5: warning TS002 the function is 73 lines, over the 70 line limit
+src/modules/azure.rs:707:101: warning TS012 the line is 135 columns, over the 100 column limit
+src/modules/battery.rs:92:5: warning TS039 the chain runs 5 branches, over the 3 allowed; split it into a tree
+src/modules/battery.rs:92:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/battery.rs:94:15: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/c.rs:28:5: warning TS002 the function is 106 lines, over the 70 line limit
+src/modules/claude_context.rs:6:1: warning TS002 the function is 114 lines, over the 70 line limit
+src/modules/claude_context.rs:17:9: info TS025 the name leads with the qualifier total; put it last
+src/modules/claude_context.rs:57:101: warning TS012 the line is 121 columns, over the 100 column limit
+src/modules/claude_context.rs:152:26: warning TS012 the line is 171 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+src/modules/claude_cost.rs:17:9: info TS025 the name leads with the qualifier total; put it last
+src/modules/claude_cost.rs:155:29: info TS025 the name leads with the qualifier total; put it last
+src/modules/cmd_duration.rs:74:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/conda.rs:11:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/modules/conda.rs:20:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/conda.rs:115:39: warning TS012 the line is 129 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+src/modules/container.rs:9:1: warning TS002 the function is 106 lines, over the 70 line limit
+src/modules/container.rs:18:12: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/container.rs:141:10: warning TS041 std::io::Result<(Option<String>, Option<String>)> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/modules/container.rs:221:10: warning TS041 std::io::Result<(Option<String>, Option<String>)> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/modules/cpp.rs:34:5: warning TS002 the function is 125 lines, over the 70 line limit
+src/modules/custom.rs:24:1: warning TS002 the function is 81 lines, over the 70 line limit
+src/modules/custom.rs:31:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/custom.rs:38:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/custom.rs:63:29: warning TS015 the expression is an unnamed function
+src/modules/custom.rs:122:101: warning TS012 the line is 166 columns, over the 100 column limit
+src/modules/custom.rs:127:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/modules/custom.rs:133:101: warning TS012 the line is 104 columns, over the 100 column limit
+src/modules/custom.rs:150:101: warning TS012 the line is 112 columns, over the 100 column limit
+src/modules/custom.rs:151:101: warning TS012 the line is 105 columns, over the 100 column limit
+src/modules/custom.rs:152:1: warning TS002 the function is 74 lines, over the 70 line limit
+src/modules/custom.rs:161:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/modules/custom.rs:219:101: warning TS012 the line is 176 columns, over the 100 column limit
+src/modules/custom.rs:333:33: warning TS041 io::Result<Option<String>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/modules/dart.rs:154:101: warning TS012 the line is 128 columns, over the 100 column limit
+src/modules/directory.rs:35:1: warning TS002 the function is 147 lines, over the 70 line limit
+src/modules/directory.rs:55:19: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/directory.rs:98:12: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/directory.rs:118:17: info TS025 the name leads with the qualifier num; put it last
+src/modules/directory.rs:120:16: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/directory.rs:139:29: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/directory.rs:561:13: warning TS011 the import brings in every name
+src/modules/directory.rs:1686:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/modules/directory.rs:1716:101: warning TS012 the line is 108 columns, over the 100 column limit
+src/modules/directory.rs:1827:101: warning TS012 the line is 113 columns, over the 100 column limit
+src/modules/directory.rs:1845:13: warning TS011 the import brings in every name
+src/modules/direnv.rs:119:12: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/direnv.rs:170:35: warning TS041 Result<Option<DirenvState>, Cow<'static, str>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/modules/docker_context.rs:26:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/docker_context.rs:60:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/dotnet.rs:20:1: warning TS002 the function is 72 lines, over the 70 line limit
+src/modules/dotnet.rs:94:28: warning TS015 the expression is an unnamed function
+src/modules/dotnet.rs:109:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/modules/dotnet.rs:146:5: info TS025 the name leads with the qualifier current; put it last
+src/modules/dotnet.rs:149:28: warning TS015 the expression is an unnamed function
+src/modules/dotnet.rs:176:101: warning TS012 the line is 105 columns, over the 100 column limit
+src/modules/dotnet.rs:183:32: info TS025 the name leads with the qualifier current; put it last
+src/modules/dotnet.rs:184:9: info TS025 the name leads with the qualifier current; put it last
+src/modules/erlang.rs:65:13: warning TS012 the line is 111 columns, over the 100 column limit, and its one token cannot be wrapped
+src/modules/fortran.rs:46:31: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/fossil_branch.rs:22:43: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/modules/gcloud.rs:84:1: warning TS002 the function is 75 lines, over the 70 line limit
+src/modules/gcloud.rs:178:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/modules/gcloud.rs:190:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/modules/gcloud.rs:203:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/modules/git_branch.rs:14:1: warning TS002 the function is 152 lines, over the 70 line limit
+src/modules/git_branch.rs:20:43: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/modules/git_branch.rs:33:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/git_branch.rs:78:12: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/git_branch.rs:138:24: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/git_branch.rs:145:24: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/git_branch.rs:188:6: warning TS041 Option<(gix::refs::FullName, Option<gix::refs::FullName>)> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/modules/git_branch.rs:586:101: warning TS012 the line is 103 columns, over the 100 column limit
+src/modules/git_commit.rs:20:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/git_metrics.rs:19:1: warning TS002 the function is 263 lines, over the 70 line limit
+src/modules/git_metrics.rs:34:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/modules/git_metrics.rs:35:20: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/git_metrics.rs:89:21: warning TS015 the expression is an unnamed function
+src/modules/git_metrics.rs:131:37: info TS025 the name leads with the qualifier previous; put it last
+src/modules/git_metrics.rs:132:37: info TS025 the name leads with the qualifier previous; put it last
+src/modules/git_metrics.rs:288:1: warning TS020 [*] the attribute silences a checker
+src/modules/git_metrics.rs:289:16: warning TS003 the function takes 8 parameters, over the 7 the style allows
+src/modules/git_metrics.rs:374:10: warning TS041 Option<Result<&str, StringFormatterError>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/modules/git_metrics.rs:448:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/modules/git_metrics.rs:476:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/modules/git_metrics.rs:519:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/modules/git_metrics.rs:583:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/modules/git_metrics.rs:823:12: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/git_state.rs:96:20: warning TS015 the expression is an unnamed function
+src/modules/git_state.rs:101:25: warning TS015 the expression is an unnamed function
+src/modules/git_state.rs:108:29: warning TS015 the expression is an unnamed function
+src/modules/git_state.rs:108:30: info TS025 the name leads with the qualifier current; put it last
+src/modules/git_state.rs:108:50: info TS025 the name leads with the qualifier total; put it last
+src/modules/git_state.rs:289:12: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/git_status.rs:31:1: warning TS002 the function is 160 lines, over the 70 line limit
+src/modules/git_status.rs:70:28: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/git_status.rs:81:35: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/git_status.rs:83:35: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/git_status.rs:215:39: warning TS041 Option<(Option<usize>, Option<usize>)> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/modules/git_status.rs:304:101: warning TS012 the line is 113 columns, over the 100 column limit
+src/modules/git_status.rs:330:1: warning TS002 the function is 243 lines, over the 70 line limit
+src/modules/git_status.rs:339:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/modules/git_status.rs:342:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/git_status.rs:352:12: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/git_status.rs:385:17: warning TS015 the expression is an unnamed function
+src/modules/git_status.rs:401:23: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/modules/git_status.rs:412:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/modules/git_status.rs:413:101: warning TS012 the line is 118 columns, over the 100 column limit
+src/modules/git_status.rs:442:101: warning TS012 the line is 108 columns, over the 100 column limit
+src/modules/git_status.rs:449:12: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/git_status.rs:483:29: info TS025 the name leads with the qualifier previous; put it last
+src/modules/git_status.rs:488:29: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/modules/git_status.rs:552:101: warning TS012 the line is 112 columns, over the 100 column limit
+src/modules/git_status.rs:724:12: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/git_status.rs:801:1: warning TS002 the function is 101 lines, over the 70 line limit
+src/modules/git_status.rs:917:25: warning TS011 the import brings in every name
+src/modules/git_status.rs:920:5: warning TS020 [*] the attribute silences a checker
+src/modules/git_status.rs:1937:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/modules/gradle.rs:87:35: warning TS015 the expression is an unnamed function
+src/modules/gradle.rs:92:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/gradle.rs:226:21: warning TS015 the expression is an unnamed function
+src/modules/haskell.rs:168:3: warning TS012 the line is 111 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+src/modules/haxe.rs:75:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/hg_branch.rs:24:43: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/modules/hg_branch.rs:35:23: error TS028 the default hides the error; handle it or crash on it by name
+src/modules/hg_branch.rs:36:9: error TS028 the default hides the error; handle it or crash on it by name
+src/modules/hg_state.rs:54:5: warning TS039 the chain runs 7 branches, over the 3 allowed; split it into a tree
+src/modules/hg_state.rs:83:15: error TS028 the default hides the error; handle it or crash on it by name
+src/modules/hostname.rs:13:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/modules/hostname.rs:14:101: warning TS012 the line is 128 columns, over the 100 column limit
+src/modules/hostname.rs:21:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/hostname.rs:31:23: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/java.rs:100:101: warning TS012 the line is 186 columns, over the 100 column limit
+src/modules/java.rs:101:101: warning TS012 the line is 204 columns, over the 100 column limit
+src/modules/java.rs:108:101: warning TS012 the line is 187 columns, over the 100 column limit
+src/modules/java.rs:114:101: warning TS012 the line is 182 columns, over the 100 column limit
+src/modules/java.rs:115:101: warning TS012 the line is 181 columns, over the 100 column limit
+src/modules/java.rs:122:101: warning TS012 the line is 213 columns, over the 100 column limit
+src/modules/java.rs:123:101: warning TS012 the line is 207 columns, over the 100 column limit
+src/modules/java.rs:124:101: warning TS012 the line is 228 columns, over the 100 column limit
+src/modules/java.rs:132:101: warning TS012 the line is 247 columns, over the 100 column limit
+src/modules/java.rs:133:101: warning TS012 the line is 243 columns, over the 100 column limit
+src/modules/java.rs:140:101: warning TS012 the line is 178 columns, over the 100 column limit
+src/modules/java.rs:146:101: warning TS012 the line is 182 columns, over the 100 column limit
+src/modules/java.rs:147:101: warning TS012 the line is 182 columns, over the 100 column limit
+src/modules/java.rs:154:101: warning TS012 the line is 177 columns, over the 100 column limit
+src/modules/java.rs:160:101: warning TS012 the line is 337 columns, over the 100 column limit
+src/modules/java.rs:194:101: warning TS012 the line is 189 columns, over the 100 column limit
+src/modules/java.rs:306:101: warning TS012 the line is 190 columns, over the 100 column limit
+src/modules/jobs.rs:7:1: warning TS002 the function is 94 lines, over the 70 line limit
+src/modules/jobs.rs:36:9: info TS025 the name leads with the qualifier num; put it last
+src/modules/jobs.rs:38:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/jobs.rs:59:101: warning TS012 the line is 118 columns, over the 100 column limit
+src/modules/jobs.rs:68:12: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/kubernetes.rs:29:5: info TS025 the name leads with the qualifier current; put it last
+src/modules/kubernetes.rs:57:5: info TS025 the name leads with the qualifier current; put it last
+src/modules/kubernetes.rs:132:1: warning TS002 the function is 145 lines, over the 70 line limit
+src/modules/kubernetes.rs:178:9: info TS025 the name leads with the qualifier current; put it last
+src/modules/kubernetes.rs:189:101: warning TS012 the line is 104 columns, over the 100 column limit
+src/modules/kubernetes.rs:193:101: warning TS012 the line is 108 columns, over the 100 column limit
+src/modules/kubernetes.rs:195:101: warning TS012 the line is 160 columns, over the 100 column limit
+src/modules/kubernetes.rs:309:9: info TS025 the name leads with the qualifier current; put it last
+src/modules/kubernetes.rs:332:101: warning TS012 the line is 166 columns, over the 100 column limit
+src/modules/kubernetes.rs:428:5: warning TS002 the function is 104 lines, over the 70 line limit
+src/modules/kubernetes.rs:773:5: warning TS002 the function is 79 lines, over the 70 line limit
+src/modules/kubernetes.rs:854:5: warning TS002 the function is 79 lines, over the 70 line limit
+src/modules/localip.rs:28:101: warning TS012 the line is 110 columns, over the 100 column limit
+src/modules/localip.rs:40:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/localip.rs:48:16: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/maven.rs:70:9: warning TS012 the line is 125 columns, over the 100 column limit, and its one token cannot be wrapped
+src/modules/maven.rs:85:35: warning TS015 the expression is an unnamed function
+src/modules/maven.rs:90:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/maven.rs:97:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/maven.rs:155:1: warning TS012 the line is 117 columns, over the 100 column limit, and its one token cannot be wrapped
+src/modules/maven.rs:183:1: warning TS012 the line is 117 columns, over the 100 column limit, and its one token cannot be wrapped
+src/modules/maven.rs:212:1: warning TS012 the line is 117 columns, over the 100 column limit, and its one token cannot be wrapped
+src/modules/maven.rs:223:21: warning TS015 the expression is an unnamed function
+src/modules/maven.rs:226:1: warning TS012 the line is 125 columns, over the 100 column limit, and its one token cannot be wrapped
+src/modules/memory_usage.rs:45:1: warning TS002 the function is 76 lines, over the 70 line limit
+src/modules/meson.rs:13:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/mod.rs:121:1: warning TS002 the function is 139 lines, over the 70 line limit
+src/modules/mod.rs:242:101: warning TS012 the line is 115 columns, over the 100 column limit
+src/modules/mod.rs:261:1: warning TS002 the function is 117 lines, over the 70 line limit
+src/modules/mod.rs:303:101: warning TS012 the line is 104 columns, over the 100 column limit
+src/modules/mod.rs:345:101: warning TS012 the line is 114 columns, over the 100 column limit
+src/modules/mojo.rs:61:43: warning TS041 Option<(String, Option<String>)> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/modules/nodejs.rs:14:1: warning TS002 the function is 86 lines, over the 70 line limit
+src/modules/nodejs.rs:29:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/ocaml.rs:18:1: warning TS002 the function is 71 lines, over the 70 line limit
+src/modules/openstack.rs:14:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/modules/os.rs:179:5: warning TS002 the function is 88 lines, over the 70 line limit
+src/modules/os.rs:324:5: warning TS002 the function is 72 lines, over the 70 line limit
+src/modules/os.rs:337:17: warning TS015 the expression is an unnamed function
+src/modules/package.rs:54:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/package.rs:66:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/package.rs:128:8: warning TS012 the line is 109 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+src/modules/package.rs:168:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/package.rs:186:101: warning TS012 the line is 114 columns, over the 100 column limit
+src/modules/package.rs:233:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/modules/package.rs:1403:5: warning TS002 the function is 72 lines, over the 70 line limit
+src/modules/package.rs:1406:101: warning TS012 the line is 219 columns, over the 100 column limit
+src/modules/package.rs:1480:101: warning TS012 the line is 219 columns, over the 100 column limit
+src/modules/package.rs:1504:101: warning TS012 the line is 219 columns, over the 100 column limit
+src/modules/package.rs:1521:101: warning TS012 the line is 219 columns, over the 100 column limit
+src/modules/php.rs:38:101: warning TS012 the line is 104 columns, over the 100 column limit
+src/modules/php.rs:41:101: warning TS012 the line is 123 columns, over the 100 column limit
+src/modules/pixi.rs:27:36: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/pixi.rs:136:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/modules/pixi.rs:156:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/modules/pulumi.rs:39:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/pulumi.rs:90:9: info TS025 the name leads with the qualifier new; put it last
+src/modules/pulumi.rs:202:9: info TS025 the name leads with the qualifier current; put it last
+src/modules/python.rs:25:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/ruby.rs:30:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/rust.rs:55:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/modules/rust.rs:61:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/modules/rust.rs:63:12: warning TS012 the line is 115 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+src/modules/rust.rs:114:101: warning TS012 the line is 147 columns, over the 100 column limit
+src/modules/rust.rs:306:8: warning TS012 the line is 107 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+src/modules/rust.rs:335:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/rust.rs:343:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/rust.rs:352:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/modules/rust.rs:368:15: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/rust.rs:727:5: warning TS002 the function is 174 lines, over the 70 line limit
+src/modules/shlvl.rs:22:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/solidity.rs:68:101: warning TS012 the line is 132 columns, over the 100 column limit
+src/modules/spack.rs:77:31: warning TS012 the line is 121 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+src/modules/status.rs:21:1: warning TS002 the function is 88 lines, over the 70 line limit
+src/modules/status.rs:51:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/status.rs:84:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/modules/status.rs:110:1: warning TS002 the function is 88 lines, over the 70 line limit
+src/modules/status.rs:139:37: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/status.rs:152:28: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/status.rs:155:26: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/sudo.rs:17:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/terraform.rs:69:101: warning TS012 the line is 151 columns, over the 100 column limit
+src/modules/time.rs:47:13: error TS028 the default hides the error; handle it or crash on it by name
+src/modules/time.rs:86:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/modules/time.rs:91:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/username.rs:36:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/username.rs:46:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/username.rs:234:8: info TS025 the name leads with the qualifier current; put it last
+src/modules/utils/directory.rs:13:101: warning TS012 the line is 133 columns, over the 100 column limit
+src/modules/utils/directory_nix.rs:8:1: warning TS020 [*] the attribute silences a checker
+src/modules/utils/directory_nix.rs:17:1: warning TS020 [*] the attribute silences a checker
+src/modules/utils/directory_nix.rs:30:15: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/utils/directory_win.rs:36:1: warning TS002 the function is 115 lines, over the 70 line limit
+src/modules/utils/directory_win.rs:42:101: warning TS012 the line is 108 columns, over the 100 column limit
+src/modules/utils/directory_win.rs:65:101: warning TS012 the line is 123 columns, over the 100 column limit
+src/modules/utils/path.rs:24:5: warning TS020 [*] the attribute silences a checker
+src/modules/utils/path.rs:33:101: warning TS012 the line is 122 columns, over the 100 column limit
+src/modules/utils/path.rs:40:101: warning TS012 the line is 104 columns, over the 100 column limit
+src/modules/utils/path.rs:108:9: warning TS011 the import brings in every name
+src/modules/utils/path.rs:267:9: warning TS011 the import brings in every name
+src/modules/vcs.rs:14:8: warning TS023 the condition combines booleans; split it into nested branches
+src/modules/vcs.rs:210:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/print.rs:3:5: warning TS011 the import brings in every name
+src/print.rs:93:1: warning TS002 the function is 77 lines, over the 70 line limit
+src/print.rs:108:8: warning TS023 the condition combines booleans; split it into nested branches
+src/print.rs:146:8: warning TS023 the condition combines booleans; split it into nested branches
+src/print.rs:208:9: info TS025 the name leads with the qualifier max; put it last
+src/print.rs:209:9: info TS025 the name leads with the qualifier max; put it last
+src/print.rs:227:1: warning TS002 the function is 94 lines, over the 70 line limit
+src/print.rs:256:9: info TS025 the name leads with the qualifier max; put it last
+src/print.rs:264:101: warning TS012 the line is 110 columns, over the 100 column limit
+src/print.rs:271:21: info TS025 the name leads with the qualifier current; put it last
+src/print.rs:294:20: warning TS023 the condition combines booleans; split it into nested branches
+src/print.rs:296:21: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/print.rs:296:24: warning TS023 the condition combines booleans; split it into nested branches
+src/print.rs:301:21: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/print.rs:355:15: warning TS023 the condition combines booleans; split it into nested branches
+src/print.rs:376:24: warning TS023 the condition combines booleans; split it into nested branches
+src/print.rs:389:101: warning TS012 the line is 105 columns, over the 100 column limit
+src/segment.rs:48:29: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/test/mod.rs:260:1: warning TS002 the function is 71 lines, over the 70 line limit
+src/utils/env.rs:17:1: warning TS020 [*] the attribute silences a checker
+src/utils/mod.rs:23:1: warning TS020 [*] the attribute silences a checker
+src/utils/mod.rs:30:1: warning TS020 [*] the attribute silences a checker
+src/utils/mod.rs:103:5: warning TS020 [*] the attribute silences a checker
+src/utils/mod.rs:144:12: warning TS023 the condition combines booleans; split it into nested branches
+src/utils/mod.rs:156:101: warning TS012 the line is 104 columns, over the 100 column limit
+src/utils/mod.rs:167:101: warning TS012 the line is 105 columns, over the 100 column limit
+src/utils/mod.rs:183:5: warning TS020 [*] the attribute silences a checker
+src/utils/mod.rs:231:1: warning TS002 the function is 416 lines, over the 70 line limit
+src/utils/mod.rs:234:6: warning TS041 Option<Option<CommandOutput>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/utils/mod.rs:397:101: warning TS012 the line is 193 columns, over the 100 column limit
+src/utils/mod.rs:407:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/utils/mod.rs:678:16: warning TS023 the condition combines booleans; split it into nested branches
+src/utils/mod.rs:681:23: warning TS023 the condition combines booleans; split it into nested branches
+src/utils/mod.rs:753:101: warning TS012 the line is 130 columns, over the 100 column limit
+src/utils/mod.rs:820:11: warning TS023 the condition combines booleans; split it into nested branches
+src/utils/serde.rs:47:5: info TS025 the name leads with the qualifier current; put it last
+src/utils/serde.rs:71:9: info TS025 the name leads with the qualifier current; put it last
+src/utils/serde.rs:282:5: warning TS020 [*] the attribute silences a checker
+src/utils/serde.rs:414:9: warning TS020 [*] the attribute silences a checker
+src/utils/serde.rs:432:9: warning TS020 [*] the attribute silences a checker
+src/utils/serde.rs:461:9: warning TS020 [*] the attribute silences a checker
+src/utils/serde.rs:511:9: warning TS020 [*] the attribute silences a checker
+src/utils/serde.rs:531:9: warning TS020 [*] the attribute silences a checker
+src/utils/statusline.rs:160:9: warning TS024 the assertion is compound; write one assertion for each condition

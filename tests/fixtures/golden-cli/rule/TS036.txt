@@ -1,0 +1,10 @@
+TS036 assert-side-effects
+
+An assertion only reads state, because a build that strips assertions must run the same program.
+
+languages: go javascript odin python rust typescript zig
+severity: error
+default: on
+group: stable
+
+NASA P10 Rule 5: "Assertions must always be side-effect free and should be defined as Boolean tests."

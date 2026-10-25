@@ -1,0 +1,703 @@
+# exit 1
+active_help_test.go:35:20: warning TS015 the expression is an unnamed function
+active_help_test.go:35:98: warning TS012 the line is 107 columns, over the 100 column limit
+active_help_test.go:84:1: warning TS002 the function is 84 lines, over the 70 line limit
+active_help_test.go:98:31: warning TS015 the expression is an unnamed function
+active_help_test.go:98:98: warning TS012 the line is 118 columns, over the 100 column limit
+active_help_test.go:121:31: warning TS015 the expression is an unnamed function
+active_help_test.go:121:98: warning TS012 the line is 118 columns, over the 100 column limit
+active_help_test.go:145:31: warning TS015 the expression is an unnamed function
+active_help_test.go:145:98: warning TS012 the line is 118 columns, over the 100 column limit
+active_help_test.go:183:31: warning TS015 the expression is an unnamed function
+active_help_test.go:183:98: warning TS012 the line is 118 columns, over the 100 column limit
+active_help_test.go:205:31: warning TS015 the expression is an unnamed function
+active_help_test.go:205:98: warning TS012 the line is 118 columns, over the 100 column limit
+active_help_test.go:240:98: warning TS012 the line is 138 columns, over the 100 column limit
+active_help_test.go:283:31: warning TS015 the expression is an unnamed function
+active_help_test.go:283:98: warning TS012 the line is 118 columns, over the 100 column limit
+active_help_test.go:286:92: warning TS012 the line is 104 columns, over the 100 column limit
+active_help_test.go:305:98: warning TS012 the line is 139 columns, over the 100 column limit
+active_help_test.go:308:92: warning TS012 the line is 104 columns, over the 100 column limit
+active_help_test.go:319:1: warning TS002 the function is 82 lines, over the 70 line limit
+active_help_test.go:338:31: warning TS015 the expression is an unnamed function
+active_help_test.go:338:98: warning TS012 the line is 118 columns, over the 100 column limit
+active_help_test.go:388:31: warning TS015 the expression is an unnamed function
+active_help_test.go:388:98: warning TS012 the line is 118 columns, over the 100 column limit
+active_help_test.go:391:92: warning TS012 the line is 104 columns, over the 100 column limit
+args.go:35:5: warning TS023 the condition combines booleans; split it into nested branches
+args.go:36:95: warning TS012 the line is 114 columns, over the 100 column limit
+args.go:61:89: warning TS012 the line is 117 columns, over the 100 column limit
+args.go:87:6: info TS025 the name leads with the qualifier Minimum; put it last
+args.go:88:9: warning TS015 the expression is an unnamed function
+args.go:97:6: info TS025 the name leads with the qualifier Maximum; put it last
+args.go:98:9: warning TS015 the expression is an unnamed function
+args.go:108:9: warning TS015 the expression is an unnamed function
+args.go:118:9: warning TS015 the expression is an unnamed function
+args.go:119:6: warning TS023 the condition combines booleans; split it into nested branches
+args.go:128:9: warning TS015 the expression is an unnamed function
+args_test.go:66:6: info TS025 the name leads with the qualifier minimum; put it last
+args_test.go:77:6: info TS025 the name leads with the qualifier maximum; put it last
+args_test.go:221:6: info TS025 the name puts Minimum before N; order the qualifiers by descending significance, as in latency_ms_max
+args_test.go:227:6: info TS025 the name puts Minimum before N; order the qualifiers by descending significance, as in latency_ms_max
+args_test.go:233:6: info TS025 the name puts Minimum before N; order the qualifiers by descending significance, as in latency_ms_max
+args_test.go:239:6: info TS025 the name puts Minimum before N; order the qualifiers by descending significance, as in latency_ms_max
+args_test.go:245:6: info TS025 the name puts Minimum before N; order the qualifiers by descending significance, as in latency_ms_max
+args_test.go:251:6: info TS025 the name puts Minimum before N; order the qualifiers by descending significance, as in latency_ms_max
+args_test.go:257:6: info TS025 the name puts Minimum before N; order the qualifiers by descending significance, as in latency_ms_max
+args_test.go:263:6: info TS025 the name puts Minimum before N; order the qualifiers by descending significance, as in latency_ms_max
+args_test.go:271:6: info TS025 the name puts Maximum before N; order the qualifiers by descending significance, as in latency_ms_max
+args_test.go:277:6: info TS025 the name puts Maximum before N; order the qualifiers by descending significance, as in latency_ms_max
+args_test.go:283:6: info TS025 the name puts Maximum before N; order the qualifiers by descending significance, as in latency_ms_max
+args_test.go:289:6: info TS025 the name puts Maximum before N; order the qualifiers by descending significance, as in latency_ms_max
+args_test.go:295:6: info TS025 the name puts Maximum before N; order the qualifiers by descending significance, as in latency_ms_max
+args_test.go:301:6: info TS025 the name puts Maximum before N; order the qualifiers by descending significance, as in latency_ms_max
+args_test.go:307:6: info TS025 the name puts Maximum before N; order the qualifiers by descending significance, as in latency_ms_max
+args_test.go:313:6: info TS025 the name puts Maximum before N; order the qualifiers by descending significance, as in latency_ms_max
+args_test.go:515:7: warning TS023 the condition combines booleans; split it into nested branches
+args_test.go:518:7: warning TS023 the condition combines booleans; split it into nested branches
+bash_completions.go:36:1: warning TS002 the function is 367 lines, over the 70 line limit
+bash_completions.go:37:98: warning TS012 the line is 101 columns, over the 100 column limit
+bash_completions.go:77:101: warning TS012 the line is 101 columns, over the 100 column limit
+bash_completions.go:214:101: warning TS012 the line is 107 columns, over the 100 column limit
+bash_completions.go:249:101: warning TS012 the line is 105 columns, over the 100 column limit
+bash_completions.go:272:101: warning TS012 the line is 120 columns, over the 100 column limit
+bash_completions.go:326:101: warning TS012 the line is 101 columns, over the 100 column limit
+bash_completions.go:450:6: warning TS023 the condition combines booleans; split it into nested branches
+bash_completions.go:459:101: warning TS012 the line is 104 columns, over the 100 column limit
+bash_completions.go:467:89: warning TS012 the line is 119 columns, over the 100 column limit
+bash_completions.go:531:95: warning TS012 the line is 107 columns, over the 100 column limit
+bash_completions.go:547:95: warning TS012 the line is 122 columns, over the 100 column limit
+bash_completions.go:576:6: warning TS023 the condition combines booleans; split it into nested branches
+bash_completions.go:609:89: warning TS012 the line is 107 columns, over the 100 column limit
+bash_completions.go:636:98: warning TS012 the line is 124 columns, over the 100 column limit
+bash_completions.go:654:6: warning TS023 the condition combines booleans; split it into nested branches
+bash_completions.go:657:3: error TS001 gen takes part in a call cycle; give it an explicit stack or a bound
+bash_completions.go:706:8: error TS028 the call's error is dropped; handle it or crash on it by name
+bash_completionsV2.go:31:1: warning TS002 the function is 437 lines, over the 70 line limit
+bash_completionsV2.go:122:101: warning TS012 the line is 118 columns, over the 100 column limit
+bash_completionsV2.go:289:101: warning TS012 the line is 101 columns, over the 100 column limit
+bash_completionsV2.go:314:101: warning TS012 the line is 101 columns, over the 100 column limit
+bash_completionsV2.go:337:101: warning TS012 the line is 110 columns, over the 100 column limit
+bash_completionsV2.go:357:101: warning TS012 the line is 105 columns, over the 100 column limit
+bash_completionsV2.go:443:101: warning TS012 the line is 102 columns, over the 100 column limit
+bash_completionsV2.go:475:8: error TS028 the call's error is dropped; handle it or crash on it by name
+bash_completions_test.go:40:2: info TS025 the name leads with the qualifier num; put it last
+bash_completions_test.go:42:95: warning TS012 the line is 135 columns, over the 100 column limit
+bash_completions_test.go:71:3: error TS028 the call's error is dropped; handle it or crash on it by name
+bash_completions_test.go:83:1: warning TS002 the function is 145 lines, over the 70 line limit
+bash_completions_test.go:86:95: warning TS012 the line is 121 columns, over the 100 column limit
+bash_completions_test.go:129:98: warning TS012 the line is 101 columns, over the 100 column limit
+bash_completions_test.go:181:98: warning TS012 the line is 114 columns, over the 100 column limit
+bash_completions_test.go:195:98: warning TS012 the line is 124 columns, over the 100 column limit
+bash_completions_test.go:197:98: warning TS012 the line is 156 columns, over the 100 column limit
+bash_completions_test.go:201:98: warning TS012 the line is 113 columns, over the 100 column limit
+bash_completions_test.go:203:98: warning TS012 the line is 143 columns, over the 100 column limit
+cobra.go:32:1: error TS005 the global is mutable
+cobra.go:42:1: error TS005 the global is mutable
+cobra.go:43:1: error TS005 the global is mutable
+cobra.go:52:101: warning TS012 the line is 116 columns, over the 100 column limit
+cobra.go:55:1: error TS005 the global is mutable
+cobra.go:59:1: error TS005 the global is mutable
+cobra.go:62:1: error TS005 the global is mutable
+cobra.go:66:1: error TS005 the global is mutable
+cobra.go:72:1: error TS005 the global is mutable
+cobra.go:81:1: error TS005 the global is mutable
+cobra.go:109:101: warning TS012 the line is 122 columns, over the 100 column limit
+cobra.go:111:101: warning TS012 the line is 115 columns, over the 100 column limit
+cobra.go:112:101: warning TS012 the line is 111 columns, over the 100 column limit
+cobra.go:141:101: warning TS012 the line is 122 columns, over the 100 column limit
+cobra.go:143:101: warning TS012 the line is 122 columns, over the 100 column limit
+cobra.go:163:101: warning TS012 the line is 138 columns, over the 100 column limit
+cobra.go:165:101: warning TS012 the line is 104 columns, over the 100 column limit
+cobra.go:182:7: warning TS015 the expression is an unnamed function
+cobra.go:234:101: warning TS012 the line is 116 columns, over the 100 column limit
+cobra_test.go:36:8: warning TS015 the expression is an unnamed function
+cobra_test.go:37:8: warning TS015 the expression is an unnamed function
+cobra_test.go:38:8: warning TS015 the expression is an unnamed function
+cobra_test.go:49:1: warning TS002 the function is 71 lines, over the 70 line limit
+command.go:15:101: warning TS012 the line is 102 columns, over the 100 column limit
+command.go:16:101: warning TS012 the line is 119 columns, over the 100 column limit
+command.go:57:98: warning TS012 the line is 103 columns, over the 100 column limit
+command.go:59:98: warning TS012 the line is 115 columns, over the 100 column limit
+command.go:60:98: warning TS012 the line is 114 columns, over the 100 column limit
+command.go:61:98: warning TS012 the line is 119 columns, over the 100 column limit
+command.go:87:98: warning TS012 the line is 109 columns, over the 100 column limit
+command.go:100:98: warning TS012 the line is 104 columns, over the 100 column limit
+command.go:111:98: warning TS012 the line is 104 columns, over the 100 column limit
+command.go:112:98: warning TS012 the line is 104 columns, over the 100 column limit
+command.go:160:98: warning TS012 the line is 110 columns, over the 100 column limit
+command.go:163:98: warning TS012 the line is 114 columns, over the 100 column limit
+command.go:225:2: info TS025 the name puts Max before Len; order the qualifiers by descending significance, as in latency_ms_max
+command.go:226:2: info TS025 the name puts Max before Len; order the qualifiers by descending significance, as in latency_ms_max
+command.go:227:2: info TS025 the name puts Max before Len; order the qualifiers by descending significance, as in latency_ms_max
+command.go:232:98: warning TS012 the line is 106 columns, over the 100 column limit
+command.go:279:101: warning TS012 the line is 109 columns, over the 100 column limit
+command.go:296:26: info TS025 the name leads with the qualifier new; put it last
+command.go:302:26: info TS025 the name leads with the qualifier new; put it last
+command.go:308:25: info TS025 the name leads with the qualifier new; put it last
+command.go:366:101: warning TS012 the line is 102 columns, over the 100 column limit
+command.go:380:101: warning TS012 the line is 104 columns, over the 100 column limit
+command.go:382:101: warning TS012 the line is 104 columns, over the 100 column limit
+command.go:388:3: error TS001 SetGlobalNormalizationFunc takes part in a call cycle; give it an explicit stack or a bound
+command.go:417:10: error TS001 getOut takes part in a call cycle; give it an explicit stack or a bound
+command.go:427:10: error TS001 getErr takes part in a call cycle; give it an explicit stack or a bound
+command.go:437:10: error TS001 getIn takes part in a call cycle; give it an explicit stack or a bound
+command.go:451:9: warning TS015 the expression is an unnamed function
+command.go:470:10: error TS001 getUsageTemplateFunc takes part in a call cycle; give it an explicit stack or a bound
+command.go:491:9: warning TS015 the expression is an unnamed function
+command.go:511:10: error TS001 getHelpTemplateFunc takes part in a call cycle; give it an explicit stack or a bound
+command.go:553:10: error TS001 FlagErrorFunc takes part in a call cycle; give it an explicit stack or a bound
+command.go:555:9: warning TS015 the expression is an unnamed function
+command.go:560:7: info TS025 the name leads with the qualifier min; put it last
+command.go:564:5: warning TS023 the condition combines booleans; split it into nested branches
+command.go:570:7: info TS025 the name leads with the qualifier min; put it last
+command.go:574:5: warning TS023 the condition combines booleans; split it into nested branches
+command.go:580:7: info TS025 the name leads with the qualifier min; put it last
+command.go:584:5: warning TS023 the condition combines booleans; split it into nested branches
+command.go:598:10: error TS001 UsageTemplate takes part in a call cycle; give it an explicit stack or a bound
+command.go:611:10: error TS001 HelpTemplate takes part in a call cycle; give it an explicit stack or a bound
+command.go:624:10: error TS001 VersionTemplate takes part in a call cycle; give it an explicit stack or a bound
+command.go:637:10: error TS001 getVersionTemplateFunc takes part in a call cycle; give it an explicit stack or a bound
+command.go:649:10: error TS001 ErrPrefix takes part in a call cycle; give it an explicit stack or a bound
+command.go:691:8: warning TS023 the condition combines booleans; split it into nested branches
+command.go:691:95: warning TS012 the line is 102 columns, over the 100 column limit
+command.go:695:8: warning TS023 the condition combines booleans; split it into nested branches
+command.go:695:95: warning TS012 the line is 121 columns, over the 100 column limit
+command.go:698:17: info TS038 the branch states its condition negatively and carries an else; swap the arms
+command.go:704:8: warning TS023 the condition combines booleans; split it into nested branches
+command.go:729:8: warning TS023 the condition combines booleans; split it into nested branches
+command.go:729:95: warning TS012 the line is 102 columns, over the 100 column limit
+command.go:731:8: warning TS023 the condition combines booleans; split it into nested branches
+command.go:731:95: warning TS012 the line is 121 columns, over the 100 column limit
+command.go:732:92: warning TS012 the line is 116 columns, over the 100 column limit
+command.go:737:92: warning TS012 the line is 112 columns, over the 100 column limit
+command.go:757:39: warning TS041 (*Command, []string, error) stacks 2 layers of optionality; every layer is a case each caller has to handle
+command.go:760:14: warning TS015 the expression is an unnamed function
+command.go:765:3: info TS025 the name leads with the qualifier next; put it last
+command.go:769:11: error TS001 innerfind takes part in a call cycle; give it an explicit stack or a bound
+command.go:801:6: warning TS023 the condition combines booleans; split it into nested branches
+command.go:805:6: warning TS023 the condition combines booleans; split it into nested branches
+command.go:813:24: warning TS020 [*] the comment silences a checker
+command.go:821:43: warning TS041 (*Command, []string, error) stacks 2 layers of optionality; every layer is a case each caller has to handle
+command.go:828:8: warning TS023 the condition combines booleans; split it into nested branches
+command.go:834:8: warning TS023 the condition combines booleans; split it into nested branches
+command.go:834:95: warning TS012 the line is 133 columns, over the 100 column limit
+command.go:869:92: warning TS012 the line is 105 columns, over the 100 column limit
+command.go:870:7: warning TS023 the condition combines booleans; split it into nested branches
+command.go:905:1: warning TS002 the function is 141 lines, over the 70 line limit
+command.go:1014:12: info TS038 the branch states its condition negatively and carries an else; swap the arms
+command.go:1078:56: warning TS041 (*Command, error) stacks 2 layers of optionality; every layer is a case each caller has to handle
+command.go:1084:1: warning TS002 the function is 87 lines, over the 70 line limit
+command.go:1084:30: warning TS041 (cmd *Command, err error) stacks 2 layers of optionality; every layer is a case each caller has to handle
+command.go:1105:5: warning TS023 the condition combines booleans; split it into nested branches
+command.go:1159:6: warning TS023 the condition combines booleans; split it into nested branches
+command.go:1165:6: warning TS023 the condition combines booleans; split it into nested branches
+command.go:1192:6: warning TS023 the condition combines booleans; split it into nested branches
+command.go:1208:6: warning TS023 the condition combines booleans; split it into nested branches
+command.go:1209:92: warning TS012 the line is 114 columns, over the 100 column limit
+command.go:1212:3: error TS001 checkCommandGroups takes part in a call cycle; give it an explicit stack or a bound
+command.go:1274:23: warning TS015 the expression is an unnamed function
+command.go:1274:92: warning TS012 the line is 118 columns, over the 100 column limit
+command.go:1285:9: warning TS023 the condition combines booleans; split it into nested branches
+command.go:1287:80: warning TS012 the line is 110 columns, over the 100 column limit
+command.go:1293:9: warning TS015 the expression is an unnamed function
+command.go:1295:8: warning TS023 the condition combines booleans; split it into nested branches
+command.go:1334:5: warning TS023 the condition combines booleans; split it into nested branches
+command.go:1378:6: warning TS023 the condition combines booleans; split it into nested branches
+command.go:1449:101: warning TS012 the line is 102 columns, over the 100 column limit
+command.go:1454:101: warning TS012 the line is 106 columns, over the 100 column limit
+command.go:1459:101: warning TS012 the line is 104 columns, over the 100 column limit
+command.go:1493:5: warning TS023 the condition combines booleans; split it into nested branches
+command.go:1505:15: warning TS015 the expression is an unnamed function
+command.go:1506:6: warning TS023 the condition combines booleans; split it into nested branches
+command.go:1511:8: warning TS023 the condition combines booleans; split it into nested branches
+command.go:1512:86: warning TS012 the line is 108 columns, over the 100 column limit
+command.go:1514:86: warning TS012 the line is 107 columns, over the 100 column limit
+command.go:1522:83: warning TS012 the line is 111 columns, over the 100 column limit
+command.go:1525:86: warning TS012 the line is 107 columns, over the 100 column limit
+command.go:1532:5: error TS001 debugflags takes part in a call cycle; give it an explicit stack or a bound
+command.go:1607:1: error TS001 IsAvailableCommand takes part in a call cycle; give it an explicit stack or a bound
+command.go:1608:5: warning TS023 the condition combines booleans; split it into nested branches
+command.go:1612:5: warning TS023 the condition combines booleans; split it into nested branches
+command.go:1616:5: warning TS023 the condition combines booleans; split it into nested branches
+command.go:1630:5: warning TS023 the condition combines booleans; split it into nested branches
+command.go:1636:7: error TS001 IsAdditionalHelpTopicCommand takes part in a call cycle; give it an explicit stack or a bound
+command.go:1662:1: error TS001 HasAvailableSubCommands takes part in a call cycle; give it an explicit stack or a bound
+command.go:1701:101: warning TS012 the line is 111 columns, over the 100 column limit
+command.go:1715:101: warning TS012 the line is 111 columns, over the 100 column limit
+command.go:1731:16: warning TS015 the expression is an unnamed function
+command.go:1733:6: warning TS023 the condition combines booleans; split it into nested branches
+command.go:1743:101: warning TS012 the line is 111 columns, over the 100 column limit
+command.go:1761:6: warning TS023 the condition combines booleans; split it into nested branches
+command.go:1769:101: warning TS012 the line is 111 columns, over the 100 column limit
+command.go:1800:101: warning TS012 the line is 103 columns, over the 100 column limit
+command.go:1826:101: warning TS012 the line is 114 columns, over the 100 column limit
+command.go:1831:101: warning TS012 the line is 108 columns, over the 100 column limit
+command.go:1837:101: warning TS012 the line is 105 columns, over the 100 column limit
+command.go:1884:5: warning TS023 the condition combines booleans; split it into nested branches
+command.go:1955:101: warning TS012 the line is 104 columns, over the 100 column limit
+command.go:1958:101: warning TS012 the line is 107 columns, over the 100 column limit
+command.go:1959:101: warning TS012 the line is 106 columns, over the 100 column limit
+command.go:1968:101: warning TS012 the line is 106 columns, over the 100 column limit
+command.go:1973:101: warning TS012 the line is 103 columns, over the 100 column limit
+command.go:1996:8: warning TS023 the condition combines booleans; split it into nested branches
+command.go:1997:86: warning TS012 the line is 104 columns, over the 100 column limit
+command.go:2004:6: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+command.go:2004:9: warning TS023 the condition combines booleans; split it into nested branches
+command.go:2004:86: warning TS012 the line is 120 columns, over the 100 column limit
+command.go:2005:83: warning TS012 the line is 108 columns, over the 100 column limit
+command.go:2012:6: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+command.go:2012:9: warning TS023 the condition combines booleans; split it into nested branches
+command.go:2012:86: warning TS012 the line is 114 columns, over the 100 column limit
+command.go:2013:83: warning TS012 the line is 108 columns, over the 100 column limit
+command.go:2031:89: warning TS012 the line is 114 columns, over the 100 column limit
+command.go:2036:95: warning TS012 the line is 112 columns, over the 100 column limit
+command.go:2046:101: warning TS012 the line is 101 columns, over the 100 column limit
+command.go:2058:5: warning TS023 the condition combines booleans; split it into nested branches
+command.go:2064:101: warning TS012 the line is 110 columns, over the 100 column limit
+command.go:2067:101: warning TS012 the line is 107 columns, over the 100 column limit
+command_notwin.go:20:1: error TS005 the global is mutable
+command_test.go:37:101: warning TS012 the line is 111 columns, over the 100 column limit
+command_test.go:48:53: warning TS041 (c *Command, output string, err error) stacks 2 layers of optionality; every layer is a case each caller has to handle
+command_test.go:59:85: warning TS041 (c *Command, output string, err error) stacks 2 layers of optionality; every layer is a case each caller has to handle
+command_test.go:59:101: warning TS012 the line is 124 columns, over the 100 column limit
+command_test.go:93:9: warning TS015 the expression is an unnamed function
+command_test.go:119:9: warning TS015 the expression is an unnamed function
+command_test.go:150:2: error TS028 the call's error is assigned away; handle it or crash on it by name
+command_test.go:180:12: warning TS015 the expression is an unnamed function
+command_test.go:209:12: warning TS015 the expression is an unnamed function
+command_test.go:236:9: warning TS015 the expression is an unnamed function
+command_test.go:268:2: error TS028 the call's error is assigned away; handle it or crash on it by name
+command_test.go:286:9: warning TS015 the expression is an unnamed function
+command_test.go:313:9: warning TS015 the expression is an unnamed function
+command_test.go:348:9: warning TS015 the expression is an unnamed function
+command_test.go:443:9: warning TS015 the expression is an unnamed function
+command_test.go:472:9: warning TS015 the expression is an unnamed function
+command_test.go:496:9: warning TS015 the expression is an unnamed function
+command_test.go:533:9: warning TS015 the expression is an unnamed function
+command_test.go:643:1: warning TS002 the function is 72 lines, over the 70 line limit
+command_test.go:721:8: warning TS015 the expression is an unnamed function
+command_test.go:745:9: warning TS015 the expression is an unnamed function
+command_test.go:824:9: warning TS015 the expression is an unnamed function
+command_test.go:888:98: warning TS012 the line is 102 columns, over the 100 column limit
+command_test.go:937:95: warning TS012 the line is 123 columns, over the 100 column limit
+command_test.go:1008:8: warning TS015 the expression is an unnamed function
+command_test.go:1093:44: warning TS015 the expression is an unnamed function
+command_test.go:1095:42: warning TS015 the expression is an unnamed function
+command_test.go:1107:54: warning TS015 the expression is an unnamed function
+command_test.go:1396:2: error TS028 the call's error is assigned away; handle it or crash on it by name
+command_test.go:1410:9: warning TS015 the expression is an unnamed function
+command_test.go:1440:98: warning TS012 the line is 137 columns, over the 100 column limit
+command_test.go:1441:98: warning TS012 the line is 110 columns, over the 100 column limit
+command_test.go:1463:4: error TS028 the call's error is assigned away; handle it or crash on it by name
+command_test.go:1465:7: warning TS023 the condition combines booleans; split it into nested branches
+command_test.go:1478:1: warning TS002 the function is 92 lines, over the 70 line limit
+command_test.go:1559:7: warning TS023 the condition combines booleans; split it into nested branches
+command_test.go:1562:7: warning TS023 the condition combines booleans; split it into nested branches
+command_test.go:1580:95: warning TS012 the line is 117 columns, over the 100 column limit
+command_test.go:1602:8: warning TS015 the expression is an unnamed function
+command_test.go:1606:8: warning TS015 the expression is an unnamed function
+command_test.go:1656:21: warning TS015 the expression is an unnamed function
+command_test.go:1659:11: warning TS015 the expression is an unnamed function
+command_test.go:1662:8: warning TS015 the expression is an unnamed function
+command_test.go:1665:12: warning TS015 the expression is an unnamed function
+command_test.go:1668:22: warning TS015 the expression is an unnamed function
+command_test.go:1722:18: warning TS015 the expression is an unnamed function
+command_test.go:1732:21: warning TS015 the expression is an unnamed function
+command_test.go:1735:11: warning TS015 the expression is an unnamed function
+command_test.go:1738:8: warning TS015 the expression is an unnamed function
+command_test.go:1741:12: warning TS015 the expression is an unnamed function
+command_test.go:1744:22: warning TS015 the expression is an unnamed function
+command_test.go:1751:21: warning TS015 the expression is an unnamed function
+command_test.go:1754:11: warning TS015 the expression is an unnamed function
+command_test.go:1757:8: warning TS015 the expression is an unnamed function
+command_test.go:1760:12: warning TS015 the expression is an unnamed function
+command_test.go:1763:22: warning TS015 the expression is an unnamed function
+command_test.go:1790:14: warning TS015 the expression is an unnamed function
+command_test.go:1799:98: warning TS012 the line is 108 columns, over the 100 column limit
+command_test.go:1803:98: warning TS012 the line is 109 columns, over the 100 column limit
+command_test.go:1810:13: warning TS015 the expression is an unnamed function
+command_test.go:1824:13: warning TS015 the expression is an unnamed function
+command_test.go:1840:5: warning TS023 the condition combines booleans; split it into nested branches
+command_test.go:1840:98: warning TS012 the line is 108 columns, over the 100 column limit
+command_test.go:1841:95: warning TS012 the line is 112 columns, over the 100 column limit
+command_test.go:1845:5: warning TS023 the condition combines booleans; split it into nested branches
+command_test.go:1845:98: warning TS012 the line is 108 columns, over the 100 column limit
+command_test.go:1846:95: warning TS012 the line is 111 columns, over the 100 column limit
+command_test.go:1852:13: warning TS015 the expression is an unnamed function
+command_test.go:1855:7: warning TS015 the expression is an unnamed function
+command_test.go:1876:2: error TS028 the call's error is assigned away; handle it or crash on it by name
+command_test.go:1889:11: warning TS015 the expression is an unnamed function
+command_test.go:2164:16: warning TS015 the expression is an unnamed function
+command_test.go:2180:8: warning TS015 the expression is an unnamed function
+command_test.go:2336:5: warning TS023 the condition combines booleans; split it into nested branches
+command_test.go:2374:5: warning TS023 the condition combines booleans; split it into nested branches
+command_test.go:2395:5: warning TS023 the condition combines booleans; split it into nested branches
+command_test.go:2430:5: warning TS023 the condition combines booleans; split it into nested branches
+command_test.go:2447:9: warning TS015 the expression is an unnamed function
+command_test.go:2608:8: warning TS015 the expression is an unnamed function
+command_test.go:2633:11: warning TS015 the expression is an unnamed function
+command_test.go:2637:8: warning TS015 the expression is an unnamed function
+command_test.go:2659:8: warning TS015 the expression is an unnamed function
+command_test.go:2680:21: warning TS015 the expression is an unnamed function
+command_test.go:2687:8: warning TS015 the expression is an unnamed function
+command_test.go:2793:1: warning TS002 the function is 88 lines, over the 70 line limit
+command_test.go:2884:95: warning TS012 the line is 208 columns, over the 100 column limit
+command_test.go:2929:2: warning TS020 [*] the comment silences a checker
+command_win.go:28:1: error TS005 the global is mutable
+command_win.go:31:5: warning TS023 the condition combines booleans; split it into nested branches
+completions.go:37:101: warning TS012 the line is 122 columns, over the 100 column limit
+completions.go:38:1: error TS005 the global is mutable
+completions.go:41:1: error TS005 the global is mutable
+completions.go:135:101: warning TS012 the line is 115 columns, over the 100 column limit
+completions.go:139:101: warning TS012 the line is 109 columns, over the 100 column limit
+completions.go:151:101: warning TS012 the line is 107 columns, over the 100 column limit
+completions.go:161:9: warning TS015 the expression is an unnamed function
+completions.go:166:101: warning TS012 the line is 103 columns, over the 100 column limit
+completions.go:185:101: warning TS012 the line is 105 columns, over the 100 column limit
+completions.go:231:1: warning TS002 the function is 76 lines, over the 70 line limit
+completions.go:240:95: warning TS012 the line is 105 columns, over the 100 column limit
+completions.go:242:8: warning TS015 the expression is an unnamed function
+completions.go:253:89: warning TS012 the line is 124 columns, over the 100 column limit
+completions.go:260:8: warning TS023 the condition combines booleans; split it into nested branches
+completions.go:282:89: warning TS012 the line is 101 columns, over the 100 column limit
+completions.go:286:92: warning TS012 the line is 103 columns, over the 100 column limit
+completions.go:293:92: warning TS012 the line is 108 columns, over the 100 column limit
+completions.go:298:5: warning TS023 the condition combines booleans; split it into nested branches
+completions.go:316:1: warning TS002 the function is 270 lines, over the 70 line limit
+completions.go:316:49: warning TS041 (*Command, []Completion, ShellCompDirective, error) stacks 2 layers of optionality; every layer is a case each caller has to handle
+completions.go:316:101: warning TS012 the line is 101 columns, over the 100 column limit
+completions.go:337:95: warning TS012 the line is 103 columns, over the 100 column limit
+completions.go:347:95: warning TS012 the line is 130 columns, over the 100 column limit
+completions.go:373:2: info TS025 the name leads with the qualifier new; put it last
+completions.go:377:95: warning TS012 the line is 148 columns, over the 100 column limit
+completions.go:387:95: warning TS012 the line is 101 columns, over the 100 column limit
+completions.go:388:6: warning TS023 the condition combines booleans; split it into nested branches
+completions.go:405:5: warning TS023 the condition combines booleans; split it into nested branches
+completions.go:436:98: warning TS012 the line is 109 columns, over the 100 column limit
+completions.go:441:5: warning TS023 the condition combines booleans; split it into nested branches
+completions.go:441:98: warning TS012 the line is 123 columns, over the 100 column limit
+completions.go:447:23: warning TS015 the expression is an unnamed function
+completions.go:454:8: warning TS023 the condition combines booleans; split it into nested branches
+completions.go:455:86: warning TS012 the line is 127 columns, over the 100 column limit
+completions.go:461:92: warning TS012 the line is 103 columns, over the 100 column limit
+completions.go:478:6: warning TS023 the condition combines booleans; split it into nested branches
+completions.go:509:9: warning TS023 the condition combines booleans; split it into nested branches
+completions.go:516:7: warning TS023 the condition combines booleans; split it into nested branches
+completions.go:519:89: warning TS012 the line is 109 columns, over the 100 column limit
+completions.go:521:6: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+completions.go:521:9: warning TS023 the condition combines booleans; split it into nested branches
+completions.go:522:7: warning TS008 the branch nests 6 levels deep, over the 4 level limit
+completions.go:523:80: warning TS012 the line is 110 columns, over the 100 column limit
+completions.go:538:6: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+completions.go:539:7: warning TS008 the branch nests 6 levels deep, over the 4 level limit
+completions.go:547:6: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+completions.go:548:7: warning TS008 the branch nests 6 levels deep, over the 4 level limit
+completions.go:549:8: warning TS008 the branch nests 7 levels deep, over the 4 level limit
+completions.go:569:5: warning TS023 the condition combines booleans; split it into nested branches
+completions.go:588:5: warning TS023 the condition combines booleans; split it into nested branches
+completions.go:592:5: warning TS023 the condition combines booleans; split it into nested branches
+completions.go:613:95: warning TS012 the line is 112 columns, over the 100 column limit
+completions.go:625:5: warning TS023 the condition combines booleans; split it into nested branches
+completions.go:635:29: warning TS015 the expression is an unnamed function
+completions.go:657:1: warning TS002 the function is 85 lines, over the 70 line limit
+completions.go:657:62: info TS025 the name leads with the qualifier last; put it last
+completions.go:657:78: warning TS041 (*pflag.Flag, []string, string, error) stacks 2 layers of optionality; every layer is a case each caller has to handle
+completions.go:657:101: warning TS012 the line is 117 columns, over the 100 column limit
+completions.go:672:5: warning TS023 the condition combines booleans; split it into nested branches
+completions.go:701:6: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+completions.go:726:95: warning TS012 the line is 111 columns, over the 100 column limit
+completions.go:727:95: warning TS012 the line is 101 columns, over the 100 column limit
+completions.go:733:92: warning TS012 the line is 104 columns, over the 100 column limit
+completions.go:748:1: warning TS002 the function is 183 lines, over the 70 line limit
+completions.go:754:6: warning TS023 the condition combines booleans; split it into nested branches
+completions.go:760:98: warning TS012 the line is 104 columns, over the 100 column limit
+completions.go:765:6: warning TS023 the condition combines booleans; split it into nested branches
+completions.go:793:6: warning TS023 the condition combines booleans; split it into nested branches
+completions.go:794:92: warning TS012 the line is 102 columns, over the 100 column limit
+completions.go:831:9: warning TS015 the expression is an unnamed function
+completions.go:836:95: warning TS012 the line is 109 columns, over the 100 column limit
+completions.go:867:9: warning TS015 the expression is an unnamed function
+completions.go:875:95: warning TS012 the line is 108 columns, over the 100 column limit
+completions.go:895:9: warning TS015 the expression is an unnamed function
+completions.go:900:95: warning TS012 the line is 109 columns, over the 100 column limit
+completions.go:917:9: warning TS015 the expression is an unnamed function
+completions.go:926:95: warning TS012 the line is 115 columns, over the 100 column limit
+completions.go:937:52: info TS038 the branch states its condition negatively and carries an else; swap the arms
+completions.go:941:48: info TS038 the branch states its condition negatively and carries an else; swap the arms
+completions.go:961:3: warning TS020 [*] the comment silences a checker
+completions.go:961:95: warning TS012 the line is 111 columns, over the 100 column limit
+completions.go:965:10: error TS028 the call's error is dropped; handle it or crash on it by name
+completions.go:1001:1: error TS005 the global is mutable
+completions_test.go:55:1: warning TS002 the function is 101 lines, over the 70 line limit
+completions_test.go:157:1: warning TS002 the function is 164 lines, over the 70 line limit
+completions_test.go:197:98: warning TS012 the line is 113 columns, over the 100 column limit
+completions_test.go:212:98: warning TS012 the line is 126 columns, over the 100 column limit
+completions_test.go:234:98: warning TS012 the line is 107 columns, over the 100 column limit
+completions_test.go:238:98: warning TS012 the line is 137 columns, over the 100 column limit
+completions_test.go:257:98: warning TS012 the line is 110 columns, over the 100 column limit
+completions_test.go:258:98: warning TS012 the line is 109 columns, over the 100 column limit
+completions_test.go:288:98: warning TS012 the line is 110 columns, over the 100 column limit
+completions_test.go:493:1: warning TS002 the function is 89 lines, over the 70 line limit
+completions_test.go:583:1: warning TS002 the function is 90 lines, over the 70 line limit
+completions_test.go:697:1: warning TS002 the function is 146 lines, over the 70 line limit
+completions_test.go:710:2: info TS025 the name leads with the qualifier first; put it last
+completions_test.go:745:98: warning TS012 the line is 108 columns, over the 100 column limit
+completions_test.go:767:98: warning TS012 the line is 159 columns, over the 100 column limit
+completions_test.go:793:98: warning TS012 the line is 105 columns, over the 100 column limit
+completions_test.go:824:98: warning TS012 the line is 107 columns, over the 100 column limit
+completions_test.go:825:98: warning TS012 the line is 106 columns, over the 100 column limit
+completions_test.go:844:1: warning TS002 the function is 193 lines, over the 70 line limit
+completions_test.go:852:22: warning TS015 the expression is an unnamed function
+completions_test.go:852:95: warning TS012 the line is 112 columns, over the 100 column limit
+completions_test.go:998:98: warning TS012 the line is 101 columns, over the 100 column limit
+completions_test.go:1020:98: warning TS012 the line is 124 columns, over the 100 column limit
+completions_test.go:1038:1: warning TS002 the function is 121 lines, over the 70 line limit
+completions_test.go:1160:1: warning TS002 the function is 115 lines, over the 70 line limit
+completions_test.go:1172:98: warning TS012 the line is 101 columns, over the 100 column limit
+completions_test.go:1176:98: warning TS012 the line is 112 columns, over the 100 column limit
+completions_test.go:1277:19: warning TS015 the expression is an unnamed function
+completions_test.go:1277:98: warning TS012 the line is 106 columns, over the 100 column limit
+completions_test.go:1300:2: warning TS020 [*] the comment silences a checker
+completions_test.go:1304:98: warning TS012 the line is 105 columns, over the 100 column limit
+completions_test.go:1362:95: warning TS012 the line is 101 columns, over the 100 column limit
+completions_test.go:1384:1: warning TS002 the function is 103 lines, over the 70 line limit
+completions_test.go:1624:1: warning TS002 the function is 92 lines, over the 70 line limit
+completions_test.go:1630:98: warning TS012 the line is 150 columns, over the 100 column limit
+completions_test.go:1640:98: warning TS012 the line is 151 columns, over the 100 column limit
+completions_test.go:1642:95: warning TS012 the line is 117 columns, over the 100 column limit
+completions_test.go:1694:95: warning TS012 the line is 110 columns, over the 100 column limit
+completions_test.go:1710:95: warning TS012 the line is 110 columns, over the 100 column limit
+completions_test.go:1717:1: warning TS002 the function is 103 lines, over the 70 line limit
+completions_test.go:1821:1: warning TS002 the function is 222 lines, over the 70 line limit
+completions_test.go:1826:22: warning TS015 the expression is an unnamed function
+completions_test.go:1826:95: warning TS012 the line is 112 columns, over the 100 column limit
+completions_test.go:1838:98: warning TS012 the line is 139 columns, over the 100 column limit
+completions_test.go:1911:98: warning TS012 the line is 101 columns, over the 100 column limit
+completions_test.go:2007:31: warning TS015 the expression is an unnamed function
+completions_test.go:2007:98: warning TS012 the line is 118 columns, over the 100 column limit
+completions_test.go:2024:98: warning TS012 the line is 108 columns, over the 100 column limit
+completions_test.go:2025:31: warning TS015 the expression is an unnamed function
+completions_test.go:2025:98: warning TS012 the line is 118 columns, over the 100 column limit
+completions_test.go:2028:98: warning TS012 the line is 106 columns, over the 100 column limit
+completions_test.go:2049:22: warning TS015 the expression is an unnamed function
+completions_test.go:2049:95: warning TS012 the line is 112 columns, over the 100 column limit
+completions_test.go:2055:98: warning TS012 the line is 139 columns, over the 100 column limit
+completions_test.go:2060:98: warning TS012 the line is 101 columns, over the 100 column limit
+completions_test.go:2082:98: warning TS012 the line is 138 columns, over the 100 column limit
+completions_test.go:2089:22: warning TS015 the expression is an unnamed function
+completions_test.go:2089:95: warning TS012 the line is 112 columns, over the 100 column limit
+completions_test.go:2123:8: info TS025 the name leads with the qualifier max; put it last
+completions_test.go:2152:92: warning TS012 the line is 142 columns, over the 100 column limit
+completions_test.go:2187:1: warning TS002 the function is 92 lines, over the 70 line limit
+completions_test.go:2193:98: warning TS012 the line is 150 columns, over the 100 column limit
+completions_test.go:2203:98: warning TS012 the line is 151 columns, over the 100 column limit
+completions_test.go:2205:95: warning TS012 the line is 117 columns, over the 100 column limit
+completions_test.go:2257:95: warning TS012 the line is 110 columns, over the 100 column limit
+completions_test.go:2273:95: warning TS012 the line is 110 columns, over the 100 column limit
+completions_test.go:2284:22: warning TS015 the expression is an unnamed function
+completions_test.go:2284:95: warning TS012 the line is 112 columns, over the 100 column limit
+completions_test.go:2461:1: warning TS002 the function is 145 lines, over the 70 line limit
+completions_test.go:2468:98: warning TS012 the line is 116 columns, over the 100 column limit
+completions_test.go:2472:92: warning TS012 the line is 107 columns, over the 100 column limit
+completions_test.go:2477:98: warning TS012 the line is 110 columns, over the 100 column limit
+completions_test.go:2607:1: warning TS002 the function is 86 lines, over the 70 line limit
+completions_test.go:2679:95: warning TS012 the line is 103 columns, over the 100 column limit
+completions_test.go:2694:1: warning TS002 the function is 92 lines, over the 70 line limit
+completions_test.go:2704:98: warning TS012 the line is 118 columns, over the 100 column limit
+completions_test.go:2789:19: warning TS015 the expression is an unnamed function
+completions_test.go:2789:98: warning TS012 the line is 106 columns, over the 100 column limit
+completions_test.go:2827:98: warning TS012 the line is 117 columns, over the 100 column limit
+completions_test.go:2857:22: warning TS015 the expression is an unnamed function
+completions_test.go:2857:95: warning TS012 the line is 112 columns, over the 100 column limit
+completions_test.go:2896:1: warning TS002 the function is 83 lines, over the 70 line limit
+completions_test.go:2899:92: warning TS012 the line is 108 columns, over the 100 column limit
+completions_test.go:2902:36: warning TS020 [*] the comment silences a checker
+completions_test.go:2902:92: warning TS012 the line is 104 columns, over the 100 column limit
+completions_test.go:2913:92: warning TS012 the line is 112 columns, over the 100 column limit
+completions_test.go:2916:36: warning TS020 [*] the comment silences a checker
+completions_test.go:2916:92: warning TS012 the line is 104 columns, over the 100 column limit
+completions_test.go:2929:92: warning TS012 the line is 177 columns, over the 100 column limit
+completions_test.go:2929:109: warning TS020 [*] the comment silences a checker
+completions_test.go:2930:92: warning TS012 the line is 177 columns, over the 100 column limit
+completions_test.go:2930:109: warning TS020 [*] the comment silences a checker
+completions_test.go:2945:7: warning TS012 the line is 130 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+completions_test.go:2946:92: warning TS012 the line is 125 columns, over the 100 column limit
+completions_test.go:2962:92: warning TS012 the line is 107 columns, over the 100 column limit
+completions_test.go:2963:7: warning TS012 the line is 130 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+completions_test.go:2964:92: warning TS012 the line is 132 columns, over the 100 column limit
+completions_test.go:2969:36: warning TS020 [*] the comment silences a checker
+completions_test.go:2969:92: warning TS012 the line is 104 columns, over the 100 column limit
+completions_test.go:3010:98: warning TS012 the line is 105 columns, over the 100 column limit
+completions_test.go:3027:92: warning TS012 the line is 116 columns, over the 100 column limit
+completions_test.go:3057:1: warning TS002 the function is 99 lines, over the 70 line limit
+completions_test.go:3058:12: warning TS015 the expression is an unnamed function
+completions_test.go:3065:23: warning TS015 the expression is an unnamed function
+completions_test.go:3065:92: warning TS012 the line is 116 columns, over the 100 column limit
+completions_test.go:3112:92: warning TS012 the line is 101 columns, over the 100 column limit
+completions_test.go:3148:9: warning TS023 the condition combines booleans; split it into nested branches
+completions_test.go:3157:1: warning TS002 the function is 97 lines, over the 70 line limit
+completions_test.go:3158:12: warning TS015 the expression is an unnamed function
+completions_test.go:3165:23: warning TS015 the expression is an unnamed function
+completions_test.go:3165:92: warning TS012 the line is 116 columns, over the 100 column limit
+completions_test.go:3212:92: warning TS012 the line is 104 columns, over the 100 column limit
+completions_test.go:3246:9: warning TS023 the condition combines booleans; split it into nested branches
+completions_test.go:3255:1: warning TS002 the function is 93 lines, over the 70 line limit
+completions_test.go:3256:12: warning TS015 the expression is an unnamed function
+completions_test.go:3263:23: warning TS015 the expression is an unnamed function
+completions_test.go:3263:92: warning TS012 the line is 116 columns, over the 100 column limit
+completions_test.go:3310:92: warning TS012 the line is 125 columns, over the 100 column limit
+completions_test.go:3340:9: warning TS023 the condition combines booleans; split it into nested branches
+completions_test.go:3349:1: warning TS002 the function is 233 lines, over the 70 line limit
+completions_test.go:3350:12: warning TS015 the expression is an unnamed function
+completions_test.go:3360:23: warning TS015 the expression is an unnamed function
+completions_test.go:3360:92: warning TS012 the line is 116 columns, over the 100 column limit
+completions_test.go:3368:23: warning TS015 the expression is an unnamed function
+completions_test.go:3368:92: warning TS012 the line is 116 columns, over the 100 column limit
+completions_test.go:3376:23: warning TS015 the expression is an unnamed function
+completions_test.go:3376:92: warning TS012 the line is 116 columns, over the 100 column limit
+completions_test.go:3384:23: warning TS015 the expression is an unnamed function
+completions_test.go:3384:92: warning TS012 the line is 116 columns, over the 100 column limit
+completions_test.go:3393:23: warning TS015 the expression is an unnamed function
+completions_test.go:3393:92: warning TS012 the line is 116 columns, over the 100 column limit
+completions_test.go:3554:92: warning TS012 the line is 119 columns, over the 100 column limit
+completions_test.go:3574:9: warning TS023 the condition combines booleans; split it into nested branches
+completions_test.go:3589:22: warning TS015 the expression is an unnamed function
+completions_test.go:3589:95: warning TS012 the line is 112 columns, over the 100 column limit
+completions_test.go:3638:9: warning TS023 the condition combines booleans; split it into nested branches
+completions_test.go:3647:1: warning TS002 the function is 89 lines, over the 70 line limit
+completions_test.go:3651:98: warning TS012 the line is 140 columns, over the 100 column limit
+completions_test.go:3656:98: warning TS012 the line is 146 columns, over the 100 column limit
+completions_test.go:3663:98: warning TS012 the line is 142 columns, over the 100 column limit
+completions_test.go:3737:1: warning TS002 the function is 84 lines, over the 70 line limit
+completions_test.go:3822:1: warning TS002 the function is 105 lines, over the 70 line limit
+completions_test.go:3836:98: warning TS012 the line is 102 columns, over the 100 column limit
+completions_test.go:3842:31: warning TS015 the expression is an unnamed function
+completions_test.go:3842:98: warning TS012 the line is 118 columns, over the 100 column limit
+completions_test.go:3894:14: warning TS015 the expression is an unnamed function
+completions_test.go:3930:1: warning TS002 the function is 88 lines, over the 70 line limit
+completions_test.go:3997:7: warning TS023 the condition combines booleans; split it into nested branches
+completions_test.go:4013:89: warning TS012 the line is 108 columns, over the 100 column limit
+completions_test.go:4099:22: warning TS015 the expression is an unnamed function
+completions_test.go:4099:95: warning TS012 the line is 112 columns, over the 100 column limit
+completions_test.go:4124:95: warning TS012 the line is 102 columns, over the 100 column limit
+doc/cmd_test.go:31:98: warning TS012 the line is 105 columns, over the 100 column limit
+doc/cmd_test.go:47:1: error TS005 the global is mutable
+doc/cmd_test.go:54:1: error TS005 the global is mutable
+doc/cmd_test.go:62:1: error TS005 the global is mutable
+doc/cmd_test.go:69:1: error TS005 the global is mutable
+doc/cmd_test.go:77:1: error TS005 the global is mutable
+doc/cmd_test.go:84:1: error TS005 the global is mutable
+doc/cmd_test.go:90:1: error TS005 the global is mutable
+doc/man_docs.go:54:6: warning TS023 the condition combines booleans; split it into nested branches
+doc/man_docs.go:57:13: error TS001 GenManTreeFromOpts takes part in a call cycle; give it an explicit stack or a bound
+doc/man_docs.go:76:8: error TS028 the call's error is dropped; handle it or crash on it by name
+doc/man_docs.go:137:5: warning TS023 the condition combines booleans; split it into nested branches
+doc/man_docs.go:161:6: warning TS023 the condition combines booleans; split it into nested branches
+doc/man_docs.go:165:6: warning TS023 the condition combines booleans; split it into nested branches
+doc/man_docs.go:234:7: warning TS023 the condition combines booleans; split it into nested branches
+doc/man_docs.go:243:95: warning TS012 the line is 107 columns, over the 100 column limit
+doc/man_docs_test.go:187:2: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+doc/man_docs_test.go:223:8: error TS028 the call's error is dropped; handle it or crash on it by name
+doc/md_docs.go:102:7: warning TS023 the condition combines booleans; split it into nested branches
+doc/md_docs.go:113:95: warning TS012 the line is 108 columns, over the 100 column limit
+doc/md_docs.go:126:14: warning TS015 the expression is an unnamed function
+doc/md_docs.go:127:14: warning TS015 the expression is an unnamed function
+doc/md_docs.go:133:101: warning TS012 the line is 114 columns, over the 100 column limit
+doc/md_docs.go:135:6: warning TS023 the condition combines booleans; split it into nested branches
+doc/md_docs.go:138:13: error TS001 GenMarkdownTreeCustom takes part in a call cycle; give it an explicit stack or a bound
+doc/md_docs.go:149:8: error TS028 the call's error is dropped; handle it or crash on it by name
+doc/md_docs_test.go:117:8: error TS028 the call's error is dropped; handle it or crash on it by name
+doc/rest_docs.go:116:7: warning TS023 the condition combines booleans; split it into nested branches
+doc/rest_docs.go:126:95: warning TS012 the line is 103 columns, over the 100 column limit
+doc/rest_docs.go:139:14: warning TS015 the expression is an unnamed function
+doc/rest_docs.go:145:101: warning TS012 the line is 138 columns, over the 100 column limit
+doc/rest_docs.go:147:6: warning TS023 the condition combines booleans; split it into nested branches
+doc/rest_docs.go:150:13: error TS001 GenReSTTreeCustom takes part in a call cycle; give it an explicit stack or a bound
+doc/rest_docs.go:161:8: error TS028 the call's error is dropped; handle it or crash on it by name
+doc/rest_docs.go:179:6: warning TS023 the condition combines booleans; split it into nested branches
+doc/rest_docs_test.go:104:8: error TS028 the call's error is dropped; handle it or crash on it by name
+doc/util.go:31:6: warning TS023 the condition combines booleans; split it into nested branches
+doc/util.go:42:5: warning TS023 the condition combines booleans; split it into nested branches
+doc/yaml_docs.go:54:14: warning TS015 the expression is an unnamed function
+doc/yaml_docs.go:55:14: warning TS015 the expression is an unnamed function
+doc/yaml_docs.go:60:101: warning TS012 the line is 110 columns, over the 100 column limit
+doc/yaml_docs.go:62:6: warning TS023 the condition combines booleans; split it into nested branches
+doc/yaml_docs.go:65:13: error TS001 GenYamlTreeCustom takes part in a call cycle; give it an explicit stack or a bound
+doc/yaml_docs.go:76:8: error TS028 the call's error is dropped; handle it or crash on it by name
+doc/yaml_docs.go:129:7: warning TS023 the condition combines booleans; split it into nested branches
+doc/yaml_docs.go:156:6: warning TS023 the condition combines booleans; split it into nested branches
+doc/yaml_docs_test.go:41:98: warning TS012 the line is 104 columns, over the 100 column limit
+doc/yaml_docs_test.go:92:8: error TS028 the call's error is dropped; handle it or crash on it by name
+fish_completions.go:25:1: warning TS002 the function is 249 lines, over the 70 line limit
+fish_completions.go:35:98: warning TS012 the line is 101 columns, over the 100 column limit
+fish_completions.go:56:101: warning TS012 the line is 111 columns, over the 100 column limit
+fish_completions.go:92:101: warning TS012 the line is 128 columns, over the 100 column limit
+fish_completions.go:97:101: warning TS012 the line is 101 columns, over the 100 column limit
+fish_completions.go:111:101: warning TS012 the line is 111 columns, over the 100 column limit
+fish_completions.go:114:101: warning TS012 the line is 112 columns, over the 100 column limit
+fish_completions.go:262:101: warning TS012 the line is 109 columns, over the 100 column limit
+fish_completions.go:267:101: warning TS012 the line is 123 columns, over the 100 column limit
+fish_completions.go:269:101: warning TS012 the line is 122 columns, over the 100 column limit
+fish_completions.go:272:95: warning TS012 the line is 124 columns, over the 100 column limit
+fish_completions.go:289:8: error TS028 the call's error is dropped; handle it or crash on it by name
+fish_completions_test.go:129:8: error TS028 the call's error is dropped; handle it or crash on it by name
+flag_groups.go:38:92: warning TS012 the line is 105 columns, over the 100 column limit
+flag_groups.go:40:95: warning TS012 the line is 165 columns, over the 100 column limit
+flag_groups.go:54:92: warning TS012 the line is 109 columns, over the 100 column limit
+flag_groups.go:56:95: warning TS012 the line is 157 columns, over the 100 column limit
+flag_groups.go:70:92: warning TS012 the line is 115 columns, over the 100 column limit
+flag_groups.go:72:95: warning TS012 the line is 118 columns, over the 100 column limit
+flag_groups.go:73:95: warning TS012 the line is 169 columns, over the 100 column limit
+flag_groups.go:79:101: warning TS012 the line is 103 columns, over the 100 column limit
+flag_groups.go:96:95: warning TS012 the line is 110 columns, over the 100 column limit
+flag_groups.go:121:101: warning TS012 the line is 134 columns, over the 100 column limit
+flag_groups.go:155:6: warning TS023 the condition combines booleans; split it into nested branches
+flag_groups.go:161:95: warning TS012 the line is 117 columns, over the 100 column limit
+flag_groups.go:198:6: warning TS023 the condition combines booleans; split it into nested branches
+flag_groups.go:204:95: warning TS012 the line is 125 columns, over the 100 column limit
+flag_groups.go:222:101: warning TS012 the line is 111 columns, over the 100 column limit
+flag_groups.go:223:101: warning TS012 the line is 108 columns, over the 100 column limit
+flag_groups.go:237:95: warning TS012 the line is 110 columns, over the 100 column limit
+flag_groups.go:278:89: warning TS012 the line is 105 columns, over the 100 column limit
+flag_groups.go:282:6: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+flag_groups_test.go:22:1: warning TS002 the function is 174 lines, over the 70 line limit
+flag_groups_test.go:23:12: warning TS015 the expression is an unnamed function
+flag_groups_test.go:26:9: warning TS015 the expression is an unnamed function
+flag_groups_test.go:37:9: warning TS015 the expression is an unnamed function
+flag_groups_test.go:66:92: warning TS012 the line is 112 columns, over the 100 column limit
+flag_groups_test.go:76:92: warning TS012 the line is 123 columns, over the 100 column limit
+flag_groups_test.go:81:92: warning TS012 the line is 112 columns, over the 100 column limit
+flag_groups_test.go:83:92: warning TS012 the line is 104 columns, over the 100 column limit
+flag_groups_test.go:91:92: warning TS012 the line is 123 columns, over the 100 column limit
+flag_groups_test.go:96:92: warning TS012 the line is 108 columns, over the 100 column limit
+flag_groups_test.go:98:92: warning TS012 the line is 104 columns, over the 100 column limit
+flag_groups_test.go:106:92: warning TS012 the line is 121 columns, over the 100 column limit
+flag_groups_test.go:108:92: warning TS012 the line is 119 columns, over the 100 column limit
+flag_groups_test.go:112:92: warning TS012 the line is 109 columns, over the 100 column limit
+flag_groups_test.go:114:92: warning TS012 the line is 129 columns, over the 100 column limit
+flag_groups_test.go:120:92: warning TS012 the line is 129 columns, over the 100 column limit
+flag_groups_test.go:124:92: warning TS012 the line is 121 columns, over the 100 column limit
+flag_groups_test.go:126:92: warning TS012 the line is 103 columns, over the 100 column limit
+flag_groups_test.go:131:92: warning TS012 the line is 109 columns, over the 100 column limit
+flag_groups_test.go:140:92: warning TS012 the line is 101 columns, over the 100 column limit
+flag_groups_test.go:144:92: warning TS012 the line is 130 columns, over the 100 column limit
+flag_groups_test.go:147:92: warning TS012 the line is 106 columns, over the 100 column limit
+flag_groups_test.go:152:92: warning TS012 the line is 139 columns, over the 100 column limit
+flag_groups_test.go:154:92: warning TS012 the line is 105 columns, over the 100 column limit
+flag_groups_test.go:188:9: warning TS023 the condition combines booleans; split it into nested branches
+flag_groups_test.go:190:9: warning TS023 the condition combines booleans; split it into nested branches
+powershell_completions.go:28:1: warning TS002 the function is 284 lines, over the 70 line limit
+powershell_completions.go:63:101: warning TS012 the line is 101 columns, over the 100 column limit
+powershell_completions.go:114:101: warning TS012 the line is 141 columns, over the 100 column limit
+powershell_completions.go:115:101: warning TS012 the line is 137 columns, over the 100 column limit
+powershell_completions.go:181:101: warning TS012 the line is 102 columns, over the 100 column limit
+powershell_completions.go:248:101: warning TS012 the line is 152 columns, over the 100 column limit
+powershell_completions.go:268:101: warning TS012 the line is 164 columns, over the 100 column limit
+powershell_completions.go:283:101: warning TS012 the line is 148 columns, over the 100 column limit
+powershell_completions.go:297:101: warning TS012 the line is 148 columns, over the 100 column limit
+powershell_completions.go:310:95: warning TS012 the line is 124 columns, over the 100 column limit
+powershell_completions.go:325:8: error TS028 the call's error is dropped; handle it or crash on it by name
+zsh_completions.go:75:8: error TS028 the call's error is dropped; handle it or crash on it by name
+zsh_completions.go:87:1: warning TS002 the function is 222 lines, over the 70 line limit
+zsh_completions.go:220:101: warning TS012 the line is 101 columns, over the 100 column limit

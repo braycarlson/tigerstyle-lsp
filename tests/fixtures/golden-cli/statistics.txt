@@ -1,0 +1,12 @@
+      3  TS003 too-many-parameters
+      2  TS005 no-mutable-globals
+      3  TS006 bounded-loops
+      1  TS009 no-bare-except
+      1  TS010 no-pass-in-except
+      2  TS011 no-star-import
+      1  TS012 line-too-long
+      2  TS015 no-lambda
+      4  TS023 no-compound-condition
+      1  TS025 big-endian-names
+      1  TS029 four-space-indent
+     21  total

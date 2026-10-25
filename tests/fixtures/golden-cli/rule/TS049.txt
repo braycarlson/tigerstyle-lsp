@@ -1,0 +1,10 @@
+TS049 trivial-assert
+
+An assertion that cannot fail carries no information and hides the check it was meant to make.
+
+languages: go javascript odin python rust typescript zig
+severity: warning
+default: opt-in
+group: stable
+
+NASA P10 Rule 5: "Any assertion for which a static checking tool can prove that it can never fail or never hold violates this rule. (I.e., it is not possible to satisfy the rule by adding unhelpful "assert(true)" statements.)"

@@ -1,0 +1,7 @@
+##vso[task.logissue type=warning;sourcepath=sample.py;linenumber=1;columnnumber=16;code=TS011;]the import brings in every name
+##vso[task.logissue type=warning;sourcepath=sample.py;linenumber=5;columnnumber=12;code=TS003;]the function takes 8 parameters, over the 7 the style allows
+##vso[task.logissue type=warning;sourcepath=sample.py;linenumber=7;columnnumber=9;code=TS006;]the loop carries no upper bound; give it a fixed maximum
+##vso[task.logissue type=warning;sourcepath=sample.py;linenumber=8;columnnumber=16;code=TS023;]the condition combines booleans; split it into nested branches
+##vso[task.logissue type=warning;sourcepath=sample.py;linenumber=10;columnnumber=5;code=TS009;]the handler catches every error
+##vso[task.logissue type=error;sourcepath=sample.py;linenumber=10;columnnumber=5;code=TS010;]the handler does nothing with the error
+##vso[task.logissue type=warning;sourcepath=sample.py;linenumber=13;columnnumber=12;code=TS015;]the expression is an unnamed function

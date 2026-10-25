@@ -1,0 +1,50 @@
+sample.py:1:16: warning TS011 the import brings in every name
+  |
+1 | from os import *
+  |                ^
+  |
+
+sample.py:5:12: warning TS003 the function takes 8 parameters, over the 7 the style allows
+  |
+5 | def process(self, first, second, third, fourth, fifth, sixth, seventh, eighth):
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |
+
+sample.py:7:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+  |
+7 |         while True:
+  |         ^^^^^
+  |
+
+sample.py:8:16: warning TS023 the condition combines booleans; split it into nested branches
+  |
+8 |             if first and second:
+  |                ^^^^^
+  |
+
+sample.py:10:5: warning TS009 [*] the handler catches every error
+   |
+10 |     except:
+   |     ^^^^^^
+   |
+   = help: Add `Exception` to bare except
+   |
+ 9 |                 idx = 1
+   -     except:
+10 +     except Exception:
+11 |         pass
+   |
+   = note: This is an unsafe fix and may change runtime behavior
+
+sample.py:10:5: error TS010 the handler does nothing with the error
+   |
+10 |     except:
+   |     ^^^^^^
+   |
+
+sample.py:13:12: warning TS015 the expression is an unnamed function
+   |
+13 |     return lambda value: value
+   |            ^^^^^^
+   |
+

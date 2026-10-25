@@ -1,0 +1,10 @@
+TS012 line-too-long
+
+A line fits in 100 columns, so two files sit side by side without wrapping.
+
+languages: go javascript odin python rust typescript zig
+severity: warning
+default: on
+group: stable
+
+TigerStyle: "Hard limit all line lengths, without exception, to at most 100 columns for a good typographic 'measure'. Use it up. Never go beyond. [...] just enough to fit two copies of the code side-by-side on a screen."

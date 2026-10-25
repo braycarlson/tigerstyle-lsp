@@ -1,0 +1,219 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "tigerstyle.toml",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "assertions_per_function_min": {
+      "type": "integer",
+      "description": "The assertions a function of more than ten lines is expected to carry.",
+      "default": 2
+    },
+    "assertions-per-function-min": {
+      "type": "integer",
+      "description": "The assertions a function of more than ten lines is expected to carry.",
+      "default": 2
+    },
+    "cache_dir": {
+      "type": "string",
+      "description": "The directory the clean-file cache is written under."
+    },
+    "cache-dir": {
+      "type": "string",
+      "description": "The directory the clean-file cache is written under."
+    },
+    "declaration_distance_max": {
+      "type": "integer",
+      "description": "The statements a binding may sit above its first use.",
+      "default": 5
+    },
+    "declaration-distance-max": {
+      "type": "integer",
+      "description": "The statements a binding may sit above its first use.",
+      "default": 5
+    },
+    "else_if_chain_max": {
+      "type": "integer",
+      "description": "The branches an else-if chain may run before it is split into a tree.",
+      "default": 3
+    },
+    "else-if-chain-max": {
+      "type": "integer",
+      "description": "The branches an else-if chain may run before it is split into a tree.",
+      "default": 3
+    },
+    "exclude": {
+      "type": "array",
+      "description": "The glob patterns the walk skips, replacing the defaults."
+    },
+    "extend": {
+      "type": "string",
+      "description": "A configuration file this one inherits from, resolved outermost first."
+    },
+    "extend_exclude": {
+      "type": "array",
+      "description": "The glob patterns the walk skips, beside the defaults."
+    },
+    "extend-exclude": {
+      "type": "array",
+      "description": "The glob patterns the walk skips, beside the defaults."
+    },
+    "extend_fixable": {
+      "type": "array",
+      "description": "The rules whose fixes may be applied, beside the ones fixable names."
+    },
+    "extend-fixable": {
+      "type": "array",
+      "description": "The rules whose fixes may be applied, beside the ones fixable names."
+    },
+    "extend_include": {
+      "type": "array",
+      "description": "The glob patterns the walk takes in, beside the ones include names."
+    },
+    "extend-include": {
+      "type": "array",
+      "description": "The glob patterns the walk takes in, beside the ones include names."
+    },
+    "extend_per_file_ignores": {
+      "type": "object",
+      "description": "Per-file rule suppressions, beside the ones per_file_ignores names."
+    },
+    "extend-per-file-ignores": {
+      "type": "object",
+      "description": "Per-file rule suppressions, beside the ones per_file_ignores names."
+    },
+    "extend_safe_fixes": {
+      "type": "array",
+      "description": "The rules whose fixes are treated as safe, beside the defaults."
+    },
+    "extend-safe-fixes": {
+      "type": "array",
+      "description": "The rules whose fixes are treated as safe, beside the defaults."
+    },
+    "extend_select": {
+      "type": "array",
+      "description": "The rules turned on beside the default set."
+    },
+    "extend-select": {
+      "type": "array",
+      "description": "The rules turned on beside the default set."
+    },
+    "extend_unsafe_fixes": {
+      "type": "array",
+      "description": "The rules whose fixes are treated as unsafe, beside the defaults."
+    },
+    "extend-unsafe-fixes": {
+      "type": "array",
+      "description": "The rules whose fixes are treated as unsafe, beside the defaults."
+    },
+    "fixable": {
+      "type": "array",
+      "description": "The rules whose fixes may be applied, replacing the default set."
+    },
+    "force_exclude": {
+      "type": "boolean",
+      "description": "Apply the exclude patterns to paths named on the command line too.",
+      "default": false
+    },
+    "force-exclude": {
+      "type": "boolean",
+      "description": "Apply the exclude patterns to paths named on the command line too.",
+      "default": false
+    },
+    "function_lines_max": {
+      "type": "integer",
+      "description": "The lines a function may span.",
+      "default": 70
+    },
+    "function-lines-max": {
+      "type": "integer",
+      "description": "The lines a function may span.",
+      "default": 70
+    },
+    "ignore": {
+      "type": "array",
+      "description": "The rules turned off, whatever else selects them."
+    },
+    "include": {
+      "type": "array",
+      "description": "The glob patterns the walk takes in, replacing the defaults."
+    },
+    "language": {
+      "type": "object",
+      "description": "Per-language overrides of the limits and the severities."
+    },
+    "line_length_max": {
+      "type": "integer",
+      "description": "The columns a line may span.",
+      "default": 100
+    },
+    "line-length-max": {
+      "type": "integer",
+      "description": "The columns a line may span.",
+      "default": 100
+    },
+    "nesting_depth_max": {
+      "type": "integer",
+      "description": "The levels a block may nest inside its function.",
+      "default": 4
+    },
+    "nesting-depth-max": {
+      "type": "integer",
+      "description": "The levels a block may nest inside its function.",
+      "default": 4
+    },
+    "parameters_max": {
+      "type": "integer",
+      "description": "The parameters a function may take.",
+      "default": 7
+    },
+    "parameters-max": {
+      "type": "integer",
+      "description": "The parameters a function may take.",
+      "default": 7
+    },
+    "per_file_ignores": {
+      "type": "object",
+      "description": "Per-file rule suppressions, replacing the default set."
+    },
+    "per-file-ignores": {
+      "type": "object",
+      "description": "Per-file rule suppressions, replacing the default set."
+    },
+    "preview": {
+      "type": "boolean",
+      "description": "Turn on the rules still in preview.",
+      "default": false
+    },
+    "required_version": {
+      "type": "string",
+      "description": "The versions of tigerstyle-lsp this configuration supports."
+    },
+    "required-version": {
+      "type": "string",
+      "description": "The versions of tigerstyle-lsp this configuration supports."
+    },
+    "respect_gitignore": {
+      "type": "boolean",
+      "description": "Skip the paths the nearest .gitignore names.",
+      "default": true
+    },
+    "respect-gitignore": {
+      "type": "boolean",
+      "description": "Skip the paths the nearest .gitignore names.",
+      "default": true
+    },
+    "select": {
+      "type": "array",
+      "description": "The rules turned on, replacing the default set."
+    },
+    "severity": {
+      "type": "object",
+      "description": "Per-rule severity overrides."
+    },
+    "unfixable": {
+      "type": "array",
+      "description": "The rules whose fixes are never applied."
+    }
+  }
+}

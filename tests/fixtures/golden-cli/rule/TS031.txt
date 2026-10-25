@@ -1,0 +1,10 @@
+TS031 comment-form
+
+A comment is written as prose: it opens with a capital letter and closes with a full stop.
+
+languages: go javascript odin python rust typescript zig
+severity: info
+default: opt-in
+group: stable
+
+TigerStyle: "Comments are sentences, with a space after the slash, with a capital letter and a full stop, or a colon if they relate to something that follows. Comments are well-written prose describing the code, not just scribblings in the margin. Comments after the end of a line _can_ be phrases, with no punctuation."

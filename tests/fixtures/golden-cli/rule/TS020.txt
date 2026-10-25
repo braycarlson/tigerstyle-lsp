@@ -1,0 +1,11 @@
+TS020 no-warning-suppression
+
+A warning is fixed rather than silenced, because the next reader cannot tell a silenced warning from a checked one.
+
+languages: go javascript odin python rust typescript zig
+severity: warning
+default: on
+group: stable
+
+TigerStyle: "Appreciate, from day one, all compiler warnings at the compiler's strictest setting."
+NASA P10 Rule 10: "All code must be compiled, from the first day of development, with all compiler warnings enabled at the compiler's most pedantic setting. All code must compile with these setting without any warnings."

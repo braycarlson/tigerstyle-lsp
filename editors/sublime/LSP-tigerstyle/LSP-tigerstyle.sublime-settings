@@ -1,0 +1,14 @@
+{
+    "command": ["tigerstyle-lsp", "server"],
+    "selector": "source.go | source.js | source.jsx | source.odin | source.python | source.rust | source.ts | source.tsx | source.zig",
+    "schemes": ["file"],
+    "settings": {
+        "tigerstyle.configurationPreference": "filesystemFirst",
+        "tigerstyle.disabledRules": [],
+        "tigerstyle.enabledRules": [],
+        "tigerstyle.extendSelect": [],
+        "tigerstyle.fixOnSave": false,
+        "tigerstyle.ignore": [],
+        "tigerstyle.preview": false
+    }
+}

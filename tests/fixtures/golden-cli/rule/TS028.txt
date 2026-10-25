@@ -1,0 +1,12 @@
+TS028 no-silent-error-swallow
+
+An error is handled, propagated, or crashed on by name, never dropped.
+
+languages: go javascript odin rust typescript zig
+severity: error
+default: on
+group: stable
+python: Python signals failure by raising, which TS009 and TS010 already cover
+
+TigerStyle: "All errors must be handled. An analysis of production failures in distributed data-intensive systems found that the majority of catastrophic failures could have been prevented by simple testing of error handling code."
+NASA P10 Rule 7: "The return value of non-void functions must be checked by each calling function."
