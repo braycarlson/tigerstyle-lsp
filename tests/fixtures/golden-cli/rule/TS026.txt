@@ -1,0 +1,10 @@
+TS026 assert-return-value
+
+A function asserts the value it returns, so a wrong result fails where it was computed.
+
+languages: go javascript odin python rust typescript zig
+severity: info
+default: opt-in
+group: stable
+
+TigerStyle: "Assert all function arguments and return values, pre/postconditions and invariants. A function must not operate blindly on data it has not checked."

@@ -1,0 +1,12 @@
+TS044 member-order
+
+A type is ordered fields, then nested types, then methods, so its shape reads before its behaviour.
+
+languages: javascript python rust typescript zig
+severity: info
+default: opt-in
+group: stable
+go: a Go struct holds only fields; its methods are declared outside it, so the order is not the author's to choose
+odin: an Odin struct holds only fields; its procedures are declared beside it, so the order is not the author's to choose
+
+TigerStyle: "_Order_ matters for readability (even if it doesn't affect semantics). On the first read, a file is read top-down, so put important things near the top. [...] The same goes for `structs`, the order is fields then types then methods."

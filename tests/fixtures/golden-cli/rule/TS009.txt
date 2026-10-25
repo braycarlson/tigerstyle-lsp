@@ -1,0 +1,16 @@
+TS009 no-bare-except
+
+An except clause names the errors it handles, so an unrelated failure is not swallowed with them.
+
+languages: python
+severity: warning
+default: on
+group: stable
+go: Go has no exception handler, so there is no bare one to catch
+javascript: JavaScript has no typed catch; every catch clause catches everything, so none is barer than another
+odin: Odin has no exception handler; a procedure returns an error value beside its result
+rust: Rust has no exception handler, so there is no bare one to catch
+typescript: TypeScript has no typed catch; every catch clause catches everything, so none is barer than another
+zig: Zig has no exception handler; an error union is returned, not caught
+
+TigerStyle: "All errors must be handled. An analysis of production failures in distributed data-intensive systems found that the majority of catastrophic failures could have been prevented by simple testing of error handling code."

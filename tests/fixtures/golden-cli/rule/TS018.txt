@@ -1,0 +1,16 @@
+TS018 no-complex-macros
+
+A macro stays small, because a reader cannot step through an expansion.
+
+languages: rust
+severity: warning
+default: opt-in
+group: stable
+go: Go has no macro system; go:generate runs a program rather than expanding text
+javascript: JavaScript has no macro system; there is no expansion to weigh
+odin: Odin has no macro system; a #directive instructs the compiler rather than expanding text
+python: Python has no macro system; a decorator is an ordinary call, not an expansion
+typescript: TypeScript has no macro system; there is no expansion to weigh
+zig: Zig has comptime rather than a textual macro expander
+
+NASA P10 Rule 8: "The use of the preprocessor must be limited to the inclusion of header files and simple macro definitions. Token pasting, variable argument lists (ellipses), and recursive macro calls are not allowed. All macros must expand into complete syntactic units."

@@ -1,0 +1,113 @@
+# exit 1
+clap.zig:13:9: warning TS030 the branch body opens on a later line without braces
+clap.zig:15:9: warning TS030 the branch body opens on a later line without braces
+clap.zig:118:5: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+clap.zig:120:13: warning TS023 the condition combines booleans; split it into nested branches
+clap.zig:164:101: warning TS012 the line is 136 columns, over the 100 column limit
+clap.zig:183:1: warning TS002 the function is 203 lines, over the 70 line limit
+clap.zig:417:1: warning TS002 the function is 117 lines, over the 70 line limit
+clap.zig:544:9: warning TS030 the branch body opens on a later line without braces
+clap.zig:743:1: warning TS002 the function is 118 lines, over the 70 line limit
+clap.zig:770:13: warning TS030 the branch body opens on a later line without braces
+clap.zig:773:13: warning TS030 the branch body opens on a later line without braces
+clap.zig:798:13: warning TS030 the branch body opens on a later line without braces
+clap.zig:804:13: warning TS030 the branch body opens on a later line without braces
+clap.zig:818:17: warning TS023 the condition combines booleans; split it into nested branches
+clap.zig:824:17: warning TS030 the branch body opens on a later line without braces
+clap.zig:891:9: warning TS030 the branch body opens on a later line without braces
+clap.zig:900:9: warning TS030 the branch body opens on a later line without braces
+clap.zig:903:13: warning TS023 the condition combines booleans; split it into nested branches
+clap.zig:949:9: warning TS030 the branch body opens on a later line without braces
+clap.zig:1016:9: warning TS030 the branch body opens on a later line without braces
+clap.zig:1027:9: warning TS030 the branch body opens on a later line without braces
+clap.zig:1375:5: info TS025 the name leads with the qualifier max; put it last
+clap.zig:1401:1: warning TS002 the function is 132 lines, over the 70 line limit
+clap.zig:1407:11: info TS025 the name leads with the qualifier max; put it last
+clap.zig:1413:13: warning TS030 the branch body opens on a later line without braces
+clap.zig:1424:9: info TS025 the name leads with the qualifier first; put it last
+clap.zig:1426:9: warning TS030 the branch body opens on a later line without braces
+clap.zig:1442:9: warning TS030 the branch body opens on a later line without braces
+clap.zig:1445:15: info TS025 the name leads with the qualifier min; put it last
+clap.zig:1448:17: info TS025 the name leads with the qualifier first; put it last
+clap.zig:1451:13: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+clap.zig:1465:17: warning TS030 the branch body opens on a later line without braces
+clap.zig:1465:21: warning TS023 the condition combines booleans; split it into nested branches
+clap.zig:1467:17: warning TS030 the branch body opens on a later line without braces
+clap.zig:1476:13: info TS025 the name leads with the qualifier first; put it last
+clap.zig:1478:13: info TS025 the name leads with the qualifier last; put it last
+clap.zig:1479:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+clap.zig:1481:39: warning TS023 the condition combines booleans; split it into nested branches
+clap.zig:1496:23: info TS025 the name leads with the qualifier new; put it last
+clap.zig:1511:26: warning TS023 the condition combines booleans; split it into nested branches
+clap.zig:1522:13: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+clap.zig:1538:5: info TS025 the name leads with the qualifier max; put it last
+clap.zig:1544:13: info TS025 the name leads with the qualifier first; put it last
+clap.zig:1545:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap.zig:1551:13: warning TS030 the branch body opens on a later line without braces
+clap.zig:1557:9: warning TS030 the branch body opens on a later line without braces
+clap.zig:1584:9: warning TS023 the condition combines booleans; split it into nested branches
+clap.zig:1596:9: warning TS030 the branch body opens on a later line without braces
+clap.zig:1600:5: warning TS030 the branch body opens on a later line without braces
+clap.zig:1606:5: warning TS030 the branch body opens on a later line without braces
+clap.zig:1620:1: warning TS002 the function is 421 lines, over the 70 line limit
+clap.zig:2043:101: warning TS012 the line is 103 columns, over the 100 column limit
+clap.zig:2060:9: warning TS030 the branch body opens on a later line without braces
+clap.zig:2063:9: warning TS030 the branch body opens on a later line without braces
+clap.zig:2067:5: warning TS030 the branch body opens on a later line without braces
+clap.zig:2072:9: warning TS030 the branch body opens on a later line without braces
+clap.zig:2072:13: warning TS023 the condition combines booleans; split it into nested branches
+clap.zig:2077:13: warning TS030 the branch body opens on a later line without braces
+clap.zig:2079:13: warning TS030 the branch body opens on a later line without braces
+clap.zig:2086:9: warning TS030 the branch body opens on a later line without braces
+clap.zig:2096:13: warning TS030 the branch body opens on a later line without braces
+clap.zig:2103:5: warning TS030 the branch body opens on a later line without braces
+clap.zig:2107:9: warning TS030 the branch body opens on a later line without braces
+clap.zig:2107:13: warning TS023 the condition combines booleans; split it into nested branches
+clap.zig:2110:9: warning TS030 the branch body opens on a later line without braces
+clap.zig:2116:9: warning TS030 the branch body opens on a later line without braces
+clap/args.zig:16:9: warning TS030 the branch body opens on a later line without braces
+clap/args.zig:29:47: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+clap/args.zig:31:57: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+clap/codepoint_counting_writer.zig:21:13: info TS025 the name leads with the qualifier n; put it last
+clap/codepoint_counting_writer.zig:26:19: info TS025 the name leads with the qualifier bytes; put it last
+clap/codepoint_counting_writer.zig:26:101: warning TS012 the line is 126 columns, over the 100 column limit
+clap/codepoint_counting_writer.zig:28:19: info TS025 the name leads with the qualifier bytes; put it last
+clap/codepoint_counting_writer.zig:31:19: info TS025 the name leads with the qualifier bytes; put it last
+clap/codepoint_counting_writer.zig:32:101: warning TS012 the line is 145 columns, over the 100 column limit
+clap/parsers.zig:27:101: warning TS012 the line is 111 columns, over the 100 column limit
+clap/streaming.zig:45:39: warning TS041 !?Arg(Id) stacks 2 layers of optionality; every layer is a case each caller has to handle
+clap/streaming.zig:57:37: warning TS041 !?Arg(Id) stacks 2 layers of optionality; every layer is a case each caller has to handle
+clap/streaming.zig:69:25: warning TS030 the branch body opens on a later line without braces
+clap/streaming.zig:72:29: warning TS030 the branch body opens on a later line without braces
+clap/streaming.zig:79:29: warning TS030 the branch body opens on a later line without braces
+clap/streaming.zig:112:62: warning TS041 !?Arg(Id) stacks 2 layers of optionality; every layer is a case each caller has to handle
+clap/streaming.zig:115:19: info TS025 the name leads with the qualifier next; put it last
+clap/streaming.zig:119:17: warning TS030 the branch body opens on a later line without braces
+clap/streaming.zig:124:25: warning TS023 the condition combines booleans; split it into nested branches
+clap/streaming.zig:136:23: info TS025 the name leads with the qualifier next; put it last
+clap/streaming.zig:142:21: warning TS030 the branch body opens on a later line without braces
+clap/streaming.zig:154:17: warning TS030 the branch body opens on a later line without braces
+clap/streaming.zig:164:13: warning TS030 the branch body opens on a later line without braces
+clap/streaming.zig:168:17: warning TS030 the branch body opens on a later line without braces
+clap/streaming.zig:170:17: warning TS030 the branch body opens on a later line without braces
+clap/streaming.zig:189:43: warning TS041 !?ArgInfo stacks 2 layers of optionality; every layer is a case each caller has to handle
+clap/streaming.zig:191:13: warning TS030 the branch body opens on a later line without braces
+clap/streaming.zig:191:17: warning TS023 the condition combines booleans; split it into nested branches
+clap/streaming.zig:193:13: warning TS030 the branch body opens on a later line without braces
+clap/streaming.zig:195:13: warning TS030 the branch body opens on a later line without braces
+clap/streaming.zig:202:13: warning TS030 the branch body opens on a later line without braces
+clap/streaming.zig:224:5: warning TS030 the branch body opens on a later line without braces
+example/help.zig:8:101: warning TS012 the line is 118 columns, over the 100 column limit
+example/help.zig:15:5: warning TS030 the branch body opens on a later line without braces
+example/simple-ex.zig:37:5: warning TS030 the branch body opens on a later line without braces
+example/simple-ex.zig:39:5: warning TS030 the branch body opens on a later line without braces
+example/simple-ex.zig:41:5: warning TS030 the branch body opens on a later line without braces
+example/simple.zig:26:5: warning TS030 the branch body opens on a later line without braces
+example/simple.zig:28:5: warning TS030 the branch body opens on a later line without braces
+example/subcommands.zig:45:5: warning TS030 the branch body opens on a later line without braces
+example/subcommands.zig:55:101: warning TS012 the line is 110 columns, over the 100 column limit
+example/subcommands.zig:83:5: warning TS030 the branch body opens on a later line without braces
+example/subcommands.zig:85:5: warning TS030 the branch body opens on a later line without braces
+example/subcommands.zig:87:5: warning TS030 the branch body opens on a later line without braces
+example/usage.zig:9:101: warning TS012 the line is 118 columns, over the 100 column limit
+example/usage.zig:14:5: warning TS030 the branch body opens on a later line without braces

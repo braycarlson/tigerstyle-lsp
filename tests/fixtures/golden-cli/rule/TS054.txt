@@ -1,0 +1,12 @@
+TS054 run-to-completion
+
+A function that has asserted does not suspend, so what it asserted still holds when the next line runs.
+
+languages: javascript python rust typescript zig
+severity: info
+default: opt-in
+group: stable
+go: Go has no suspension point inside a function; a goroutine blocks on a channel, but the function's own control flow never yields to its caller
+odin: Odin has no async, await, or coroutine; a procedure runs to completion
+
+TigerStyle: "Ensure that functions run to completion without suspending, so that precondition assertions are true throughout the lifetime of the function. These assertions are useful documentation without a suspend, but may be misleading otherwise."

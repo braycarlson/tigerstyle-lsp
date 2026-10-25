@@ -1,0 +1,510 @@
+build.zig:10:1: warning TS002 the function is 160 lines, over the 70 line limit
+build.zig:225:1: warning TS002 the function is 84 lines, over the 70 line limit
+src/ThreadPool.zig:186:13: info TS025 the name leads with the qualifier new; put it last
+src/ThreadPool.zig:188:13: warning TS023 the condition combines booleans; split it into nested branches
+src/ThreadPool.zig:188:9: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+src/ThreadPool.zig:190:20: warning TS023 the condition combines booleans; split it into nested branches
+src/ThreadPool.zig:208:17: warning TS023 the condition combines booleans; split it into nested branches
+src/ThreadPool.zig:213:17: warning TS023 the condition combines booleans; split it into nested branches
+src/ThreadPool.zig:215:101: warning TS012 the line is 118 columns, over the 100 column limit
+src/ThreadPool.zig:229:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/ThreadPool.zig:235:17: info TS025 the name leads with the qualifier new; put it last
+src/ThreadPool.zig:237:13: warning TS030 the branch body opens on a later line without braces
+src/ThreadPool.zig:239:13: warning TS030 the branch body opens on a later line without braces
+src/ThreadPool.zig:255:20: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/ThreadPool.zig:256:17: info TS025 the name leads with the qualifier new; put it last
+src/ThreadPool.zig:258:13: warning TS030 the branch body opens on a later line without braces
+src/ThreadPool.zig:285:13: info TS025 the name leads with the qualifier new; put it last
+src/ThreadPool.zig:309:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/ThreadPool.zig:328:9: warning TS023 the condition combines booleans; split it into nested branches
+src/ThreadPool.zig:337:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/ThreadPool.zig:339:11: info TS025 the name leads with the qualifier next; put it last
+src/ThreadPool.zig:364:5: error TS005 the global is mutable
+src/ThreadPool.zig:375:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/ThreadPool.zig:378:13: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/ThreadPool.zig:379:17: warning TS030 the branch body opens on a later line without braces
+src/ThreadPool.zig:379:21: warning TS023 the condition combines booleans; split it into nested branches
+src/ThreadPool.zig:413:13: info TS025 the name leads with the qualifier num; put it last
+src/ThreadPool.zig:419:101: warning TS012 the line is 108 columns, over the 100 column limit
+src/ThreadPool.zig:425:101: warning TS012 the line is 114 columns, over the 100 column limit
+src/ThreadPool.zig:457:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/ThreadPool.zig:460:101: warning TS012 the line is 129 columns, over the 100 column limit
+src/ThreadPool.zig:478:101: warning TS012 the line is 104 columns, over the 100 column limit
+src/ThreadPool.zig:493:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/ThreadPool.zig:494:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/ThreadPool.zig:495:101: warning TS012 the line is 119 columns, over the 100 column limit
+src/ThreadPool.zig:50:1: info TS025 the name leads with the qualifier max; put it last
+src/ThreadPool.zig:515:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/ThreadPool.zig:516:101: warning TS012 the line is 122 columns, over the 100 column limit
+src/ThreadPool.zig:552:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/ThreadPool.zig:558:21: info TS025 the name leads with the qualifier new; put it last
+src/ThreadPool.zig:562:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/ThreadPool.zig:572:45: warning TS041 error{ Empty, Contended }!?*Node stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/ThreadPool.zig:574:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/ThreadPool.zig:575:17: warning TS030 the branch body opens on a later line without braces
+src/ThreadPool.zig:577:17: warning TS030 the branch body opens on a later line without braces
+src/ThreadPool.zig:578:101: warning TS012 the line is 115 columns, over the 100 column limit
+src/ThreadPool.zig:580:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/ThreadPool.zig:581:21: info TS025 the name leads with the qualifier new; put it last
+src/ThreadPool.zig:587:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/ThreadPool.zig:588:101: warning TS012 the line is 105 columns, over the 100 column limit
+src/ThreadPool.zig:602:13: warning TS030 the branch body opens on a later line without braces
+src/ThreadPool.zig:606:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/ThreadPool.zig:626:101: warning TS012 the line is 108 columns, over the 100 column limit
+src/ThreadPool.zig:644:101: warning TS012 the line is 103 columns, over the 100 column limit
+src/ThreadPool.zig:654:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/ThreadPool.zig:665:101: warning TS012 the line is 127 columns, over the 100 column limit
+src/ThreadPool.zig:670:101: warning TS012 the line is 110 columns, over the 100 column limit
+src/ThreadPool.zig:673:101: warning TS012 the line is 108 columns, over the 100 column limit
+src/ThreadPool.zig:680:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/ThreadPool.zig:681:101: warning TS012 the line is 117 columns, over the 100 column limit
+src/ThreadPool.zig:682:101: warning TS012 the line is 126 columns, over the 100 column limit
+src/ThreadPool.zig:698:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/ThreadPool.zig:714:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/ThreadPool.zig:766:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/ThreadPool.zig:782:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/ThreadPool.zig:786:101: warning TS012 the line is 104 columns, over the 100 column limit
+src/ThreadPool.zig:800:101: warning TS012 the line is 114 columns, over the 100 column limit
+src/ThreadPool.zig:801:101: warning TS012 the line is 113 columns, over the 100 column limit
+src/ThreadPool.zig:809:101: warning TS012 the line is 124 columns, over the 100 column limit
+src/ThreadPool.zig:810:101: warning TS012 the line is 117 columns, over the 100 column limit
+src/ThreadPool.zig:811:101: warning TS012 the line is 118 columns, over the 100 column limit
+src/ThreadPool.zig:823:101: warning TS012 the line is 119 columns, over the 100 column limit
+src/ThreadPool.zig:85:5: info TS025 the name leads with the qualifier max; put it last
+src/backend/epoll.zig:1005:5: warning TS002 the function is 117 lines, over the 70 line limit
+src/backend/epoll.zig:1126:15: info TS025 the name leads with the qualifier old; put it last
+src/backend/epoll.zig:1415:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/backend/epoll.zig:153:28: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/backend/epoll.zig:1746:1: warning TS002 the function is 267 lines, over the 70 line limit
+src/backend/epoll.zig:253:9: info TS025 the name leads with the qualifier next; put it last
+src/backend/epoll.zig:275:9: info TS025 the name leads with the qualifier next; put it last
+src/backend/epoll.zig:304:17: warning TS024 the assertion is compound; write one assertion for each condition
+src/backend/epoll.zig:311:32: info TS025 the name leads with the qualifier next; put it last
+src/backend/epoll.zig:320:15: info TS025 the name leads with the qualifier next; put it last
+src/backend/epoll.zig:322:15: info TS025 the name leads with the qualifier next; put it last
+src/backend/epoll.zig:337:5: warning TS002 the function is 188 lines, over the 70 line limit
+src/backend/epoll.zig:376:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/backend/epoll.zig:398:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/backend/epoll.zig:412:16: warning TS023 the condition combines booleans; split it into nested branches
+src/backend/epoll.zig:467:23: info TS025 the name leads with the qualifier ms; put it last
+src/backend/epoll.zig:481:25: error TS028 the handler drops the error it caught
+src/backend/epoll.zig:507:29: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/backend/epoll.zig:51:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/backend/epoll.zig:555:9: error TS028 the handler drops the error it caught
+src/backend/epoll.zig:563:5: error TS001 start takes part in a call cycle; give it an explicit stack or a bound
+src/backend/epoll.zig:563:5: warning TS002 the function is 306 lines, over the 70 line limit
+src/backend/epoll.zig:632:21: warning TS030 the branch body opens on a later line without braces
+src/backend/epoll.zig:634:21: warning TS030 the branch body opens on a later line without braces
+src/backend/epoll.zig:654:21: warning TS030 the branch body opens on a later line without braces
+src/backend/epoll.zig:656:21: warning TS030 the branch body opens on a later line without braces
+src/backend/epoll.zig:676:21: warning TS030 the branch body opens on a later line without braces
+src/backend/epoll.zig:678:21: warning TS030 the branch body opens on a later line without braces
+src/backend/epoll.zig:698:21: warning TS030 the branch body opens on a later line without braces
+src/backend/epoll.zig:700:21: warning TS030 the branch body opens on a later line without braces
+src/backend/epoll.zig:784:21: warning TS030 the branch body opens on a later line without braces
+src/backend/epoll.zig:786:21: warning TS030 the branch body opens on a later line without braces
+src/backend/epoll.zig:870:5: error TS001 stop_completion takes part in a call cycle; give it an explicit stack or a bound
+src/backend/io_uring.zig:1158:101: warning TS012 the line is 122 columns, over the 100 column limit
+src/backend/io_uring.zig:1410:1: warning TS002 the function is 223 lines, over the 70 line limit
+src/backend/io_uring.zig:158:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/backend/io_uring.zig:1634:1: warning TS002 the function is 96 lines, over the 70 line limit
+src/backend/io_uring.zig:166:17: warning TS023 the condition combines booleans; split it into nested branches
+src/backend/io_uring.zig:1740:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/backend/io_uring.zig:194:101: warning TS012 the line is 110 columns, over the 100 column limit
+src/backend/io_uring.zig:231:5: error TS001 submit takes part in a call cycle; give it an explicit stack or a bound
+src/backend/io_uring.zig:239:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/backend/io_uring.zig:253:9: info TS025 the name leads with the qualifier next; put it last
+src/backend/io_uring.zig:293:9: info TS025 the name leads with the qualifier next; put it last
+src/backend/io_uring.zig:312:9: warning TS024 the assertion is compound; write one assertion for each condition
+src/backend/io_uring.zig:326:32: info TS025 the name leads with the qualifier next; put it last
+src/backend/io_uring.zig:335:15: info TS025 the name leads with the qualifier next; put it last
+src/backend/io_uring.zig:337:15: info TS025 the name leads with the qualifier next; put it last
+src/backend/io_uring.zig:362:5: error TS001 add_ takes part in a call cycle; give it an explicit stack or a bound
+src/backend/io_uring.zig:362:5: warning TS002 the function is 204 lines, over the 70 line limit
+src/backend/io_uring.zig:381:44: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/backend/io_uring.zig:384:23: error TS028 the handler drops the error it caught
+src/backend/io_uring.zig:663:5: warning TS002 the function is 151 lines, over the 70 line limit
+src/backend/iocp.zig:1002:5: warning TS002 the function is 182 lines, over the 70 line limit
+src/backend/iocp.zig:1010:21: info TS025 the name leads with the qualifier bytes; put it last
+src/backend/iocp.zig:1012:101: warning TS012 the line is 150 columns, over the 100 column limit
+src/backend/iocp.zig:1030:21: info TS025 the name leads with the qualifier bytes; put it last
+src/backend/iocp.zig:1031:101: warning TS012 the line is 127 columns, over the 100 column limit
+src/backend/iocp.zig:1043:21: info TS025 the name leads with the qualifier bytes; put it last
+src/backend/iocp.zig:1044:101: warning TS012 the line is 127 columns, over the 100 column limit
+src/backend/iocp.zig:1058:21: info TS025 the name leads with the qualifier bytes; put it last
+src/backend/iocp.zig:1059:101: warning TS012 the line is 127 columns, over the 100 column limit
+src/backend/iocp.zig:1073:21: info TS025 the name leads with the qualifier bytes; put it last
+src/backend/iocp.zig:1074:101: warning TS012 the line is 127 columns, over the 100 column limit
+src/backend/iocp.zig:1088:21: info TS025 the name leads with the qualifier bytes; put it last
+src/backend/iocp.zig:1091:101: warning TS012 the line is 146 columns, over the 100 column limit
+src/backend/iocp.zig:1107:21: info TS025 the name leads with the qualifier bytes; put it last
+src/backend/iocp.zig:1110:101: warning TS012 the line is 146 columns, over the 100 column limit
+src/backend/iocp.zig:1123:101: warning TS012 the line is 114 columns, over the 100 column limit
+src/backend/iocp.zig:1130:101: warning TS012 the line is 165 columns, over the 100 column limit
+src/backend/iocp.zig:1134:21: warning TS023 the condition combines booleans; split it into nested branches
+src/backend/iocp.zig:1142:21: info TS025 the name leads with the qualifier bytes; put it last
+src/backend/iocp.zig:1145:101: warning TS012 the line is 146 columns, over the 100 column limit
+src/backend/iocp.zig:1161:21: info TS025 the name leads with the qualifier bytes; put it last
+src/backend/iocp.zig:1164:101: warning TS012 the line is 146 columns, over the 100 column limit
+src/backend/iocp.zig:155:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/backend/iocp.zig:170:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/backend/iocp.zig:1865:1: warning TS002 the function is 73 lines, over the 70 line limit
+src/backend/iocp.zig:1873:101: warning TS012 the line is 177 columns, over the 100 column limit
+src/backend/iocp.zig:1874:5: error TS028 the handler drops the error it caught
+src/backend/iocp.zig:1939:1: warning TS002 the function is 75 lines, over the 70 line limit
+src/backend/iocp.zig:1947:101: warning TS012 the line is 177 columns, over the 100 column limit
+src/backend/iocp.zig:1948:5: error TS028 the handler drops the error it caught
+src/backend/iocp.zig:197:28: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/backend/iocp.zig:2015:1: warning TS002 the function is 265 lines, over the 70 line limit
+src/backend/iocp.zig:2025:101: warning TS012 the line is 163 columns, over the 100 column limit
+src/backend/iocp.zig:2028:101: warning TS012 the line is 122 columns, over the 100 column limit
+src/backend/iocp.zig:2033:101: warning TS012 the line is 172 columns, over the 100 column limit
+src/backend/iocp.zig:203:5: warning TS002 the function is 184 lines, over the 70 line limit
+src/backend/iocp.zig:226:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/backend/iocp.zig:2290:101: warning TS012 the line is 166 columns, over the 100 column limit
+src/backend/iocp.zig:2293:101: warning TS012 the line is 126 columns, over the 100 column limit
+src/backend/iocp.zig:233:101: warning TS012 the line is 115 columns, over the 100 column limit
+src/backend/iocp.zig:2362:101: warning TS012 the line is 163 columns, over the 100 column limit
+src/backend/iocp.zig:2365:101: warning TS012 the line is 122 columns, over the 100 column limit
+src/backend/iocp.zig:326:23: info TS025 the name leads with the qualifier ms; put it last
+src/backend/iocp.zig:333:101: warning TS012 the line is 137 columns, over the 100 column limit
+src/backend/iocp.zig:343:101: warning TS012 the line is 103 columns, over the 100 column limit
+src/backend/iocp.zig:345:101: warning TS012 the line is 121 columns, over the 100 column limit
+src/backend/iocp.zig:353:101: warning TS012 the line is 115 columns, over the 100 column limit
+src/backend/iocp.zig:354:101: warning TS012 the line is 115 columns, over the 100 column limit
+src/backend/iocp.zig:355:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/backend/iocp.zig:412:9: info TS025 the name leads with the qualifier next; put it last
+src/backend/iocp.zig:434:9: info TS025 the name leads with the qualifier next; put it last
+src/backend/iocp.zig:461:17: warning TS024 the assertion is compound; write one assertion for each condition
+src/backend/iocp.zig:469:36: info TS025 the name leads with the qualifier next; put it last
+src/backend/iocp.zig:480:5: warning TS002 the function is 315 lines, over the 70 line limit
+src/backend/iocp.zig:509:101: warning TS012 the line is 140 columns, over the 100 column limit
+src/backend/iocp.zig:514:101: warning TS012 the line is 169 columns, over the 100 column limit
+src/backend/iocp.zig:516:101: warning TS012 the line is 153 columns, over the 100 column limit
+src/backend/iocp.zig:537:101: warning TS012 the line is 105 columns, over the 100 column limit
+src/backend/iocp.zig:540:101: warning TS012 the line is 104 columns, over the 100 column limit
+src/backend/iocp.zig:551:101: warning TS012 the line is 130 columns, over the 100 column limit
+src/backend/iocp.zig:577:101: warning TS012 the line is 121 columns, over the 100 column limit
+src/backend/iocp.zig:578:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/backend/iocp.zig:589:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/backend/iocp.zig:593:101: warning TS012 the line is 131 columns, over the 100 column limit
+src/backend/iocp.zig:606:101: warning TS012 the line is 131 columns, over the 100 column limit
+src/backend/iocp.zig:607:101: warning TS012 the line is 121 columns, over the 100 column limit
+src/backend/iocp.zig:608:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/backend/iocp.zig:621:101: warning TS012 the line is 131 columns, over the 100 column limit
+src/backend/iocp.zig:622:101: warning TS012 the line is 105 columns, over the 100 column limit
+src/backend/iocp.zig:636:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/backend/iocp.zig:637:101: warning TS012 the line is 113 columns, over the 100 column limit
+src/backend/iocp.zig:664:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/backend/iocp.zig:665:101: warning TS012 the line is 113 columns, over the 100 column limit
+src/backend/iocp.zig:674:101: warning TS012 the line is 131 columns, over the 100 column limit
+src/backend/iocp.zig:675:101: warning TS012 the line is 105 columns, over the 100 column limit
+src/backend/iocp.zig:691:101: warning TS012 the line is 113 columns, over the 100 column limit
+src/backend/iocp.zig:692:101: warning TS012 the line is 115 columns, over the 100 column limit
+src/backend/iocp.zig:721:101: warning TS012 the line is 115 columns, over the 100 column limit
+src/backend/iocp.zig:722:101: warning TS012 the line is 117 columns, over the 100 column limit
+src/backend/iocp.zig:760:101: warning TS012 the line is 136 columns, over the 100 column limit
+src/backend/iocp.zig:797:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/backend/iocp.zig:798:13: warning TS023 the condition combines booleans; split it into nested branches
+src/backend/iocp.zig:831:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/backend/iocp.zig:840:101: warning TS012 the line is 103 columns, over the 100 column limit
+src/backend/iocp.zig:870:101: warning TS012 the line is 130 columns, over the 100 column limit
+src/backend/iocp.zig:870:13: warning TS023 the condition combines booleans; split it into nested branches
+src/backend/iocp.zig:872:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/backend/iocp.zig:873:101: warning TS012 the line is 103 columns, over the 100 column limit
+src/backend/iocp.zig:907:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/backend/kqueue.zig:1053:5: warning TS002 the function is 79 lines, over the 70 line limit
+src/backend/kqueue.zig:1135:5: warning TS002 the function is 155 lines, over the 70 line limit
+src/backend/kqueue.zig:1165:101: warning TS012 the line is 108 columns, over the 100 column limit
+src/backend/kqueue.zig:1171:101: warning TS012 the line is 103 columns, over the 100 column limit
+src/backend/kqueue.zig:1172:101: warning TS012 the line is 120 columns, over the 100 column limit
+src/backend/kqueue.zig:1179:101: warning TS012 the line is 110 columns, over the 100 column limit
+src/backend/kqueue.zig:1185:101: warning TS012 the line is 133 columns, over the 100 column limit
+src/backend/kqueue.zig:1186:101: warning TS012 the line is 150 columns, over the 100 column limit
+src/backend/kqueue.zig:1215:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/backend/kqueue.zig:1250:101: warning TS012 the line is 114 columns, over the 100 column limit
+src/backend/kqueue.zig:1251:101: warning TS012 the line is 122 columns, over the 100 column limit
+src/backend/kqueue.zig:1294:5: warning TS002 the function is 146 lines, over the 70 line limit
+src/backend/kqueue.zig:1433:25: error TS028 the handler drops the error it caught
+src/backend/kqueue.zig:179:5: warning TS002 the function is 92 lines, over the 70 line limit
+src/backend/kqueue.zig:1877:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/backend/kqueue.zig:1902:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/backend/kqueue.zig:192:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/backend/kqueue.zig:193:24: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/backend/kqueue.zig:198:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/backend/kqueue.zig:212:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/backend/kqueue.zig:2300:1: warning TS002 the function is 266 lines, over the 70 line limit
+src/backend/kqueue.zig:2567:1: warning TS002 the function is 93 lines, over the 70 line limit
+src/backend/kqueue.zig:2585:5: error TS028 the handler drops the error it caught
+src/backend/kqueue.zig:259:47: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/backend/kqueue.zig:2661:1: warning TS002 the function is 87 lines, over the 70 line limit
+src/backend/kqueue.zig:2749:1: warning TS002 the function is 113 lines, over the 70 line limit
+src/backend/kqueue.zig:276:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/backend/kqueue.zig:2863:1: warning TS002 the function is 110 lines, over the 70 line limit
+src/backend/kqueue.zig:306:28: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/backend/kqueue.zig:312:5: warning TS002 the function is 257 lines, over the 70 line limit
+src/backend/kqueue.zig:366:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/backend/kqueue.zig:375:17: warning TS023 the condition combines booleans; split it into nested branches
+src/backend/kqueue.zig:414:17: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/backend/kqueue.zig:428:25: warning TS023 the condition combines booleans; split it into nested branches
+src/backend/kqueue.zig:476:23: info TS025 the name leads with the qualifier ms; put it last
+src/backend/kqueue.zig:492:31: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/backend/kqueue.zig:503:24: warning TS012 the line is 135 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+src/backend/kqueue.zig:606:9: info TS025 the name leads with the qualifier next; put it last
+src/backend/kqueue.zig:628:9: info TS025 the name leads with the qualifier next; put it last
+src/backend/kqueue.zig:657:17: warning TS024 the assertion is compound; write one assertion for each condition
+src/backend/kqueue.zig:664:32: info TS025 the name leads with the qualifier next; put it last
+src/backend/kqueue.zig:673:15: info TS025 the name leads with the qualifier next; put it last
+src/backend/kqueue.zig:675:15: info TS025 the name leads with the qualifier next; put it last
+src/backend/kqueue.zig:698:5: warning TS002 the function is 203 lines, over the 70 line limit
+src/backend/kqueue.zig:735:17: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/backend/kqueue.zig:736:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/backend/kqueue.zig:967:13: error TS028 the handler drops the error it caught
+src/backend/wasi_poll.zig:1159:15: info TS025 the name leads with the qualifier old; put it last
+src/backend/wasi_poll.zig:1169:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/backend/wasi_poll.zig:132:5: warning TS002 the function is 180 lines, over the 70 line limit
+src/backend/wasi_poll.zig:145:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/backend/wasi_poll.zig:1519:1: warning TS002 the function is 134 lines, over the 70 line limit
+src/backend/wasi_poll.zig:155:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/backend/wasi_poll.zig:163:17: warning TS023 the condition combines booleans; split it into nested branches
+src/backend/wasi_poll.zig:198:21: warning TS030 the branch body opens on a later line without braces
+src/backend/wasi_poll.zig:200:21: warning TS030 the branch body opens on a later line without braces
+src/backend/wasi_poll.zig:218:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/backend/wasi_poll.zig:231:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/backend/wasi_poll.zig:313:5: error TS001 start takes part in a call cycle; give it an explicit stack or a bound
+src/backend/wasi_poll.zig:313:5: warning TS002 the function is 132 lines, over the 70 line limit
+src/backend/wasi_poll.zig:446:5: error TS001 stop_completion takes part in a call cycle; give it an explicit stack or a bound
+src/backend/wasi_poll.zig:506:9: info TS025 the name leads with the qualifier next; put it last
+src/backend/wasi_poll.zig:528:9: info TS025 the name leads with the qualifier next; put it last
+src/backend/wasi_poll.zig:557:17: warning TS024 the assertion is compound; write one assertion for each condition
+src/backend/wasi_poll.zig:581:46: error TS028 the handler drops the error it caught
+src/backend/wasi_poll.zig:584:19: info TS025 the name leads with the qualifier next; put it last
+src/backend/wasi_poll.zig:667:5: warning TS002 the function is 95 lines, over the 70 line limit
+src/backend/wasi_poll.zig:72:28: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/backend/wasi_poll.zig:765:5: warning TS002 the function is 160 lines, over the 70 line limit
+src/bench/async1.zig:12:11: info TS025 the name leads with the qualifier NUM; put it last
+src/bench/async_pummel_1.zig:12:11: info TS025 the name leads with the qualifier NUM; put it last
+src/bench/async_pummel_1.zig:58:1: error TS005 the global is mutable
+src/bench/async_pummel_1.zig:59:1: error TS005 the global is mutable
+src/bench/async_pummel_1.zig:60:1: error TS005 the global is mutable
+src/bench/million-timers.zig:56:1: error TS005 the global is mutable
+src/bench/million-timers.zig:5:11: info TS025 the name leads with the qualifier NUM; put it last
+src/bench/ping-pongs.zig:166:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/bench/ping-pongs.zig:181:13: error TS028 the handler drops the error it caught
+src/bench/ping-pongs.zig:333:13: error TS028 the handler drops the error it caught
+src/bench/ping-udp1.zig:105:24: warning TS003 the function takes 8 parameters, over the 7 the style allows
+src/bench/udp_pummel_1v1.zig:11:1: error TS005 the global is mutable
+src/bench/udp_pummel_1v1.zig:122:20: warning TS003 the function takes 8 parameters, over the 7 the style allows
+src/bench/udp_pummel_1v1.zig:12:1: error TS005 the global is mutable
+src/bench/udp_pummel_1v1.zig:13:1: error TS005 the global is mutable
+src/bench/udp_pummel_1v1.zig:23:21: info TS025 the name leads with the qualifier n; put it last
+src/bench/udp_pummel_1v1.zig:23:55: info TS025 the name leads with the qualifier n; put it last
+src/bench/udp_pummel_1v1.zig:77:101: warning TS012 the line is 119 columns, over the 100 column limit
+src/c_api.zig:149:5: info TS025 the name leads with the qualifier next; put it last
+src/c_api.zig:189:5: info TS025 the name leads with the qualifier next; put it last
+src/dynamic.zig:509:13: info TS025 the name leads with the qualifier Next; put it last
+src/heap.zig:149:17: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/heap.zig:158:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/heap.zig:318:11: info TS025 the name leads with the qualifier NUM; put it last
+src/heap.zig:78:13: warning TS030 the branch body opens on a later line without braces
+src/heap.zig:80:13: warning TS030 the branch body opens on a later line without braces
+src/linux/timerfd.zig:37:9: info TS025 the name leads with the qualifier new; put it last
+src/linux/timerfd.zig:38:9: info TS025 the name leads with the qualifier old; put it last
+src/posix.zig:223:101: warning TS012 the line is 112 columns, over the 100 column limit
+src/posix.zig:224:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/posix.zig:277:12: info TS025 the name leads with the qualifier old; put it last
+src/posix.zig:296:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/posix.zig:296:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/posix.zig:304:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/posix.zig:315:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/posix.zig:336:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/posix.zig:383:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/posix.zig:415:101: warning TS012 the line is 114 columns, over the 100 column limit
+src/posix.zig:428:11: info TS025 the name leads with the qualifier max; put it last
+src/posix.zig:434:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/posix.zig:44:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/posix.zig:45:101: warning TS012 the line is 110 columns, over the 100 column limit
+src/posix.zig:463:11: info TS025 the name leads with the qualifier max; put it last
+src/posix.zig:469:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/posix.zig:492:11: info TS025 the name leads with the qualifier max; put it last
+src/posix.zig:498:101: warning TS012 the line is 160 columns, over the 100 column limit
+src/posix.zig:498:27: warning TS023 the condition combines booleans; split it into nested branches
+src/posix.zig:499:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/posix.zig:526:11: info TS025 the name leads with the qualifier max; put it last
+src/posix.zig:532:101: warning TS012 the line is 156 columns, over the 100 column limit
+src/posix.zig:532:26: warning TS023 the condition combines booleans; split it into nested branches
+src/posix.zig:533:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/posix.zig:575:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/posix.zig:605:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/posix.zig:606:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/posix.zig:638:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/posix.zig:656:9: warning TS023 the condition combines booleans; split it into nested branches
+src/posix.zig:8:7: info TS025 the name leads with the qualifier max; put it last
+src/queue.zig:100:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/queue.zig:79:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/queue.zig:82:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/queue.zig:83:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/queue.zig:87:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/queue.zig:90:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/queue.zig:91:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/queue.zig:92:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/queue.zig:95:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/queue.zig:97:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/queue.zig:99:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/queue_mpsc.zig:102:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/queue_mpsc.zig:105:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/queue_mpsc.zig:106:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/queue_mpsc.zig:107:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/queue_mpsc.zig:110:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/queue_mpsc.zig:112:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/queue_mpsc.zig:114:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/queue_mpsc.zig:115:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/queue_mpsc.zig:96:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/queue_mpsc.zig:98:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/queue_mpsc.zig:99:24: error TS036 the assertion calls pop, which changes state; an assertion only reads, and this one runs in release builds too
+src/watcher/async.zig:175:33: error TS028 the handler drops the error it caught
+src/watcher/async.zig:176:27: error TS028 the handler drops the error it caught
+src/watcher/async.zig:368:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/watcher/async.zig:390:101: warning TS012 the line is 103 columns, over the 100 column limit
+src/watcher/async.zig:516:13: error TS028 the handler drops the error it caught
+src/watcher/async.zig:520:13: warning TS030 the branch body opens on a later line without braces
+src/watcher/async.zig:522:13: warning TS030 the branch body opens on a later line without braces
+src/watcher/async.zig:62:101: warning TS012 the line is 113 columns, over the 100 column limit
+src/watcher/async.zig:91:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/watcher/file.zig:152:27: warning TS003 the function takes 9 parameters, over the 7 the style allows
+src/watcher/file.zig:152:9: warning TS002 the function is 71 lines, over the 70 line limit
+src/watcher/file.zig:224:22: warning TS003 the function takes 8 parameters, over the 7 the style allows
+src/watcher/file.zig:318:9: warning TS002 the function is 127 lines, over the 70 line limit
+src/watcher/file.zig:341:13: error TS028 the handler drops the error it caught
+src/watcher/file.zig:496:22: warning TS003 the function takes 8 parameters, over the 7 the style allows
+src/watcher/file.zig:560:21: warning TS003 the function takes 8 parameters, over the 7 the style allows
+src/watcher/file.zig:725:9: warning TS002 the function is 75 lines, over the 70 line limit
+src/watcher/file.zig:748:13: error TS028 the handler drops the error it caught
+src/watcher/file.zig:77:21: warning TS003 the function takes 8 parameters, over the 7 the style allows
+src/watcher/file.zig:77:9: warning TS002 the function is 74 lines, over the 70 line limit
+src/watcher/file.zig:801:9: warning TS002 the function is 73 lines, over the 70 line limit
+src/watcher/file.zig:824:13: error TS028 the handler drops the error it caught
+src/watcher/file.zig:875:9: warning TS002 the function is 104 lines, over the 70 line limit
+src/watcher/file.zig:898:13: error TS028 the handler drops the error it caught
+src/watcher/process.zig:113:101: warning TS012 the line is 105 columns, over the 100 column limit
+src/watcher/process.zig:148:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/watcher/process.zig:215:27: error TS028 the handler drops the error it caught
+src/watcher/process.zig:249:19: info TS025 the name leads with the qualifier current; put it last
+src/watcher/process.zig:262:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/watcher/process.zig:280:9: warning TS002 the function is 82 lines, over the 70 line limit
+src/watcher/process.zig:311:101: warning TS012 the line is 105 columns, over the 100 column limit
+src/watcher/process.zig:312:101: warning TS012 the line is 103 columns, over the 100 column limit
+src/watcher/process.zig:316:101: warning TS012 the line is 109 columns, over the 100 column limit
+src/watcher/process.zig:317:101: warning TS012 the line is 120 columns, over the 100 column limit
+src/watcher/process.zig:318:101: warning TS012 the line is 142 columns, over the 100 column limit
+src/watcher/process.zig:333:101: warning TS012 the line is 117 columns, over the 100 column limit
+src/watcher/process.zig:339:101: warning TS012 the line is 128 columns, over the 100 column limit
+src/watcher/process.zig:340:101: warning TS012 the line is 150 columns, over the 100 column limit
+src/watcher/process.zig:341:101: warning TS012 the line is 103 columns, over the 100 column limit
+src/watcher/process.zig:346:101: warning TS012 the line is 142 columns, over the 100 column limit
+src/watcher/stream.zig:1272:9: warning TS002 the function is 107 lines, over the 70 line limit
+src/watcher/stream.zig:1281:17: warning TS023 the condition combines booleans; split it into nested branches
+src/watcher/stream.zig:1421:9: warning TS030 the branch body opens on a later line without braces
+src/watcher/stream.zig:235:9: warning TS002 the function is 82 lines, over the 70 line limit
+src/watcher/stream.zig:519:9: warning TS002 the function is 99 lines, over the 70 line limit
+src/watcher/stream.zig:596:29: warning TS030 the branch body opens on a later line without braces
+src/watcher/stream.zig:598:29: warning TS030 the branch body opens on a later line without braces
+src/watcher/stream.zig:688:26: warning TS003 the function takes 8 parameters, over the 7 the style allows
+src/watcher/stream.zig:688:9: warning TS002 the function is 74 lines, over the 70 line limit
+src/watcher/stream.zig:781:26: warning TS003 the function takes 8 parameters, over the 7 the style allows
+src/watcher/stream.zig:781:9: warning TS002 the function is 100 lines, over the 70 line limit
+src/watcher/stream.zig:842:23: error TS028 the handler drops the error it caught
+src/watcher/tcp.zig:532:9: warning TS002 the function is 164 lines, over the 70 line limit
+src/watcher/tcp.zig:53:101: warning TS012 the line is 137 columns, over the 100 column limit
+src/watcher/tcp.zig:556:17: warning TS023 the condition combines booleans; split it into nested branches
+src/watcher/tcp.zig:557:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/watcher/tcp.zig:645:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/watcher/tcp.zig:711:9: warning TS002 the function is 239 lines, over the 70 line limit
+src/watcher/tcp.zig:815:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/watcher/tcp.zig:817:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/watcher/tcp.zig:842:101: warning TS012 the line is 115 columns, over the 100 column limit
+src/watcher/tcp.zig:84:101: warning TS012 the line is 187 columns, over the 100 column limit
+src/watcher/tcp.zig:85:101: warning TS012 the line is 140 columns, over the 100 column limit
+src/watcher/tcp.zig:876:17: info TS025 the name leads with the qualifier bytes; put it last
+src/watcher/tcp.zig:884:101: warning TS012 the line is 113 columns, over the 100 column limit
+src/watcher/tcp.zig:88:101: warning TS012 the line is 112 columns, over the 100 column limit
+src/watcher/timer.zig:137:9: warning TS002 the function is 74 lines, over the 70 line limit
+src/watcher/timer.zig:170:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/watcher/timer.zig:199:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/watcher/timer.zig:265:13: info TS025 the name leads with the qualifier next; put it last
+src/watcher/timer.zig:317:21: warning TS003 the function takes 8 parameters, over the 7 the style allows
+src/watcher/timer.zig:322:13: info TS025 the name leads with the qualifier next; put it last
+src/watcher/timer.zig:50:13: info TS025 the name leads with the qualifier next; put it last
+src/watcher/timer.zig:94:21: warning TS003 the function takes 8 parameters, over the 7 the style allows
+src/watcher/timer.zig:99:13: info TS025 the name leads with the qualifier next; put it last
+src/watcher/udp.zig:137:37: warning TS012 the line is 111 columns, over the 100 column limit, and its one token cannot be wrapped
+src/watcher/udp.zig:154:21: warning TS003 the function takes 9 parameters, over the 7 the style allows
+src/watcher/udp.zig:244:101: warning TS012 the line is 148 columns, over the 100 column limit
+src/watcher/udp.zig:262:101: warning TS012 the line is 185 columns, over the 100 column limit
+src/watcher/udp.zig:263:101: warning TS012 the line is 138 columns, over the 100 column limit
+src/watcher/udp.zig:272:20: warning TS003 the function takes 8 parameters, over the 7 the style allows
+src/watcher/udp.zig:318:37: warning TS012 the line is 111 columns, over the 100 column limit, and its one token cannot be wrapped
+src/watcher/udp.zig:335:21: warning TS003 the function takes 9 parameters, over the 7 the style allows
+src/watcher/udp.zig:469:101: warning TS012 the line is 113 columns, over the 100 column limit
+src/watcher/udp.zig:470:101: warning TS012 the line is 113 columns, over the 100 column limit
+src/watcher/udp.zig:478:20: warning TS003 the function takes 8 parameters, over the 7 the style allows
+src/watcher/udp.zig:478:9: warning TS002 the function is 99 lines, over the 70 line limit
+src/watcher/udp.zig:555:29: warning TS012 the line is 104 columns, over the 100 column limit, and its one token cannot be wrapped
+src/watcher/udp.zig:581:21: warning TS003 the function takes 9 parameters, over the 7 the style allows
+src/watcher/udp.zig:581:9: warning TS002 the function is 107 lines, over the 70 line limit
+src/watcher/udp.zig:760:20: warning TS003 the function takes 8 parameters, over the 7 the style allows
+src/watcher/udp.zig:760:9: warning TS002 the function is 73 lines, over the 70 line limit
+src/watcher/udp.zig:783:36: warning TS003 the function takes 8 parameters, over the 7 the style allows
+src/watcher/udp.zig:82:101: warning TS012 the line is 113 columns, over the 100 column limit
+src/watcher/udp.zig:834:21: warning TS003 the function takes 9 parameters, over the 7 the style allows
+src/watcher/udp.zig:834:9: warning TS002 the function is 72 lines, over the 70 line limit
+src/watcher/udp.zig:83:101: warning TS012 the line is 113 columns, over the 100 column limit
+src/watcher/udp.zig:91:20: warning TS003 the function takes 8 parameters, over the 7 the style allows
+src/watcher/udp.zig:927:9: warning TS002 the function is 88 lines, over the 70 line limit
+src/watcher/udp.zig:947:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/watcher/udp.zig:948:28: warning TS003 the function takes 8 parameters, over the 7 the style allows
+src/watcher/udp.zig:967:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/windows.zig:198:9: info TS025 the name puts Max before Offset; order the qualifiers by descending significance, as in latency_ms_max
+src/windows.zig:490:9: info TS025 the name leads with the qualifier num; put it last
+src/windows.zig:518:5: info TS025 the name leads with the qualifier bytes; put it last
+src/windows.zig:522:101: warning TS012 the line is 128 columns, over the 100 column limit
+src/windows.zig:535:101: warning TS012 the line is 139 columns, over the 100 column limit
+src/windows.zig:544:1: error TS005 the global is mutable
+src/windows.zig:565:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/windows.zig:586:101: warning TS012 the line is 158 columns, over the 100 column limit
+src/windows.zig:616:9: info TS025 the name leads with the qualifier Minimum; put it last
+src/windows.zig:617:9: info TS025 the name leads with the qualifier Maximum; put it last
+src/windows.zig:692:101: warning TS012 the line is 149 columns, over the 100 column limit
+src/windows.zig:693:101: warning TS012 the line is 125 columns, over the 100 column limit
+src/windows.zig:713:101: warning TS012 the line is 168 columns, over the 100 column limit
+src/windows.zig:728:7: warning TS041 ReadFileError!?usize stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/windows.zig:730:101: warning TS012 the line is 118 columns, over the 100 column limit
+src/windows.zig:746:7: warning TS041 WriteFileError!?usize stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/windows.zig:748:101: warning TS012 the line is 122 columns, over the 100 column limit
+src/windows.zig:785:101: warning TS012 the line is 104 columns, over the 100 column limit
+src/windows.zig:99:9: info TS025 the name leads with the qualifier n; put it last
+website/next.config.js:2:1: error TS005 the global is mutable
+website/next.config.js:2:7: info TS025 the name leads with the qualifier next; put it last
+website/next.config.js:3:1: info TS029 the line indents 2 columns, which is not a multiple of 4
+website/pages/_app.tsx:5:1: info TS029 the line indents 2 columns, which is not a multiple of 4
+website/pages/_document.tsx:10:1: info TS029 the line indents 6 columns, which is not a multiple of 4
+website/pages/_document.tsx:12:1: info TS029 the line indents 2 columns, which is not a multiple of 4
+website/pages/_document.tsx:4:1: info TS029 the line indents 2 columns, which is not a multiple of 4
+website/pages/_document.tsx:6:1: info TS029 the line indents 6 columns, which is not a multiple of 4
+website/pages/_document.tsx:7:1: info TS029 the line indents 6 columns, which is not a multiple of 4
+website/pages/api/hello.ts:10:1: info TS029 the line indents 2 columns, which is not a multiple of 4
+website/pages/api/hello.ts:5:1: info TS029 the line indents 2 columns, which is not a multiple of 4
+website/pages/api/hello.ts:9:1: info TS029 the line indents 2 columns, which is not a multiple of 4
+website/theme.config.jsx:11:1: info TS029 the line indents 2 columns, which is not a multiple of 4
+website/theme.config.jsx:13:1: info TS029 the line indents 2 columns, which is not a multiple of 4
+website/theme.config.jsx:15:1: info TS029 the line indents 2 columns, which is not a multiple of 4
+website/theme.config.jsx:17:1: info TS029 the line indents 6 columns, which is not a multiple of 4
+website/theme.config.jsx:20:1: info TS029 the line indents 2 columns, which is not a multiple of 4
+website/theme.config.jsx:22:1: info TS029 the line indents 2 columns, which is not a multiple of 4
+website/theme.config.jsx:25:1: info TS029 the line indents 6 columns, which is not a multiple of 4
+website/theme.config.jsx:27:1: info TS029 the line indents 6 columns, which is not a multiple of 4
+website/theme.config.jsx:29:1: info TS029 the line indents 2 columns, which is not a multiple of 4
+website/theme.config.jsx:32:1: info TS029 the line indents 2 columns, which is not a multiple of 4
+website/theme.config.jsx:4:1: info TS029 the line indents 2 columns, which is not a multiple of 4
+website/theme.config.jsx:7:1: info TS029 the line indents 2 columns, which is not a multiple of 4
+website/theme.config.jsx:9:1: info TS029 the line indents 2 columns, which is not a multiple of 4

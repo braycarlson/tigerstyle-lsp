@@ -1,0 +1,11 @@
+TS006 bounded-loops
+
+A loop carries a fixed upper bound, so a violation surfaces as a crash rather than as a hang.
+
+languages: go javascript odin python rust typescript zig
+severity: warning
+default: on
+group: stable
+
+TigerStyle: "All loops and all queues must have a fixed upper bound to prevent infinite loops or tail latency spikes. [...] Where a loop cannot terminate (e.g. an event loop), this must be asserted."
+NASA P10 Rule 2: "All loops must have a fixed upper-bound. It must be trivially possible for a checking tool to prove statically that a preset upper-bound on the number of iterations of a loop cannot be exceeded."

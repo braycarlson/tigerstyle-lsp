@@ -1,0 +1,13 @@
+TS027 explicit-sized-types
+
+A type spells its width, so the same program runs the same way on a smaller target.
+
+languages: go odin rust zig
+severity: warning
+default: opt-in
+group: stable
+javascript: JavaScript numbers are IEEE doubles and bigint is arbitrary precision, so there is no sized type to require
+python: Python integers are arbitrary precision, so there is no sized type to require
+typescript: TypeScript numbers are IEEE doubles and bigint is arbitrary precision, so there is no sized type to require
+
+TigerStyle: "Use explicitly-sized types like `u32` for everything, avoid architecture-specific `usize`."

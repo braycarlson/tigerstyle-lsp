@@ -1,0 +1,272 @@
+docs/conf.py:15:1: error TS005 the module binds mutable state as extensions; make it a constant or confine it to a function
+docs/conf.py:26:1: error TS005 the module binds mutable state as extlinks; make it a constant or confine it to a function
+docs/conf.py:31:1: error TS005 the module binds mutable state as intersphinx_mapping; make it a constant or confine it to a function
+docs/conf.py:45:1: error TS005 the module binds mutable state as html_theme_options; make it a constant or confine it to a function
+docs/conf.py:46:1: error TS005 the module binds mutable state as html_context; make it a constant or confine it to a function
+docs/conf.py:55:1: error TS005 the module binds mutable state as html_sidebars; make it a constant or confine it to a function
+docs/conf.py:59:1: error TS005 the module binds mutable state as singlehtml_sidebars; make it a constant or confine it to a function
+docs/conf.py:60:1: error TS005 the module binds mutable state as html_static_path; make it a constant or confine it to a function
+examples/javascript/js_example/__init__.py:5:31: warning TS020 [*] the comment silences a checker
+examples/tutorial/flaskr/blog.py:100:21: info TS038 the branch states its condition negatively and carries an else; swap the arms
+examples/tutorial/flaskr/blog.py:54:8: warning TS023 the condition combines booleans; split it into nested branches
+examples/tutorial/flaskr/blog.py:72:21: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/flask/app.py:1060:54: warning TS020 [*] the comment silences a checker
+src/flask/app.py:106:40: warning TS020 [*] the comment silences a checker
+src/flask/app.py:1102:5: warning TS002 the function is 121 lines, over the 70 line limit
+src/flask/app.py:1159:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/app.py:1166:38: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/flask/app.py:1179:23: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/flask/app.py:1199:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/app.py:1205:38: warning TS020 [*] the comment silences a checker
+src/flask/app.py:1224:5: warning TS002 the function is 141 lines, over the 70 line limit
+src/flask/app.py:1286:13: info TS025 the name leads with the qualifier len; put it last
+src/flask/app.py:1290:43: warning TS020 [*] the comment silences a checker
+src/flask/app.py:1294:39: warning TS020 [*] the comment silences a checker
+src/flask/app.py:1296:38: warning TS020 [*] the comment silences a checker
+src/flask/app.py:1315:16: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/app.py:1320:26: warning TS020 [*] the comment silences a checker
+src/flask/app.py:1322:39: warning TS020 [*] the comment silences a checker
+src/flask/app.py:1327:18: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/app.py:1332:30: warning TS020 [*] the comment silences a checker
+src/flask/app.py:1390:36: warning TS020 [*] the comment silences a checker
+src/flask/app.py:1601:13: warning TS009 [*] the handler catches every error
+src/flask/app.py:1610:17: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/app.py:286:16: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/app.py:310:17: warning TS003 the function takes 10 parameters, over the 7 the style allows
+src/flask/app.py:362:76: warning TS020 [*] the comment silences a checker
+src/flask/app.py:390:23: warning TS020 [*] the comment silences a checker
+src/flask/app.py:409:9: info TS025 the name leads with the qualifier max; put it last
+src/flask/app.py:443:38: warning TS020 [*] the comment silences a checker
+src/flask/app.py:534:78: warning TS020 [*] the comment silences a checker
+src/flask/app.py:579:13: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/app.py:584:46: warning TS020 [*] the comment silences a checker
+src/flask/app.py:632:5: warning TS002 the function is 122 lines, over the 70 line limit
+src/flask/app.py:732:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/app.py:74:8: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/app.py:809:22: warning TS020 [*] the comment silences a checker
+src/flask/app.py:828:37: warning TS020 [*] the comment silences a checker
+src/flask/app.py:863:46: warning TS020 [*] the comment silences a checker
+src/flask/app.py:87:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/app.py:882:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/app.py:887:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/app.py:895:46: warning TS020 [*] the comment silences a checker
+src/flask/app.py:92:40: warning TS020 [*] the comment silences a checker
+src/flask/app.py:980:36: warning TS020 [*] the comment silences a checker
+src/flask/app.py:984:13: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/app.py:989:54: warning TS020 [*] the comment silences a checker
+src/flask/app.py:990:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/flask/app.py:990:83: warning TS020 [*] the comment silences a checker
+src/flask/app.py:999:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/blueprints.py:11:76: warning TS020 [*] the comment silences a checker
+src/flask/blueprints.py:126:38: warning TS020 [*] the comment silences a checker
+src/flask/blueprints.py:19:17: warning TS003 the function takes 10 parameters, over the 7 the style allows
+src/flask/blueprints.py:30:45: warning TS020 [*] the comment silences a checker
+src/flask/blueprints.py:80:23: warning TS020 [*] the comment silences a checker
+src/flask/blueprints.py:99:9: info TS025 the name leads with the qualifier max; put it last
+src/flask/cli.py:1021:8: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/cli.py:1023:13: error TS007 the call builds and runs code at runtime
+src/flask/cli.py:1023:18: error TS007 the call builds and runs code at runtime
+src/flask/cli.py:120:1: warning TS002 the function is 78 lines, over the 70 line limit
+src/flask/cli.py:216:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/flask/cli.py:245:9: error TS007 the call builds and runs code at runtime
+src/flask/cli.py:249:40: warning TS020 [*] the comment silences a checker
+src/flask/cli.py:268:8: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/cli.py:341:31: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/flask/cli.py:402:42: warning TS020 [*] the comment silences a checker
+src/flask/cli.py:413:19: warning TS020 [*] the comment silences a checker
+src/flask/cli.py:425:71: warning TS020 [*] the comment silences a checker
+src/flask/cli.py:429:17: warning TS020 [*] the comment silences a checker
+src/flask/cli.py:437:48: warning TS020 [*] the comment silences a checker
+src/flask/cli.py:473:8: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/cli.py:497:24: warning TS020 [*] the comment silences a checker
+src/flask/cli.py:509:8: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/cli.py:631:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/cli.py:669:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/cli.py:679:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/cli.py:735:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/cli.py:754:8: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/cli.py:758:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/cli.py:780:40: warning TS020 [*] the comment silences a checker
+src/flask/cli.py:806:62: warning TS020 [*] the comment silences a checker
+src/flask/cli.py:810:42: warning TS020 [*] the comment silences a checker
+src/flask/cli.py:842:17: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/flask/cli.py:861:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/cli.py:935:16: warning TS003 the function takes 9 parameters, over the 7 the style allows
+src/flask/cli.py:955:49: warning TS020 [*] the comment silences a checker
+src/flask/config.py:209:17: error TS007 the call builds and runs code at runtime
+src/flask/config.py:209:22: error TS007 the call builds and runs code at runtime
+src/flask/config.py:211:16: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/config.py:296:16: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/config.py:44:20: warning TS020 [*] the comment silences a checker
+src/flask/config.py:50:22: warning TS020 [*] the comment silences a checker
+src/flask/ctx.py:141:8: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/ctx.py:206:40: warning TS020 [*] the comment silences a checker
+src/flask/ctx.py:410:64: warning TS020 [*] the comment silences a checker
+src/flask/ctx.py:412:50: warning TS020 [*] the comment silences a checker
+src/flask/ctx.py:414:71: warning TS020 [*] the comment silences a checker
+src/flask/ctx.py:470:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/debughelpers.py:137:5: info TS025 the name leads with the qualifier total; put it last
+src/flask/debughelpers.py:140:8: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/debughelpers.py:160:13: info TS025 the name leads with the qualifier total; put it last
+src/flask/debughelpers.py:171:8: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/debughelpers.py:90:28: warning TS020 [*] the comment silences a checker
+src/flask/globals.py:41:41: warning TS020 [*] the comment silences a checker
+src/flask/globals.py:44:1: info TS025 the name leads with the qualifier current; put it last
+src/flask/globals.py:44:40: warning TS020 [*] the comment silences a checker
+src/flask/globals.py:47:39: warning TS020 [*] the comment silences a checker
+src/flask/globals.py:57:38: warning TS020 [*] the comment silences a checker
+src/flask/globals.py:60:43: warning TS020 [*] the comment silences a checker
+src/flask/helpers.py:117:44: warning TS020 [*] the comment silences a checker
+src/flask/helpers.py:121:59: warning TS020 [*] the comment silences a checker
+src/flask/helpers.py:124:66: warning TS020 [*] the comment silences a checker
+src/flask/helpers.py:134:25: warning TS020 [*] the comment silences a checker
+src/flask/helpers.py:417:14: warning TS003 the function takes 8 parameters, over the 7 the style allows
+src/flask/helpers.py:417:1: warning TS002 the function is 124 lines, over the 70 line limit
+src/flask/helpers.py:424:5: info TS025 the name leads with the qualifier last; put it last
+src/flask/helpers.py:425:5: info TS025 the name leads with the qualifier max; put it last
+src/flask/helpers.py:528:39: warning TS020 [*] the comment silences a checker
+src/flask/helpers.py:582:49: warning TS020 [*] the comment silences a checker
+src/flask/helpers.py:599:8: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/helpers.py:620:54: warning TS020 [*] the comment silences a checker
+src/flask/helpers.py:623:9: error TS007 the call builds and runs code at runtime
+src/flask/helpers.py:63:1: warning TS002 the function is 86 lines, over the 70 line limit
+src/flask/helpers.py:641:56: warning TS020 [*] the comment silences a checker
+src/flask/helpers.py:649:20: error TS001 _split_blueprint_path takes part in a call cycle; give it an explicit stack or a bound
+src/flask/helpers.py:680:65: warning TS020 [*] the comment silences a checker
+src/flask/json/__init__.py:170:56: warning TS020 [*] the comment silences a checker
+src/flask/json/provider.py:115:8: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/json/provider.py:116:39: warning TS020 [*] the comment silences a checker
+src/flask/json/provider.py:208:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/json/provider.py:78:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/json/provider.py:81:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/json/tag.py:279:16: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/json/tag.py:312:25: error TS001 _untag_scan takes part in a call cycle; give it an explicit stack or a bound
+src/flask/logging.py:26:48: warning TS020 [*] the comment silences a checker
+src/flask/logging.py:45:35: warning TS020 [*] the comment silences a checker
+src/flask/logging.py:52:62: warning TS020 [*] the comment silences a checker
+src/flask/logging.py:73:8: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/sansio/app.py:224:41: warning TS020 [*] the comment silences a checker
+src/flask/sansio/app.py:279:17: warning TS003 the function takes 10 parameters, over the 7 the style allows
+src/flask/sansio/app.py:279:5: warning TS002 the function is 130 lines, over the 70 line limit
+src/flask/sansio/app.py:53:8: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/sansio/app.py:560:38: warning TS020 [*] the comment silences a checker
+src/flask/sansio/app.py:614:61: warning TS020 [*] the comment silences a checker
+src/flask/sansio/app.py:651:73: warning TS020 [*] the comment silences a checker
+src/flask/sansio/app.py:655:13: info TS025 the name leads with the qualifier old; put it last
+src/flask/sansio/app.py:656:16: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/sansio/app.py:917:13: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/sansio/app.py:957:44: warning TS020 [*] the comment silences a checker
+src/flask/sansio/blueprints.py:105:61: warning TS020 [*] the comment silences a checker
+src/flask/sansio/blueprints.py:174:17: warning TS003 the function takes 10 parameters, over the 7 the style allows
+src/flask/sansio/blueprints.py:185:45: warning TS020 [*] the comment silences a checker
+src/flask/sansio/blueprints.py:247:52: info TS025 the name leads with the qualifier first; put it last
+src/flask/sansio/blueprints.py:273:5: warning TS002 the function is 105 lines, over the 70 line limit
+src/flask/sansio/blueprints.py:316:9: info TS025 the name leads with the qualifier first; put it last
+src/flask/sansio/blueprints.py:317:9: info TS025 the name leads with the qualifier first; put it last
+src/flask/sansio/blueprints.py:326:51: warning TS020 [*] the comment silences a checker
+src/flask/sansio/blueprints.py:331:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/sansio/blueprints.py:357:16: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/sansio/blueprints.py:367:16: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/sansio/blueprints.py:427:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/sansio/blueprints.py:430:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/sansio/blueprints.py:46:9: info TS025 the name leads with the qualifier first; put it last
+src/flask/sansio/blueprints.py:62:14: info TS025 the name leads with the qualifier first; put it last
+src/flask/sansio/scaffold.py:228:35: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/flask/sansio/scaffold.py:279:36: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/flask/sansio/scaffold.py:727:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/sansio/scaffold.py:731:16: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/sansio/scaffold.py:751:51: warning TS020 [*] the comment silences a checker
+src/flask/sansio/scaffold.py:75:5: warning TS002 the function is 141 lines, over the 70 line limit
+src/flask/sessions.py:173:51: warning TS020 [*] the comment silences a checker
+src/flask/sessions.py:185:53: warning TS020 [*] the comment silences a checker
+src/flask/sessions.py:193:101: warning TS012 the line is 113 columns, over the 100 column limit
+src/flask/sessions.py:193:85: warning TS020 [*] the comment silences a checker
+src/flask/sessions.py:200:55: warning TS020 [*] the comment silences a checker
+src/flask/sessions.py:206:53: warning TS020 [*] the comment silences a checker
+src/flask/sessions.py:213:55: warning TS020 [*] the comment silences a checker
+src/flask/sessions.py:221:58: warning TS020 [*] the comment silences a checker
+src/flask/sessions.py:30:47: warning TS020 [*] the comment silences a checker
+src/flask/sessions.py:314:20: warning TS020 [*] the comment silences a checker
+src/flask/sessions.py:330:9: info TS025 the name leads with the qualifier max; put it last
+src/flask/sessions.py:373:70: warning TS020 [*] the comment silences a checker
+src/flask/testing.py:101:5: warning TS013 the function rebinds module state
+src/flask/testing.py:211:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/testing.py:216:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/flask/testing.py:216:88: warning TS020 [*] the comment silences a checker
+src/flask/testing.py:240:55: warning TS020 [*] the comment silences a checker
+src/flask/testing.py:275:18: warning TS020 [*] the comment silences a checker
+src/flask/testing.py:97:1: error TS005 the module binds mutable state as _werkzeug_version; make it a constant or confine it to a function
+src/flask/views.py:107:42: warning TS020 [*] the comment silences a checker
+src/flask/views.py:110:101: warning TS012 the line is 110 columns, over the 100 column limit
+src/flask/views.py:110:82: warning TS020 [*] the comment silences a checker
+src/flask/views.py:113:54: warning TS020 [*] the comment silences a checker
+src/flask/views.py:116:101: warning TS012 the line is 110 columns, over the 100 column limit
+src/flask/views.py:116:82: warning TS020 [*] the comment silences a checker
+src/flask/views.py:129:32: warning TS020 [*] the comment silences a checker
+src/flask/views.py:133:37: warning TS020 [*] the comment silences a checker
+src/flask/views.py:134:73: warning TS020 [*] the comment silences a checker
+src/flask/views.py:173:51: warning TS020 [*] the comment silences a checker
+src/flask/views.py:187:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/views.py:191:57: warning TS020 [*] the comment silences a checker
+src/flask/wrappers.py:113:60: warning TS020 [*] the comment silences a checker
+src/flask/wrappers.py:116:9: info TS025 the name leads with the qualifier max; put it last
+src/flask/wrappers.py:119:16: warning TS020 [*] the comment silences a checker
+src/flask/wrappers.py:120:9: info TS025 the name leads with the qualifier max; put it last
+src/flask/wrappers.py:140:54: warning TS020 [*] the comment silences a checker
+src/flask/wrappers.py:143:9: info TS025 the name leads with the qualifier max; put it last
+src/flask/wrappers.py:157:44: warning TS020 [*] the comment silences a checker
+src/flask/wrappers.py:175:12: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/wrappers.py:203:13: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/wrappers.py:216:16: warning TS023 the condition combines booleans; split it into nested branches
+src/flask/wrappers.py:247:40: warning TS020 [*] the comment silences a checker
+src/flask/wrappers.py:247:9: info TS025 the name leads with the qualifier max; put it last
+src/flask/wrappers.py:254:59: warning TS020 [*] the comment silences a checker
+src/flask/wrappers.py:60:9: info TS025 the name leads with the qualifier max; put it last
+src/flask/wrappers.py:86:58: warning TS020 [*] the comment silences a checker
+src/flask/wrappers.py:89:9: info TS025 the name leads with the qualifier max; put it last
+src/flask/wrappers.py:93:9: info TS025 the name leads with the qualifier max; put it last
+tests/test_appctx.py:152:12: error TS036 the assertion calls pop, which changes state; an assertion only reads
+tests/test_appctx.py:155:12: error TS036 the assertion calls pop, which changes state; an assertion only reads
+tests/test_appctx.py:250:88: warning TS020 [*] the comment silences a checker
+tests/test_appctx.py:255:53: warning TS020 [*] the comment silences a checker
+tests/test_appctx.py:258:53: warning TS020 [*] the comment silences a checker
+tests/test_appctx.py:68:5: error TS010 the handler does nothing with the error
+tests/test_appctx.py:87:9: error TS010 the handler does nothing with the error
+tests/test_apps/blueprintapp/__init__.py:5:44: warning TS020 [*] the comment silences a checker
+tests/test_apps/blueprintapp/__init__.py:6:50: warning TS020 [*] the comment silences a checker
+tests/test_apps/helloworld/wsgi.py:1:24: warning TS020 [*] the comment silences a checker
+tests/test_basic.py:1141:1: warning TS002 the function is 92 lines, over the 70 line limit
+tests/test_basic.py:1257:16: warning TS015 the expression is an unnamed function
+tests/test_basic.py:1615:15: info TS038 the branch states its condition negatively and carries an else; swap the arms
+tests/test_basic.py:1645:12: warning TS023 the condition combines booleans; split it into nested branches
+tests/test_basic.py:1927:5: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+tests/test_basic.py:385:9: warning TS024 the assertion is compound; write one assertion for each condition
+tests/test_basic.py:487:39: warning TS020 [*] the comment silences a checker
+tests/test_basic.py:489:40: warning TS020 [*] the comment silences a checker
+tests/test_basic.py:626:1: warning TS002 the function is 79 lines, over the 70 line limit
+tests/test_basic.py:823:9: error TS010 the handler does nothing with the error
+tests/test_basic.py:835:9: error TS010 the handler does nothing with the error
+tests/test_blueprints.py:194:5: info TS025 the name leads with the qualifier max; put it last
+tests/test_blueprints.py:911:1: warning TS002 the function is 78 lines, over the 70 line limit
+tests/test_blueprints.py:921:16: error TS036 the assertion calls pop, which changes state; an assertion only reads
+tests/test_blueprints.py:929:16: error TS036 the assertion calls pop, which changes state; an assertion only reads
+tests/test_blueprints.py:941:16: error TS036 the assertion calls pop, which changes state; an assertion only reads
+tests/test_blueprints.py:949:16: error TS036 the assertion calls pop, which changes state; an assertion only reads
+tests/test_blueprints.py:961:16: error TS036 the assertion calls pop, which changes state; an assertion only reads
+tests/test_blueprints.py:969:16: error TS036 the assertion calls pop, which changes state; an assertion only reads
+tests/test_cli.py:47:1: warning TS002 the function is 85 lines, over the 70 line limit
+tests/test_cli.py:523:24: warning TS020 [*] the comment silences a checker
+tests/test_config.py:33:5: info TS025 the name leads with the qualifier current; put it last
+tests/test_config.py:41:5: info TS025 the name leads with the qualifier current; put it last
+tests/test_config.py:89:16: info TS038 the branch states its condition negatively and carries an else; swap the arms
+tests/test_helpers.py:360:47: error TS036 the assertion calls read, which changes state; an assertion only reads
+tests/test_helpers.py:377:16: error TS036 the assertion calls read, which changes state; an assertion only reads
+tests/test_json.py:224:15: warning TS020 [*] the comment silences a checker
+tests/test_json.py:236:16: warning TS023 the condition combines booleans; split it into nested branches
+tests/test_json_tag.py:44:17: warning TS020 [*] the comment silences a checker
+tests/test_reqctx.py:38:5: error TS010 the handler does nothing with the error
+tests/test_reqctx.py:57:9: error TS010 the handler does nothing with the error
+tests/test_reqctx.py:87:9: warning TS020 [*] the call silences a checker
+tests/test_request.py:9:5: info TS025 the name puts max before length; order the qualifiers by descending significance, as in latency_ms_max
+tests/test_testing.py:113:12: error TS036 the assertion calls read, which changes state; an assertion only reads
+tests/test_testing.py:226:24: warning TS020 [*] the comment silences a checker

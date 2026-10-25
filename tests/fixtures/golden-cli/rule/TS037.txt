@@ -1,0 +1,10 @@
+TS037 no-abbreviations
+
+A name spells its words out, because an abbreviation saves a few characters and costs every later reader.
+
+languages: go javascript odin python rust typescript zig
+severity: info
+default: opt-in
+group: stable
+
+TigerStyle: "Do not abbreviate variable names, unless the variable is a primitive integer type used as an argument to a sort function or matrix calculation. Use long form arguments in scripts: `--force`, not `-f`. Single letter flags are for interactive usage."

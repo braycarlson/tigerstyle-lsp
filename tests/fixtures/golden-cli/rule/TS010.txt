@@ -1,0 +1,16 @@
+TS010 no-pass-in-except
+
+A handler that does nothing hides the failure it caught.
+
+languages: python
+severity: error
+default: on
+group: stable
+go: Go has no exception handler, so there is no empty one to catch
+javascript: JavaScript has no pass statement; an empty catch is reported by TS028
+odin: Odin has no exception handler, so there is no empty one to catch
+rust: Rust has no exception handler, so there is no empty one to catch
+typescript: TypeScript has no pass statement; an empty catch is reported by TS028
+zig: Zig has no exception handler, so there is no empty one to catch
+
+TigerStyle: "All errors must be handled. [...] Specifically, we found that almost all (92%) of the catastrophic system failures are the result of incorrect handling of non-fatal errors explicitly signaled in software."

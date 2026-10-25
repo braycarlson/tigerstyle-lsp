@@ -1,0 +1,154 @@
+# exit 1
+benches/buf.rs:160:9: warning TS011 the import brings in every name
+benches/buf.rs:164:9: warning TS011 the import brings in every name
+benches/buf.rs:168:9: warning TS011 the import brings in every name
+benches/buf.rs:172:9: warning TS011 the import brings in every name
+benches/buf.rs:176:9: warning TS011 the import brings in every name
+benches/buf.rs:180:9: warning TS011 the import brings in every name
+benches/buf.rs:184:9: warning TS011 the import brings in every name
+benches/bytes_mut.rs:148:4: info TS025 the name leads with the qualifier bytes; put it last
+src/buf/buf_impl.rs:300:9: error TS028 the default hides the error; handle it or crash on it by name
+src/buf/buf_impl.rs:747:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/buf/buf_impl.rs:767:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/buf/buf_impl.rs:810:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/buf/buf_impl.rs:830:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/buf/buf_impl.rs:1174:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/buf/buf_impl.rs:1790:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/buf/buf_impl.rs:1818:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/buf/buf_impl.rs:1877:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/buf/buf_impl.rs:1905:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/buf/buf_impl.rs:2951:13: info TS025 the name leads with the qualifier max; put it last
+src/buf/buf_mut.rs:213:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/buf/buf_mut.rs:254:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/buf/buf_mut.rs:1648:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/buf/buf_mut.rs:1664:13: info TS025 the name leads with the qualifier new; put it last
+src/buf/chain.rs:53:12: info TS025 the name leads with the qualifier first; put it last
+src/buf/chain.rs:72:12: info TS025 the name leads with the qualifier first; put it last
+src/buf/chain.rs:88:12: info TS025 the name leads with the qualifier last; put it last
+src/buf/chain.rs:107:12: info TS025 the name leads with the qualifier last; put it last
+src/buf/vec_deque.rs:23:12: warning TS023 the condition combines booleans; split it into nested branches
+src/buf/vec_deque.rs:29:12: warning TS023 the condition combines booleans; split it into nested branches
+src/bytes.rs:15:1: warning TS020 [*] the attribute silences a checker
+src/bytes.rs:420:13: info TS025 the name leads with the qualifier bytes; put it last
+src/bytes.rs:421:13: info TS025 the name leads with the qualifier bytes; put it last
+src/bytes.rs:576:16: warning TS023 the condition combines booleans; split it into nested branches
+src/bytes.rs:1118:9: info TS025 the name leads with the qualifier old; put it last
+src/bytes.rs:1150:13: info TS025 the name leads with the qualifier old; put it last
+src/bytes.rs:1151:9: warning TS024 the assertion is compound; write one assertion for each condition
+src/bytes.rs:1170:1: error TS005 the global is mutable
+src/bytes.rs:1178:1: error TS005 the global is mutable
+src/bytes.rs:1360:1: error TS005 the global is mutable
+src/bytes.rs:1460:9: info TS025 the name leads with the qualifier old; put it last
+src/bytes.rs:1475:1: warning TS002 the function is 72 lines, over the 70 line limit
+src/bytes.rs:1591:9: info TS025 the name leads with the qualifier old; put it last
+src/bytes.rs:1592:9: info TS025 the name leads with the qualifier new; put it last
+src/bytes.rs:1602:9: info TS025 the name leads with the qualifier old; put it last
+src/bytes.rs:1603:9: info TS025 the name leads with the qualifier new; put it last
+src/bytes.rs:1641:8: info TS025 the name leads with the qualifier bytes; put it last
+src/bytes_mut.rs:16:1: warning TS020 [*] the attribute silences a checker
+src/bytes_mut.rs:109:7: info TS025 the name leads with the qualifier MAX; put it last
+src/bytes_mut.rs:112:7: info TS025 the name leads with the qualifier MIN; put it last
+src/bytes_mut.rs:123:7: info TS025 the name leads with the qualifier MAX; put it last
+src/bytes_mut.rs:500:30: info TS025 the name leads with the qualifier new; put it last
+src/bytes_mut.rs:631:5: warning TS002 the function is 181 lines, over the 70 line limit
+src/bytes_mut.rs:660:20: warning TS023 the condition combines booleans; split it into nested branches
+src/bytes_mut.rs:702:17: info TS025 the name leads with the qualifier new; put it last
+src/bytes_mut.rs:703:18: info TS025 the name leads with the qualifier new; put it last
+src/bytes_mut.rs:722:21: info TS025 the name leads with the qualifier new; put it last
+src/bytes_mut.rs:723:26: info TS025 the name leads with the qualifier new; put it last
+src/bytes_mut.rs:733:27: warning TS023 the condition combines booleans; split it into nested branches
+src/bytes_mut.rs:1092:12: warning TS023 the condition combines booleans; split it into nested branches
+src/bytes_mut.rs:1312:20: info TS025 the name leads with the qualifier bytes; put it last
+src/bytes_mut.rs:1319:13: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/bytes_mut.rs:1446:33: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/bytes_mut.rs:1541:9: info TS025 the name leads with the qualifier old; put it last
+src/bytes_mut.rs:1621:13: info TS025 the name leads with the qualifier max; put it last
+src/bytes_mut.rs:1655:13: info TS025 the name leads with the qualifier min; put it last
+src/bytes_mut.rs:2011:8: info TS025 the name leads with the qualifier bytes; put it last
+src/fmt/debug.rs:17:13: warning TS039 the chain runs 6 branches, over the 3 allowed; split it into a tree
+src/fmt/debug.rs:23:23: warning TS023 the condition combines booleans; split it into nested branches
+src/lib.rs:125:4: info TS025 the name leads with the qualifier min; put it last
+src/lib.rs:187:101: warning TS012 the line is 102 columns, over the 100 column limit
+tests/test_buf.rs:30:13: warning TS011 the import brings in every name
+tests/test_buf.rs:224:101: warning TS012 the line is 109 columns, over the 100 column limit
+tests/test_buf.rs:225:101: warning TS012 the line is 104 columns, over the 100 column limit
+tests/test_buf.rs:227:101: warning TS012 the line is 119 columns, over the 100 column limit
+tests/test_buf.rs:229:101: warning TS012 the line is 101 columns, over the 100 column limit
+tests/test_buf.rs:230:101: warning TS012 the line is 117 columns, over the 100 column limit
+tests/test_buf.rs:231:101: warning TS012 the line is 108 columns, over the 100 column limit
+tests/test_buf.rs:232:101: warning TS012 the line is 101 columns, over the 100 column limit
+tests/test_buf.rs:233:101: warning TS012 the line is 127 columns, over the 100 column limit
+tests/test_buf.rs:234:101: warning TS012 the line is 106 columns, over the 100 column limit
+tests/test_buf.rs:235:101: warning TS012 the line is 109 columns, over the 100 column limit
+tests/test_buf.rs:236:101: warning TS012 the line is 133 columns, over the 100 column limit
+tests/test_buf.rs:237:101: warning TS012 the line is 116 columns, over the 100 column limit
+tests/test_buf.rs:238:101: warning TS012 the line is 109 columns, over the 100 column limit
+tests/test_buf.rs:239:101: warning TS012 the line is 143 columns, over the 100 column limit
+tests/test_buf.rs:240:101: warning TS012 the line is 126 columns, over the 100 column limit
+tests/test_buf.rs:241:101: warning TS012 the line is 129 columns, over the 100 column limit
+tests/test_buf.rs:242:101: warning TS012 the line is 169 columns, over the 100 column limit
+tests/test_buf.rs:243:101: warning TS012 the line is 138 columns, over the 100 column limit
+tests/test_buf.rs:244:101: warning TS012 the line is 129 columns, over the 100 column limit
+tests/test_buf.rs:245:101: warning TS012 the line is 181 columns, over the 100 column limit
+tests/test_buf.rs:246:101: warning TS012 the line is 114 columns, over the 100 column limit
+tests/test_buf.rs:247:101: warning TS012 the line is 117 columns, over the 100 column limit
+tests/test_buf.rs:248:101: warning TS012 the line is 133 columns, over the 100 column limit
+tests/test_buf.rs:249:101: warning TS012 the line is 122 columns, over the 100 column limit
+tests/test_buf.rs:250:101: warning TS012 the line is 125 columns, over the 100 column limit
+tests/test_buf.rs:251:101: warning TS012 the line is 149 columns, over the 100 column limit
+tests/test_buf.rs:253:101: warning TS012 the line is 124 columns, over the 100 column limit
+tests/test_buf.rs:254:101: warning TS012 the line is 127 columns, over the 100 column limit
+tests/test_buf.rs:255:101: warning TS012 the line is 141 columns, over the 100 column limit
+tests/test_buf.rs:256:101: warning TS012 the line is 140 columns, over the 100 column limit
+tests/test_buf.rs:257:101: warning TS012 the line is 123 columns, over the 100 column limit
+tests/test_buf.rs:258:101: warning TS012 the line is 157 columns, over the 100 column limit
+tests/test_buf.rs:260:101: warning TS012 the line is 110 columns, over the 100 column limit
+tests/test_buf.rs:279:101: warning TS012 the line is 146 columns, over the 100 column limit
+tests/test_buf.rs:421:1: warning TS020 [*] the attribute silences a checker
+tests/test_buf.rs:454:13: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_buf.rs:459:9: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_buf_mut.rs:135:16: warning TS015 the expression is an unnamed function
+tests/test_buf_mut.rs:220:1: warning TS020 [*] the attribute silences a checker
+tests/test_bytes.rs:189:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:567:9: info TS025 the name leads with the qualifier new; put it last
+tests/test_bytes.rs:581:13: info TS025 the name leads with the qualifier new; put it last
+tests/test_bytes.rs:743:9: info TS025 the name leads with the qualifier max; put it last
+tests/test_bytes.rs:794:101: warning TS012 the line is 105 columns, over the 100 column limit
+tests/test_bytes.rs:841:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:854:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:866:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:878:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:891:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:903:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:919:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:932:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1027:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1049:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1066:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1074:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1081:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1097:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1164:13: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1165:9: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1238:4: info TS025 the name puts bytes before len; order the qualifiers by descending significance, as in latency_ms_max
+tests/test_bytes.rs:1295:9: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1334:4: info TS025 the name puts bytes before offset; order the qualifiers by descending significance, as in latency_ms_max
+tests/test_bytes.rs:1338:13: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1339:9: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1388:4: info TS025 the name puts bytes before offset; order the qualifiers by descending significance, as in latency_ms_max
+tests/test_bytes.rs:1572:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1742:9: info TS025 the name leads with the qualifier new; put it last
+tests/test_bytes.rs:1795:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1803:13: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1814:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes_odd_alloc.rs:4:101: warning TS012 the line is 110 columns, over the 100 column limit
+tests/test_bytes_odd_alloc.rs:18:12: warning TS023 the condition combines booleans; split it into nested branches
+tests/test_bytes_odd_alloc.rs:21:17: info TS025 the name leads with the qualifier new; put it last
+tests/test_bytes_odd_alloc.rs:26:16: info TS038 the branch states its condition negatively and carries an else; swap the arms
+tests/test_bytes_odd_alloc.rs:37:12: warning TS023 the condition combines booleans; split it into nested branches
+tests/test_bytes_odd_alloc.rs:39:17: info TS025 the name leads with the qualifier new; put it last
+tests/test_bytes_odd_alloc.rs:136:4: info TS025 the name puts bytes before offset; order the qualifiers by descending significance, as in latency_ms_max
+tests/test_bytes_vec_alloc.rs:9:1: error TS005 the global is mutable
+tests/test_bytes_vec_alloc.rs:76:22: info TS038 the branch states its condition negatively and carries an else; swap the arms
+tests/test_chain.rs:47:1: warning TS002 the function is 88 lines, over the 70 line limit
+tests/test_chain.rs:141:101: warning TS012 the line is 204 columns, over the 100 column limit

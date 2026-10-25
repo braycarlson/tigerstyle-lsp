@@ -1,0 +1,15 @@
+TS013 no-global-statement
+
+A function does not rebind module state, so its effects stay in its return value.
+
+languages: javascript python typescript
+severity: warning
+default: on
+group: stable
+go: Go has no global statement; a binding never reaches out of its scope by keyword
+odin: Odin has no global statement; a binding never reaches out of its scope by keyword
+rust: Rust has no global statement; a binding never reaches out of its scope by keyword
+zig: Zig has no global statement; a binding never reaches out of its scope by keyword
+
+TigerStyle: "Declare variables at the smallest possible scope, and minimize the number of variables in scope."
+NASA P10 Rule 6: "Data objects must be declared at the smallest possible level of scope."

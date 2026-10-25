@@ -1,0 +1,34 @@
+<idea-plugin>
+    <id>com.braycarlson.tigerstyle</id>
+    <name>TigerStyle LSP</name>
+    <vendor url="https://github.com/braycarlson/tigerstyle-lsp">braycarlson</vendor>
+
+    <description><![CDATA[
+        A TigerStyle linter for Go, JavaScript, Odin, Python, Rust, TypeScript, and Zig,
+        served by the tigerstyle-lsp language server over stdio.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lsp</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <platform.lsp.integrationProvider
+                implementation="tigerstyle.TigerstyleLspIntegrationProvider"/>
+        <postStartupActivity implementation="tigerstyle.TigerstyleStartup"/>
+        <applicationConfigurable
+                id="tigerstyle.settings"
+                parentId="tools"
+                displayName="TigerStyle"
+                instance="tigerstyle.TigerstyleConfigurable"/>
+        <notificationGroup id="TigerStyle" displayType="BALLOON"/>
+    </extensions>
+
+    <actions>
+        <action id="tigerstyle.RestartServer"
+                class="tigerstyle.TigerstyleRestartAction"
+                text="Restart TigerStyle Server"
+                description="Stop the tigerstyle-lsp language server and start it again.">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>

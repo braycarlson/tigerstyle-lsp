@@ -1,0 +1,283 @@
+httpx/__init__.py:106:59: warning TS020 [*] the comment silences a checker
+httpx/__init__.py:10:26: warning TS011 the import brings in every name
+httpx/__init__.py:11:21: warning TS011 the import brings in every name
+httpx/__init__.py:12:20: warning TS011 the import brings in every name
+httpx/__init__.py:18:26: warning TS020 [*] the comment silences a checker
+httpx/__init__.py:29:1: error TS005 the module binds mutable state as __all__; make it a constant or confine it to a function
+httpx/__init__.py:2:19: warning TS011 the import brings in every name
+httpx/__init__.py:3:20: warning TS011 the import brings in every name
+httpx/__init__.py:4:22: warning TS011 the import brings in every name
+httpx/__init__.py:5:22: warning TS011 the import brings in every name
+httpx/__init__.py:6:23: warning TS011 the import brings in every name
+httpx/__init__.py:7:26: warning TS011 the import brings in every name
+httpx/__init__.py:8:22: warning TS011 the import brings in every name
+httpx/__init__.py:9:28: warning TS011 the import brings in every name
+httpx/_api.py:124:11: warning TS003 the function takes 15 parameters, over the 7 the style allows
+httpx/_api.py:174:8: warning TS003 the function takes 10 parameters, over the 7 the style allows
+httpx/_api.py:210:12: warning TS003 the function takes 10 parameters, over the 7 the style allows
+httpx/_api.py:246:9: warning TS003 the function takes 10 parameters, over the 7 the style allows
+httpx/_api.py:26:1: error TS005 the module binds mutable state as __all__; make it a constant or confine it to a function
+httpx/_api.py:282:9: warning TS003 the function takes 14 parameters, over the 7 the style allows
+httpx/_api.py:323:8: warning TS003 the function takes 14 parameters, over the 7 the style allows
+httpx/_api.py:364:10: warning TS003 the function takes 14 parameters, over the 7 the style allows
+httpx/_api.py:39:12: warning TS003 the function takes 15 parameters, over the 7 the style allows
+httpx/_api.py:39:1: warning TS002 the function is 82 lines, over the 70 line limit
+httpx/_api.py:405:11: warning TS003 the function takes 10 parameters, over the 7 the style allows
+httpx/_auth.py:102:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+httpx/_auth.py:159:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_auth.py:19:1: error TS005 the module binds mutable state as __all__; make it a constant or confine it to a function
+httpx/_auth.py:201:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_auth.py:77:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+httpx/_client.py:1036:12: warning TS003 the function takes 8 parameters, over the 7 the style allows
+httpx/_client.py:1065:16: warning TS003 the function takes 8 parameters, over the 7 the style allows
+httpx/_client.py:1094:13: warning TS003 the function takes 8 parameters, over the 7 the style allows
+httpx/_client.py:1123:13: warning TS003 the function takes 12 parameters, over the 7 the style allows
+httpx/_client.py:1160:12: warning TS003 the function takes 12 parameters, over the 7 the style allows
+httpx/_client.py:1197:14: warning TS003 the function takes 12 parameters, over the 7 the style allows
+httpx/_client.py:1234:15: warning TS003 the function takes 8 parameters, over the 7 the style allows
+httpx/_client.py:1353:17: warning TS003 the function takes 19 parameters, over the 7 the style allows
+httpx/_client.py:1353:5: warning TS002 the function is 78 lines, over the 70 line limit
+httpx/_client.py:1369:9: info TS025 the name leads with the qualifier max; put it last
+httpx/_client.py:1392:28: warning TS020 [*] the comment silences a checker
+httpx/_client.py:1485:22: warning TS003 the function takes 13 parameters, over the 7 the style allows
+httpx/_client.py:1543:21: warning TS003 the function takes 13 parameters, over the 7 the style allows
+httpx/_client.py:1641:9: warning TS009 [*] the handler catches every error
+httpx/_client.py:1656:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+httpx/_client.py:1664:25: info TS025 the name leads with the qualifier next; put it last
+httpx/_client.py:1673:17: warning TS009 [*] the handler catches every error
+httpx/_client.py:1685:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+httpx/_client.py:1713:13: warning TS009 [*] the handler catches every error
+httpx/_client.py:1751:18: warning TS003 the function takes 8 parameters, over the 7 the style allows
+httpx/_client.py:1780:22: warning TS003 the function takes 8 parameters, over the 7 the style allows
+httpx/_client.py:1809:19: warning TS003 the function takes 8 parameters, over the 7 the style allows
+httpx/_client.py:1838:19: warning TS003 the function takes 12 parameters, over the 7 the style allows
+httpx/_client.py:1875:18: warning TS003 the function takes 12 parameters, over the 7 the style allows
+httpx/_client.py:189:17: warning TS003 the function takes 11 parameters, over the 7 the style allows
+httpx/_client.py:1912:20: warning TS003 the function takes 12 parameters, over the 7 the style allows
+httpx/_client.py:1949:21: warning TS003 the function takes 8 parameters, over the 7 the style allows
+httpx/_client.py:198:9: info TS025 the name leads with the qualifier max; put it last
+httpx/_client.py:214:14: info TS025 the name leads with the qualifier max; put it last
+httpx/_client.py:340:22: warning TS003 the function takes 11 parameters, over the 7 the style allows
+httpx/_client.py:418:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_client.py:440:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_client.py:446:9: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+httpx/_client.py:470:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_client.py:502:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_client.py:507:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_client.py:512:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_client.py:532:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_client.py:541:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_client.py:54:1: error TS005 the module binds mutable state as __all__; make it a constant or confine it to a function
+httpx/_client.py:561:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_client.py:579:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_client.py:639:17: warning TS003 the function takes 19 parameters, over the 7 the style allows
+httpx/_client.py:639:5: warning TS002 the function is 78 lines, over the 70 line limit
+httpx/_client.py:656:9: info TS025 the name leads with the qualifier max; put it last
+httpx/_client.py:678:28: warning TS020 [*] the comment silences a checker
+httpx/_client.py:771:16: warning TS003 the function takes 13 parameters, over the 7 the style allows
+httpx/_client.py:828:15: warning TS003 the function takes 13 parameters, over the 7 the style allows
+httpx/_client.py:926:9: warning TS009 [*] the handler catches every error
+httpx/_client.py:941:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+httpx/_client.py:949:25: info TS025 the name leads with the qualifier next; put it last
+httpx/_client.py:958:17: warning TS009 [*] the handler catches every error
+httpx/_client.py:970:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+httpx/_client.py:997:13: warning TS009 [*] the handler catches every error
+httpx/_config.py:111:14: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_config.py:13:1: error TS005 the module binds mutable state as __all__; make it a constant or confine it to a function
+httpx/_config.py:176:9: info TS025 the name leads with the qualifier max; put it last
+httpx/_config.py:177:9: info TS025 the name leads with the qualifier max; put it last
+httpx/_config.py:180:14: info TS025 the name leads with the qualifier max; put it last
+httpx/_config.py:181:14: info TS025 the name leads with the qualifier max; put it last
+httpx/_config.py:216:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_config.py:34:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_config.py:36:14: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_content.py:116:10: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_content.py:127:54: warning TS020 [*] the comment silences a checker
+httpx/_content.py:197:8: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_content.py:209:5: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+httpx/_content.py:231:5: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+httpx/_content.py:28:1: error TS005 the module binds mutable state as __all__; make it a constant or confine it to a function
+httpx/_content.py:51:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_content.py:76:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_decoders.py:186:19: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_decoders.py:242:32: info TS038 the branch states its condition negatively and carries an else; swap the arms
+httpx/_decoders.py:281:32: info TS038 the branch states its condition negatively and carries an else; swap the arms
+httpx/_decoders.py:33:23: warning TS020 [*] the comment silences a checker
+httpx/_decoders.py:353:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_decoders.py:372:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_decoders.py:381:1: error TS005 the module binds mutable state as SUPPORTED_DECODERS; make it a constant or confine it to a function
+httpx/_decoders.py:64:14: info TS025 the name leads with the qualifier first; put it last
+httpx/_decoders.py:75:24: error TS001 decode takes part in a call cycle; give it an explicit stack or a bound
+httpx/_exceptions.py:42:1: error TS005 the module binds mutable state as __all__; make it a constant or confine it to a function
+httpx/_main.py:201:21: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+httpx/_main.py:203:22: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_main.py:216:5: warning TS039 the chain runs 7 branches, over the 3 allowed; split it into a tree
+httpx/_main.py:216:8: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_main.py:219:10: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_main.py:223:10: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_main.py:235:10: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_main.py:238:10: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_main.py:26:1: warning TS002 the function is 75 lines, over the 70 line limit
+httpx/_main.py:306:8: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_main.py:452:9: warning TS003 the function takes 17 parameters, over the 7 the style allows
+httpx/_main.py:476:28: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_main.py:486:31: warning TS020 [*] the comment silences a checker
+httpx/_main.py:494:32: info TS038 the branch states its condition negatively and carries an else; swap the arms
+httpx/_main.py:498:21: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+httpx/_models.py:1085:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_models.py:1108:68: warning TS020 [*] the comment silences a checker
+httpx/_models.py:1140:36: warning TS020 [*] the comment silences a checker
+httpx/_models.py:1143:15: warning TS020 [*] the comment silences a checker
+httpx/_models.py:1157:20: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_models.py:1158:24: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_models.py:1159:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+httpx/_models.py:1178:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_models.py:1184:16: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_models.py:1205:68: warning TS020 [*] the comment silences a checker
+httpx/_models.py:1275:19: warning TS012 the line is 113 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+httpx/_models.py:155:17: info TS025 the name leads with the qualifier bytes; put it last
+httpx/_models.py:156:17: info TS025 the name leads with the qualifier bytes; put it last
+httpx/_models.py:160:17: info TS025 the name leads with the qualifier bytes; put it last
+httpx/_models.py:161:17: info TS025 the name leads with the qualifier bytes; put it last
+httpx/_models.py:274:68: warning TS020 [*] the comment silences a checker
+httpx/_models.py:383:17: warning TS003 the function takes 11 parameters, over the 7 the style allows
+httpx/_models.py:444:16: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_models.py:455:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_models.py:457:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_models.py:516:17: warning TS003 the function takes 11 parameters, over the 7 the style allows
+httpx/_models.py:51:1: error TS005 the module binds mutable state as __all__; make it a constant or confine it to a function
+httpx/_models.py:538:14: info TS025 the name leads with the qualifier next; put it last
+httpx/_models.py:53:1: error TS005 the module binds mutable state as SENSITIVE_HEADERS; make it a constant or confine it to a function
+httpx/_models.py:574:16: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_models.py:645:16: info TS038 the branch states its condition negatively and carries an else; swap the arms
+httpx/_models.py:666:16: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_models.py:812:101: warning TS012 the line is 118 columns, over the 100 column limit
+httpx/_models.py:817:101: warning TS012 the line is 118 columns, over the 100 column limit
+httpx/_models.py:856:9: info TS025 the name leads with the qualifier num; put it last
+httpx/_multipart.py:143:67: warning TS020 [*] the comment silences a checker
+httpx/_multipart.py:152:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_multipart.py:24:1: error TS005 the module binds mutable state as _HTML5_FORM_ENCODING_REPLACEMENTS; make it a constant or confine it to a function
+httpx/_multipart.py:59:8: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_multipart.py:80:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_status_codes.py:127:5: info TS025 the name leads with the qualifier LENGTH; put it last
+httpx/_status_codes.py:32:30: warning TS020 [*] the comment silences a checker
+httpx/_status_codes.py:41:41: warning TS020 [*] the comment silences a checker
+httpx/_status_codes.py:5:1: error TS005 the module binds mutable state as __all__; make it a constant or confine it to a function
+httpx/_transports/__init__.py:1:19: warning TS011 the import brings in every name
+httpx/_transports/__init__.py:2:19: warning TS011 the import brings in every name
+httpx/_transports/__init__.py:3:22: warning TS011 the import brings in every name
+httpx/_transports/__init__.py:4:19: warning TS011 the import brings in every name
+httpx/_transports/__init__.py:5:19: warning TS011 the import brings in every name
+httpx/_transports/__init__.py:7:1: error TS005 the module binds mutable state as __all__; make it a constant or confine it to a function
+httpx/_transports/asgi.py:163:20: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_transports/asgi.py:171:28: warning TS020 [*] the comment silences a checker
+httpx/_transports/asgi.py:26:1: error TS005 the module binds mutable state as __all__; make it a constant or confine it to a function
+httpx/_transports/asgi.py:99:5: warning TS002 the function is 89 lines, over the 70 line limit
+httpx/_transports/base.py:11:1: error TS005 the module binds mutable state as __all__; make it a constant or confine it to a function
+httpx/_transports/default.py:111:16: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_transports/default.py:136:17: warning TS003 the function takes 11 parameters, over the 7 the style allows
+httpx/_transports/default.py:136:5: warning TS002 the function is 80 lines, over the 70 line limit
+httpx/_transports/default.py:189:33: warning TS020 [*] the comment silences a checker
+httpx/_transports/default.py:280:17: warning TS003 the function takes 11 parameters, over the 7 the style allows
+httpx/_transports/default.py:280:5: warning TS002 the function is 80 lines, over the 70 line limit
+httpx/_transports/default.py:333:33: warning TS020 [*] the comment silences a checker
+httpx/_transports/default.py:69:1: error TS005 the module binds mutable state as __all__; make it a constant or confine it to a function
+httpx/_transports/default.py:71:1: error TS005 the module binds mutable state as HTTPCORE_EXC_MAP; make it a constant or confine it to a function
+httpx/_transports/default.py:97:5: warning TS013 the function rebinds module state
+httpx/_transports/mock.py:12:1: error TS005 the module binds mutable state as __all__; make it a constant or confine it to a function
+httpx/_transports/wsgi.py:132:20: warning TS015 the expression is an unnamed function
+httpx/_transports/wsgi.py:140:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_transports/wsgi.py:19:1: error TS005 the module binds mutable state as __all__; make it a constant or confine it to a function
+httpx/_types.py:89:1: error TS005 the module binds mutable state as __all__; make it a constant or confine it to a function
+httpx/_urlparse.py:140:1: error TS005 the module binds mutable state as COMPONENT_REGEX; make it a constant or confine it to a function
+httpx/_urlparse.py:213:1: warning TS002 the function is 133 lines, over the 70 line limit
+httpx/_urlparse.py:224:45: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_urlparse.py:245:8: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_urlparse.py:260:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_urlparse.py:275:47: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_urlparse.py:29:1: info TS025 the name leads with the qualifier MAX; put it last
+httpx/_urlparse.py:328:8: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_urlparse.py:349:5: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+httpx/_urlparse.py:405:8: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_urlparse.py:432:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_urlparse.py:435:8: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_urlparse.py:462:8: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_urlparse.py:471:16: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_urlparse.py:509:5: info TS025 the name leads with the qualifier current; put it last
+httpx/_urlparse.py:520:9: info TS025 the name leads with the qualifier current; put it last
+httpx/_urls.py:12:1: error TS005 the module binds mutable state as __all__; make it a constant or confine it to a function
+httpx/_urls.py:431:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_urls.py:99:20: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_utils.py:165:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_utils.py:177:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_utils.py:193:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_utils.py:196:13: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_utils.py:201:12: warning TS023 the condition combines booleans; split it into nested branches
+httpx/_utils.py:65:13: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+tests/client/test_async_client.py:89:27: warning TS020 [*] the comment silences a checker
+tests/client/test_auth.py:345:50: warning TS020 [*] the comment silences a checker
+tests/client/test_auth.py:350:67: warning TS020 [*] the comment silences a checker
+tests/client/test_auth.py:353:58: warning TS020 [*] the comment silences a checker
+tests/client/test_auth.py:567:9: info TS025 the name leads with the qualifier first; put it last
+tests/client/test_auth.py:570:9: info TS025 the name leads with the qualifier first; put it last
+tests/client/test_auth.py:692:39: warning TS020 [*] the comment silences a checker
+tests/client/test_headers.py:185:39: warning TS020 [*] the comment silences a checker
+tests/client/test_headers.py:93:5: info TS025 the name leads with the qualifier first; put it last
+tests/client/test_properties.py:38:5: warning TS024 the assertion is compound; write one assertion for each condition
+tests/client/test_proxies.py:253:8: info TS038 the branch states its condition negatively and carries an else; swap the arms
+tests/client/test_redirects.py:12:5: warning TS039 the chain runs 8 branches, over the 3 allowed; split it into a tree
+tests/client/test_redirects.py:349:39: warning TS020 [*] the comment silences a checker
+tests/client/test_redirects.py:373:22: info TS038 the branch states its condition negatively and carries an else; swap the arms
+tests/client/test_redirects.py:62:5: warning TS039 the chain runs 8 branches, over the 3 allowed; split it into a tree
+tests/client/test_redirects.py:8:1: warning TS002 the function is 106 lines, over the 70 line limit
+tests/client/test_redirects.py:98:36: info TS038 the branch states its condition negatively and carries an else; swap the arms
+tests/conftest.py:23:1: error TS005 the module binds mutable state as ENVIRONMENT_VARIABLES; make it a constant or confine it to a function
+tests/conftest.py:253:9: warning TS006 the loop carries no upper bound; self.started is never reassigned in the body
+tests/conftest.py:257:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+tests/conftest.py:275:9: warning TS006 the loop carries no upper bound; server.started is never reassigned in the body
+tests/conftest.py:43:16: warning TS023 the condition combines booleans; split it into nested branches
+tests/conftest.py:61:5: warning TS039 the chain runs 7 branches, over the 3 allowed; split it into a tree
+tests/models/test_requests.py:108:26: warning TS020 [*] the comment silences a checker
+tests/models/test_requests.py:204:33: warning TS020 [*] the comment silences a checker
+tests/models/test_requests.py:221:33: warning TS020 [*] the comment silences a checker
+tests/models/test_responses.py:464:5: info TS025 the name leads with the qualifier num; put it last
+tests/models/test_responses.py:467:9: info TS025 the name leads with the qualifier num; put it last
+tests/models/test_responses.py:524:5: info TS025 the name leads with the qualifier num; put it last
+tests/models/test_responses.py:527:9: info TS025 the name leads with the qualifier num; put it last
+tests/models/test_responses.py:539:5: info TS025 the name puts bytes before size; order the qualifiers by descending significance, as in latency_ms_max
+tests/models/test_responses.py:586:11: info TS025 the name puts bytes before size; order the qualifiers by descending significance, as in latency_ms_max
+tests/models/test_responses.py:777:27: warning TS020 [*] the comment silences a checker
+tests/models/test_responses.py:938:27: warning TS020 [*] the comment silences a checker
+tests/models/test_responses.py:981:34: warning TS020 [*] the comment silences a checker
+tests/models/test_url.py:467:40: warning TS020 [*] the comment silences a checker
+tests/models/test_url.py:858:43: info TS025 the name leads with the qualifier new; put it last
+tests/models/test_whatwg.py:14:5: error TS005 the module binds mutable state as test_cases; make it a constant or confine it to a function
+tests/models/test_whatwg.py:15:5: error TS005 the module binds mutable state as test_cases; make it a constant or confine it to a function
+tests/models/test_whatwg.py:18:12: warning TS023 the condition combines booleans; split it into nested branches
+tests/test_auth.py:85:5: info TS025 the name leads with the qualifier first; put it last
+tests/test_auth.py:95:5: info TS025 the name leads with the qualifier first; put it last
+tests/test_content.py:116:67: warning TS020 [*] the comment silences a checker
+tests/test_content.py:152:67: warning TS020 [*] the comment silences a checker
+tests/test_content.py:361:50: warning TS020 [*] the comment silences a checker
+tests/test_content.py:364:57: warning TS020 [*] the comment silences a checker
+tests/test_content.py:41:70: warning TS020 [*] the comment silences a checker
+tests/test_content.py:486:43: warning TS020 [*] the comment silences a checker
+tests/test_decoders.py:18:5: warning TS012 the line is 108 columns, over the 100 column limit, and its one token cannot be wrapped
+tests/test_decoders.py:201:12: error TS036 the assertion changes state; an assertion only reads
+tests/test_decoders.py:219:12: error TS036 the assertion calls read, which changes state; an assertion only reads
+tests/test_decoders.py:37:5: warning TS012 the line is 108 columns, over the 100 column limit, and its one token cannot be wrapped
+tests/test_exceptions.py:22:12: warning TS023 the condition combines booleans; split it into nested branches
+tests/test_exceptions.py:30:12: warning TS023 the condition combines booleans; split it into nested branches
+tests/test_exceptions.py:58:22: warning TS020 [*] the comment silences a checker
+tests/test_exported_members.py:10:16: warning TS023 the condition combines booleans; split it into nested branches
+tests/test_main.py:178:20: error TS036 the assertion calls read, which changes state; an assertion only reads
+tests/test_multipart.py:371:59: warning TS020 [*] the comment silences a checker
+tests/test_multipart.py:379:63: warning TS020 [*] the comment silences a checker
+tests/test_multipart.py:448:28: error TS036 the assertion calls read, which changes state; an assertion only reads
+tests/test_multipart.py:455:28: error TS036 the assertion calls read, which changes state; an assertion only reads
+tests/test_multipart.py:462:28: error TS036 the assertion calls read, which changes state; an assertion only reads
+tests/test_multipart.py:469:28: error TS036 the assertion calls read, which changes state; an assertion only reads
+tests/test_status_codes.py:19:42: warning TS020 [*] the comment silences a checker
+tests/test_status_codes.py:6:42: warning TS020 [*] the comment silences a checker
+tests/test_wsgi.py:157:12: error TS036 the assertion calls read, which changes state; an assertion only reads
+tests/test_wsgi.py:58:9: warning TS006 the loop carries no upper bound; give it a fixed maximum

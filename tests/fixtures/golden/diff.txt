@@ -1,0 +1,18 @@
+--- diff.rs
++++ diff.rs
+@@ -1,6 +1,6 @@
+-//a note here
+-//another note
+-//a third note
++// A note here
++// another note
++// a third note
+ // Line 1.
+ // Line 2.
+ // Line 3.
+@@ -41,4 +41,4 @@
+ // Line 38.
+ // Line 39.
+ // Line 40.
+-//a trailing note
++// A trailing note.

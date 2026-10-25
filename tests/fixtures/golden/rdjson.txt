@@ -1,0 +1,177 @@
+{
+  "diagnostics": [
+    {
+      "code": {
+        "url": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS011.md",
+        "value": "TS011"
+      },
+      "location": {
+        "path": "sample.py",
+        "range": {
+          "end": {
+            "column": 17,
+            "line": 1
+          },
+          "start": {
+            "column": 16,
+            "line": 1
+          }
+        }
+      },
+      "message": "the import brings in every name",
+      "severity": "WARNING",
+      "suggestions": []
+    },
+    {
+      "code": {
+        "url": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS003.md",
+        "value": "TS003"
+      },
+      "location": {
+        "path": "sample.py",
+        "range": {
+          "end": {
+            "column": 79,
+            "line": 5
+          },
+          "start": {
+            "column": 12,
+            "line": 5
+          }
+        }
+      },
+      "message": "the function takes 8 parameters, over the 7 the style allows",
+      "severity": "WARNING",
+      "suggestions": []
+    },
+    {
+      "code": {
+        "url": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS006.md",
+        "value": "TS006"
+      },
+      "location": {
+        "path": "sample.py",
+        "range": {
+          "end": {
+            "column": 14,
+            "line": 7
+          },
+          "start": {
+            "column": 9,
+            "line": 7
+          }
+        }
+      },
+      "message": "the loop carries no upper bound; give it a fixed maximum",
+      "severity": "WARNING",
+      "suggestions": []
+    },
+    {
+      "code": {
+        "url": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS023.md",
+        "value": "TS023"
+      },
+      "location": {
+        "path": "sample.py",
+        "range": {
+          "end": {
+            "column": 21,
+            "line": 8
+          },
+          "start": {
+            "column": 16,
+            "line": 8
+          }
+        }
+      },
+      "message": "the condition combines booleans; split it into nested branches",
+      "severity": "WARNING",
+      "suggestions": []
+    },
+    {
+      "code": {
+        "url": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS009.md",
+        "value": "TS009"
+      },
+      "location": {
+        "path": "sample.py",
+        "range": {
+          "end": {
+            "column": 11,
+            "line": 10
+          },
+          "start": {
+            "column": 5,
+            "line": 10
+          }
+        }
+      },
+      "message": "the handler catches every error",
+      "severity": "WARNING",
+      "suggestions": [
+        {
+          "range": {
+            "end": {
+              "column": 11,
+              "line": 10
+            },
+            "start": {
+              "column": 11,
+              "line": 10
+            }
+          },
+          "text": " Exception"
+        }
+      ]
+    },
+    {
+      "code": {
+        "url": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS010.md",
+        "value": "TS010"
+      },
+      "location": {
+        "path": "sample.py",
+        "range": {
+          "end": {
+            "column": 11,
+            "line": 10
+          },
+          "start": {
+            "column": 5,
+            "line": 10
+          }
+        }
+      },
+      "message": "the handler does nothing with the error",
+      "severity": "ERROR",
+      "suggestions": []
+    },
+    {
+      "code": {
+        "url": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS015.md",
+        "value": "TS015"
+      },
+      "location": {
+        "path": "sample.py",
+        "range": {
+          "end": {
+            "column": 18,
+            "line": 13
+          },
+          "start": {
+            "column": 12,
+            "line": 13
+          }
+        }
+      },
+      "message": "the expression is an unnamed function",
+      "severity": "WARNING",
+      "suggestions": []
+    }
+  ],
+  "severity": "WARNING",
+  "source": {
+    "name": "tigerstyle-lsp",
+    "url": "https://github.com/braycarlson/tigerstyle-lsp"
+  }
+}

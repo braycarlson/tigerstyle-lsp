@@ -1,0 +1,497 @@
+build.rs:17:8: warning TS023 the condition combines booleans; split it into nested branches
+crates/cli/src/decompress.rs:107:9: error TS028 the call's error is assigned away; handle it or crash on it by name
+crates/cli/src/decompress.rs:51:27: info TS038 the branch states its condition negatively and carries an else; swap the arms
+crates/cli/src/human.rs:45:13: warning TS011 the import brings in every name
+crates/cli/src/lib.rs:170:1: warning TS002 the function is 81 lines, over the 70 line limit
+crates/cli/src/process.rs:238:16: warning TS023 the condition combines booleans; split it into nested branches
+crates/cli/src/wtr.rs:102:13: warning TS011 the import brings in every name
+crates/cli/src/wtr.rs:112:13: warning TS011 the import brings in every name
+crates/cli/src/wtr.rs:122:13: warning TS011 the import brings in every name
+crates/cli/src/wtr.rs:132:13: warning TS011 the import brings in every name
+crates/cli/src/wtr.rs:142:13: warning TS011 the import brings in every name
+crates/cli/src/wtr.rs:70:13: warning TS011 the import brings in every name
+crates/cli/src/wtr.rs:80:13: warning TS011 the import brings in every name
+crates/cli/src/wtr.rs:92:13: warning TS011 the import brings in every name
+crates/core/flags/complete/bash.rs:84:27: info TS038 the branch states its condition negatively and carries an else; swap the arms
+crates/core/flags/complete/fish.rs:8:101: warning TS012 the line is 120 columns, over the 100 column limit
+crates/core/flags/complete/powershell.rs:37:101: warning TS012 the line is 135 columns, over the 100 column limit
+crates/core/flags/config.rs:94:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/flags/defs.rs:1116:1: warning TS002 the function is 96 lines, over the 70 line limit
+crates/core/flags/defs.rs:1117:17: warning TS015 the expression is an unnamed function
+crates/core/flags/defs.rs:1270:20: warning TS015 the expression is an unnamed function
+crates/core/flags/defs.rs:2114:1: warning TS002 the function is 91 lines, over the 70 line limit
+crates/core/flags/defs.rs:272:17: warning TS015 the expression is an unnamed function
+crates/core/flags/defs.rs:2993:5: warning TS002 the function is 111 lines, over the 70 line limit
+crates/core/flags/defs.rs:3130:23: warning TS015 the expression is an unnamed function
+crates/core/flags/defs.rs:4295:4: info TS025 the name puts max before count; order the qualifiers by descending significance, as in latency_ms_max
+crates/core/flags/defs.rs:457:17: warning TS015 the expression is an unnamed function
+crates/core/flags/defs.rs:6274:1: warning TS002 the function is 71 lines, over the 70 line limit
+crates/core/flags/defs.rs:7290:18: warning TS015 the expression is an unnamed function
+crates/core/flags/defs.rs:7512:18: warning TS015 the expression is an unnamed function
+crates/core/flags/defs.rs:7513:18: warning TS015 the expression is an unnamed function
+crates/core/flags/defs.rs:8020:16: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/flags/defs.rs:8100:21: error TS036 the assertion calls insert, which changes state; an assertion only reads, and this one runs in release builds too
+crates/core/flags/defs.rs:8103:21: error TS036 the assertion calls insert, which changes state; an assertion only reads, and this one runs in release builds too
+crates/core/flags/defs.rs:8109:17: error TS036 the assertion calls insert, which changes state; an assertion only reads, and this one runs in release builds too
+crates/core/flags/doc/help.rs:134:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/flags/doc/help.rs:149:1: warning TS002 the function is 78 lines, over the 70 line limit
+crates/core/flags/doc/help.rs:248:23: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/flags/doc/help.rs:255:23: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/flags/doc/help.rs:261:19: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/flags/doc/help.rs:41:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/flags/doc/man.rs:40:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/flags/doc/version.rs:62:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/flags/hiargs.rs:1055:23: warning TS015 the expression is an unnamed function
+crates/core/flags/hiargs.rs:1120:16: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/flags/hiargs.rs:114:5: warning TS002 the function is 220 lines, over the 70 line limit
+crates/core/flags/hiargs.rs:1250:8: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/flags/hiargs.rs:126:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/flags/hiargs.rs:1290:8: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/flags/hiargs.rs:1334:4: info TS025 the name leads with the qualifier current; put it last
+crates/core/flags/hiargs.rs:1474:8: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/flags/hiargs.rs:1492:8: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/flags/hiargs.rs:178:26: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/flags/hiargs.rs:196:24: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/flags/hiargs.rs:246:24: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/flags/hiargs.rs:533:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/flags/hiargs.rs:68:5: info TS025 the name leads with the qualifier max; put it last
+crates/core/flags/hiargs.rs:69:5: info TS025 the name leads with the qualifier max; put it last
+crates/core/flags/hiargs.rs:70:5: info TS025 the name leads with the qualifier max; put it last
+crates/core/flags/hiargs.rs:71:5: info TS025 the name leads with the qualifier max; put it last
+crates/core/flags/hiargs.rs:72:5: info TS025 the name leads with the qualifier max; put it last
+crates/core/flags/hiargs.rs:924:16: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/flags/lowargs.rs:74:16: info TS025 the name leads with the qualifier max; put it last
+crates/core/flags/lowargs.rs:75:16: info TS025 the name leads with the qualifier max; put it last
+crates/core/flags/lowargs.rs:76:16: info TS025 the name leads with the qualifier max; put it last
+crates/core/flags/lowargs.rs:77:16: info TS025 the name leads with the qualifier max; put it last
+crates/core/flags/lowargs.rs:78:16: info TS025 the name leads with the qualifier max; put it last
+crates/core/flags/parse.rs:379:38: error TS036 the assertion calls insert, which changes state; an assertion only reads, and this one runs in release builds too
+crates/core/flags/parse.rs:382:38: error TS036 the assertion calls insert, which changes state; an assertion only reads, and this one runs in release builds too
+crates/core/haystack.rs:109:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/index/mod.rs:1:16: warning TS011 the import brings in every name
+crates/core/main.rs:100:11: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/main.rs:145:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/main.rs:149:8: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/main.rs:154:9: error TS028 the call's error is assigned away; handle it or crash on it by name
+crates/core/main.rs:218:16: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/main.rs:225:8: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/main.rs:231:9: error TS028 the call's error is assigned away; handle it or crash on it by name
+crates/core/messages.rs:21:1: error TS005 the global is mutable
+crates/core/messages.rs:23:1: error TS005 the global is mutable
+crates/core/messages.rs:25:1: error TS005 the global is mutable
+crates/core/messages.rs:94:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/core/search.rs:343:13: warning TS011 the import brings in every name
+crates/core/search.rs:367:13: warning TS011 the import brings in every name
+crates/globset/src/glob.rs:190:20: warning TS023 the condition combines booleans; split it into nested branches
+crates/globset/src/glob.rs:366:20: warning TS023 the condition combines booleans; split it into nested branches
+crates/globset/src/glob.rs:409:23: info TS038 the branch states its condition negatively and carries an else; swap the arms
+crates/globset/src/glob.rs:496:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/globset/src/glob.rs:52:9: warning TS039 the chain runs 6 branches, over the 3 allowed; split it into a tree
+crates/globset/src/glob.rs:682:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/globset/src/glob.rs:692:5: warning TS002 the function is 72 lines, over the 70 line limit
+crates/globset/src/glob.rs:747:25: error TS001 tokens_to_regex takes part in a call cycle; give it an explicit stack or a bound
+crates/globset/src/glob.rs:748:28: warning TS023 the condition combines booleans; split it into nested branches
+crates/globset/src/glob.rs:776:4: info TS025 the name leads with the qualifier bytes; put it last
+crates/globset/src/glob.rs:909:16: info TS038 the branch states its condition negatively and carries an else; swap the arms
+crates/globset/src/glob.rs:920:16: warning TS023 the condition combines booleans; split it into nested branches
+crates/globset/src/glob.rs:962:5: warning TS002 the function is 91 lines, over the 70 line limit
+crates/globset/src/glob.rs:994:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+crates/globset/src/lib.rs:461:5: warning TS002 the function is 93 lines, over the 70 line limit
+crates/globset/src/lib.rs:641:28: info TS038 the branch states its condition negatively and carries an else; swap the arms
+crates/globset/src/lib.rs:645:28: info TS038 the branch states its condition negatively and carries an else; swap the arms
+crates/globset/src/lib.rs:666:13: warning TS011 the import brings in every name
+crates/globset/src/lib.rs:683:13: warning TS011 the import brings in every name
+crates/globset/src/lib.rs:696:13: warning TS011 the import brings in every name
+crates/globset/src/pathutil.rs:13:9: info TS025 the name leads with the qualifier last; put it last
+crates/globset/src/pathutil.rs:46:9: info TS025 the name leads with the qualifier last; put it last
+crates/globset/src/pathutil.rs:71:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/examples/walk.rs:31:21: warning TS011 the import brings in every name
+crates/ignore/src/default_types.rs:355:22: info TS025 the name leads with the qualifier previous; put it last
+crates/ignore/src/dir.rs:1039:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/dir.rs:1064:6: warning TS041 Result<PathBuf, Option<Error>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/ignore/src/dir.rs:1065:24: warning TS015 the expression is an unnamed function
+crates/ignore/src/dir.rs:1087:30: warning TS015 the expression is an unnamed function
+crates/ignore/src/dir.rs:1577:13: warning TS015 the expression is an unnamed function
+crates/ignore/src/dir.rs:1599:26: error TS036 the assertion calls remove_file, which changes state; an assertion only reads, and this one runs in release builds too
+crates/ignore/src/dir.rs:196:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/dir.rs:221:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/ignore/src/dir.rs:242:20: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/dir.rs:322:13: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+crates/ignore/src/dir.rs:340:5: warning TS002 the function is 128 lines, over the 70 line limit
+crates/ignore/src/dir.rs:347:27: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/dir.rs:37:1: warning TS020 [*] the attribute silences a checker
+crates/ignore/src/dir.rs:391:29: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/dir.rs:405:29: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/dir.rs:420:37: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/dir.rs:43:1: warning TS020 [*] the attribute silences a checker
+crates/ignore/src/dir.rs:490:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/dir.rs:548:5: warning TS002 the function is 138 lines, over the 70 line limit
+crates/ignore/src/dir.rs:579:16: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/dir.rs:586:16: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/dir.rs:646:24: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/dir.rs:653:24: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/dir.rs:865:19: info TS025 the name leads with the qualifier current; put it last
+crates/ignore/src/gitignore.rs:182:12: info TS025 the name leads with the qualifier num; put it last
+crates/ignore/src/gitignore.rs:187:12: info TS025 the name leads with the qualifier num; put it last
+crates/ignore/src/gitignore.rs:249:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/ignore/src/gitignore.rs:273:16: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/gitignore.rs:305:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/gitignore.rs:381:20: info TS038 the branch states its condition negatively and carries an else; swap the arms
+crates/ignore/src/gitignore.rs:460:5: warning TS002 the function is 82 lines, over the 70 line limit
+crates/ignore/src/gitignore.rs:465:9: warning TS020 [*] the attribute silences a checker
+crates/ignore/src/gitignore.rs:484:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/gitignore.rs:516:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/gitignore.rs:702:5: warning TS020 [*] the attribute silences a checker
+crates/ignore/src/gitignore.rs:85:5: info TS025 the name leads with the qualifier num; put it last
+crates/ignore/src/gitignore.rs:86:5: info TS025 the name leads with the qualifier num; put it last
+crates/ignore/src/incremental.rs:1138:8: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/src/incremental.rs:1159:8: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/src/incremental.rs:1173:8: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/src/incremental.rs:224:5: warning TS002 the function is 85 lines, over the 70 line limit
+crates/ignore/src/incremental.rs:234:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/incremental.rs:239:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/incremental.rs:255:16: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/incremental.rs:271:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/incremental.rs:274:25: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/src/incremental.rs:310:5: warning TS002 the function is 82 lines, over the 70 line limit
+crates/ignore/src/incremental.rs:337:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/incremental.rs:351:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/ignore/src/incremental.rs:380:16: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/incremental.rs:407:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/incremental.rs:74:16: info TS025 the name leads with the qualifier min; put it last
+crates/ignore/src/incremental.rs:75:16: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/src/incremental.rs:76:16: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/src/lib.rs:311:5: warning TS020 [*] the attribute silences a checker
+crates/ignore/src/overrides.rs:106:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/overrides.rs:27:1: warning TS020 [*] the attribute silences a checker
+crates/ignore/src/overrides.rs:31:1: warning TS020 [*] the attribute silences a checker
+crates/ignore/src/overrides.rs:70:12: info TS025 the name leads with the qualifier num; put it last
+crates/ignore/src/overrides.rs:75:12: info TS025 the name leads with the qualifier num; put it last
+crates/ignore/src/pathutil.rs:106:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/pathutil.rs:152:9: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+crates/ignore/src/pathutil.rs:154:19: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/pathutil.rs:158:19: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/pathutil.rs:161:13: info TS025 the name leads with the qualifier last; put it last
+crates/ignore/src/types.rs:270:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/types.rs:422:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/types.rs:452:20: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/types.rs:460:20: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/walk.rs:1062:12: info TS025 the name leads with the qualifier current; put it last
+crates/ignore/src/walk.rs:1122:5: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/src/walk.rs:1123:5: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/src/walk.rs:1170:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/walk.rs:1190:27: warning TS041 Option<Result<DirEntry, Error>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/ignore/src/walk.rs:1190:5: warning TS002 the function is 72 lines, over the 70 line limit
+crates/ignore/src/walk.rs:1191:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+crates/ignore/src/walk.rs:1205:33: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+crates/ignore/src/walk.rs:1293:27: warning TS041 Option<walkdir::Result<WalkEvent>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/ignore/src/walk.rs:139:13: warning TS011 the import brings in every name
+crates/ignore/src/walk.rs:1414:5: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/src/walk.rs:1415:5: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/src/walk.rs:1416:5: info TS025 the name leads with the qualifier min; put it last
+crates/ignore/src/walk.rs:1452:5: warning TS002 the function is 84 lines, over the 70 line limit
+crates/ignore/src/walk.rs:1466:42: info TS038 the branch states its condition negatively and carries an else; swap the arms
+crates/ignore/src/walk.rs:1473:33: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+crates/ignore/src/walk.rs:148:13: warning TS011 the import brings in every name
+crates/ignore/src/walk.rs:157:13: warning TS011 the import brings in every name
+crates/ignore/src/walk.rs:1739:5: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/src/walk.rs:173:13: warning TS011 the import brings in every name
+crates/ignore/src/walk.rs:1741:5: info TS025 the name leads with the qualifier min; put it last
+crates/ignore/src/walk.rs:1744:5: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/src/walk.rs:1769:5: warning TS002 the function is 91 lines, over the 70 line limit
+crates/ignore/src/walk.rs:1772:19: info TS025 the name leads with the qualifier min; put it last
+crates/ignore/src/walk.rs:1777:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/walk.rs:1814:26: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/walk.rs:1888:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/walk.rs:1917:16: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/walk.rs:192:13: warning TS011 the import brings in every name
+crates/ignore/src/walk.rs:1932:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/walk.rs:1944:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+crates/ignore/src/walk.rs:1973:21: warning TS006 the loop carries no upper bound; give it a fixed maximum
+crates/ignore/src/walk.rs:201:13: warning TS011 the import brings in every name
+crates/ignore/src/walk.rs:2064:5: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/src/walk.rs:210:13: warning TS011 the import brings in every name
+crates/ignore/src/walk.rs:2136:8: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/walk.rs:2156:8: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/walk.rs:220:13: warning TS011 the import brings in every name
+crates/ignore/src/walk.rs:2414:8: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/src/walk.rs:2438:8: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/src/walk.rs:2459:8: info TS025 the name leads with the qualifier min; put it last
+crates/ignore/src/walk.rs:2504:8: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/src/walk.rs:2556:8: info TS025 the name leads with the qualifier first; put it last
+crates/ignore/src/walk.rs:491:5: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/src/walk.rs:492:5: info TS025 the name leads with the qualifier min; put it last
+crates/ignore/src/walk.rs:493:5: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/src/walk.rs:595:13: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/src/walk.rs:596:13: info TS025 the name leads with the qualifier min; put it last
+crates/ignore/src/walk.rs:608:33: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/src/walk.rs:611:33: info TS025 the name leads with the qualifier min; put it last
+crates/ignore/src/walk.rs:730:12: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/src/walk.rs:732:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/walk.rs:744:12: info TS025 the name leads with the qualifier min; put it last
+crates/ignore/src/walk.rs:746:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/ignore/src/walk.rs:762:12: info TS025 the name leads with the qualifier max; put it last
+crates/ignore/tests/gitignore_matched_path_or_any_parents_tests.rs:193:1: warning TS002 the function is 126 lines, over the 70 line limit
+crates/ignore/tests/gitignore_matched_path_or_any_parents_tests.rs:195:13: warning TS015 the expression is an unnamed function
+crates/ignore/tests/gitignore_matched_path_or_any_parents_tests.rs:27:13: warning TS015 the expression is an unnamed function
+crates/ignore/tests/gitignore_matched_path_or_any_parents_tests.rs:59:13: warning TS015 the expression is an unnamed function
+crates/ignore/tests/gitignore_matched_path_or_any_parents_tests.rs:89:1: warning TS002 the function is 102 lines, over the 70 line limit
+crates/ignore/tests/gitignore_matched_path_or_any_parents_tests.rs:91:13: warning TS015 the expression is an unnamed function
+crates/index/src/index.rs:121:31: warning TS041 anyhow::Result<Option<Index>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/index/src/index.rs:141:16: warning TS023 the condition combines booleans; split it into nested branches
+crates/index/src/index.rs:53:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/index/src/lib.rs:1:1: warning TS020 [*] the attribute silences a checker
+crates/index/src/literal.rs:104:9: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+crates/index/src/literal.rs:123:13: error TS001 and takes part in a call cycle; give it an explicit stack or a bound
+crates/index/src/literal.rs:154:13: warning TS011 the import brings in every name
+crates/index/src/literal.rs:172:20: warning TS023 the condition combines booleans; split it into nested branches
+crates/index/src/literal.rs:206:13: warning TS011 the import brings in every name
+crates/index/src/literal.rs:227:20: warning TS023 the condition combines booleans; split it into nested branches
+crates/index/src/literal.rs:363:8: info TS025 the name leads with the qualifier max; put it last
+crates/index/src/literal.rs:387:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/index/src/literal.rs:407:29: warning TS023 the condition combines booleans; split it into nested branches
+crates/index/src/literal.rs:416:33: warning TS023 the condition combines booleans; split it into nested branches
+crates/index/src/literal.rs:446:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/index/src/literal.rs:470:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/index/src/literal.rs:563:15: warning TS023 the condition combines booleans; split it into nested branches
+crates/index/src/literal.rs:597:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/index/src/literal.rs:600:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/index/src/literal.rs:623:8: info TS025 the name leads with the qualifier min; put it last
+crates/index/src/literal.rs:677:5: warning TS002 the function is 72 lines, over the 70 line limit
+crates/index/src/literal.rs:717:46: error TS001 b takes part in a call cycle; give it an explicit stack or a bound
+crates/index/src/literal.rs:750:5: error TS001 build_literal_or_hir takes part in a call cycle; give it an explicit stack or a bound
+crates/index/src/literal.rs:76:9: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+crates/index/src/literal.rs:871:19: warning TS015 the expression is an unnamed function
+crates/index/src/literal.rs:895:5: warning TS002 the function is 79 lines, over the 70 line limit
+crates/index/src/literal.rs:95:13: error TS001 or takes part in a call cycle; give it an explicit stack or a bound
+crates/matcher/src/interpolate.rs:109:5: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/matcher/src/interpolate.rs:99:8: warning TS023 the condition combines booleans; split it into nested branches
+crates/matcher/src/lib.rs:1013:10: warning TS041 Result<Option<usize>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/matcher/src/lib.rs:1040:10: warning TS041 Result<Option<usize>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/matcher/src/lib.rs:1128:10: warning TS041 Result<Option<LineMatchKind>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/matcher/src/lib.rs:1142:10: warning TS041 Result<Option<Match>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/matcher/src/lib.rs:1172:40: warning TS041 Result<Option<Match>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/matcher/src/lib.rs:1206:10: warning TS041 Result<Result<(), E>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/matcher/src/lib.rs:1219:10: warning TS041 Result<Result<(), E>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/matcher/src/lib.rs:1268:10: warning TS041 Result<Result<(), E>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/matcher/src/lib.rs:1282:10: warning TS041 Result<Result<(), E>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/matcher/src/lib.rs:1349:10: warning TS041 Result<Option<usize>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/matcher/src/lib.rs:1358:10: warning TS041 Result<Option<usize>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/matcher/src/lib.rs:1376:10: warning TS041 Result<Option<LineMatchKind>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/matcher/src/lib.rs:575:10: warning TS041 Result<Option<Match>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/matcher/src/lib.rs:621:40: warning TS041 Result<Option<Match>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/matcher/src/lib.rs:673:10: warning TS041 Result<Result<(), E>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/matcher/src/lib.rs:697:10: warning TS041 Result<Result<(), E>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/matcher/src/lib.rs:701:17: info TS025 the name leads with the qualifier last; put it last
+crates/matcher/src/lib.rs:702:17: info TS025 the name leads with the qualifier last; put it last
+crates/matcher/src/lib.rs:704:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+crates/matcher/src/lib.rs:801:10: warning TS041 Result<Result<(), E>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/matcher/src/lib.rs:826:10: warning TS041 Result<Result<(), E>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/matcher/src/lib.rs:830:17: info TS025 the name leads with the qualifier last; put it last
+crates/matcher/src/lib.rs:831:17: info TS025 the name leads with the qualifier last; put it last
+crates/matcher/src/lib.rs:833:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+crates/matcher/src/lib.rs:911:17: info TS025 the name leads with the qualifier last; put it last
+crates/matcher/src/lib.rs:959:17: info TS025 the name leads with the qualifier last; put it last
+crates/matcher/tests/util.rs:32:54: warning TS041 Result<Option<Match>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/matcher/tests/util.rs:73:54: warning TS041 Result<Option<Match>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/pcre2/src/matcher.rs:291:12: info TS025 the name leads with the qualifier max; put it last
+crates/pcre2/src/matcher.rs:323:10: warning TS041 Result<Option<Match>, Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/pcre2/src/matcher.rs:347:10: warning TS041 Result<Result<(), E>, Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/pcre2/src/matcher.rs:424:5: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/pcre2/src/matcher.rs:64:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/printer/src/color.rs:316:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/printer/src/counter.rs:11:5: info TS025 the name leads with the qualifier total; put it last
+crates/printer/src/counter.rs:30:19: info TS025 the name puts total before count; order the qualifiers by descending significance, as in latency_ms_max
+crates/printer/src/hyperlink/mod.rs:1029:13: warning TS011 the import brings in every name
+crates/printer/src/hyperlink/mod.rs:102:5: warning TS002 the function is 73 lines, over the 70 line limit
+crates/printer/src/hyperlink/mod.rs:1031:19: warning TS015 the expression is an unnamed function
+crates/printer/src/hyperlink/mod.rs:103:13: warning TS011 the import brings in every name
+crates/printer/src/hyperlink/mod.rs:1098:23: warning TS015 the expression is an unnamed function
+crates/printer/src/hyperlink/mod.rs:120:19: warning TS015 the expression is an unnamed function
+crates/printer/src/hyperlink/mod.rs:315:13: warning TS011 the import brings in every name
+crates/printer/src/hyperlink/mod.rs:443:13: warning TS011 the import brings in every name
+crates/printer/src/hyperlink/mod.rs:445:19: warning TS015 the expression is an unnamed function
+crates/printer/src/hyperlink/mod.rs:463:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/printer/src/hyperlink/mod.rs:495:36: warning TS015 the expression is an unnamed function
+crates/printer/src/hyperlink/mod.rs:651:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/printer/src/hyperlink/mod.rs:768:5: warning TS002 the function is 110 lines, over the 70 line limit
+crates/printer/src/hyperlink/mod.rs:822:101: warning TS012 the line is 103 columns, over the 100 column limit
+crates/printer/src/hyperlink/mod.rs:865:19: warning TS023 the condition combines booleans; split it into nested branches
+crates/printer/src/json.rs:1020:9: warning TS024 the assertion is compound; write one assertion for each condition
+crates/printer/src/json.rs:480:101: warning TS012 the line is 101 columns, over the 100 column limit
+crates/printer/src/json.rs:673:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/printer/src/json.rs:950:8: info TS025 the name leads with the qualifier max; put it last
+crates/printer/src/json.rs:964:8: info TS025 the name leads with the qualifier max; put it last
+crates/printer/src/jsont.rs:237:5: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/printer/src/jsont.rs:285:19: warning TS015 the expression is an unnamed function
+crates/printer/src/lib.rs:87:7: info TS025 the name leads with the qualifier MAX; put it last
+crates/printer/src/path.rs:153:12: info TS038 the branch states its condition negatively and carries an else; swap the arms
+crates/printer/src/standard.rs:1045:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/printer/src/standard.rs:1072:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/printer/src/standard.rs:1076:13: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/printer/src/standard.rs:1122:13: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/printer/src/standard.rs:1143:17: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/printer/src/standard.rs:1193:23: info TS038 the branch states its condition negatively and carries an else; swap the arms
+crates/printer/src/standard.rs:1226:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/printer/src/standard.rs:1260:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/printer/src/standard.rs:1596:5: info TS025 the name leads with the qualifier next; put it last
+crates/printer/src/standard.rs:1636:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/printer/src/standard.rs:1762:5: warning TS020 [*] the attribute silences a checker
+crates/printer/src/standard.rs:2471:8: info TS025 the name leads with the qualifier max; put it last
+crates/printer/src/standard.rs:2495:8: info TS025 the name leads with the qualifier max; put it last
+crates/printer/src/standard.rs:2520:8: info TS025 the name leads with the qualifier max; put it last
+crates/printer/src/standard.rs:2545:8: info TS025 the name leads with the qualifier max; put it last
+crates/printer/src/standard.rs:2571:8: info TS025 the name leads with the qualifier max; put it last
+crates/printer/src/standard.rs:2597:8: info TS025 the name leads with the qualifier max; put it last
+crates/printer/src/standard.rs:2624:8: info TS025 the name leads with the qualifier max; put it last
+crates/printer/src/standard.rs:2649:8: info TS025 the name leads with the qualifier max; put it last
+crates/printer/src/standard.rs:2679:8: info TS025 the name leads with the qualifier max; put it last
+crates/printer/src/standard.rs:2701:5: warning TS002 the function is 97 lines, over the 70 line limit
+crates/printer/src/standard.rs:2701:8: info TS025 the name leads with the qualifier max; put it last
+crates/printer/src/standard.rs:2800:5: warning TS002 the function is 103 lines, over the 70 line limit
+crates/printer/src/standard.rs:2800:8: info TS025 the name leads with the qualifier max; put it last
+crates/printer/src/standard.rs:2905:8: info TS025 the name leads with the qualifier max; put it last
+crates/printer/src/standard.rs:2928:8: info TS025 the name leads with the qualifier max; put it last
+crates/printer/src/standard.rs:2953:8: info TS025 the name leads with the qualifier max; put it last
+crates/printer/src/standard.rs:2977:8: info TS025 the name leads with the qualifier max; put it last
+crates/printer/src/standard.rs:306:12: info TS025 the name leads with the qualifier max; put it last
+crates/printer/src/standard.rs:321:12: info TS025 the name leads with the qualifier max; put it last
+crates/printer/src/standard.rs:46:5: info TS025 the name leads with the qualifier max; put it last
+crates/printer/src/standard.rs:47:5: info TS025 the name leads with the qualifier max; put it last
+crates/printer/src/standard.rs:728:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/printer/src/standard.rs:931:16: warning TS023 the condition combines booleans; split it into nested branches
+crates/printer/src/standard.rs:937:16: warning TS023 the condition combines booleans; split it into nested branches
+crates/printer/src/stats.rs:17:5: info TS025 the name leads with the qualifier bytes; put it last
+crates/printer/src/stats.rs:18:5: info TS025 the name leads with the qualifier bytes; put it last
+crates/printer/src/stats.rs:47:12: info TS025 the name leads with the qualifier bytes; put it last
+crates/printer/src/stats.rs:52:12: info TS025 the name leads with the qualifier bytes; put it last
+crates/printer/src/summary.rs:104:13: warning TS011 the import brings in every name
+crates/printer/src/summary.rs:115:13: warning TS011 the import brings in every name
+crates/printer/src/summary.rs:127:13: warning TS011 the import brings in every name
+crates/printer/src/summary.rs:396:24: warning TS023 the condition combines booleans; split it into nested branches
+crates/printer/src/summary.rs:426:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/printer/src/summary.rs:431:24: warning TS023 the condition combines booleans; split it into nested branches
+crates/printer/src/summary.rs:639:35: warning TS023 the condition combines booleans; split it into nested branches
+crates/printer/src/summary.rs:697:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/printer/src/summary.rs:710:5: warning TS002 the function is 79 lines, over the 70 line limit
+crates/printer/src/summary.rs:744:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/printer/src/util.rs:324:20: warning TS023 the condition combines booleans; split it into nested branches
+crates/printer/src/util.rs:422:11: info TS025 the name leads with the qualifier MAX; put it last
+crates/printer/src/util.rs:428:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+crates/printer/src/util.rs:543:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/printer/src/util.rs:570:13: info TS025 the name leads with the qualifier last; put it last
+crates/printer/src/util.rs:597:19: warning TS015 the expression is an unnamed function
+crates/printer/src/util.rs:601:19: warning TS015 the expression is an unnamed function
+crates/regex/src/ast.rs:101:17: error TS001 from_ast_class_set takes part in a call cycle; give it an explicit stack or a bound
+crates/regex/src/ast.rs:128:21: error TS001 from_ast_class_set_item takes part in a call cycle; give it an explicit stack or a bound
+crates/regex/src/ast.rs:74:17: error TS001 from_ast_impl takes part in a call cycle; give it an explicit stack or a bound
+crates/regex/src/ban.rs:11:19: warning TS015 the expression is an unnamed function
+crates/regex/src/ban.rs:22:21: warning TS015 the expression is an unnamed function
+crates/regex/src/ban.rs:30:32: warning TS015 the expression is an unnamed function
+crates/regex/src/ban.rs:39:39: error TS001 check takes part in a call cycle; give it an explicit stack or a bound
+crates/regex/src/config.rs:106:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/regex/src/literal.rs:106:39: warning TS041 Result<Option<Regex>, Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/regex/src/literal.rs:170:13: warning TS011 the import brings in every name
+crates/regex/src/literal.rs:185:54: error TS001 extract takes part in a call cycle; give it an explicit stack or a bound
+crates/regex/src/literal.rs:196:5: error TS001 extract_concat takes part in a call cycle; give it an explicit stack or a bound
+crates/regex/src/literal.rs:231:5: error TS001 extract_alternation takes part in a call cycle; give it an explicit stack or a bound
+crates/regex/src/literal.rs:264:5: error TS001 extract_repetition takes part in a call cycle; give it an explicit stack or a bound
+crates/regex/src/literal.rs:291:20: warning TS023 the condition combines booleans; split it into nested branches
+crates/regex/src/literal.rs:445:1: warning TS020 [*] the attribute silences a checker
+crates/regex/src/literal.rs:500:8: info TS025 the name puts first before bytes; order the qualifiers by descending significance, as in latency_ms_max
+crates/regex/src/literal.rs:524:8: info TS025 the name leads with the qualifier max; put it last
+crates/regex/src/literal.rs:528:8: info TS025 the name leads with the qualifier max; put it last
+crates/regex/src/literal.rs:533:8: info TS025 the name leads with the qualifier min; put it last
+crates/regex/src/literal.rs:537:8: info TS025 the name leads with the qualifier max; put it last
+crates/regex/src/literal.rs:655:5: warning TS020 [*] the attribute silences a checker
+crates/regex/src/literal.rs:660:5: warning TS020 [*] the attribute silences a checker
+crates/regex/src/matcher.rs:418:10: warning TS041 Result<Option<Match>, NoError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/regex/src/matcher.rs:443:10: warning TS041 Result<Result<(), E>, NoError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/regex/src/matcher.rs:475:10: warning TS041 Result<Option<usize>, NoError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/regex/src/matcher.rs:494:10: warning TS041 Result<Option<LineMatchKind>, NoError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/regex/src/non_matching.rs:65:13: error TS001 remove_matching_bytes takes part in a call cycle; give it an explicit stack or a bound
+crates/regex/src/strip.rs:60:19: warning TS015 the expression is an unnamed function
+crates/regex/src/strip.rs:97:30: error TS001 strip_from_match_ascii takes part in a call cycle; give it an explicit stack or a bound
+crates/searcher/src/line_buffer.rs:306:5: info TS025 the name leads with the qualifier last; put it last
+crates/searcher/src/line_buffer.rs:410:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/line_buffer.rs:416:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+crates/searcher/src/line_buffer.rs:535:9: info TS025 the name leads with the qualifier first; put it last
+crates/searcher/src/line_buffer.rs:538:5: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/searcher/src/line_buffer.rs:682:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/searcher/src/line_buffer.rs:696:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/searcher/src/lines.rs:139:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/lines.rs:181:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+crates/searcher/src/lines.rs:219:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/searcher/src/lines.rs:228:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/searcher/src/lines.rs:332:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+crates/searcher/src/searcher/core.rs:127:10: warning TS041 Result<Option<Range>, S::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/searcher/src/searcher/core.rs:144:10: warning TS041 Result<Option<usize>, S::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/searcher/src/searcher/core.rs:265:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/searcher/src/searcher/core.rs:291:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/searcher/src/searcher/core.rs:292:16: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/searcher/core.rs:31:5: info TS025 the name leads with the qualifier last; put it last
+crates/searcher/src/searcher/core.rs:322:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/searcher/src/searcher/core.rs:32:5: info TS025 the name leads with the qualifier last; put it last
+crates/searcher/src/searcher/core.rs:339:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/searcher/src/searcher/core.rs:340:16: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/searcher/core.rs:378:16: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/searcher/core.rs:389:13: warning TS011 the import brings in every name
+crates/searcher/src/searcher/core.rs:392:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/searcher/src/searcher/core.rs:393:16: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/searcher/core.rs:422:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/searcher/core.rs:463:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/searcher/src/searcher/core.rs:479:10: warning TS041 Result<Option<Range>, S::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/searcher/src/searcher/core.rs:484:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/searcher/src/searcher/core.rs:527:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/searcher/core.rs:561:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/searcher/core.rs:592:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/searcher/core.rs:622:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/searcher/core.rs:654:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/searcher/core.rs:679:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/searcher/glue.rs:123:23: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/searcher/glue.rs:1270:5: warning TS002 the function is 73 lines, over the 70 line limit
+crates/searcher/src/searcher/glue.rs:1345:5: warning TS002 the function is 72 lines, over the 70 line limit
+crates/searcher/src/searcher/glue.rs:1419:5: warning TS002 the function is 74 lines, over the 70 line limit
+crates/searcher/src/searcher/glue.rs:146:5: info TS025 the name leads with the qualifier last; put it last
+crates/searcher/src/searcher/glue.rs:173:23: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/searcher/glue.rs:179:30: info TS025 the name leads with the qualifier last; put it last
+crates/searcher/src/searcher/glue.rs:180:29: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+crates/searcher/src/searcher/glue.rs:232:18: info TS025 the name leads with the qualifier last; put it last
+crates/searcher/src/searcher/glue.rs:291:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+crates/searcher/src/searcher/glue.rs:327:27: warning TS041 Result<Option<Range>, S::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/searcher/src/searcher/glue.rs:339:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/searcher/glue.rs:62:13: info TS025 the name leads with the qualifier old; put it last
+crates/searcher/src/searcher/glue.rs:76:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/searcher/glue.rs:83:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/searcher/mod.rs:1004:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+crates/searcher/src/searcher/mod.rs:184:5: info TS025 the name leads with the qualifier max; put it last
+crates/searcher/src/searcher/mod.rs:213:8: info TS025 the name leads with the qualifier max; put it last
+crates/searcher/src/searcher/mod.rs:583:12: info TS025 the name leads with the qualifier max; put it last
+crates/searcher/src/searcher/mod.rs:806:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/searcher/mod.rs:885:12: info TS025 the name leads with the qualifier max; put it last
+crates/searcher/src/sink.rs:372:16: info TS025 the name leads with the qualifier bytes; put it last
+crates/searcher/src/sink.rs:423:12: info TS025 the name leads with the qualifier bytes; put it last
+crates/searcher/src/testutil.rs:255:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/testutil.rs:304:5: warning TS020 [*] the attribute silences a checker
+crates/searcher/src/testutil.rs:315:5: warning TS020 [*] the attribute silences a checker
+crates/searcher/src/testutil.rs:353:5: warning TS020 [*] the attribute silences a checker
+crates/searcher/src/testutil.rs:383:5: warning TS020 [*] the attribute silences a checker
+crates/searcher/src/testutil.rs:471:19: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/testutil.rs:516:5: warning TS002 the function is 162 lines, over the 70 line limit
+crates/searcher/src/testutil.rs:577:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/testutil.rs:645:12: warning TS023 the condition combines booleans; split it into nested branches
+crates/searcher/src/testutil.rs:71:10: warning TS041 Result<Option<Match>, NoError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+crates/searcher/src/testutil.rs:89:10: warning TS041 Result<Option<LineMatchKind>, NoError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+tests/regression.rs:1391:101: warning TS012 the line is 117 columns, over the 100 column limit
+tests/regression.rs:1411:101: warning TS012 the line is 114 columns, over the 100 column limit
+tests/regression.rs:1414:101: warning TS012 the line is 103 columns, over the 100 column limit
+tests/regression.rs:1643:15: warning TS015 the expression is an unnamed function
+tests/regression.rs:1648:15: warning TS015 the expression is an unnamed function
+tests/util.rs:108:5: warning TS020 [*] the attribute silences a checker
+tests/util.rs:15:1: error TS005 the global is mutable
+tests/util.rs:15:8: info TS025 the name leads with the qualifier NEXT; put it last
+tests/util.rs:236:5: warning TS020 [*] the attribute silences a checker
+tests/util.rs:299:12: info TS025 the name leads with the qualifier current; put it last
+tests/util.rs:391:12: warning TS023 the condition combines booleans; split it into nested branches
+tests/util.rs:450:13: info TS025 the name leads with the qualifier last; put it last
+tests/util.rs:494:8: warning TS023 the condition combines booleans; split it into nested branches

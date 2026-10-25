@@ -1,0 +1,13 @@
+TS011 no-star-import
+
+An import names what it brings in, so a reader can tell where a name came from.
+
+languages: go javascript python rust typescript
+severity: warning
+default: on
+group: stable
+odin: Odin has no wildcard import; an import binds one package name
+zig: Zig has no wildcard import; @import binds one name
+
+TigerStyle: "Minimize the number of variables in scope, to reduce the probability that variables are misused."
+NASA P10 Rule 6: "Data objects must be declared at the smallest possible level of scope."

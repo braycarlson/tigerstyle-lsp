@@ -1,0 +1,205 @@
+const std = @import("std");
+const Conventions = @import("../conventions.zig");
+
+pub const conventions: Conventions = .{
+    .allocation_functions = &allocation_functions,
+    .allocation_methods = &allocation_methods,
+    .arms_open_with_else = true,
+    .assertions_survive_release = &surviving,
+    .boolean_type_names = &.{"bool"},
+    .call_void_names = &.{
+        "@breakpoint",
+        "@fence",
+        "@panic",
+        "@prefetch",
+        "@setCold",
+        "@setEvalBranchQuota",
+        "@setFloatMode",
+        "@setRuntimeSafety",
+        "std.debug.panic",
+        "std.debug.print",
+        "std.log.debug",
+        "std.log.err",
+        "std.log.info",
+        "std.log.warn",
+    },
+    .callback_markers = &.{ "fn (", "fn(" },
+    .comment_directives = &.{ "zig", "zig fmt:" },
+    .comment_doc_markers = &.{ "!", "/" },
+    .comment_docs_read = true,
+    .compiler_rejects_a_dropped_error = true,
+    .compiler_rejects_an_unmutated_variable = true,
+    .compiler_rejects_an_unused_parameter = true,
+    .conditional_markers = &.{
+        "@import(\"build_options\")",
+        "build_options.",
+        "builtin.abi",
+        "builtin.cpu",
+        "builtin.link_libc",
+        "builtin.mode",
+        "builtin.os",
+        "builtin.single_threaded",
+        "builtin.target",
+    },
+    .conditional_markers_need_a_branch = true,
+    .container_words = &.{ "enum", "opaque", "struct", "union" },
+    .context_argument_suffixes = &.{ "Adapted", "Context" },
+    .declaration_test_words = &.{"test"},
+    .declarations_spell_visibility = true,
+    .division_assumes_integers = true,
+    .division_names_rounding = true,
+    .empty_option_suffixes = &.{".{}"},
+    .line_length_exempt_prefixes = &.{"\\\\"},
+    .measurable_types = &measurable_types,
+    .member_type_words = &.{ "const", "var" },
+    .members_end_with_comma = true,
+    .mutation_methods = &mutation_methods,
+    .optional_markers = &.{ "!", "?" },
+    .parameter_exempt_prefixes = &.{"*"},
+    .parameter_skip_names = &.{"_"},
+    .parameter_valueless_types = &.{
+        "Allocator",
+        "Io",
+        "mem.Allocator",
+        "std.Io",
+        "std.Random",
+        "std.mem.Allocator",
+        "void",
+    },
+    .plus_plus_concatenates = true,
+    .pointer_boundary_markers = &.{ "callconv", "export", "extern", "opaque" },
+    .pointer_function_markers = &.{"fn ("},
+    .pointer_pointee_markers = &.{ "anyopaque", "fn" },
+    .pointer_raw_prefixes = &.{"[*"},
+    .pointer_sigils = &.{ "[*c]", "[*]", "*" },
+    .queue_bound_words = &.{ ".Slice", ".Static" },
+    .queue_unbounded_names = &.{ "LinearFifo", "PriorityDequeue", "PriorityQueue" },
+    .reserved_words = &.{ "error", "type" },
+    .scope_words = &.{ "comptime", "test" },
+    .statements_need_a_function = true,
+    .stored_value_methods = &.{
+        "append",
+        "appendAssumeCapacity",
+        "getOrPutValue",
+        "insert",
+        "insertAssumeCapacity",
+        "put",
+        "putAssumeCapacity",
+        "putAssumeCapacityNoClobber",
+        "putNoClobber",
+    },
+    .suppression_markers = &.{"lint:file-ignore"},
+    .suspension_methods = &.{"await"},
+    .suspension_words = &.{"suspend"},
+    .title_case_names_types = true,
+    .types_are_values = true,
+};
+
+const allocation_functions = [_][]const u8{
+    "std.fmt.allocPrint",
+    "std.fmt.allocPrintZ",
+    "std.mem.concat",
+    "std.mem.join",
+};
+
+const allocation_methods = [_][]const u8{
+    "addOne",
+    "alignedAlloc",
+    "alloc",
+    "allocPrint",
+    "allocSentinel",
+    "append",
+    "appendNTimes",
+    "appendSlice",
+    "create",
+    "dupe",
+    "dupeZ",
+    "ensureTotalCapacity",
+    "ensureUnusedCapacity",
+    "initCapacity",
+    "insert",
+    "put",
+    "putNoClobber",
+    "realloc",
+    "toOwnedSlice",
+};
+
+const measurable_types = [_][]const u8{
+    "?*",
+    "[]*",
+    "f128",
+    "f16",
+    "f32",
+    "f64",
+    "f80",
+    "i1*",
+    "i2*",
+    "i3*",
+    "i4*",
+    "i5*",
+    "i6*",
+    "i7*",
+    "i8*",
+    "i9*",
+    "isize",
+    "u1*",
+    "u2*",
+    "u3*",
+    "u4*",
+    "u5*",
+    "u6*",
+    "u7*",
+    "u8*",
+    "u9*",
+    "usize",
+};
+
+const mutation_methods = [_][]const u8{
+    "append",
+    "appendSlice",
+    "clearRetainingCapacity",
+    "insert",
+    "next",
+    "orderedRemove",
+    "pop",
+    "popOrNull",
+    "put",
+    "remove",
+    "reset",
+    "resize",
+    "set",
+    "swapRemove",
+    "write",
+    "writeAll",
+};
+
+const expectations = [_][]const u8{
+    "expect",
+    "expectApproxEqAbs",
+    "expectApproxEqRel",
+    "expectEqual",
+    "expectEqualDeep",
+    "expectEqualSentinel",
+    "expectEqualSlices",
+    "expectEqualStrings",
+    "expectError",
+    "expectFmt",
+    "expectStringEndsWith",
+    "expectStringStartsWith",
+};
+
+const surviving = expectations ++ [_][]const u8{"unreachable"};
+
+test "the conventions carry every field the lexer sets" {
+    try std.testing.expect(conventions.carries(.allocation_functions));
+    try std.testing.expect(conventions.carries(.assertions_survive_release));
+    try std.testing.expect(conventions.carries(.call_void_names));
+    try std.testing.expect(conventions.carries(.comment_directives));
+    try std.testing.expect(conventions.carries(.comment_doc_markers));
+    try std.testing.expect(conventions.carries(.line_length_exempt_prefixes));
+    try std.testing.expect(conventions.carries(.member_type_words));
+    try std.testing.expect(conventions.carries(.parameter_skip_names));
+    try std.testing.expect(conventions.carries(.scope_words));
+    try std.testing.expect(conventions.carries(.statements_need_a_function));
+    try std.testing.expect(conventions.carries(.types_are_values));
+}

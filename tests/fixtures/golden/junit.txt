@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="tigerstyle-lsp" tests="7" failures="7">
+  <testsuite name="sample.py" tests="7" failures="7">
+    <testcase name="TS011 1:16" classname="sample.py">
+      <failure type="TS011" message="the import brings in every name">warning at 1:16</failure>
+    </testcase>
+    <testcase name="TS003 5:12" classname="sample.py">
+      <failure type="TS003" message="the function takes 8 parameters, over the 7 the style allows">warning at 5:12</failure>
+    </testcase>
+    <testcase name="TS006 7:9" classname="sample.py">
+      <failure type="TS006" message="the loop carries no upper bound; give it a fixed maximum">warning at 7:9</failure>
+    </testcase>
+    <testcase name="TS023 8:16" classname="sample.py">
+      <failure type="TS023" message="the condition combines booleans; split it into nested branches">warning at 8:16</failure>
+    </testcase>
+    <testcase name="TS009 10:5" classname="sample.py">
+      <failure type="TS009" message="the handler catches every error">warning at 10:5</failure>
+    </testcase>
+    <testcase name="TS010 10:5" classname="sample.py">
+      <failure type="TS010" message="the handler does nothing with the error">error at 10:5</failure>
+    </testcase>
+    <testcase name="TS015 13:12" classname="sample.py">
+      <failure type="TS015" message="the expression is an unnamed function">warning at 13:12</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

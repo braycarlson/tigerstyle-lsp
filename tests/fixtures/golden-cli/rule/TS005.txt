@@ -1,0 +1,11 @@
+TS005 no-mutable-globals
+
+Global state is immutable, so no two parts of the program race to own it.
+
+languages: go javascript odin python rust typescript zig
+severity: error
+default: on
+group: stable
+
+TigerStyle: "Declare variables at the smallest possible scope, and minimize the number of variables in scope, to reduce the probability that variables are misused."
+NASA P10 Rule 6: "Data objects must be declared at the smallest possible level of scope."

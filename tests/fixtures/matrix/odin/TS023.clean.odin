@@ -1,0 +1,13 @@
+package fixture
+
+pick :: proc(first: bool, second: bool) -> int {
+    if first {
+        return 1
+    }
+
+    if second {
+        return 2
+    }
+
+    return 0
+}

@@ -1,0 +1,2016 @@
+# exit 1
+benches/buf.rs:1:1: info TS004 the file carries 1 assertions across 5 functions, under the 10 the style asks for
+benches/buf.rs:9:29: info TS031 [*] the comment does not close with a full stop
+benches/buf.rs:11:5: info TS037 the name abbreviates buf; write buffer out
+benches/buf.rs:12:25: warning TS027 usize is architecture dependent; spell the width
+benches/buf.rs:13:5: info TS037 the name abbreviates init; write initialize out
+benches/buf.rs:13:15: warning TS027 usize is architecture dependent; spell the width
+benches/buf.rs:14:5: info TS037 the name abbreviates pos; write position out
+benches/buf.rs:15:5: info TS037 the name abbreviates pos; write position out
+benches/buf.rs:15:18: warning TS027 usize is architecture dependent; spell the width
+benches/buf.rs:19:11: warning TS022 the function does not assert init_pos at entry
+benches/buf.rs:19:12: info TS037 the name abbreviates buf; write buffer out
+benches/buf.rs:19:52: warning TS027 usize is architecture dependent; spell the width
+benches/buf.rs:19:60: info TS037 the name abbreviates init; write initialize out
+benches/buf.rs:19:70: warning TS027 usize is architecture dependent; spell the width
+benches/buf.rs:20:17: info TS037 the name abbreviates buf; write buffer out
+benches/buf.rs:49:9: info TS026 the function remaining returns an unasserted value
+benches/buf.rs:51:15: warning TS022 the function does not assert cnt at entry
+benches/buf.rs:51:27: info TS037 the name abbreviates cnt; write count out
+benches/buf.rs:71:11: warning TS022 the function does not assert init_pos at entry
+benches/buf.rs:71:12: info TS037 the name abbreviates buf; write buffer out
+benches/buf.rs:71:52: warning TS027 usize is architecture dependent; spell the width
+benches/buf.rs:71:60: info TS037 the name abbreviates init; write initialize out
+benches/buf.rs:71:70: warning TS027 usize is architecture dependent; spell the width
+benches/buf.rs:86:15: warning TS022 the function does not assert cnt at entry
+benches/buf.rs:86:27: info TS037 the name abbreviates cnt; write count out
+benches/buf.rs:121:16: info TS031 [*] the comment opens in lower case
+benches/buf.rs:121:81: info TS031 [*] the comment does not close with a full stop
+benches/buf.rs:160:9: warning TS011 the import brings in every name
+benches/buf.rs:164:9: warning TS011 the import brings in every name
+benches/buf.rs:168:9: warning TS011 the import brings in every name
+benches/buf.rs:172:9: warning TS011 the import brings in every name
+benches/buf.rs:176:9: warning TS011 the import brings in every name
+benches/buf.rs:180:9: warning TS011 the import brings in every name
+benches/buf.rs:184:9: warning TS011 the import brings in every name
+benches/bytes.rs:1:1: info TS004 the file carries 0 assertions across 10 functions, under the 20 the style asks for
+benches/bytes.rs:10:17: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes.rs:11:9: info TS037 the name abbreviates buf; write buffer out
+benches/bytes.rs:21:17: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes.rs:22:9: info TS037 the name abbreviates buf; write buffer out
+benches/bytes.rs:23:9: info TS037 the name b2 is too short to spell a word; write the word out
+benches/bytes.rs:33:17: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes.rs:34:9: info TS037 the name abbreviates buf; write buffer out
+benches/bytes.rs:44:17: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes.rs:56:17: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes.rs:67:4: info TS037 the name abbreviates vec; write vector out
+benches/bytes.rs:67:18: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes.rs:79:20: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes.rs:83:13: info TS037 the name abbreviates buf; write buffer out
+benches/bytes.rs:89:16: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes.rs:91:40: info TS031 [*] the comment does not close with a full stop
+benches/bytes.rs:92:13: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes.rs:100:25: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes.rs:102:40: info TS031 [*] the comment does not close with a full stop
+benches/bytes.rs:103:13: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes.rs:111:23: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes.rs:114:17: info TS037 the name v is too short to spell a word; write the word out
+benches/bytes.rs:115:21: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes_mut.rs:1:1: info TS004 the file carries 0 assertions across 14 functions, under the 28 the style asks for
+benches/bytes_mut.rs:10:16: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes_mut.rs:19:14: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes_mut.rs:26:14: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes_mut.rs:33:17: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes_mut.rs:34:13: info TS037 the name abbreviates buf; write buffer out
+benches/bytes_mut.rs:45:24: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes_mut.rs:46:13: info TS037 the name abbreviates buf; write buffer out
+benches/bytes_mut.rs:64:17: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes_mut.rs:65:13: info TS037 the name abbreviates buf; write buffer out
+benches/bytes_mut.rs:67:9: info TS037 the name b2 is too short to spell a word; write the word out
+benches/bytes_mut.rs:77:14: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes_mut.rs:93:17: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes_mut.rs:106:29: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes_mut.rs:108:17: info TS037 the name abbreviates buf; write buffer out
+benches/bytes_mut.rs:115:22: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes_mut.rs:119:17: info TS037 the name abbreviates buf; write buffer out
+benches/bytes_mut.rs:132:4: info TS037 the name abbreviates fmt; write format out
+benches/bytes_mut.rs:132:14: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes_mut.rs:134:13: info TS037 the name abbreviates buf; write buffer out
+benches/bytes_mut.rs:135:9: info TS037 the name s is too short to spell a word; write the word out
+benches/bytes_mut.rs:148:4: info TS025 the name leads with the qualifier bytes; put it last
+benches/bytes_mut.rs:148:21: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes_mut.rs:149:13: info TS037 the name abbreviates buf; write buffer out
+benches/bytes_mut.rs:164:34: info TS031 [*] the comment does not close with a full stop
+benches/bytes_mut.rs:167:24: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes_mut.rs:168:13: info TS037 the name abbreviates buf; write buffer out
+benches/bytes_mut.rs:184:21: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes_mut.rs:185:13: info TS037 the name abbreviates buf; write buffer out
+benches/bytes_mut.rs:186:9: info TS037 the name abbreviates cnt; write count out
+benches/bytes_mut.rs:201:4: info TS037 the name abbreviates vec; write vector out
+benches/bytes_mut.rs:201:18: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes_mut.rs:202:13: info TS037 the name abbreviates buf; write buffer out
+benches/bytes_mut.rs:218:4: info TS037 the name abbreviates vec; write vector out
+benches/bytes_mut.rs:218:15: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes_mut.rs:219:13: info TS037 the name abbreviates buf; write buffer out
+benches/bytes_mut.rs:220:9: info TS037 the name abbreviates cnt; write count out
+benches/bytes_mut.rs:235:4: info TS037 the name abbreviates vec; write vector out
+benches/bytes_mut.rs:235:25: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes_mut.rs:236:13: info TS037 the name abbreviates buf; write buffer out
+benches/bytes_mut.rs:252:4: info TS037 the name abbreviates vec; write vector out
+benches/bytes_mut.rs:252:20: info TS037 the name b is too short to spell a word; write the word out
+benches/bytes_mut.rs:253:13: info TS037 the name abbreviates buf; write buffer out
+benches/bytes_mut.rs:254:9: info TS037 the name abbreviates cnt; write count out
+src/buf/buf_impl.rs:1:1: info TS004 the file carries 0 assertions across 71 functions, under the 142 the style asks for
+src/buf/buf_impl.rs:1:1: warning TS035 the branch builds a different program per target
+src/buf/buf_impl.rs:4:1: warning TS035 the branch builds a different program per target
+src/buf/buf_impl.rs:8:1: warning TS035 the branch builds a different program per target
+src/buf/buf_impl.rs:24:12: info TS031 [*] the comment opens in lower case
+src/buf/buf_impl.rs:26:79: info TS031 [*] the comment does not close with a full stop
+src/buf/buf_impl.rs:30:54: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/buf/buf_impl.rs:30:66: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/buf/buf_impl.rs:33:16: info TS031 [*] the comment opens in lower case
+src/buf/buf_impl.rs:33:73: info TS031 [*] the comment does not close with a full stop
+src/buf/buf_impl.rs:37:16: info TS031 [*] the comment opens in lower case
+src/buf/buf_impl.rs:37:70: info TS031 [*] the comment does not close with a full stop
+src/buf/buf_impl.rs:47:84: info TS031 [*] the comment does not close with a full stop
+src/buf/buf_impl.rs:88:15: warning TS022 the function does not assert val, nbytes at entry
+src/buf/buf_impl.rs:88:16: info TS037 the name abbreviates val; write value out
+src/buf/buf_impl.rs:88:34: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_impl.rs:90:12: info TS031 [*] the comment opens in lower case
+src/buf/buf_impl.rs:90:35: info TS031 [*] the comment does not close with a full stop
+src/buf/buf_impl.rs:148:28: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_impl.rs:180:5: warning TS035 the branch builds a different program per target
+src/buf/buf_impl.rs:210:5: warning TS035 the branch builds a different program per target
+src/buf/buf_impl.rs:211:5: warning TS035 the branch builds a different program per target
+src/buf/buf_impl.rs:212:38: info TS037 the name abbreviates dst; write destination out
+src/buf/buf_impl.rs:212:66: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_impl.rs:225:47: info TS031 [*] the comment does not close with a full stop
+src/buf/buf_impl.rs:255:27: info TS037 the name abbreviates cnt; write count out
+src/buf/buf_impl.rs:255:32: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_impl.rs:257:60: info TS031 [*] the comment does not close with a full stop
+src/buf/buf_impl.rs:299:33: info TS037 the name abbreviates dst; write destination out
+src/buf/buf_impl.rs:300:9: error TS028 the default hides the error; handle it or crash on it by name
+src/buf/buf_impl.rs:327:13: info TS037 the name abbreviates ret; write returned out
+src/buf/buf_impl.rs:355:13: info TS037 the name abbreviates ret; write returned out
+src/buf/buf_impl.rs:357:9: info TS026 the function get_i8 returns an unasserted value
+src/buf/buf_impl.rs:747:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/buf/buf_impl.rs:767:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/buf/buf_impl.rs:810:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/buf/buf_impl.rs:830:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/buf/buf_impl.rs:881:16: warning TS022 the function does not assert nbytes at entry
+src/buf/buf_impl.rs:881:36: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_impl.rs:902:19: warning TS022 the function does not assert nbytes at entry
+src/buf/buf_impl.rs:902:39: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_impl.rs:926:19: warning TS022 the function does not assert nbytes at entry
+src/buf/buf_impl.rs:926:39: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_impl.rs:927:12: warning TS035 the branch builds a different program per target
+src/buf/buf_impl.rs:951:15: warning TS022 the function does not assert nbytes at entry
+src/buf/buf_impl.rs:951:35: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_impl.rs:972:18: warning TS022 the function does not assert nbytes at entry
+src/buf/buf_impl.rs:972:38: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_impl.rs:996:18: warning TS022 the function does not assert nbytes at entry
+src/buf/buf_impl.rs:996:38: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_impl.rs:997:12: warning TS035 the branch builds a different program per target
+src/buf/buf_impl.rs:1166:41: info TS037 the name abbreviates dst; write destination out
+src/buf/buf_impl.rs:1174:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/buf/buf_impl.rs:1175:17: info TS037 the name abbreviates src; write source out
+src/buf/buf_impl.rs:1176:17: info TS037 the name abbreviates cnt; write count out
+src/buf/buf_impl.rs:1216:13: info TS037 the name abbreviates ret; write returned out
+src/buf/buf_impl.rs:1251:13: info TS037 the name abbreviates ret; write returned out
+src/buf/buf_impl.rs:1790:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/buf/buf_impl.rs:1818:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/buf/buf_impl.rs:1877:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/buf/buf_impl.rs:1905:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/buf/buf_impl.rs:1980:20: warning TS022 the function does not assert nbytes at entry
+src/buf/buf_impl.rs:1980:40: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_impl.rs:2012:23: warning TS022 the function does not assert nbytes at entry
+src/buf/buf_impl.rs:2012:43: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_impl.rs:2050:23: warning TS022 the function does not assert nbytes at entry
+src/buf/buf_impl.rs:2050:43: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_impl.rs:2051:12: warning TS035 the branch builds a different program per target
+src/buf/buf_impl.rs:2086:19: warning TS022 the function does not assert nbytes at entry
+src/buf/buf_impl.rs:2086:39: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_impl.rs:2118:22: warning TS022 the function does not assert nbytes at entry
+src/buf/buf_impl.rs:2118:42: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_impl.rs:2156:22: warning TS022 the function does not assert nbytes at entry
+src/buf/buf_impl.rs:2156:42: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_impl.rs:2157:12: warning TS035 the branch builds a different program per target
+src/buf/buf_impl.rs:2363:21: warning TS022 the function does not assert len at entry
+src/buf/buf_impl.rs:2363:33: info TS037 the name abbreviates len; write length out
+src/buf/buf_impl.rs:2373:17: info TS037 the name abbreviates ret; write returned out
+src/buf/buf_impl.rs:2399:12: warning TS022 the function does not assert limit at entry
+src/buf/buf_impl.rs:2399:26: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_impl.rs:2421:21: warning TS022 the function does not assert next at entry
+src/buf/buf_impl.rs:2451:5: warning TS035 the branch builds a different program per target
+src/buf/buf_impl.rs:2452:5: warning TS035 the branch builds a different program per target
+src/buf/buf_impl.rs:2461:1: warning TS018 the macro is long or repeats; keep an expansion small enough to read
+src/buf/buf_impl.rs:2465:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2470:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2473:9: warning TS035 the branch builds a different program per target
+src/buf/buf_impl.rs:2476:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2481:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2486:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2491:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2496:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2501:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2506:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2511:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2516:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2521:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2526:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2531:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2536:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2541:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2546:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2551:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2556:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2561:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2566:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2571:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2576:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2581:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2586:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2591:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2596:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2601:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2606:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2611:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2616:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2621:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2626:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2631:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2636:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2641:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2646:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2651:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2656:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2661:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2666:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2671:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2676:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2681:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2686:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2691:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2696:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2701:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2706:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2711:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2716:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2721:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2726:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2731:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2736:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2741:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2746:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2751:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2756:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2761:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2766:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2771:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2776:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2781:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2786:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2791:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2796:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2801:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2806:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2811:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2816:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2821:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2826:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2831:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2836:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2840:46: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_impl.rs:2841:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2845:46: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_impl.rs:2846:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2851:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2856:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2861:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2866:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2871:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2876:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2881:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_impl.rs:2906:15: warning TS022 the function does not assert cnt at entry
+src/buf/buf_impl.rs:2906:27: info TS037 the name abbreviates cnt; write count out
+src/buf/buf_impl.rs:2918:33: info TS037 the name abbreviates dst; write destination out
+src/buf/buf_impl.rs:2931:1: warning TS035 the branch builds a different program per target
+src/buf/buf_impl.rs:2941:13: info TS037 the name abbreviates pos; write position out
+src/buf/buf_impl.rs:2946:15: warning TS022 the function does not assert cnt at entry
+src/buf/buf_impl.rs:2946:27: info TS037 the name abbreviates cnt; write count out
+src/buf/buf_impl.rs:2948:13: info TS037 the name abbreviates pos; write position out
+src/buf/buf_impl.rs:2951:13: info TS025 the name leads with the qualifier max; put it last
+src/buf/buf_impl.rs:2951:13: info TS037 the name abbreviates cnt; write count out
+src/buf/buf_impl.rs:2967:25: info TS037 the name b is too short to spell a word; write the word out
+src/buf/buf_mut.rs:1:1: info TS004 the file carries 0 assertions across 28 functions, under the 56 the style asks for
+src/buf/buf_mut.rs:2:1: warning TS035 the branch builds a different program per target
+src/buf/buf_mut.rs:12:28: info TS031 [*] the comment does not close with a full stop
+src/buf/buf_mut.rs:30:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/buf/buf_mut.rs:64:32: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_mut.rs:66:50: info TS031 [*] the comment does not close with a full stop
+src/buf/buf_mut.rs:107:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/buf/buf_mut.rs:107:38: info TS037 the name abbreviates cnt; write count out
+src/buf/buf_mut.rs:107:43: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_mut.rs:178:5: warning TS035 the branch builds a different program per target
+src/buf/buf_mut.rs:202:26: warning TS022 the function does not assert src at entry
+src/buf/buf_mut.rs:202:42: info TS037 the name abbreviates src; write source out
+src/buf/buf_mut.rs:213:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/buf/buf_mut.rs:214:17: info TS037 the name s is too short to spell a word; write the word out
+src/buf/buf_mut.rs:215:17: info TS037 the name d is too short to spell a word; write the word out
+src/buf/buf_mut.rs:216:17: info TS037 the name abbreviates cnt; write count out
+src/buf/buf_mut.rs:246:33: info TS037 the name abbreviates src; write source out
+src/buf/buf_mut.rs:254:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/buf/buf_mut.rs:255:17: info TS037 the name abbreviates dst; write destination out
+src/buf/buf_mut.rs:256:17: info TS037 the name abbreviates cnt; write count out
+src/buf/buf_mut.rs:292:17: warning TS022 the function does not assert val, cnt at entry
+src/buf/buf_mut.rs:292:29: info TS037 the name abbreviates val; write value out
+src/buf/buf_mut.rs:292:42: info TS037 the name abbreviates cnt; write count out
+src/buf/buf_mut.rs:292:47: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_mut.rs:301:17: info TS037 the name abbreviates dst; write destination out
+src/buf/buf_mut.rs:302:17: info TS037 the name abbreviates dst; write destination out
+src/buf/buf_mut.rs:330:14: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:331:13: info TS037 the name abbreviates src; write source out
+src/buf/buf_mut.rs:354:14: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:355:13: info TS037 the name abbreviates src; write source out
+src/buf/buf_mut.rs:378:15: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:378:27: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:401:18: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:401:30: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:428:18: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:428:30: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:451:15: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:451:27: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:474:18: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:474:30: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:501:18: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:501:30: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:524:15: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:524:27: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:547:18: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:547:30: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:574:18: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:574:30: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:597:15: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:597:27: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:620:18: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:620:30: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:647:18: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:647:30: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:670:15: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:670:27: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:693:18: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:693:30: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:720:18: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:720:30: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:743:15: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:743:27: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:766:18: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:766:30: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:793:18: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:793:30: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:816:16: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:816:28: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:839:19: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:839:31: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:866:19: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:866:31: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:889:16: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:889:28: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:912:19: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:912:31: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:939:19: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:939:31: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:962:16: warning TS022 the function does not assert n, nbytes at entry
+src/buf/buf_mut.rs:962:28: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:962:44: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_mut.rs:990:19: warning TS022 the function does not assert n, nbytes at entry
+src/buf/buf_mut.rs:990:31: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:990:47: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_mut.rs:1023:19: warning TS022 the function does not assert n, nbytes at entry
+src/buf/buf_mut.rs:1023:31: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:1023:47: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_mut.rs:1024:12: warning TS035 the branch builds a different program per target
+src/buf/buf_mut.rs:1050:15: warning TS022 the function does not assert n, nbytes at entry
+src/buf/buf_mut.rs:1050:27: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:1050:43: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_mut.rs:1078:18: warning TS022 the function does not assert n, nbytes at entry
+src/buf/buf_mut.rs:1078:30: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:1078:46: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_mut.rs:1111:18: warning TS022 the function does not assert n, nbytes at entry
+src/buf/buf_mut.rs:1111:30: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:1111:46: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_mut.rs:1112:12: warning TS035 the branch builds a different program per target
+src/buf/buf_mut.rs:1139:15: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:1139:27: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:1163:18: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:1163:30: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:1191:18: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:1191:30: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:1215:15: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:1215:27: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:1239:18: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:1239:30: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:1267:18: warning TS022 the function does not assert n at entry
+src/buf/buf_mut.rs:1267:30: info TS037 the name n is too short to spell a word; write the word out
+src/buf/buf_mut.rs:1285:13: warning TS022 the function does not assert limit at entry
+src/buf/buf_mut.rs:1285:27: warning TS027 usize is architecture dependent; spell the width
+src/buf/buf_mut.rs:1314:5: warning TS035 the branch builds a different program per target
+src/buf/buf_mut.rs:1315:5: warning TS035 the branch builds a different program per target
+src/buf/buf_mut.rs:1345:28: warning TS022 the function does not assert next at entry
+src/buf/buf_mut.rs:1353:1: warning TS018 the macro is long or repeats; keep an expansion small enough to read
+src/buf/buf_mut.rs:1357:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1362:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1366:9: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/buf/buf_mut.rs:1367:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1372:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1377:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1382:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1387:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1392:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1397:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1402:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1407:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1412:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1417:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1422:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1427:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1432:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1437:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1442:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1447:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1452:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1457:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1462:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1467:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1472:14: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/buf/buf_mut.rs:1477:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/buf/buf_mut.rs:1481:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/buf/buf_mut.rs:1485:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/buf/buf_mut.rs:1497:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/buf/buf_mut.rs:1497:26: warning TS022 the function does not assert cnt at entry
+src/buf/buf_mut.rs:1497:38: info TS037 the name abbreviates cnt; write count out
+src/buf/buf_mut.rs:1506:17: info TS037 the name b is too short to spell a word; write the word out
+src/buf/buf_mut.rs:1511:29: info TS037 the name abbreviates src; write source out
+src/buf/buf_mut.rs:1525:17: warning TS022 the function does not assert val, cnt at entry
+src/buf/buf_mut.rs:1525:29: info TS037 the name abbreviates val; write value out
+src/buf/buf_mut.rs:1525:38: info TS037 the name abbreviates cnt; write count out
+src/buf/buf_mut.rs:1541:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/buf/buf_mut.rs:1553:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/buf/buf_mut.rs:1553:26: warning TS022 the function does not assert cnt at entry
+src/buf/buf_mut.rs:1553:38: info TS037 the name abbreviates cnt; write count out
+src/buf/buf_mut.rs:1562:17: info TS037 the name b is too short to spell a word; write the word out
+src/buf/buf_mut.rs:1567:29: info TS037 the name abbreviates src; write source out
+src/buf/buf_mut.rs:1583:17: warning TS022 the function does not assert val, cnt at entry
+src/buf/buf_mut.rs:1583:29: info TS037 the name abbreviates val; write value out
+src/buf/buf_mut.rs:1583:38: info TS037 the name abbreviates cnt; write count out
+src/buf/buf_mut.rs:1593:51: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/buf/buf_mut.rs:1599:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/buf/buf_mut.rs:1602:62: info TS031 [*] the comment does not close with a full stop
+src/buf/buf_mut.rs:1603:9: info TS026 the function remaining_mut returns an unasserted value
+src/buf/buf_mut.rs:1607:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/buf/buf_mut.rs:1607:26: warning TS022 the function does not assert cnt at entry
+src/buf/buf_mut.rs:1607:38: info TS037 the name abbreviates cnt; write count out
+src/buf/buf_mut.rs:1625:13: warning TS016 reserve allocates; reserve the memory during initialization
+src/buf/buf_mut.rs:1628:13: info TS043 the binding is used only inside the block that opens on line 1635; declare it inside that block
+src/buf/buf_mut.rs:1629:13: info TS043 the binding is used only inside the block that opens on line 1635; declare it inside that block
+src/buf/buf_mut.rs:1631:13: info TS037 the name abbreviates ptr; write pointer out
+src/buf/buf_mut.rs:1631:13: info TS043 the binding is used only inside the block that opens on line 1635; declare it inside that block
+src/buf/buf_mut.rs:1641:26: warning TS022 the function does not assert src at entry
+src/buf/buf_mut.rs:1641:42: info TS037 the name abbreviates src; write source out
+src/buf/buf_mut.rs:1646:9: warning TS016 reserve allocates; reserve the memory during initialization
+src/buf/buf_mut.rs:1648:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/buf/buf_mut.rs:1649:17: info TS037 the name s is too short to spell a word; write the word out
+src/buf/buf_mut.rs:1650:17: info TS037 the name l is too short to spell a word; write the word out
+src/buf/buf_mut.rs:1657:29: info TS037 the name abbreviates src; write source out
+src/buf/buf_mut.rs:1662:17: warning TS022 the function does not assert val, cnt at entry
+src/buf/buf_mut.rs:1662:29: info TS037 the name abbreviates val; write value out
+src/buf/buf_mut.rs:1662:38: info TS037 the name abbreviates cnt; write count out
+src/buf/buf_mut.rs:1664:13: info TS025 the name leads with the qualifier new; put it last
+src/buf/buf_mut.rs:1664:13: info TS037 the name abbreviates len; write length out
+src/buf/buf_mut.rs:1665:9: warning TS016 resize allocates; reserve the memory during initialization
+src/buf/buf_mut.rs:1671:25: info TS037 the name b is too short to spell a word; write the word out
+src/buf/chain.rs:1:1: info TS004 the file carries 1 assertions across 6 functions, under the 12 the style asks for
+src/buf/chain.rs:4:1: warning TS035 the branch builds a different program per target
+src/buf/chain.rs:31:5: info TS037 the name a is too short to spell a word; write the word out
+src/buf/chain.rs:32:5: info TS037 the name b is too short to spell a word; write the word out
+src/buf/chain.rs:37:22: warning TS022 the function does not assert a, b at entry
+src/buf/chain.rs:37:23: info TS037 the name a is too short to spell a word; write the word out
+src/buf/chain.rs:37:29: info TS037 the name b is too short to spell a word; write the word out
+src/buf/chain.rs:53:12: info TS025 the name leads with the qualifier first; put it last
+src/buf/chain.rs:53:12: info TS037 the name abbreviates ref; write reference out
+src/buf/chain.rs:72:12: info TS025 the name leads with the qualifier first; put it last
+src/buf/chain.rs:88:12: info TS025 the name leads with the qualifier last; put it last
+src/buf/chain.rs:88:12: info TS037 the name abbreviates ref; write reference out
+src/buf/chain.rs:107:12: info TS025 the name leads with the qualifier last; put it last
+src/buf/chain.rs:147:15: warning TS022 the function does not assert cnt at entry
+src/buf/chain.rs:147:31: info TS037 the name abbreviates cnt; write count out
+src/buf/chain.rs:156:41: info TS031 [*] the comment does not close with a full stop
+src/buf/chain.rs:165:5: warning TS035 the branch builds a different program per target
+src/buf/chain.rs:166:38: info TS037 the name abbreviates dst; write destination out
+src/buf/chain.rs:172:21: warning TS022 the function does not assert len at entry
+src/buf/chain.rs:172:33: info TS037 the name abbreviates len; write length out
+src/buf/chain.rs:181:17: info TS055 [*] the wrapped list ends without a trailing comma
+src/buf/chain.rs:183:21: info TS037 the name abbreviates ret; write returned out
+src/buf/chain.rs:191:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/buf/chain.rs:210:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/buf/chain.rs:210:26: warning TS022 the function does not assert cnt at entry
+src/buf/chain.rs:210:42: info TS037 the name abbreviates cnt; write count out
+src/buf/chain.rs:219:41: info TS031 [*] the comment does not close with a full stop
+src/buf/iter.rs:1:1: info TS004 the file carries 0 assertions across 2 functions, under the 4 the style asks for
+src/buf/iter.rs:41:15: warning TS022 the function does not assert inner at entry
+src/buf/iter.rs:80:12: info TS037 the name abbreviates ref; write reference out
+src/buf/iter.rs:115:13: info TS037 the name b is too short to spell a word; write the word out
+src/buf/limit.rs:1:1: info TS004 the file carries 1 assertions across 2 functions, under the 4 the style asks for
+src/buf/limit.rs:11:12: warning TS027 usize is architecture dependent; spell the width
+src/buf/limit.rs:14:21: warning TS022 the function does not assert inner, limit at entry
+src/buf/limit.rs:14:39: warning TS027 usize is architecture dependent; spell the width
+src/buf/limit.rs:27:12: info TS037 the name abbreviates ref; write reference out
+src/buf/limit.rs:38:64: info TS031 [*] the comment does not close with a full stop
+src/buf/limit.rs:44:28: warning TS027 usize is architecture dependent; spell the width
+src/buf/limit.rs:54:21: warning TS022 the function does not assert lim at entry
+src/buf/limit.rs:54:38: warning TS027 usize is architecture dependent; spell the width
+src/buf/limit.rs:59:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/buf/limit.rs:70:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/buf/limit.rs:70:38: info TS037 the name abbreviates cnt; write count out
+src/buf/mod.rs:22:1: warning TS035 the branch builds a different program per target
+src/buf/mod.rs:27:1: warning TS035 the branch builds a different program per target
+src/buf/mod.rs:38:1: warning TS035 the branch builds a different program per target
+src/buf/reader.rs:1:1: info TS004 the file carries 0 assertions across 1 functions, under the 2 the style asks for
+src/buf/reader.rs:12:5: info TS037 the name abbreviates buf; write buffer out
+src/buf/reader.rs:15:14: warning TS022 the function does not assert buf at entry
+src/buf/reader.rs:15:15: info TS037 the name abbreviates buf; write buffer out
+src/buf/reader.rs:33:12: info TS037 the name abbreviates ref; write reference out
+src/buf/reader.rs:66:24: info TS037 the name abbreviates dst; write destination out
+src/buf/reader.rs:78:15: warning TS022 the function does not assert amt at entry
+src/buf/take.rs:1:1: info TS004 the file carries 2 assertions across 4 functions, under the 8 the style asks for
+src/buf/take.rs:5:1: warning TS035 the branch builds a different program per target
+src/buf/take.rs:15:12: warning TS027 usize is architecture dependent; spell the width
+src/buf/take.rs:18:14: warning TS022 the function does not assert inner, limit at entry
+src/buf/take.rs:18:32: warning TS027 usize is architecture dependent; spell the width
+src/buf/take.rs:59:12: info TS037 the name abbreviates ref; write reference out
+src/buf/take.rs:102:28: warning TS027 usize is architecture dependent; spell the width
+src/buf/take.rs:130:21: warning TS022 the function does not assert lim at entry
+src/buf/take.rs:130:38: warning TS027 usize is architecture dependent; spell the width
+src/buf/take.rs:145:27: info TS037 the name abbreviates cnt; write count out
+src/buf/take.rs:151:33: info TS037 the name abbreviates len; write length out
+src/buf/take.rs:154:13: info TS037 the name r is too short to spell a word; write the word out
+src/buf/take.rs:159:5: warning TS035 the branch builds a different program per target
+src/buf/take.rs:160:38: info TS037 the name abbreviates dst; write destination out
+src/buf/take.rs:165:15: info TS037 the name abbreviates len; write length out
+src/buf/take.rs:168:13: info TS037 the name abbreviates cnt; write count out
+src/buf/take.rs:172:18: info TS037 the name abbreviates dst; write destination out
+src/buf/take.rs:173:25: info TS037 the name abbreviates buf; write buffer out
+src/buf/take.rs:175:21: info TS037 the name abbreviates buf; write buffer out
+src/buf/take.rs:177:17: info TS026 the function chunks_vectored returns an unasserted value
+src/buf/take.rs:180:21: info TS037 the name abbreviates buf; write buffer out
+src/buf/uninit_slice.rs:1:1: info TS004 the file carries 2 assertions across 3 functions, under the 6 the style asks for
+src/buf/uninit_slice.rs:37:34: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/buf/uninit_slice.rs:37:47: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/buf/uninit_slice.rs:37:73: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/buf/uninit_slice.rs:56:34: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/buf/uninit_slice.rs:56:60: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/buf/uninit_slice.rs:59:8: info TS037 the name abbreviates ref; write reference out
+src/buf/uninit_slice.rs:60:30: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/buf/uninit_slice.rs:60:58: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/buf/uninit_slice.rs:82:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/buf/uninit_slice.rs:82:41: warning TS022 the function does not assert ptr, len at entry
+src/buf/uninit_slice.rs:82:42: info TS037 the name abbreviates ptr; write pointer out
+src/buf/uninit_slice.rs:82:47: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/buf/uninit_slice.rs:82:56: info TS037 the name abbreviates len; write length out
+src/buf/uninit_slice.rs:82:61: warning TS027 usize is architecture dependent; spell the width
+src/buf/uninit_slice.rs:83:13: info TS037 the name abbreviates init; write initialize out
+src/buf/uninit_slice.rs:84:52: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/buf/uninit_slice.rs:107:22: warning TS022 the function does not assert byte at entry
+src/buf/uninit_slice.rs:134:39: info TS037 the name abbreviates src; write source out
+src/buf/uninit_slice.rs:161:12: info TS037 the name abbreviates ptr; write pointer out
+src/buf/uninit_slice.rs:161:37: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/buf/uninit_slice.rs:162:32: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/buf/uninit_slice.rs:187:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/buf/uninit_slice.rs:205:12: info TS037 the name abbreviates len; write length out
+src/buf/uninit_slice.rs:211:19: info TS037 the name abbreviates fmt; write format out
+src/buf/uninit_slice.rs:228:1: warning TS018 the macro is long or repeats; keep an expansion small enough to read
+src/buf/uninit_slice.rs:256:27: info TS055 [*] the wrapped list ends without a trailing comma
+src/buf/vec_deque.rs:1:1: info TS004 the file carries 0 assertions across 3 functions, under the 6 the style asks for
+src/buf/vec_deque.rs:2:1: warning TS035 the branch builds a different program per target
+src/buf/vec_deque.rs:13:14: info TS037 the name s1 is too short to spell a word; write the word out
+src/buf/vec_deque.rs:13:18: info TS037 the name s2 is too short to spell a word; write the word out
+src/buf/vec_deque.rs:21:5: warning TS035 the branch builds a different program per target
+src/buf/vec_deque.rs:22:38: info TS037 the name abbreviates dst; write destination out
+src/buf/vec_deque.rs:23:12: warning TS023 the condition combines booleans; split it into nested branches
+src/buf/vec_deque.rs:27:14: info TS037 the name s1 is too short to spell a word; write the word out
+src/buf/vec_deque.rs:27:18: info TS037 the name s2 is too short to spell a word; write the word out
+src/buf/vec_deque.rs:29:12: warning TS023 the condition combines booleans; split it into nested branches
+src/buf/vec_deque.rs:37:15: warning TS022 the function does not assert cnt at entry
+src/buf/vec_deque.rs:37:27: info TS037 the name abbreviates cnt; write count out
+src/buf/writer.rs:1:1: info TS004 the file carries 0 assertions across 1 functions, under the 2 the style asks for
+src/buf/writer.rs:12:5: info TS037 the name abbreviates buf; write buffer out
+src/buf/writer.rs:15:14: warning TS022 the function does not assert buf at entry
+src/buf/writer.rs:15:15: info TS037 the name abbreviates buf; write buffer out
+src/buf/writer.rs:33:12: info TS037 the name abbreviates ref; write reference out
+src/buf/writer.rs:78:25: info TS037 the name abbreviates src; write source out
+src/bytes.rs:1:1: info TS004 the file carries 19 assertions across 46 functions, under the 92 the style asks for
+src/bytes.rs:15:1: warning TS020 [*] the attribute silences a checker
+src/bytes.rs:102:5: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:102:10: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:103:5: info TS037 the name abbreviates len; write length out
+src/bytes.rs:104:8: info TS031 [*] the comment opens in lower case
+src/bytes.rs:104:30: info TS031 [*] the comment does not close with a full stop
+src/bytes.rs:115:16: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:115:53: warning TS027 usize is architecture dependent; spell the width
+src/bytes.rs:119:9: info TS037 the name abbreviates vec; write vector out
+src/bytes.rs:119:19: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:119:49: warning TS027 usize is architecture dependent; spell the width
+src/bytes.rs:120:19: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:120:49: warning TS027 usize is architecture dependent; spell the width
+src/bytes.rs:122:20: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:124:15: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:124:45: warning TS027 usize is architecture dependent; spell the width
+src/bytes.rs:144:56: info TS031 [*] the comment does not close with a full stop
+src/bytes.rs:192:8: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:192:27: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:192:32: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:197:13: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:253:9: info TS031 [*] the comment opens in lower case
+src/bytes.rs:254:25: warning TS022 the function does not assert owner at entry
+src/bytes.rs:273:35: warning TS016 Box::new allocates; reserve the memory during initialization
+src/bytes.rs:278:17: info TS037 the name abbreviates ret; write returned out
+src/bytes.rs:285:13: info TS037 the name abbreviates buf; write buffer out
+src/bytes.rs:303:18: info TS037 the name abbreviates len; write length out
+src/bytes.rs:348:9: warning TS016 into allocates; reserve the memory during initialization
+src/bytes.rs:348:9: warning TS016 data.to_vec allocates; reserve the memory during initialization
+src/bytes.rs:373:17: warning TS022 the function does not assert range at entry
+src/bytes.rs:380:17: info TS037 the name abbreviates ret; write returned out
+src/bytes.rs:380:23: warning TS016 clone allocates; reserve the memory during initialization
+src/bytes.rs:413:12: info TS037 the name abbreviates ref; write reference out
+src/bytes.rs:420:13: info TS025 the name leads with the qualifier bytes; put it last
+src/bytes.rs:421:13: info TS025 the name leads with the qualifier bytes; put it last
+src/bytes.rs:421:13: info TS037 the name abbreviates len; write length out
+src/bytes.rs:424:13: info TS037 the name abbreviates len; write length out
+src/bytes.rs:472:21: warning TS022 the function does not assert at at entry
+src/bytes.rs:488:17: info TS037 the name abbreviates ret; write returned out
+src/bytes.rs:488:23: warning TS016 clone allocates; reserve the memory during initialization
+src/bytes.rs:523:20: warning TS022 the function does not assert at at entry
+src/bytes.rs:525:17: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:540:17: info TS037 the name abbreviates ret; write returned out
+src/bytes.rs:540:23: warning TS016 clone allocates; reserve the memory during initialization
+src/bytes.rs:569:20: warning TS022 the function does not assert len at entry
+src/bytes.rs:569:32: info TS037 the name abbreviates len; write length out
+src/bytes.rs:576:16: warning TS023 the condition combines booleans; split it into nested branches
+src/bytes.rs:576:31: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:577:35: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:622:16: warning TS016 into allocates; reserve the memory during initialization
+src/bytes.rs:629:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:629:37: warning TS022 the function does not assert ptr, len, data at entry
+src/bytes.rs:630:9: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:630:14: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:631:9: info TS037 the name abbreviates len; write length out
+src/bytes.rs:631:14: warning TS027 usize is architecture dependent; spell the width
+src/bytes.rs:643:8: info TS031 [*] the comment opens in lower case
+src/bytes.rs:643:15: info TS031 [*] the comment does not close with a full stop
+src/bytes.rs:651:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:652:12: info TS031 [*] the comment opens in lower case
+src/bytes.rs:652:66: info TS031 [*] the comment does not close with a full stop
+src/bytes.rs:659:31: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:660:29: info TS037 the name p is too short to spell a word; write the word out
+src/bytes.rs:664:37: info TS031 [*] the comment does not close with a full stop
+src/bytes.rs:665:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:666:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:671:13: info TS043 the binding is used only inside the block that opens on line 672; declare it inside that block
+src/bytes.rs:695:27: info TS037 the name abbreviates cnt; write count out
+src/bytes.rs:708:21: warning TS022 the function does not assert len at entry
+src/bytes.rs:708:33: info TS037 the name abbreviates len; write length out
+src/bytes.rs:763:45: warning TS022 the function does not assert into_iter at entry
+src/bytes.rs:763:46: info TS037 the name abbreviates iter; write iterator out
+src/bytes.rs:764:9: warning TS016 into allocates; reserve the memory during initialization
+src/bytes.rs:768:4: info TS031 [*] the comment opens in lower case
+src/bytes.rs:768:11: info TS031 [*] the comment does not close with a full stop
+src/bytes.rs:914:25: warning TS051 the type points at a pointer; one level of dereference is the limit
+src/bytes.rs:915:18: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/bytes.rs:923:34: warning TS051 the type points at a pointer; one level of dereference is the limit
+src/bytes.rs:924:27: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/bytes.rs:928:4: info TS031 [*] the comment opens in lower case
+src/bytes.rs:928:13: info TS031 [*] the comment does not close with a full stop
+src/bytes.rs:950:12: warning TS022 the function does not assert vec at entry
+src/bytes.rs:950:13: info TS037 the name abbreviates vec; write vector out
+src/bytes.rs:953:32: warning TS016 vec.into_boxed_slice allocates; reserve the memory during initialization
+src/bytes.rs:956:22: warning TS016 Box::new allocates; reserve the memory during initialization
+src/bytes.rs:957:17: info TS037 the name abbreviates vec; write vector out
+src/bytes.rs:958:13: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:987:12: warning TS022 the function does not assert slice at entry
+src/bytes.rs:996:13: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:996:43: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:999:38: info TS037 the name abbreviates addr; write address out
+src/bytes.rs:1033:12: warning TS022 the function does not assert bytes at entry
+src/bytes.rs:1035:13: info TS043 the binding is used only inside the block that opens on line 1036; declare it inside that block
+src/bytes.rs:1041:12: warning TS022 the function does not assert s at entry
+src/bytes.rs:1041:13: info TS037 the name s is too short to spell a word; write the word out
+src/bytes.rs:1047:12: warning TS022 the function does not assert bytes at entry
+src/bytes.rs:1049:13: info TS043 the binding is used only inside the block that opens on line 1050; declare it inside that block
+src/bytes.rs:1057:19: info TS037 the name f is too short to spell a word; write the word out
+src/bytes.rs:1059:45: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1060:43: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1075:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1075:23: warning TS022 the function does not assert ptr, len at entry
+src/bytes.rs:1075:43: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1075:59: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1080:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1080:11: info TS037 the name abbreviates vec; write vector out
+src/bytes.rs:1080:24: warning TS022 the function does not assert ptr, len at entry
+src/bytes.rs:1080:37: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1080:53: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1082:5: warning TS016 slice.to_vec allocates; reserve the memory during initialization
+src/bytes.rs:1085:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1085:24: warning TS022 the function does not assert ptr, len at entry
+src/bytes.rs:1085:37: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1085:53: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1094:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1102:5: info TS037 the name abbreviates ref; write reference out
+src/bytes.rs:1116:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1116:25: warning TS022 the function does not assert ptr, len at entry
+src/bytes.rs:1116:48: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1116:64: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1118:9: info TS025 the name leads with the qualifier old; put it last
+src/bytes.rs:1118:9: info TS037 the name abbreviates cnt; write count out
+src/bytes.rs:1131:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1131:11: info TS037 the name abbreviates vec; write vector out
+src/bytes.rs:1131:26: warning TS022 the function does not assert owned, ptr, len at entry
+src/bytes.rs:1131:43: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1131:59: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1133:9: info TS037 the name abbreviates vec; write vector out
+src/bytes.rs:1133:15: warning TS016 slice.to_vec allocates; reserve the memory during initialization
+src/bytes.rs:1138:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1138:26: warning TS022 the function does not assert owned, ptr, len at entry
+src/bytes.rs:1138:43: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1138:59: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1142:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1146:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1146:11: info TS037 the name abbreviates impl; write implementation out
+src/bytes.rs:1146:29: warning TS022 the function does not assert owned at entry
+src/bytes.rs:1146:37: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1148:13: info TS037 the name abbreviates ref; write reference out
+src/bytes.rs:1150:13: info TS025 the name leads with the qualifier old; put it last
+src/bytes.rs:1150:13: info TS037 the name abbreviates cnt; write count out
+src/bytes.rs:1151:9: warning TS024 the assertion is compound; write one assertion for each condition
+src/bytes.rs:1153:13: info TS055 [*] the wrapped list ends without a trailing comma
+src/bytes.rs:1164:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1164:24: warning TS022 the function does not assert data at entry
+src/bytes.rs:1164:40: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1164:57: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1170:1: error TS005 the global is mutable
+src/bytes.rs:1178:1: error TS005 the global is mutable
+src/bytes.rs:1186:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1186:32: warning TS022 the function does not assert ptr, len at entry
+src/bytes.rs:1186:55: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1186:71: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1194:13: info TS037 the name abbreviates buf; write buffer out
+src/bytes.rs:1194:43: info TS037 the name abbreviates addr; write address out
+src/bytes.rs:1199:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1199:11: info TS037 the name abbreviates vec; write vector out
+src/bytes.rs:1199:28: warning TS022 the function does not assert shared, ptr, len at entry
+src/bytes.rs:1200:13: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1201:5: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1201:10: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1202:5: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1202:10: warning TS027 usize is architecture dependent; spell the width
+src/bytes.rs:1203:5: info TS037 the name f is too short to spell a word; write the word out
+src/bytes.rs:1203:23: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1213:13: info TS037 the name abbreviates buf; write buffer out
+src/bytes.rs:1217:28: info TS031 [*] the comment does not close with a full stop
+src/bytes.rs:1224:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1224:28: warning TS022 the function does not assert shared, ptr, len at entry
+src/bytes.rs:1225:13: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1226:5: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1226:10: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1227:5: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1227:10: warning TS027 usize is architecture dependent; spell the width
+src/bytes.rs:1228:5: info TS037 the name f is too short to spell a word; write the word out
+src/bytes.rs:1228:23: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1241:13: info TS037 the name abbreviates buf; write buffer out
+src/bytes.rs:1244:13: info TS037 the name v is too short to spell a word; write the word out
+src/bytes.rs:1246:17: info TS037 the name b is too short to spell a word; write the word out
+src/bytes.rs:1252:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1252:11: info TS037 the name abbreviates vec; write vector out
+src/bytes.rs:1252:33: warning TS022 the function does not assert shared, ptr, len at entry
+src/bytes.rs:1252:51: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1252:67: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1254:33: info TS037 the name abbreviates addr; write address out
+src/bytes.rs:1258:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1258:33: warning TS022 the function does not assert shared, ptr, len at entry
+src/bytes.rs:1258:51: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1258:67: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1260:33: info TS037 the name abbreviates addr; write address out
+src/bytes.rs:1264:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1264:31: warning TS022 the function does not assert shared, ptr, len at entry
+src/bytes.rs:1264:49: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1264:65: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1271:13: info TS037 the name abbreviates buf; write buffer out
+src/bytes.rs:1271:43: info TS037 the name abbreviates addr; write address out
+src/bytes.rs:1276:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1276:31: warning TS022 the function does not assert ptr, len at entry
+src/bytes.rs:1276:54: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1276:70: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1288:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1288:11: info TS037 the name abbreviates vec; write vector out
+src/bytes.rs:1288:32: warning TS022 the function does not assert shared, ptr, len at entry
+src/bytes.rs:1288:50: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1288:66: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1292:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1292:32: warning TS022 the function does not assert shared, ptr, len at entry
+src/bytes.rs:1292:50: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1292:66: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1296:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1296:30: warning TS022 the function does not assert shared, ptr, len at entry
+src/bytes.rs:1296:48: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1296:64: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1308:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1313:13: info TS037 the name abbreviates ref; write reference out
+src/bytes.rs:1320:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1320:27: warning TS022 the function does not assert buf, offset, len at entry
+src/bytes.rs:1320:28: info TS037 the name abbreviates buf; write buffer out
+src/bytes.rs:1320:33: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1320:50: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1320:61: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1320:66: warning TS027 usize is architecture dependent; spell the width
+src/bytes.rs:1328:76: info TS031 [*] the comment does not close with a full stop
+src/bytes.rs:1329:5: info TS037 the name abbreviates buf; write buffer out
+src/bytes.rs:1329:10: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1330:10: warning TS027 usize is architecture dependent; spell the width
+src/bytes.rs:1331:5: info TS037 the name abbreviates ref; write reference out
+src/bytes.rs:1335:8: info TS037 the name abbreviates init; write initialize out
+src/bytes.rs:1335:19: warning TS022 the function does not assert b, v at entry
+src/bytes.rs:1335:20: info TS037 the name b is too short to spell a word; write the word out
+src/bytes.rs:1335:47: info TS037 the name v is too short to spell a word; write the word out
+src/bytes.rs:1335:59: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1356:9: info TS055 [*] the wrapped list ends without a trailing comma
+src/bytes.rs:1360:1: error TS005 the global is mutable
+src/bytes.rs:1368:17: warning TS027 usize is architecture dependent; spell the width
+src/bytes.rs:1369:7: info TS037 the name abbreviates vec; write vector out
+src/bytes.rs:1369:17: warning TS027 usize is architecture dependent; spell the width
+src/bytes.rs:1370:18: warning TS027 usize is architecture dependent; spell the width
+src/bytes.rs:1372:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1372:23: warning TS022 the function does not assert ptr, len at entry
+src/bytes.rs:1372:46: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1372:62: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1377:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1377:11: info TS037 the name abbreviates vec; write vector out
+src/bytes.rs:1377:29: warning TS022 the function does not assert shared, ptr, len at entry
+src/bytes.rs:1377:38: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1377:51: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1377:56: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1377:67: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1377:72: warning TS027 usize is architecture dependent; spell the width
+src/bytes.rs:1395:28: info TS031 [*] the comment does not close with a full stop
+src/bytes.rs:1400:13: info TS037 the name v is too short to spell a word; write the word out
+src/bytes.rs:1400:17: warning TS016 to_vec allocates; reserve the memory during initialization
+src/bytes.rs:1406:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1406:11: info TS037 the name abbreviates vec; write vector out
+src/bytes.rs:1406:24: warning TS022 the function does not assert shared, ptr, len at entry
+src/bytes.rs:1406:42: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1406:58: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1410:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1410:11: info TS037 the name abbreviates impl; write implementation out
+src/bytes.rs:1410:29: warning TS022 the function does not assert shared, ptr, len at entry
+src/bytes.rs:1410:38: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1410:51: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1410:56: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1410:67: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1410:72: warning TS027 usize is architecture dependent; spell the width
+src/bytes.rs:1430:23: info TS031 [*] the comment does not close with a full stop
+src/bytes.rs:1432:13: info TS037 the name v is too short to spell a word; write the word out
+src/bytes.rs:1434:17: info TS037 the name b is too short to spell a word; write the word out
+src/bytes.rs:1438:67: info TS031 [*] the comment does not close with a full stop
+src/bytes.rs:1439:13: info TS037 the name v is too short to spell a word; write the word out
+src/bytes.rs:1439:17: warning TS016 to_vec allocates; reserve the memory during initialization
+src/bytes.rs:1445:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1445:24: warning TS022 the function does not assert shared, ptr, len at entry
+src/bytes.rs:1445:42: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1445:58: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1449:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1451:9: info TS037 the name abbreviates ref; write reference out
+src/bytes.rs:1455:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1455:22: warning TS022 the function does not assert shared at entry
+src/bytes.rs:1455:40: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1455:57: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1459:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1459:28: warning TS022 the function does not assert shared, ptr, len at entry
+src/bytes.rs:1459:37: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1459:50: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1459:55: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1459:66: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1459:71: warning TS027 usize is architecture dependent; spell the width
+src/bytes.rs:1460:9: info TS025 the name leads with the qualifier old; put it last
+src/bytes.rs:1475:1: warning TS002 the function is 72 lines, over the 70 line limit
+src/bytes.rs:1475:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1475:11: info TS037 the name abbreviates vec; write vector out
+src/bytes.rs:1475:28: warning TS022 the function does not assert ptr, buf, offset, len at entry
+src/bytes.rs:1477:5: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1477:10: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1478:5: info TS037 the name abbreviates buf; write buffer out
+src/bytes.rs:1478:10: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1479:13: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1480:5: info TS037 the name abbreviates len; write length out
+src/bytes.rs:1480:10: warning TS027 usize is architecture dependent; spell the width
+src/bytes.rs:1493:18: warning TS016 Box::new allocates; reserve the memory during initialization
+src/bytes.rs:1548:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes.rs:1548:25: warning TS022 the function does not assert ptr at entry
+src/bytes.rs:1548:26: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1548:31: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1561:53: info TS031 [*] the comment does not close with a full stop
+src/bytes.rs:1576:21: info TS031 [*] the comment does not close with a full stop
+src/bytes.rs:1586:1: warning TS035 the branch builds a different program per target
+src/bytes.rs:1587:4: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1587:14: warning TS022 the function does not assert ptr at entry
+src/bytes.rs:1587:15: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1587:20: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1587:29: info TS037 the name f is too short to spell a word; write the word out
+src/bytes.rs:1587:38: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1589:15: warning TS027 usize is architecture dependent; spell the width
+src/bytes.rs:1589:25: warning TS027 usize is architecture dependent; spell the width
+src/bytes.rs:1591:9: info TS025 the name leads with the qualifier old; put it last
+src/bytes.rs:1591:9: info TS037 the name abbreviates addr; write address out
+src/bytes.rs:1592:9: info TS025 the name leads with the qualifier new; put it last
+src/bytes.rs:1592:9: info TS037 the name abbreviates addr; write address out
+src/bytes.rs:1597:1: warning TS035 the branch builds a different program per target
+src/bytes.rs:1598:4: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1598:14: warning TS022 the function does not assert ptr at entry
+src/bytes.rs:1598:15: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1598:20: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1598:29: info TS037 the name f is too short to spell a word; write the word out
+src/bytes.rs:1598:38: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1600:15: warning TS027 usize is architecture dependent; spell the width
+src/bytes.rs:1600:25: warning TS027 usize is architecture dependent; spell the width
+src/bytes.rs:1602:9: info TS025 the name leads with the qualifier old; put it last
+src/bytes.rs:1602:9: info TS037 the name abbreviates addr; write address out
+src/bytes.rs:1603:9: info TS025 the name leads with the qualifier new; put it last
+src/bytes.rs:1603:9: info TS037 the name abbreviates addr; write address out
+src/bytes.rs:1604:17: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1607:22: warning TS022 the function does not assert ptr at entry
+src/bytes.rs:1607:23: info TS037 the name abbreviates ptr; write pointer out
+src/bytes.rs:1607:28: warning TS027 usize is architecture dependent; spell the width
+src/bytes.rs:1607:38: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes.rs:1633:4: info TS031 [*] the comment opens in lower case
+src/bytes.rs:1633:14: info TS031 [*] the comment does not close with a full stop
+src/bytes.rs:1641:8: info TS025 the name leads with the qualifier bytes; put it last
+src/bytes.rs:1641:8: info TS037 the name abbreviates vec; write vector out
+src/bytes.rs:1643:17: info TS037 the name a is too short to spell a word; write the word out
+src/bytes.rs:1644:17: info TS037 the name abbreviates addr; write address out
+src/bytes.rs:1646:16: info TS031 [*] the comment opens in lower case
+src/bytes.rs:1646:69: info TS031 [*] the comment does not close with a full stop
+src/bytes.rs:1647:17: info TS037 the name a1 is too short to spell a word; write the word out
+src/bytes.rs:1648:17: info TS037 the name a2 is too short to spell a word; write the word out
+src/bytes.rs:1650:17: info TS037 the name t1 is too short to spell a word; write the word out
+src/bytes.rs:1651:21: info TS037 the name b is too short to spell a word; write the word out
+src/bytes.rs:1655:17: info TS037 the name t2 is too short to spell a word; write the word out
+src/bytes.rs:1656:21: info TS037 the name b is too short to spell a word; write the word out
+src/bytes_mut.rs:1:1: info TS004 the file carries 36 assertions across 49 functions, under the 98 the style asks for
+src/bytes_mut.rs:16:1: warning TS020 [*] the attribute silences a checker
+src/bytes_mut.rs:61:5: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:62:5: info TS037 the name abbreviates len; write length out
+src/bytes_mut.rs:64:11: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes_mut.rs:77:5: info TS037 the name abbreviates vec; write vector out
+src/bytes_mut.rs:78:29: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:79:5: info TS037 the name abbreviates ref; write reference out
+src/bytes_mut.rs:83:8: info TS037 the name abbreviates init; write initialize out
+src/bytes_mut.rs:83:19: warning TS022 the function does not assert b, v at entry
+src/bytes_mut.rs:83:20: info TS037 the name b is too short to spell a word; write the word out
+src/bytes_mut.rs:83:47: info TS037 the name v is too short to spell a word; write the word out
+src/bytes_mut.rs:83:59: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes_mut.rs:98:9: info TS055 [*] the wrapped list ends without a trailing comma
+src/bytes_mut.rs:103:17: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:104:7: info TS037 the name abbreviates vec; write vector out
+src/bytes_mut.rs:104:17: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:105:18: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:109:7: info TS025 the name leads with the qualifier MAX; put it last
+src/bytes_mut.rs:109:36: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:112:7: info TS025 the name leads with the qualifier MIN; put it last
+src/bytes_mut.rs:115:31: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:116:33: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:118:7: info TS037 the name abbreviates vec; write vector out
+src/bytes_mut.rs:118:23: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:123:7: info TS025 the name leads with the qualifier MAX; put it last
+src/bytes_mut.rs:123:7: info TS037 the name abbreviates vec; write vector out
+src/bytes_mut.rs:123:20: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:124:7: info TS037 the name abbreviates vec; write vector out
+src/bytes_mut.rs:124:25: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:126:1: warning TS035 the branch builds a different program per target
+src/bytes_mut.rs:127:7: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:127:18: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:128:1: warning TS035 the branch builds a different program per target
+src/bytes_mut.rs:129:7: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:129:18: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:161:25: warning TS022 the function does not assert capacity at entry
+src/bytes_mut.rs:161:36: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:200:12: info TS037 the name abbreviates len; write length out
+src/bytes_mut.rs:262:55: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:265:21: info TS037 the name abbreviates vec; write vector out
+src/bytes_mut.rs:266:25: info TS037 the name b is too short to spell a word; write the word out
+src/bytes_mut.rs:266:36: warning TS016 vec.into allocates; reserve the memory during initialization
+src/bytes_mut.rs:273:17: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:273:17: info TS043 the binding is used only inside the block that opens on line 276; declare it inside that block
+src/bytes_mut.rs:274:17: info TS043 the binding is used only inside the block that opens on line 276; declare it inside that block
+src/bytes_mut.rs:275:17: info TS043 the binding is used only inside the block that opens on line 276; declare it inside that block
+src/bytes_mut.rs:300:18: warning TS022 the function does not assert len at entry
+src/bytes_mut.rs:300:19: info TS037 the name abbreviates len; write length out
+src/bytes_mut.rs:301:28: warning TS016 vec allocates; reserve the memory during initialization
+src/bytes_mut.rs:333:37: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:455:20: warning TS022 the function does not assert len at entry
+src/bytes_mut.rs:455:32: info TS037 the name abbreviates len; write length out
+src/bytes_mut.rs:500:18: warning TS022 the function does not assert new_len, value at entry
+src/bytes_mut.rs:500:30: info TS025 the name leads with the qualifier new; put it last
+src/bytes_mut.rs:500:30: info TS037 the name abbreviates len; write length out
+src/bytes_mut.rs:500:39: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:512:9: warning TS016 reserve allocates; reserve the memory during initialization
+src/bytes_mut.rs:513:13: info TS037 the name abbreviates dst; write destination out
+src/bytes_mut.rs:513:13: info TS043 the binding is used only inside the block that opens on line 516; declare it inside that block
+src/bytes_mut.rs:549:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes_mut.rs:549:19: info TS037 the name abbreviates len; write length out
+src/bytes_mut.rs:549:38: info TS037 the name abbreviates len; write length out
+src/bytes_mut.rs:569:77: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:571:9: info TS031 [*] the comment opens in lower case
+src/bytes_mut.rs:615:19: warning TS022 the function does not assert additional at entry
+src/bytes_mut.rs:615:43: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:625:12: info TS031 [*] the comment opens in lower case
+src/bytes_mut.rs:625:31: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:631:5: warning TS002 the function is 181 lines, over the 70 line limit
+src/bytes_mut.rs:631:21: warning TS022 the function does not assert additional at entry
+src/bytes_mut.rs:640:71: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:660:20: warning TS023 the condition combines booleans; split it into nested branches
+src/bytes_mut.rs:666:25: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:681:29: info TS037 the name v is too short to spell a word; write the word out
+src/bytes_mut.rs:683:21: warning TS016 v.reserve allocates; reserve the memory during initialization
+src/bytes_mut.rs:685:39: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:696:21: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes_mut.rs:701:36: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:702:17: info TS025 the name leads with the qualifier new; put it last
+src/bytes_mut.rs:703:18: info TS025 the name leads with the qualifier new; put it last
+src/bytes_mut.rs:715:21: info TS037 the name v is too short to spell a word; write the word out
+src/bytes_mut.rs:718:21: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:722:21: info TS025 the name leads with the qualifier new; put it last
+src/bytes_mut.rs:723:26: info TS025 the name leads with the qualifier new; put it last
+src/bytes_mut.rs:732:24: info TS031 [*] the comment opens in lower case
+src/bytes_mut.rs:732:44: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:733:27: warning TS023 the condition combines booleans; split it into nested branches
+src/bytes_mut.rs:737:57: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:747:24: info TS031 [*] the comment opens in lower case
+src/bytes_mut.rs:765:48: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:768:24: info TS031 [*] the comment opens in lower case
+src/bytes_mut.rs:775:21: warning TS016 v.reserve allocates; reserve the memory during initialization
+src/bytes_mut.rs:777:39: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:794:49: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:795:17: info TS037 the name v is too short to spell a word; write the word out
+src/bytes_mut.rs:795:39: warning TS016 Vec::with_capacity allocates; reserve the memory during initialization
+src/bytes_mut.rs:797:26: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:804:23: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:859:60: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:862:23: warning TS022 the function does not assert additional at entry
+src/bytes_mut.rs:862:47: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:893:13: info TS037 the name abbreviates cnt; write count out
+src/bytes_mut.rs:894:9: warning TS016 reserve allocates; reserve the memory during initialization
+src/bytes_mut.rs:897:17: info TS037 the name abbreviates dst; write destination out
+src/bytes_mut.rs:898:30: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:927:30: warning TS022 the function does not assert range at entry
+src/bytes_mut.rs:930:13: info TS037 the name abbreviates cnt; write count out
+src/bytes_mut.rs:931:9: warning TS016 reserve allocates; reserve the memory during initialization
+src/bytes_mut.rs:933:44: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:934:13: info TS037 the name abbreviates src; write source out
+src/bytes_mut.rs:934:13: info TS043 the binding is used only inside the block that opens on line 938; declare it inside that block
+src/bytes_mut.rs:935:13: info TS037 the name abbreviates dst; write destination out
+src/bytes_mut.rs:935:13: info TS043 the binding is used only inside the block that opens on line 938; declare it inside that block
+src/bytes_mut.rs:937:61: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:940:69: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:969:19: warning TS022 the function does not assert other at entry
+src/bytes_mut.rs:980:8: info TS031 [*] the comment opens in lower case
+src/bytes_mut.rs:980:15: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:989:19: info TS037 the name abbreviates vec; write vector out
+src/bytes_mut.rs:989:27: warning TS022 the function does not assert vec at entry
+src/bytes_mut.rs:989:28: info TS037 the name abbreviates vec; write vector out
+src/bytes_mut.rs:990:17: info TS037 the name abbreviates vec; write vector out
+src/bytes_mut.rs:991:13: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:1021:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes_mut.rs:1021:43: warning TS022 the function does not assert count at entry
+src/bytes_mut.rs:1037:17: info TS037 the name abbreviates pos; write position out
+src/bytes_mut.rs:1086:23: warning TS022 the function does not assert other at entry
+src/bytes_mut.rs:1091:13: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:1092:12: warning TS023 the condition combines booleans; split it into nested branches
+src/bytes_mut.rs:1097:56: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:1107:23: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:1108:9: info TS026 the function kind returns an unasserted value
+src/bytes_mut.rs:1111:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes_mut.rs:1111:44: info TS037 the name abbreviates ref; write reference out
+src/bytes_mut.rs:1111:53: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:1132:22: warning TS016 Box::new allocates; reserve the memory during initialization
+src/bytes_mut.rs:1156:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes_mut.rs:1167:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes_mut.rs:1167:15: info TS037 the name abbreviates vec; write vector out
+src/bytes_mut.rs:1167:37: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:1174:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes_mut.rs:1174:15: info TS037 the name abbreviates vec; write vector out
+src/bytes_mut.rs:1174:38: info TS037 the name abbreviates pos; write position out
+src/bytes_mut.rs:1174:43: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:1213:17: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:1229:51: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:1250:27: info TS037 the name abbreviates cnt; write count out
+src/bytes_mut.rs:1264:21: warning TS022 the function does not assert len at entry
+src/bytes_mut.rs:1264:33: info TS037 the name abbreviates len; write length out
+src/bytes_mut.rs:1269:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes_mut.rs:1273:9: info TS026 the function remaining_mut returns an unasserted value
+src/bytes_mut.rs:1277:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes_mut.rs:1277:26: warning TS022 the function does not assert cnt at entry
+src/bytes_mut.rs:1277:38: info TS037 the name abbreviates cnt; write count out
+src/bytes_mut.rs:1292:13: warning TS016 reserve allocates; reserve the memory during initialization
+src/bytes_mut.rs:1294:9: warning TS016 into allocates; reserve the memory during initialization
+src/bytes_mut.rs:1300:19: warning TS022 the function does not assert src at entry
+src/bytes_mut.rs:1300:35: info TS037 the name abbreviates src; write source out
+src/bytes_mut.rs:1305:16: info TS031 [*] the comment opens in lower case
+src/bytes_mut.rs:1305:99: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:1309:17: info TS037 the name abbreviates src; write source out
+src/bytes_mut.rs:1312:20: info TS025 the name leads with the qualifier bytes; put it last
+src/bytes_mut.rs:1317:13: warning TS016 reserve allocates; reserve the memory during initialization
+src/bytes_mut.rs:1319:13: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+src/bytes_mut.rs:1320:21: info TS037 the name s is too short to spell a word; write the word out
+src/bytes_mut.rs:1321:21: info TS037 the name l is too short to spell a word; write the word out
+src/bytes_mut.rs:1328:29: info TS037 the name abbreviates src; write source out
+src/bytes_mut.rs:1332:17: warning TS022 the function does not assert val, cnt at entry
+src/bytes_mut.rs:1332:29: info TS037 the name abbreviates val; write value out
+src/bytes_mut.rs:1332:38: info TS037 the name abbreviates cnt; write count out
+src/bytes_mut.rs:1333:9: warning TS016 reserve allocates; reserve the memory during initialization
+src/bytes_mut.rs:1335:17: info TS037 the name abbreviates dst; write destination out
+src/bytes_mut.rs:1336:30: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:1377:13: info TS037 the name abbreviates src; write source out
+src/bytes_mut.rs:1378:28: warning TS016 src.to_vec allocates; reserve the memory during initialization
+src/bytes_mut.rs:1383:13: info TS037 the name abbreviates src; write source out
+src/bytes_mut.rs:1389:12: warning TS022 the function does not assert src at entry
+src/bytes_mut.rs:1389:13: info TS037 the name abbreviates src; write source out
+src/bytes_mut.rs:1426:13: info TS037 the name s is too short to spell a word; write the word out
+src/bytes_mut.rs:1445:29: info TS037 the name s is too short to spell a word; write the word out
+src/bytes_mut.rs:1446:33: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/bytes_mut.rs:1455:17: warning TS022 the function does not assert args at entry
+src/bytes_mut.rs:1455:29: info TS037 the name abbreviates args; write arguments out
+src/bytes_mut.rs:1485:17: warning TS022 the function does not assert iter at entry
+src/bytes_mut.rs:1485:29: info TS037 the name abbreviates iter; write iterator out
+src/bytes_mut.rs:1489:13: info TS037 the name abbreviates iter; write iterator out
+src/bytes_mut.rs:1492:9: warning TS016 reserve allocates; reserve the memory during initialization
+src/bytes_mut.rs:1495:58: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:1503:17: warning TS022 the function does not assert iter at entry
+src/bytes_mut.rs:1503:29: info TS037 the name abbreviates iter; write iterator out
+src/bytes_mut.rs:1507:9: warning TS016 extend allocates; reserve the memory during initialization
+src/bytes_mut.rs:1512:17: warning TS022 the function does not assert iter at entry
+src/bytes_mut.rs:1512:29: info TS037 the name abbreviates iter; write iterator out
+src/bytes_mut.rs:1523:45: warning TS022 the function does not assert into_iter at entry
+src/bytes_mut.rs:1523:46: info TS037 the name abbreviates iter; write iterator out
+src/bytes_mut.rs:1529:49: warning TS022 the function does not assert into_iter at entry
+src/bytes_mut.rs:1529:50: info TS037 the name abbreviates iter; write iterator out
+src/bytes_mut.rs:1540:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes_mut.rs:1540:27: warning TS022 the function does not assert ptr at entry
+src/bytes_mut.rs:1540:28: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:1540:33: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes_mut.rs:1541:9: info TS025 the name leads with the qualifier old; put it last
+src/bytes_mut.rs:1548:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes_mut.rs:1548:25: warning TS022 the function does not assert ptr at entry
+src/bytes_mut.rs:1548:26: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:1548:31: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes_mut.rs:1561:53: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:1576:21: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:1597:29: warning TS022 the function does not assert cap at entry
+src/bytes_mut.rs:1597:45: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:1599:5: info TS026 the function original_capacity_to_repr returns an unasserted value
+src/bytes_mut.rs:1605:31: warning TS022 the function does not assert repr at entry
+src/bytes_mut.rs:1605:38: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:1605:48: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:1610:5: info TS026 the function original_capacity_from_repr returns an unasserted value
+src/bytes_mut.rs:1621:13: info TS025 the name leads with the qualifier max; put it last
+src/bytes_mut.rs:1640:86: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:1655:13: info TS025 the name leads with the qualifier min; put it last
+src/bytes_mut.rs:1667:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes_mut.rs:1668:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes_mut.rs:1678:10: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/bytes_mut.rs:1684:10: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/bytes_mut.rs:1702:10: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/bytes_mut.rs:1708:10: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/bytes_mut.rs:1732:10: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/bytes_mut.rs:1756:10: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/bytes_mut.rs:1776:25: warning TS051 the type points at a pointer; one level of dereference is the limit
+src/bytes_mut.rs:1777:18: warning TS051 the expression dereferences twice; one level of dereference is the limit
+src/bytes_mut.rs:1785:34: warning TS051 the type points at a pointer; one level of dereference is the limit
+src/bytes_mut.rs:1827:12: warning TS022 the function does not assert bytes at entry
+src/bytes_mut.rs:1831:17: info TS037 the name abbreviates vec; write vector out
+src/bytes_mut.rs:1840:21: info TS037 the name abbreviates vec; write vector out
+src/bytes_mut.rs:1846:24: warning TS016 to_vec allocates; reserve the memory during initialization
+src/bytes_mut.rs:1850:13: info TS043 the binding is used only inside the block that opens on line 1852; declare it inside that block
+src/bytes_mut.rs:1862:8: warning TS022 the function does not assert ptr at entry
+src/bytes_mut.rs:1862:9: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:1862:14: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes_mut.rs:1863:8: warning TS035 the branch builds a different program per target
+src/bytes_mut.rs:1876:4: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:1876:18: warning TS022 the function does not assert addr at entry
+src/bytes_mut.rs:1876:19: info TS037 the name abbreviates addr; write address out
+src/bytes_mut.rs:1876:25: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:1876:35: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes_mut.rs:1877:9: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:1882:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes_mut.rs:1882:11: info TS037 the name abbreviates vec; write vector out
+src/bytes_mut.rs:1882:22: warning TS022 the function does not assert ptr, len, cap, off at entry
+src/bytes_mut.rs:1882:23: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:1882:28: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes_mut.rs:1882:37: warning TS033 the parameters len and cap are both usize; a call site can transpose them
+src/bytes_mut.rs:1882:41: info TS037 the name abbreviates len; write length out
+src/bytes_mut.rs:1882:46: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:1882:62: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:1882:74: warning TS027 usize is architecture dependent; spell the width
+src/bytes_mut.rs:1883:9: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:1900:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes_mut.rs:1900:25: warning TS022 the function does not assert ptr, len at entry
+src/bytes_mut.rs:1900:48: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:1900:64: info TS037 the name abbreviates len; write length out
+src/bytes_mut.rs:1901:50: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes_mut.rs:1904:41: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes_mut.rs:1908:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes_mut.rs:1908:11: info TS037 the name abbreviates vec; write vector out
+src/bytes_mut.rs:1908:26: warning TS022 the function does not assert shared, ptr, len at entry
+src/bytes_mut.rs:1908:44: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:1908:60: info TS037 the name abbreviates len; write length out
+src/bytes_mut.rs:1909:17: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes_mut.rs:1914:23: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:1918:28: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:1924:13: info TS037 the name v is too short to spell a word; write the word out
+src/bytes_mut.rs:1924:17: warning TS016 to_vec allocates; reserve the memory during initialization
+src/bytes_mut.rs:1930:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes_mut.rs:1930:26: warning TS022 the function does not assert shared, ptr, len at entry
+src/bytes_mut.rs:1930:44: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:1930:60: info TS037 the name abbreviates len; write length out
+src/bytes_mut.rs:1931:17: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes_mut.rs:1937:57: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:1938:13: info TS037 the name v is too short to spell a word; write the word out
+src/bytes_mut.rs:1940:13: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:1944:13: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:1944:31: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/bytes_mut.rs:1953:13: info TS037 the name v is too short to spell a word; write the word out
+src/bytes_mut.rs:1953:17: warning TS016 to_vec allocates; reserve the memory during initialization
+src/bytes_mut.rs:1959:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes_mut.rs:1961:9: info TS037 the name abbreviates ref; write reference out
+src/bytes_mut.rs:1965:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+src/bytes_mut.rs:1965:24: warning TS022 the function does not assert shared at entry
+src/bytes_mut.rs:1965:42: info TS037 the name abbreviates ptr; write pointer out
+src/bytes_mut.rs:1965:59: info TS037 the name abbreviates len; write length out
+src/bytes_mut.rs:2001:4: info TS031 [*] the comment opens in lower case
+src/bytes_mut.rs:2001:14: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:2011:8: info TS025 the name leads with the qualifier bytes; put it last
+src/bytes_mut.rs:2013:17: info TS037 the name a is too short to spell a word; write the word out
+src/bytes_mut.rs:2014:17: info TS037 the name abbreviates addr; write address out
+src/bytes_mut.rs:2016:16: info TS031 [*] the comment opens in lower case
+src/bytes_mut.rs:2016:69: info TS031 [*] the comment does not close with a full stop
+src/bytes_mut.rs:2017:17: info TS037 the name a1 is too short to spell a word; write the word out
+src/bytes_mut.rs:2018:17: info TS037 the name a2 is too short to spell a word; write the word out
+src/bytes_mut.rs:2020:17: info TS037 the name t1 is too short to spell a word; write the word out
+src/bytes_mut.rs:2021:21: info TS037 the name b is too short to spell a word; write the word out
+src/bytes_mut.rs:2025:17: info TS037 the name t2 is too short to spell a word; write the word out
+src/bytes_mut.rs:2026:21: info TS037 the name b is too short to spell a word; write the word out
+src/fmt/debug.rs:13:19: info TS037 the name f is too short to spell a word; write the word out
+src/fmt/debug.rs:17:13: warning TS039 the chain runs 6 branches, over the 3 allowed; split it into a tree
+src/fmt/debug.rs:23:23: warning TS023 the condition combines booleans; split it into nested branches
+src/fmt/debug.rs:27:31: info TS031 [*] the comment does not close with a full stop
+src/fmt/hex.rs:7:19: info TS037 the name f is too short to spell a word; write the word out
+src/fmt/hex.rs:16:19: info TS037 the name f is too short to spell a word; write the word out
+src/lib.rs:1:1: info TS004 the file carries 2 assertions across 7 functions, under the 14 the style asks for
+src/lib.rs:4:78: info TS055 [*] the wrapped list ends without a trailing comma
+src/lib.rs:7:1: warning TS035 the branch builds a different program per target
+src/lib.rs:27:78: info TS031 [*] the comment does not close with a full stop
+src/lib.rs:76:1: warning TS035 the branch builds a different program per target
+src/lib.rs:89:26: info TS031 [*] the comment does not close with a full stop
+src/lib.rs:90:1: warning TS035 the branch builds a different program per target
+src/lib.rs:96:5: warning TS035 the branch builds a different program per target
+src/lib.rs:101:5: warning TS035 the branch builds a different program per target
+src/lib.rs:105:13: warning TS014 the function is declared inside another function
+src/lib.rs:109:13: info TS037 the name a is too short to spell a word; write the word out
+src/lib.rs:109:18: info TS045 the binding is an alias of Abort
+src/lib.rs:115:1: warning TS035 the branch builds a different program per target
+src/lib.rs:116:28: warning TS022 the function does not assert a, b at entry
+src/lib.rs:116:29: info TS037 the name a is too short to spell a word; write the word out
+src/lib.rs:116:32: warning TS027 usize is architecture dependent; spell the width
+src/lib.rs:116:39: info TS037 the name b is too short to spell a word; write the word out
+src/lib.rs:116:50: warning TS027 usize is architecture dependent; spell the width
+src/lib.rs:118:12: info TS037 the name b is too short to spell a word; write the word out
+src/lib.rs:124:1: warning TS035 the branch builds a different program per target
+src/lib.rs:125:4: info TS025 the name leads with the qualifier min; put it last
+src/lib.rs:125:17: warning TS022 the function does not assert a, b at entry
+src/lib.rs:125:18: info TS037 the name a is too short to spell a word; write the word out
+src/lib.rs:125:26: info TS037 the name b is too short to spell a word; write the word out
+src/lib.rs:125:29: warning TS027 usize is architecture dependent; spell the width
+src/lib.rs:125:39: warning TS027 usize is architecture dependent; spell the width
+src/lib.rs:127:12: info TS037 the name a is too short to spell a word; write the word out
+src/lib.rs:138:9: warning TS022 the function does not assert range, len at entry
+src/lib.rs:138:53: info TS037 the name abbreviates len; write length out
+src/lib.rs:138:69: warning TS027 usize is architecture dependent; spell the width
+src/lib.rs:138:76: warning TS027 usize is architecture dependent; spell the width
+src/lib.rs:142:26: info TS037 the name n is too short to spell a word; write the word out
+src/lib.rs:143:26: info TS037 the name n is too short to spell a word; write the word out
+src/lib.rs:148:26: info TS037 the name n is too short to spell a word; write the word out
+src/lib.rs:149:26: info TS037 the name n is too short to spell a word; write the word out
+src/lib.rs:176:55: info TS031 [*] the comment does not close with a full stop
+src/lib.rs:177:20: warning TS027 usize is architecture dependent; spell the width
+src/lib.rs:179:52: info TS031 [*] the comment does not close with a full stop
+src/lib.rs:180:20: warning TS027 usize is architecture dependent; spell the width
+src/lib.rs:184:19: info TS037 the name f is too short to spell a word; write the word out
+src/lib.rs:187:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/lib.rs:189:18: info TS055 [*] the wrapped list ends without a trailing comma
+src/lib.rs:194:1: warning TS035 the branch builds a different program per target
+src/lib.rs:197:1: warning TS035 the branch builds a different program per target
+src/lib.rs:199:12: warning TS022 the function does not assert error at entry
+src/lib.rs:206:18: info TS037 the name abbreviates info; write information out
+src/lib.rs:209:42: info TS055 the wrapped list ends without a trailing comma
+src/lib.rs:214:22: warning TS022 the function does not assert size, nbytes at entry
+src/lib.rs:214:23: warning TS033 the parameters size and nbytes are both usize; a call site can transpose them
+src/lib.rs:214:29: warning TS027 usize is architecture dependent; spell the width
+src/lib.rs:214:44: warning TS027 usize is architecture dependent; spell the width
+src/lib.rs:217:15: info TS055 the wrapped list ends without a trailing comma
+src/loom.rs:4:9: warning TS035 the branch builds a different program per target
+src/loom.rs:6:9: warning TS035 the branch builds a different program per target
+src/loom.rs:10:42: info TS037 the name f is too short to spell a word; write the word out
+src/loom.rs:12:27: warning TS051 the type points at a pointer; one level of dereference is the limit
+src/loom.rs:12:32: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/loom.rs:16:42: info TS037 the name f is too short to spell a word; write the word out
+src/loom.rs:18:27: warning TS051 the type points at a pointer; one level of dereference is the limit
+src/loom.rs:18:32: error TS019 the type is a raw pointer; take a reference the compiler can check
+src/serde.rs:7:1: warning TS018 the macro is long or repeats; keep an expansion small enough to read
+tests/test_buf.rs:1:1: info TS004 the file carries 11 assertions across 9 functions, under the 18 the style asks for
+tests/test_buf.rs:6:1: warning TS035 the branch builds a different program per target
+tests/test_buf.rs:17:12: warning TS035 the branch builds a different program per target
+tests/test_buf.rs:30:13: warning TS011 the import brings in every name
+tests/test_buf.rs:82:9: warning TS035 the branch builds a different program per target
+tests/test_buf.rs:93:9: warning TS035 the branch builds a different program per target
+tests/test_buf.rs:224:101: warning TS012 the line is 109 columns, over the 100 column limit
+tests/test_buf.rs:225:101: warning TS012 the line is 104 columns, over the 100 column limit
+tests/test_buf.rs:227:101: warning TS012 the line is 119 columns, over the 100 column limit
+tests/test_buf.rs:229:101: warning TS012 the line is 101 columns, over the 100 column limit
+tests/test_buf.rs:230:101: warning TS012 the line is 117 columns, over the 100 column limit
+tests/test_buf.rs:231:101: warning TS012 the line is 108 columns, over the 100 column limit
+tests/test_buf.rs:232:101: warning TS012 the line is 101 columns, over the 100 column limit
+tests/test_buf.rs:233:101: warning TS012 the line is 127 columns, over the 100 column limit
+tests/test_buf.rs:234:101: warning TS012 the line is 106 columns, over the 100 column limit
+tests/test_buf.rs:235:101: warning TS012 the line is 109 columns, over the 100 column limit
+tests/test_buf.rs:236:101: warning TS012 the line is 133 columns, over the 100 column limit
+tests/test_buf.rs:237:101: warning TS012 the line is 116 columns, over the 100 column limit
+tests/test_buf.rs:238:101: warning TS012 the line is 109 columns, over the 100 column limit
+tests/test_buf.rs:239:101: warning TS012 the line is 143 columns, over the 100 column limit
+tests/test_buf.rs:240:101: warning TS012 the line is 126 columns, over the 100 column limit
+tests/test_buf.rs:241:101: warning TS012 the line is 129 columns, over the 100 column limit
+tests/test_buf.rs:242:101: warning TS012 the line is 169 columns, over the 100 column limit
+tests/test_buf.rs:243:101: warning TS012 the line is 138 columns, over the 100 column limit
+tests/test_buf.rs:244:101: warning TS012 the line is 129 columns, over the 100 column limit
+tests/test_buf.rs:245:101: warning TS012 the line is 181 columns, over the 100 column limit
+tests/test_buf.rs:246:101: warning TS012 the line is 114 columns, over the 100 column limit
+tests/test_buf.rs:247:101: warning TS012 the line is 117 columns, over the 100 column limit
+tests/test_buf.rs:248:101: warning TS012 the line is 133 columns, over the 100 column limit
+tests/test_buf.rs:249:101: warning TS012 the line is 122 columns, over the 100 column limit
+tests/test_buf.rs:250:101: warning TS012 the line is 125 columns, over the 100 column limit
+tests/test_buf.rs:251:101: warning TS012 the line is 149 columns, over the 100 column limit
+tests/test_buf.rs:253:101: warning TS012 the line is 124 columns, over the 100 column limit
+tests/test_buf.rs:254:101: warning TS012 the line is 127 columns, over the 100 column limit
+tests/test_buf.rs:255:101: warning TS012 the line is 141 columns, over the 100 column limit
+tests/test_buf.rs:256:101: warning TS012 the line is 140 columns, over the 100 column limit
+tests/test_buf.rs:257:101: warning TS012 the line is 123 columns, over the 100 column limit
+tests/test_buf.rs:258:101: warning TS012 the line is 157 columns, over the 100 column limit
+tests/test_buf.rs:260:101: warning TS012 the line is 110 columns, over the 100 column limit
+tests/test_buf.rs:279:101: warning TS012 the line is 146 columns, over the 100 column limit
+tests/test_buf.rs:312:19: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf.rs:320:19: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf.rs:328:19: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf.rs:336:19: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf.rs:340:53: info TS031 [*] the comment does not close with a full stop
+tests/test_buf.rs:341:23: info TS040 the division discards a remainder; name the way it rounds
+tests/test_buf.rs:342:18: info TS037 the name a is too short to spell a word; write the word out
+tests/test_buf.rs:342:21: info TS037 the name b is too short to spell a word; write the word out
+tests/test_buf.rs:353:18: info TS037 the name a is too short to spell a word; write the word out
+tests/test_buf.rs:353:21: info TS037 the name b is too short to spell a word; write the word out
+tests/test_buf.rs:356:17: info TS055 [*] the wrapped list ends without a trailing comma
+tests/test_buf.rs:360:17: info TS055 [*] the wrapped list ends without a trailing comma
+tests/test_buf.rs:370:1: warning TS035 the branch builds a different program per target
+tests/test_buf.rs:374:19: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf.rs:382:19: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf.rs:390:19: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf.rs:391:14: info TS037 the name a is too short to spell a word; write the word out
+tests/test_buf.rs:391:17: info TS037 the name b is too short to spell a word; write the word out
+tests/test_buf.rs:391:35: info TS040 the division discards a remainder; name the way it rounds
+tests/test_buf.rs:399:19: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf.rs:401:14: info TS037 the name a is too short to spell a word; write the word out
+tests/test_buf.rs:401:17: info TS037 the name b is too short to spell a word; write the word out
+tests/test_buf.rs:409:19: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf.rs:411:13: info TS037 the name a is too short to spell a word; write the word out
+tests/test_buf.rs:412:13: info TS037 the name b is too short to spell a word; write the word out
+tests/test_buf.rs:413:13: info TS037 the name c is too short to spell a word; write the word out
+tests/test_buf.rs:414:13: info TS037 the name d is too short to spell a word; write the word out
+tests/test_buf.rs:414:17: info TS045 the binding is an alias of buf
+tests/test_buf.rs:421:1: warning TS020 [*] the attribute silences a checker
+tests/test_buf.rs:423:4: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf.rs:427:9: warning TS014 the function is declared inside another function
+tests/test_buf.rs:431:9: warning TS014 the function is declared inside another function
+tests/test_buf.rs:435:9: warning TS014 the function is declared inside another function
+tests/test_buf.rs:439:9: warning TS014 the function is declared inside another function
+tests/test_buf.rs:440:16: info TS031 [*] the comment opens in lower case
+tests/test_buf.rs:445:8: info TS031 [*] the comment opens in lower case
+tests/test_buf.rs:445:51: info TS031 [*] the comment does not close with a full stop
+tests/test_buf.rs:454:13: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_buf.rs:455:9: info TS037 the name abbreviates ptr; write pointer out
+tests/test_buf.rs:456:9: info TS037 the name abbreviates ret; write returned out
+tests/test_buf.rs:459:9: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_buf_mut.rs:1:1: info TS004 the file carries 25 assertions across 30 functions, under the 60 the style asks for
+tests/test_buf_mut.rs:9:4: info TS037 the name abbreviates vec; write vector out
+tests/test_buf_mut.rs:10:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:31:4: info TS037 the name abbreviates vec; write vector out
+tests/test_buf_mut.rs:32:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:40:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:47:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:58:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:66:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:72:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:80:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:86:4: info TS037 the name abbreviates vec; write vector out
+tests/test_buf_mut.rs:87:27: info TS031 [*] the comment does not close with a full stop
+tests/test_buf_mut.rs:88:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:88:13: info TS043 the binding is used only inside the block that opens on line 89; declare it inside that block
+tests/test_buf_mut.rs:96:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:108:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:132:11: info TS037 the name abbreviates len; write length out
+tests/test_buf_mut.rs:135:16: warning TS015 the expression is an unnamed function
+tests/test_buf_mut.rs:135:31: warning TS051 the type points at a pointer; one level of dereference is the limit
+tests/test_buf_mut.rs:135:44: warning TS027 usize is architecture dependent; spell the width
+tests/test_buf_mut.rs:136:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:137:21: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:138:17: info TS037 the name abbreviates len; write length out
+tests/test_buf_mut.rs:149:19: info TS037 the name abbreviates len; write length out
+tests/test_buf_mut.rs:150:19: info TS037 the name abbreviates len; write length out
+tests/test_buf_mut.rs:157:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:166:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:172:4: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:173:26: info TS037 the name x is too short to spell a word; write the word out
+tests/test_buf_mut.rs:177:4: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:178:26: info TS037 the name x is too short to spell a word; write the word out
+tests/test_buf_mut.rs:183:4: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:184:37: info TS037 the name x is too short to spell a word; write the word out
+tests/test_buf_mut.rs:189:4: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:190:37: info TS037 the name x is too short to spell a word; write the word out
+tests/test_buf_mut.rs:199:4: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:204:4: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:210:4: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:216:4: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:220:1: warning TS020 [*] the attribute silences a checker
+tests/test_buf_mut.rs:225:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+tests/test_buf_mut.rs:226:9: warning TS014 the function is declared inside another function
+tests/test_buf_mut.rs:230:9: warning TS014 the function is declared inside another function
+tests/test_buf_mut.rs:234:9: warning TS014 the function is declared inside another function
+tests/test_buf_mut.rs:234:9: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+tests/test_buf_mut.rs:238:9: warning TS014 the function is declared inside another function
+tests/test_buf_mut.rs:239:16: info TS031 [*] the comment opens in lower case
+tests/test_buf_mut.rs:243:8: info TS031 [*] the comment opens in lower case
+tests/test_buf_mut.rs:243:51: info TS031 [*] the comment does not close with a full stop
+tests/test_buf_mut.rs:277:84: info TS031 [*] the comment does not close with a full stop
+tests/test_buf_mut.rs:280:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_buf_mut.rs:282:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:12:4: info TS037 the name abbreviates sync; write synchronize out
+tests/test_bytes.rs:53:9: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:61:9: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:71:4: info TS037 the name abbreviates fmt; write format out
+tests/test_bytes.rs:72:9: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:73:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:77:9: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:82:4: info TS037 the name abbreviates fmt; write format out
+tests/test_bytes.rs:84:9: info TS037 the name s is too short to spell a word; write the word out
+tests/test_bytes.rs:86:13: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:90:13: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:95:13: info TS037 the name c is too short to spell a word; write the word out
+tests/test_bytes.rs:101:4: info TS037 the name abbreviates len; write length out
+tests/test_bytes.rs:102:9: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:105:9: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:108:9: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:111:9: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:117:9: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:123:9: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:125:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:128:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:131:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:134:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:137:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:140:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:147:9: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:154:9: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:161:9: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:189:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:208:9: info TS037 the name s is too short to spell a word; write the word out
+tests/test_bytes.rs:252:14: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:253:13: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:254:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:259:17: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:260:13: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:261:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:266:13: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:267:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:275:13: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:278:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:306:1: warning TS035 the branch builds a different program per target
+tests/test_bytes.rs:307:4: info TS037 the name abbreviates len; write length out
+tests/test_bytes.rs:308:5: warning TS014 the function is declared inside another function
+tests/test_bytes.rs:332:9: info TS037 the name s is too short to spell a word; write the word out
+tests/test_bytes.rs:369:9: info TS037 the name s is too short to spell a word; write the word out
+tests/test_bytes.rs:370:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:372:9: info TS037 the name c is too short to spell a word; write the word out
+tests/test_bytes.rs:378:9: info TS037 the name s is too short to spell a word; write the word out
+tests/test_bytes.rs:379:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:381:9: info TS037 the name c is too short to spell a word; write the word out
+tests/test_bytes.rs:387:9: info TS037 the name s is too short to spell a word; write the word out
+tests/test_bytes.rs:388:13: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:391:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:399:9: info TS037 the name s is too short to spell a word; write the word out
+tests/test_bytes.rs:400:13: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:401:18: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:405:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:411:9: info TS037 the name s is too short to spell a word; write the word out
+tests/test_bytes.rs:412:13: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:415:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:421:9: info TS037 the name s is too short to spell a word; write the word out
+tests/test_bytes.rs:422:13: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:425:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:431:9: info TS037 the name s is too short to spell a word; write the word out
+tests/test_bytes.rs:432:13: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:433:18: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:437:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:443:9: info TS037 the name s is too short to spell a word; write the word out
+tests/test_bytes.rs:444:13: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:447:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:452:4: info TS037 the name abbreviates fns; write functions out
+tests/test_bytes.rs:458:16: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:459:9: info TS037 the name v is too short to spell a word; write the word out
+tests/test_bytes.rs:465:18: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:470:18: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:472:9: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:505:1: warning TS035 the branch builds a different program per target
+tests/test_bytes.rs:507:17: warning TS027 usize is architecture dependent; spell the width
+tests/test_bytes.rs:522:4: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:525:9: info TS037 the name abbreviates addr; write address out
+tests/test_bytes.rs:540:8: info TS031 [*] the comment opens in lower case
+tests/test_bytes.rs:540:42: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:552:8: info TS031 [*] the comment opens in lower case
+tests/test_bytes.rs:552:42: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:563:26: info TS040 the division discards a remainder; name the way it rounds
+tests/test_bytes.rs:565:8: info TS031 [*] the comment opens in lower case
+tests/test_bytes.rs:565:42: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:567:9: info TS025 the name leads with the qualifier new; put it last
+tests/test_bytes.rs:577:30: info TS040 the division discards a remainder; name the way it rounds
+tests/test_bytes.rs:579:12: info TS031 [*] the comment opens in lower case
+tests/test_bytes.rs:579:46: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:581:13: info TS025 the name leads with the qualifier new; put it last
+tests/test_bytes.rs:592:8: info TS031 [*] the comment opens in lower case
+tests/test_bytes.rs:592:42: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:609:60: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:667:9: warning TS014 the function is declared inside another function
+tests/test_bytes.rs:671:9: warning TS014 the function is declared inside another function
+tests/test_bytes.rs:684:13: info TS037 the name abbreviates iter; write iterator out
+tests/test_bytes.rs:686:59: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:693:13: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:694:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:702:13: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:708:4: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:709:13: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:722:13: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:737:53: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:742:8: info TS031 [*] the comment opens in lower case
+tests/test_bytes.rs:742:42: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:743:9: info TS025 the name leads with the qualifier max; put it last
+tests/test_bytes.rs:743:27: warning TS035 the branch builds a different program per target
+tests/test_bytes.rs:745:13: info TS037 the name abbreviates len; write length out
+tests/test_bytes.rs:748:25: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:755:21: info TS055 [*] the wrapped list ends without a trailing comma
+tests/test_bytes.rs:762:21: info TS055 [*] the wrapped list ends without a trailing comma
+tests/test_bytes.rs:767:21: info TS055 [*] the wrapped list ends without a trailing comma
+tests/test_bytes.rs:776:4: info TS037 the name abbreviates len; write length out
+tests/test_bytes.rs:777:13: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:783:4: info TS037 the name abbreviates len; write length out
+tests/test_bytes.rs:784:13: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:784:13: info TS043 the binding is used only inside the block that opens on line 785; declare it inside that block
+tests/test_bytes.rs:793:1: warning TS035 the branch builds a different program per target
+tests/test_bytes.rs:794:1: warning TS035 the branch builds a different program per target
+tests/test_bytes.rs:794:101: warning TS012 the line is 105 columns, over the 100 column limit
+tests/test_bytes.rs:796:79: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:800:20: warning TS027 usize is architecture dependent; spell the width
+tests/test_bytes.rs:801:18: warning TS027 usize is architecture dependent; spell the width
+tests/test_bytes.rs:801:29: warning TS035 the branch builds a different program per target
+tests/test_bytes.rs:805:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:811:17: info TS037 the name c is too short to spell a word; write the word out
+tests/test_bytes.rs:812:17: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:816:21: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:841:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:842:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:854:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:855:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:858:8: info TS031 [*] the comment opens in lower case
+tests/test_bytes.rs:858:19: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:866:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:867:8: info TS031 [*] the comment opens in lower case
+tests/test_bytes.rs:867:18: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:868:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:878:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:879:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:882:8: info TS031 [*] the comment opens in lower case
+tests/test_bytes.rs:882:42: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:891:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:892:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:895:8: info TS031 [*] the comment opens in lower case
+tests/test_bytes.rs:895:38: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:903:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:904:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:907:33: info TS031 [*] the comment has no space after its marker
+tests/test_bytes.rs:912:34: info TS031 [*] the comment has no space after its marker
+tests/test_bytes.rs:919:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:920:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:923:40: info TS031 [*] the comment has no space after its marker
+tests/test_bytes.rs:925:37: info TS031 [*] the comment has no space after its marker
+tests/test_bytes.rs:932:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:933:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:936:40: info TS031 [*] the comment has no space after its marker
+tests/test_bytes.rs:937:37: info TS031 [*] the comment has no space after its marker
+tests/test_bytes.rs:945:4: info TS037 the name abbreviates iter; write iterator out
+tests/test_bytes.rs:951:21: info TS037 the name abbreviates cnt; write count out
+tests/test_bytes.rs:965:4: info TS037 the name abbreviates ref; write reference out
+tests/test_bytes.rs:965:18: warning TS022 the function does not assert start, end at entry
+tests/test_bytes.rs:965:34: warning TS033 the parameters start and end are both usize; a call site can transpose them
+tests/test_bytes.rs:972:4: info TS037 the name abbreviates ref; write reference out
+tests/test_bytes.rs:983:4: info TS037 the name abbreviates ref; write reference out
+tests/test_bytes.rs:992:4: info TS037 the name abbreviates ref; write reference out
+tests/test_bytes.rs:1003:4: info TS037 the name abbreviates ref; write reference out
+tests/test_bytes.rs:1011:4: info TS037 the name abbreviates ref; write reference out
+tests/test_bytes.rs:1019:4: info TS037 the name abbreviates ref; write reference out
+tests/test_bytes.rs:1027:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1027:4: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1028:13: info TS043 the binding is used only inside the block that opens on line 1030; declare it inside that block
+tests/test_bytes.rs:1031:13: info TS037 the name abbreviates ptr; write pointer out
+tests/test_bytes.rs:1040:12: info TS031 [*] the comment opens in lower case
+tests/test_bytes.rs:1040:30: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1043:38: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1049:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1049:4: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1051:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1055:9: info TS037 the name p is too short to spell a word; write the word out
+tests/test_bytes.rs:1055:24: error TS019 the type is a raw pointer; take a reference the compiler can check
+tests/test_bytes.rs:1061:27: error TS019 the type is a raw pointer; take a reference the compiler can check
+tests/test_bytes.rs:1066:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1074:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1076:9: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1081:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1092:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:1097:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1097:4: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1098:29: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1104:9: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1107:57: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1116:9: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1119:58: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1126:9: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1129:9: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1134:4: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1135:33: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1136:9: info TS037 the name bs is too short to spell a word; write the word out
+tests/test_bytes.rs:1137:9: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1140:48: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1144:89: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1149:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1151:9: info TS037 the name b2 is too short to spell a word; write the word out
+tests/test_bytes.rs:1155:8: info TS031 [*] the comment opens in lower case
+tests/test_bytes.rs:1155:34: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1159:8: info TS031 [*] the comment opens in lower case
+tests/test_bytes.rs:1159:33: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1163:66: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1164:13: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1165:9: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1167:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1168:9: info TS037 the name b2 is too short to spell a word; write the word out
+tests/test_bytes.rs:1175:4: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1176:9: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1178:41: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1179:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1182:55: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1183:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1187:55: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1188:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1189:9: info TS037 the name b2 is too short to spell a word; write the word out
+tests/test_bytes.rs:1192:79: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1195:36: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1196:13: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1197:9: info TS037 the name b2 is too short to spell a word; write the word out
+tests/test_bytes.rs:1204:4: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1205:13: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1207:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:1208:9: info TS037 the name v is too short to spell a word; write the word out
+tests/test_bytes.rs:1212:13: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:1214:9: info TS037 the name v is too short to spell a word; write the word out
+tests/test_bytes.rs:1222:13: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1224:9: info TS037 the name b2 is too short to spell a word; write the word out
+tests/test_bytes.rs:1225:9: info TS037 the name v is too short to spell a word; write the word out
+tests/test_bytes.rs:1229:13: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:1231:9: info TS037 the name v is too short to spell a word; write the word out
+tests/test_bytes.rs:1238:4: info TS025 the name puts bytes before len; order the qualifiers by descending significance, as in latency_ms_max
+tests/test_bytes.rs:1238:4: info TS037 the name abbreviates len; write length out
+tests/test_bytes.rs:1240:13: info TS037 the name abbreviates len; write length out
+tests/test_bytes.rs:1241:21: info TS037 the name v is too short to spell a word; write the word out
+tests/test_bytes.rs:1250:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:1255:4: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1256:9: info TS037 the name v is too short to spell a word; write the word out
+tests/test_bytes.rs:1257:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:1263:9: info TS037 the name v is too short to spell a word; write the word out
+tests/test_bytes.rs:1264:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:1265:9: info TS037 the name c is too short to spell a word; write the word out
+tests/test_bytes.rs:1273:9: info TS037 the name v is too short to spell a word; write the word out
+tests/test_bytes.rs:1274:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:1275:9: info TS037 the name c is too short to spell a word; write the word out
+tests/test_bytes.rs:1283:13: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:1284:9: info TS037 the name c is too short to spell a word; write the word out
+tests/test_bytes.rs:1292:9: info TS037 the name bs is too short to spell a word; write the word out
+tests/test_bytes.rs:1294:33: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1295:9: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1300:4: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1301:9: info TS037 the name bs is too short to spell a word; write the word out
+tests/test_bytes.rs:1304:40: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1314:9: info TS037 the name bs is too short to spell a word; write the word out
+tests/test_bytes.rs:1316:89: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1320:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1321:9: info TS037 the name b2 is too short to spell a word; write the word out
+tests/test_bytes.rs:1323:8: info TS031 [*] the comment opens in lower case
+tests/test_bytes.rs:1323:34: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1328:8: info TS031 [*] the comment opens in lower case
+tests/test_bytes.rs:1328:33: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1334:4: info TS025 the name puts bytes before offset; order the qualifiers by descending significance, as in latency_ms_max
+tests/test_bytes.rs:1335:9: info TS037 the name bs is too short to spell a word; write the word out
+tests/test_bytes.rs:1337:66: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1338:13: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1339:9: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1341:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1342:9: info TS037 the name b2 is too short to spell a word; write the word out
+tests/test_bytes.rs:1352:4: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1353:9: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1355:40: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1356:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1363:9: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1365:54: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1366:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1374:9: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1376:54: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1377:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1378:9: info TS037 the name b2 is too short to spell a word; write the word out
+tests/test_bytes.rs:1382:78: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1388:4: info TS025 the name puts bytes before offset; order the qualifiers by descending significance, as in latency_ms_max
+tests/test_bytes.rs:1389:9: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1391:35: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1392:13: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1393:9: info TS037 the name b2 is too short to spell a word; write the word out
+tests/test_bytes.rs:1403:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1411:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1423:4: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1424:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1426:73: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1433:68: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1443:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1445:9: info TS037 the name x is too short to spell a word; write the word out
+tests/test_bytes.rs:1447:73: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1450:9: info TS037 the name y is too short to spell a word; write the word out
+tests/test_bytes.rs:1451:9: info TS037 the name z is too short to spell a word; write the word out
+tests/test_bytes.rs:1472:4: info TS037 the name abbreviates addr; write address out
+tests/test_bytes.rs:1473:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1475:9: info TS037 the name abbreviates ptr; write pointer out
+tests/test_bytes.rs:1476:9: info TS037 the name abbreviates ptr; write pointer out
+tests/test_bytes.rs:1492:4: info TS037 the name abbreviates addr; write address out
+tests/test_bytes.rs:1493:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1495:9: info TS037 the name abbreviates ptr; write pointer out
+tests/test_bytes.rs:1496:9: info TS037 the name abbreviates ptr; write pointer out
+tests/test_bytes.rs:1512:4: info TS037 the name abbreviates addr; write address out
+tests/test_bytes.rs:1513:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1515:9: info TS037 the name abbreviates ptr; write pointer out
+tests/test_bytes.rs:1516:9: info TS037 the name abbreviates ptr; write pointer out
+tests/test_bytes.rs:1532:4: info TS037 the name abbreviates addr; write address out
+tests/test_bytes.rs:1533:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1535:9: info TS037 the name abbreviates ptr; write pointer out
+tests/test_bytes.rs:1536:9: info TS037 the name abbreviates ptr; write pointer out
+tests/test_bytes.rs:1552:4: info TS037 the name abbreviates addr; write address out
+tests/test_bytes.rs:1553:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1555:9: info TS037 the name abbreviates ptr; write pointer out
+tests/test_bytes.rs:1556:9: info TS037 the name abbreviates ptr; write pointer out
+tests/test_bytes.rs:1572:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1573:16: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1575:17: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1583:13: info TS055 [*] the wrapped list ends without a trailing comma
+tests/test_bytes.rs:1588:17: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1596:13: info TS055 [*] the wrapped list ends without a trailing comma
+tests/test_bytes.rs:1602:17: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1611:13: info TS055 [*] the wrapped list ends without a trailing comma
+tests/test_bytes.rs:1616:17: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1625:13: info TS055 [*] the wrapped list ends without a trailing comma
+tests/test_bytes.rs:1642:26: warning TS027 usize is architecture dependent; spell the width
+tests/test_bytes.rs:1649:5: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1651:9: info TS037 the name abbreviates ref; write reference out
+tests/test_bytes.rs:1655:11: warning TS022 the function does not assert buf, drop_count at entry
+tests/test_bytes.rs:1655:12: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1681:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1683:9: info TS037 the name b2 is too short to spell a word; write the word out
+tests/test_bytes.rs:1691:4: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1692:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1693:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1694:9: info TS037 the name b2 is too short to spell a word; write the word out
+tests/test_bytes.rs:1703:4: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1704:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1706:9: info TS037 the name b2 is too short to spell a word; write the word out
+tests/test_bytes.rs:1714:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1717:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1718:9: info TS037 the name b2 is too short to spell a word; write the word out
+tests/test_bytes.rs:1722:9: info TS037 the name b3 is too short to spell a word; write the word out
+tests/test_bytes.rs:1731:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1734:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1738:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1742:9: info TS025 the name leads with the qualifier new; put it last
+tests/test_bytes.rs:1742:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1745:61: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1750:4: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1751:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1754:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1756:9: info TS037 the name v1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1765:4: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1767:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1769:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1771:9: info TS037 the name v1 is too short to spell a word; write the word out
+tests/test_bytes.rs:1773:8: info TS031 [*] the comment opens in lower case
+tests/test_bytes.rs:1773:57: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1778:1: warning TS035 the branch builds a different program per target
+tests/test_bytes.rs:1779:4: info TS037 the name abbreviates ref; write reference out
+tests/test_bytes.rs:1780:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_bytes.rs:1795:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1796:13: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes.rs:1803:13: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1814:4: info TS025 the name leads with the qualifier bytes; put it last
+tests/test_bytes.rs:1815:13: info TS037 the name a is too short to spell a word; write the word out
+tests/test_bytes.rs:1816:13: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes.rs:1817:64: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1819:59: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes.rs:1821:68: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes_odd_alloc.rs:1:1: info TS004 the file carries 13 assertions across 10 functions, under the 20 the style asks for
+tests/test_bytes_odd_alloc.rs:4:1: warning TS035 the branch builds a different program per target
+tests/test_bytes_odd_alloc.rs:4:101: warning TS012 the line is 110 columns, over the 100 column limit
+tests/test_bytes_odd_alloc.rs:16:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+tests/test_bytes_odd_alloc.rs:17:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+tests/test_bytes_odd_alloc.rs:17:20: warning TS022 the function does not assert layout at entry
+tests/test_bytes_odd_alloc.rs:17:47: error TS019 the type is a raw pointer; take a reference the compiler can check
+tests/test_bytes_odd_alloc.rs:18:12: warning TS023 the condition combines booleans; split it into nested branches
+tests/test_bytes_odd_alloc.rs:19:79: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes_odd_alloc.rs:21:17: info TS025 the name leads with the qualifier new; put it last
+tests/test_bytes_odd_alloc.rs:23:21: info TS037 the name abbreviates err; write error out
+tests/test_bytes_odd_alloc.rs:25:17: info TS037 the name abbreviates ptr; write pointer out
+tests/test_bytes_odd_alloc.rs:26:16: info TS038 the branch states its condition negatively and carries an else; swap the arms
+tests/test_bytes_odd_alloc.rs:36:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+tests/test_bytes_odd_alloc.rs:36:22: warning TS022 the function does not assert ptr, layout at entry
+tests/test_bytes_odd_alloc.rs:36:30: info TS037 the name abbreviates ptr; write pointer out
+tests/test_bytes_odd_alloc.rs:36:35: error TS019 the type is a raw pointer; take a reference the compiler can check
+tests/test_bytes_odd_alloc.rs:37:12: warning TS023 the condition combines booleans; split it into nested branches
+tests/test_bytes_odd_alloc.rs:39:17: info TS025 the name leads with the qualifier new; put it last
+tests/test_bytes_odd_alloc.rs:41:21: info TS037 the name abbreviates err; write error out
+tests/test_bytes_odd_alloc.rs:52:9: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes_odd_alloc.rs:53:9: info TS037 the name p is too short to spell a word; write the word out
+tests/test_bytes_odd_alloc.rs:58:4: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes_odd_alloc.rs:59:9: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes_odd_alloc.rs:60:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_bytes_odd_alloc.rs:65:9: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes_odd_alloc.rs:66:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes_odd_alloc.rs:67:9: info TS037 the name b2 is too short to spell a word; write the word out
+tests/test_bytes_odd_alloc.rs:71:4: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes_odd_alloc.rs:72:9: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes_odd_alloc.rs:74:41: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes_odd_alloc.rs:75:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes_odd_alloc.rs:78:55: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes_odd_alloc.rs:79:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes_odd_alloc.rs:83:55: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes_odd_alloc.rs:84:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes_odd_alloc.rs:85:9: info TS037 the name b2 is too short to spell a word; write the word out
+tests/test_bytes_odd_alloc.rs:88:79: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes_odd_alloc.rs:91:36: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes_odd_alloc.rs:92:13: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes_odd_alloc.rs:93:9: info TS037 the name b2 is too short to spell a word; write the word out
+tests/test_bytes_odd_alloc.rs:100:4: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes_odd_alloc.rs:101:9: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes_odd_alloc.rs:103:40: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes_odd_alloc.rs:104:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes_odd_alloc.rs:111:9: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes_odd_alloc.rs:113:54: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes_odd_alloc.rs:114:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes_odd_alloc.rs:122:9: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes_odd_alloc.rs:124:54: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes_odd_alloc.rs:125:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes_odd_alloc.rs:126:9: info TS037 the name b2 is too short to spell a word; write the word out
+tests/test_bytes_odd_alloc.rs:130:78: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes_odd_alloc.rs:136:4: info TS025 the name puts bytes before offset; order the qualifiers by descending significance, as in latency_ms_max
+tests/test_bytes_odd_alloc.rs:137:9: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes_odd_alloc.rs:139:35: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes_odd_alloc.rs:140:13: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes_odd_alloc.rs:141:9: info TS037 the name b2 is too short to spell a word; write the word out
+tests/test_bytes_vec_alloc.rs:1:1: info TS004 the file carries 7 assertions across 10 functions, under the 20 the style asks for
+tests/test_bytes_vec_alloc.rs:1:1: warning TS035 the branch builds a different program per target
+tests/test_bytes_vec_alloc.rs:9:1: error TS005 the global is mutable
+tests/test_bytes_vec_alloc.rs:19:15: info TS037 the name abbreviates elem; write element out
+tests/test_bytes_vec_alloc.rs:26:88: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes_vec_alloc.rs:27:14: warning TS022 the function does not assert ptr, size at entry
+tests/test_bytes_vec_alloc.rs:27:22: info TS037 the name abbreviates ptr; write pointer out
+tests/test_bytes_vec_alloc.rs:27:27: error TS019 the type is a raw pointer; take a reference the compiler can check
+tests/test_bytes_vec_alloc.rs:27:42: warning TS027 usize is architecture dependent; spell the width
+tests/test_bytes_vec_alloc.rs:28:14: info TS037 the name abbreviates ptr; write pointer out
+tests/test_bytes_vec_alloc.rs:42:14: warning TS022 the function does not assert ptr at entry
+tests/test_bytes_vec_alloc.rs:42:22: info TS037 the name abbreviates ptr; write pointer out
+tests/test_bytes_vec_alloc.rs:42:27: error TS019 the type is a raw pointer; take a reference the compiler can check
+tests/test_bytes_vec_alloc.rs:42:39: warning TS027 usize is architecture dependent; spell the width
+tests/test_bytes_vec_alloc.rs:43:14: info TS037 the name abbreviates ptr; write pointer out
+tests/test_bytes_vec_alloc.rs:44:16: info TS031 [*] the comment opens in lower case
+tests/test_bytes_vec_alloc.rs:45:57: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes_vec_alloc.rs:47:16: info TS031 [*] the comment opens in lower case
+tests/test_bytes_vec_alloc.rs:47:98: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes_vec_alloc.rs:65:1: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+tests/test_bytes_vec_alloc.rs:66:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+tests/test_bytes_vec_alloc.rs:66:20: warning TS022 the function does not assert layout at entry
+tests/test_bytes_vec_alloc.rs:66:47: error TS019 the type is a raw pointer; take a reference the compiler can check
+tests/test_bytes_vec_alloc.rs:68:13: info TS037 the name abbreviates ptr; write pointer out
+tests/test_bytes_vec_alloc.rs:73:5: error TS019 the declaration widens the unchecked surface; confine it to the block that needs it
+tests/test_bytes_vec_alloc.rs:73:22: warning TS022 the function does not assert ptr, layout at entry
+tests/test_bytes_vec_alloc.rs:73:30: info TS037 the name abbreviates ptr; write pointer out
+tests/test_bytes_vec_alloc.rs:73:35: error TS019 the type is a raw pointer; take a reference the compiler can check
+tests/test_bytes_vec_alloc.rs:76:22: info TS038 the branch states its condition negatively and carries an else; swap the arms
+tests/test_bytes_vec_alloc.rs:80:29: info TS055 [*] the wrapped list ends without a trailing comma
+tests/test_bytes_vec_alloc.rs:113:4: info TS037 the name abbreviates ptr; write pointer out
+tests/test_bytes_vec_alloc.rs:113:18: warning TS022 the function does not assert addr at entry
+tests/test_bytes_vec_alloc.rs:113:19: info TS037 the name abbreviates addr; write address out
+tests/test_bytes_vec_alloc.rs:113:25: warning TS027 usize is architecture dependent; spell the width
+tests/test_bytes_vec_alloc.rs:113:35: error TS019 the type is a raw pointer; take a reference the compiler can check
+tests/test_bytes_vec_alloc.rs:114:9: info TS037 the name abbreviates ptr; write pointer out
+tests/test_bytes_vec_alloc.rs:120:4: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes_vec_alloc.rs:121:9: info TS037 the name abbreviates vec; write vector out
+tests/test_bytes_vec_alloc.rs:123:41: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes_vec_alloc.rs:124:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes_vec_alloc.rs:127:55: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes_vec_alloc.rs:128:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes_vec_alloc.rs:132:55: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes_vec_alloc.rs:133:9: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes_vec_alloc.rs:134:9: info TS037 the name b2 is too short to spell a word; write the word out
+tests/test_bytes_vec_alloc.rs:137:79: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes_vec_alloc.rs:140:36: info TS031 [*] the comment does not close with a full stop
+tests/test_bytes_vec_alloc.rs:141:13: info TS037 the name b1 is too short to spell a word; write the word out
+tests/test_bytes_vec_alloc.rs:142:9: info TS037 the name b2 is too short to spell a word; write the word out
+tests/test_chain.rs:4:1: warning TS035 the branch builds a different program per target
+tests/test_chain.rs:8:4: info TS037 the name abbreviates bufs; write buffers out
+tests/test_chain.rs:9:9: info TS037 the name a is too short to spell a word; write the word out
+tests/test_chain.rs:10:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_chain.rs:12:9: info TS037 the name abbreviates res; write result out
+tests/test_chain.rs:18:13: info TS037 the name a is too short to spell a word; write the word out
+tests/test_chain.rs:19:13: info TS037 the name b is too short to spell a word; write the word out
+tests/test_chain.rs:22:17: info TS037 the name abbreviates buf; write buffer out
+tests/test_chain.rs:37:4: info TS037 the name abbreviates bufs; write buffers out
+tests/test_chain.rs:38:9: info TS037 the name a is too short to spell a word; write the word out
+tests/test_chain.rs:39:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_chain.rs:41:9: info TS037 the name abbreviates res; write result out
+tests/test_chain.rs:45:1: warning TS035 the branch builds a different program per target
+tests/test_chain.rs:47:1: warning TS002 the function is 88 lines, over the 70 line limit
+tests/test_chain.rs:48:9: info TS037 the name a is too short to spell a word; write the word out
+tests/test_chain.rs:49:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_chain.rs:51:13: info TS037 the name abbreviates buf; write buffer out
+tests/test_chain.rs:139:13: info TS037 the name abbreviates vec; write vector out
+tests/test_chain.rs:141:101: warning TS012 the line is 204 columns, over the 100 column limit
+tests/test_chain.rs:160:13: info TS037 the name ab is too short to spell a word; write the word out
+tests/test_chain.rs:161:13: info TS037 the name cd is too short to spell a word; write the word out
+tests/test_chain.rs:162:9: info TS037 the name abbreviates ptr; write pointer out
+tests/test_chain.rs:163:9: info TS037 the name abbreviates ptr; write pointer out
+tests/test_chain.rs:165:9: info TS037 the name a is too short to spell a word; write the word out
+tests/test_chain.rs:166:9: info TS037 the name bc is too short to spell a word; write the word out
+tests/test_chain.rs:167:9: info TS037 the name d is too short to spell a word; write the word out
+tests/test_chain.rs:173:8: info TS031 [*] the comment opens in lower case
+tests/test_chain.rs:173:43: info TS031 [*] the comment does not close with a full stop
+tests/test_chain.rs:175:8: info TS031 [*] the comment opens in lower case
+tests/test_chain.rs:175:43: info TS031 [*] the comment does not close with a full stop
+tests/test_debug.rs:1:1: info TS004 the file carries 1 assertions across 1 functions, under the 2 the style asks for
+tests/test_debug.rs:6:4: info TS037 the name abbreviates fmt; write format out
+tests/test_debug.rs:7:9: info TS037 the name abbreviates vec; write vector out
+tests/test_debug.rs:7:39: info TS037 the name b is too short to spell a word; write the word out
+tests/test_iter.rs:6:4: info TS037 the name abbreviates iter; write iterator out
+tests/test_iter.rs:7:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_iter.rs:8:9: info TS037 the name abbreviates iter; write iterator out
+tests/test_iter.rs:15:4: info TS037 the name abbreviates iter; write iterator out
+tests/test_iter.rs:16:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_iter.rs:17:9: info TS037 the name abbreviates iter; write iterator out
+tests/test_limit.rs:1:1: info TS004 the file carries 11 assertions across 8 functions, under the 16 the style asks for
+tests/test_limit.rs:7:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_limit.rs:15:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_limit.rs:23:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_limit.rs:32:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_limit.rs:36:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_limit.rs:44:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_limit.rs:45:13: info TS043 the binding is used only inside the block that opens on line 46; declare it inside that block
+tests/test_limit.rs:54:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_limit.rs:55:13: info TS043 the binding is used only inside the block that opens on line 56; declare it inside that block
+tests/test_limit.rs:63:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_limit.rs:74:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_limit.rs:75:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_limit.rs:77:13: info TS037 the name abbreviates dst; write destination out
+tests/test_limit.rs:83:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_reader.rs:1:1: info TS004 the file carries 5 assertions across 3 functions, under the 6 the style asks for
+tests/test_reader.rs:2:1: warning TS035 the branch builds a different program per target
+tests/test_reader.rs:12:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_reader.rs:19:4: info TS037 the name abbreviates buf; write buffer out
+tests/test_reader.rs:33:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_reader.rs:35:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_serde.rs:1:1: info TS004 the file carries 0 assertions across 2 functions, under the 4 the style asks for
+tests/test_serde.rs:1:1: warning TS035 the branch builds a different program per target
+tests/test_serde.rs:8:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_serde.rs:10:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_serde.rs:16:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_serde.rs:18:9: info TS037 the name b is too short to spell a word; write the word out
+tests/test_take.rs:10:9: info TS037 the name abbreviates buf; write buffer out
+tests/test_take.rs:18:9: info TS037 the name abbreviates ptr; write pointer out
+tests/test_take.rs:20:9: info TS037 the name a is too short to spell a word; write the word out
+tests/test_take.rs:22:8: info TS031 [*] the comment opens in lower case
+tests/test_take.rs:22:42: info TS031 [*] the comment does not close with a full stop
+tests/test_take.rs:34:1: warning TS035 the branch builds a different program per target
+tests/test_take.rs:37:5: warning TS014 the function is declared inside another function
+tests/test_take.rs:42:17: info TS037 the name abbreviates dst; write destination out
+tests/test_take.rs:48:17: info TS037 the name abbreviates dst; write destination out
+tests/test_take.rs:55:17: info TS037 the name abbreviates dst; write destination out
+tests/test_take.rs:62:17: info TS037 the name abbreviates dst; write destination out
+tests/test_take.rs:70:17: info TS037 the name abbreviates dst; write destination out
+tests/test_take.rs:78:17: info TS037 the name abbreviates dst; write destination out

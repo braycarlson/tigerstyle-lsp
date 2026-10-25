@@ -1,0 +1,10 @@
+TS029 four-space-indent
+
+Indentation is four spaces per level, with no tabs, so a file reads the same everywhere.
+
+languages: go javascript odin python rust typescript zig
+severity: info
+default: on
+group: stable
+
+TigerStyle: "Use 4 spaces of indentation, rather than 2 spaces, as that is more obvious to the eye at a distance."

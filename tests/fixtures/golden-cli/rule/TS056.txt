@@ -1,0 +1,13 @@
+TS056 bounded-queues
+
+A queue carries a fixed capacity, so a producer that outruns its consumer fails at the bound rather than growing without limit.
+
+languages: odin python rust zig
+severity: warning
+default: opt-in
+group: stable
+go: a Go channel is bounded by construction: make(chan T, n) names the bound and an unbuffered channel holds nothing
+javascript: JavaScript has no queue type; an array used as a queue grows on push, which TS016 reports
+typescript: TypeScript has no queue type; an array used as a queue grows on push, which TS016 reports
+
+TigerStyle: "Put a limit on everything because, in reality, this is what we expect [...] everything has a limit. For example, all loops and all queues must have a fixed upper bound to prevent infinite loops or tail latency spikes."

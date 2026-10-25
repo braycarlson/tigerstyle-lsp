@@ -1,0 +1,13 @@
+TS030 if-braces
+
+A branch that spans more than one line carries braces, so a later statement cannot join the body by accident.
+
+languages: javascript odin typescript zig
+severity: warning
+default: on
+group: stable
+go: Go requires braces on every if, so an unbraced one does not parse
+python: Python blocks are indentation, not braces
+rust: Rust requires braces on every if, so an unbraced one does not parse
+
+TigerStyle: "Add braces to the `if` statement unless it fits on a single line for consistency and defense in depth against \"goto fail;\" bugs."

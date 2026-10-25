@@ -1,0 +1,13 @@
+TS052 no-panic-recovery
+
+A crash stays a crash, because a recovered panic runs on from state the program has already proven wrong.
+
+languages: go javascript python rust typescript
+severity: error
+default: on
+group: stable
+odin: Odin has no way to recover from a panic; an assertion failure ends the process
+zig: Zig has no way to recover from a panic; the panic handler does not return
+
+TigerStyle: "Assertions detect programmer errors. Unlike operating errors, which are expected and which must be handled, assertion failures are unexpected. The only correct way to handle corrupt code is to crash."
+NASA P10 Rule 1: "Restrict all code to very simple control flow constructs; do not use goto statements, setjmp or longjmp constructs, and direct or indirect recursion."
