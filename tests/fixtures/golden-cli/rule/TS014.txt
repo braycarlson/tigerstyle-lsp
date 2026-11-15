@@ -1,0 +1,13 @@
+TS014 no-nested-functions
+
+A function is declared at the top level rather than inside another function, so the call graph stays flat.
+
+languages: javascript odin python rust typescript
+severity: warning
+default: opt-in
+group: stable
+go: Go has no nested named function; a func literal is a lambda, which TS015 reports
+zig: Zig has no nested function; a fn is legal only at container scope, so every inner function is a struct member
+
+TigerStyle: "Use only very simple, explicit control flow for clarity."
+NASA P10 Rule 1: "Restrict all code to very simple control flow constructs."

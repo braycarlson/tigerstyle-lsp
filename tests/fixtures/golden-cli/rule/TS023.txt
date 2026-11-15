@@ -1,0 +1,10 @@
+TS023 no-compound-condition
+
+A condition evaluates one boolean, because a compound condition hides which cases are handled; split it into nested branches.
+
+languages: go javascript odin python rust typescript zig
+severity: warning
+default: on
+group: stable
+
+TigerStyle: "Compound conditions that evaluate multiple booleans make it difficult for the reader to verify that all cases are handled. Split compound conditions into simple conditions using nested `if/else` branches. Split complex `else if` chains into `else { if { } }` trees."

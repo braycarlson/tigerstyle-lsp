@@ -1,0 +1,228 @@
+{
+  "name": "tigerstyle-lsp",
+  "displayName": "TigerStyle LSP",
+  "description": "A TigerStyle linter for Go, JavaScript, Odin, Python, Rust, TypeScript, and Zig",
+  "version": "0.1.0",
+  "publisher": "braycarlson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/braycarlson/tigerstyle-lsp"
+  },
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Linters",
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onLanguage:go",
+    "onLanguage:python",
+    "onLanguage:rust",
+    "onLanguage:zig"
+  ],
+  "main": "./out/extension.js",
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/vscode": "1.91.0",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "vscode-languageclient": "^10.1.0"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "tigerstyle.restart",
+        "title": "TigerStyle: Restart the language server"
+      },
+      {
+        "command": "tigerstyle.printDebugInformation",
+        "title": "TigerStyle: Print debug information"
+      }
+    ],
+    "configuration": {
+      "title": "TigerStyle LSP",
+      "properties": {
+        "tigerstyle.arguments": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [],
+          "description": "The arguments passed to the server after the server subcommand."
+        },
+        "tigerstyle.assertionsPerFunctionMin": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "The assertionsPerFunctionMin threshold, overriding the configuration file for this folder."
+        },
+        "tigerstyle.configPath": {
+          "type": "string",
+          "default": "",
+          "description": "A configuration file to read rather than discovering one."
+        },
+        "tigerstyle.configurationPreference": {
+          "type": "string",
+          "enum": [
+            "filesystemFirst",
+            "editorFirst",
+            "editorOnly"
+          ],
+          "default": "filesystemFirst",
+          "description": "The way the editor settings layer against the configuration file hierarchy."
+        },
+        "tigerstyle.declarationDistanceMax": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "The declarationDistanceMax threshold, overriding the configuration file for this folder."
+        },
+        "tigerstyle.disabledRules": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [],
+          "description": "An alias for ignore."
+        },
+        "tigerstyle.elseIfChainMax": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "The elseIfChainMax threshold, overriding the configuration file for this folder."
+        },
+        "tigerstyle.enable": {
+          "type": "boolean",
+          "default": true,
+          "description": "Run the tigerstyle-lsp language server."
+        },
+        "tigerstyle.enabledRules": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [],
+          "description": "An alias for extendSelect."
+        },
+        "tigerstyle.extendSelect": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [],
+          "description": "Turn on the rules these selectors name, beside the default set, for this folder."
+        },
+        "tigerstyle.fixOnSave": {
+          "type": "boolean",
+          "default": false,
+          "description": "Apply the safe fixes when a file is saved. The client must support workspace/applyEdit."
+        },
+        "tigerstyle.functionLinesMax": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "The functionLinesMax threshold, overriding the configuration file for this folder."
+        },
+        "tigerstyle.ignore": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [],
+          "description": "Turn off the rules these selectors name, for this folder."
+        },
+        "tigerstyle.isolated": {
+          "type": "boolean",
+          "default": false,
+          "description": "Discover no configuration file."
+        },
+        "tigerstyle.languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [
+            "go",
+            "python",
+            "rust",
+            "zig"
+          ],
+          "description": "The language identifiers the server is attached to."
+        },
+        "tigerstyle.lineLengthMax": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "The lineLengthMax threshold, overriding the configuration file for this folder."
+        },
+        "tigerstyle.logFile": {
+          "type": "string",
+          "default": "",
+          "description": "A file the server writes its log to. The setting is accepted and recorded, but the server logs to standard error."
+        },
+        "tigerstyle.logLevel": {
+          "type": "string",
+          "enum": [
+            "error",
+            "warn",
+            "info",
+            "debug",
+            "trace"
+          ],
+          "default": "info",
+          "description": "The level the server logs at. The setting is accepted and recorded, but the server logs each line it writes."
+        },
+        "tigerstyle.nestingDepthMax": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "The nestingDepthMax threshold, overriding the configuration file for this folder."
+        },
+        "tigerstyle.parametersMax": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "The parametersMax threshold, overriding the configuration file for this folder."
+        },
+        "tigerstyle.path": {
+          "type": "string",
+          "default": "tigerstyle-lsp",
+          "description": "The tigerstyle-lsp executable to run."
+        },
+        "tigerstyle.preview": {
+          "type": "boolean",
+          "default": false,
+          "description": "Turn on the rules still in preview, for this folder."
+        },
+        "tigerstyle.select": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [],
+          "description": "Replace the default rule set with what these selectors name, for this folder."
+        },
+        "tigerstyle.showNotifications": {
+          "type": "string",
+          "enum": [
+            "off",
+            "onError",
+            "always"
+          ],
+          "default": "onError",
+          "description": "The condition on which the extension surfaces a server message."
+        },
+        "tigerstyle.trace.server": {
+          "type": "string",
+          "enum": [
+            "off",
+            "messages",
+            "verbose"
+          ],
+          "default": "off",
+          "description": "Trace the traffic between the editor and the server."
+        }
+      }
+    }
+  }
+}

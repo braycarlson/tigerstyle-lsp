@@ -1,0 +1,8 @@
+sample.py:
+  1:16   warning TS011 the import brings in every name
+  5:12   warning TS003 the function takes 8 parameters, over the 7 the style allows
+  7:9    warning TS006 the loop carries no upper bound; give it a fixed maximum
+  8:16   warning TS023 the condition combines booleans; split it into nested branches
+  10:5   warning TS009 [*] the handler catches every error
+  10:5   error TS010 the handler does nothing with the error
+  13:12  warning TS015 the expression is an unnamed function

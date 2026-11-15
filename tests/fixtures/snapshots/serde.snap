@@ -1,0 +1,543 @@
+serde/src/lib.rs:103:1: warning TS020 [*] the attribute silences a checker
+serde/src/lib.rs:104:1: warning TS020 [*] the attribute silences a checker
+serde/src/lib.rs:111:1: warning TS020 [*] the attribute silences a checker
+serde/src/lib.rs:191:25: warning TS011 the import brings in every name
+serde/src/lib.rs:193:25: warning TS011 the import brings in every name
+serde/src/lib.rs:84:101: warning TS012 the line is 124 columns, over the 100 column limit
+serde/src/private/de.rs:1569:56: warning TS041 Result<Option<V::Value>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde/src/private/de.rs:1696:52: warning TS041 Result<Option<T::Value>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde/src/private/de.rs:1724:14: warning TS041 Result<Option<(TK::Value, TV::Value)>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde/src/private/de.rs:1751:56: warning TS041 Result<Option<T::Value>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde/src/private/de.rs:1830:56: warning TS041 Result<Option<T::Value>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde/src/private/de.rs:1:5: warning TS011 the import brings in every name
+serde/src/private/de.rs:213:9: warning TS011 the import brings in every name
+serde/src/private/de.rs:251:62: error TS001 content_clone takes part in a call cycle; give it an explicit stack or a bound
+serde/src/private/de.rs:2527:56: warning TS041 Result<Option<V::Value>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde/src/private/de.rs:2642:52: warning TS041 Result<Option<T::Value>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde/src/private/de.rs:2670:14: warning TS041 Result<Option<(TK::Value, TV::Value)>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde/src/private/de.rs:2697:56: warning TS041 Result<Option<T::Value>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde/src/private/de.rs:2780:56: warning TS041 Result<Option<T::Value>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde/src/private/de.rs:3358:48: warning TS041 Result<Option<T::Value>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde/src/private/de.rs:3403:48: warning TS041 Result<Option<T::Value>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde/src/private/de.rs:64:1: warning TS002 the function is 72 lines, over the 70 line limit
+serde/src/private/ser.rs:1:5: warning TS011 the import brings in every name
+serde/src/private/ser.rs:340:9: warning TS011 the import brings in every name
+serde/src/private/ser.rs:471:9: warning TS002 the function is 79 lines, over the 70 line limit
+serde_core/build.rs:18:1: warning TS002 the function is 85 lines, over the 70 line limit
+serde_core/build.rs:60:12: warning TS023 the condition combines booleans; split it into nested branches
+serde_core/build.rs:63:12: warning TS023 the condition combines booleans; split it into nested branches
+serde_core/build.rs:69:101: warning TS012 the line is 102 columns, over the 100 column limit
+serde_core/src/crate_root.rs:11:25: warning TS011 the import brings in every name
+serde_core/src/crate_root.rs:9:25: warning TS011 the import brings in every name
+serde_core/src/de/ignored_any.rs:1:5: warning TS011 the import brings in every name
+serde_core/src/de/impls.rs:1036:101: warning TS012 the line is 102 columns, over the 100 column limit
+serde_core/src/de/impls.rs:1038:101: warning TS012 the line is 104 columns, over the 100 column limit
+serde_core/src/de/impls.rs:1205:29: info TS025 the name leads with the qualifier next; put it last
+serde_core/src/de/impls.rs:1334:101: warning TS012 the line is 101 columns, over the 100 column limit
+serde_core/src/de/impls.rs:1415:17: warning TS020 [*] the attribute silences a checker
+serde_core/src/de/impls.rs:1441:101: warning TS012 the line is 110 columns, over the 100 column limit
+serde_core/src/de/impls.rs:1449:17: warning TS020 [*] the attribute silences a checker
+serde_core/src/de/impls.rs:1496:101: warning TS012 the line is 103 columns, over the 100 column limit
+serde_core/src/de/impls.rs:1504:101: warning TS012 the line is 124 columns, over the 100 column limit
+serde_core/src/de/impls.rs:1655:101: warning TS012 the line is 105 columns, over the 100 column limit
+serde_core/src/de/impls.rs:1:5: warning TS011 the import brings in every name
+serde_core/src/de/impls.rs:2130:5: warning TS002 the function is 135 lines, over the 70 line limit
+serde_core/src/de/impls.rs:2272:5: warning TS002 the function is 139 lines, over the 70 line limit
+serde_core/src/de/impls.rs:2464:9: warning TS011 the import brings in every name
+serde_core/src/de/impls.rs:2623:9: warning TS011 the import brings in every name
+serde_core/src/de/impls.rs:2762:9: warning TS011 the import brings in every name
+serde_core/src/de/impls.rs:2877:5: warning TS002 the function is 99 lines, over the 70 line limit
+serde_core/src/de/impls.rs:294:17: warning TS020 [*] the attribute silences a checker
+serde_core/src/de/impls.rs:2987:5: warning TS002 the function is 99 lines, over the 70 line limit
+serde_core/src/de/impls.rs:309:17: warning TS020 [*] the attribute silences a checker
+serde_core/src/de/impls.rs:472:16: warning TS023 the condition combines booleans; split it into nested branches
+serde_core/src/de/impls.rs:488:16: warning TS023 the condition combines booleans; split it into nested branches
+serde_core/src/de/impls.rs:82:101: warning TS012 the line is 114 columns, over the 100 column limit
+serde_core/src/de/impls.rs:981:101: warning TS012 the line is 121 columns, over the 100 column limit
+serde_core/src/de/mod.rs:106:101: warning TS012 the line is 104 columns, over the 100 column limit
+serde_core/src/de/mod.rs:115:5: warning TS011 the import brings in every name
+serde_core/src/de/mod.rs:1759:52: warning TS041 Result<Option<T::Value>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_core/src/de/mod.rs:1769:38: warning TS041 Result<Option<T>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_core/src/de/mod.rs:1790:52: warning TS041 Result<Option<T::Value>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_core/src/de/mod.rs:1798:38: warning TS041 Result<Option<T>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_core/src/de/mod.rs:1847:48: warning TS041 Result<Option<K::Value>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_core/src/de/mod.rs:1877:10: warning TS041 Result<Option<(K::Value, V::Value)>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_core/src/de/mod.rs:1897:34: warning TS041 Result<Option<K>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_core/src/de/mod.rs:1927:39: warning TS041 Result<Option<(K, V)>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_core/src/de/mod.rs:1949:48: warning TS041 Result<Option<K::Value>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_core/src/de/mod.rs:1969:10: warning TS041 Result<Option<(K::Value, V::Value)>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_core/src/de/mod.rs:1978:39: warning TS041 Result<Option<(K, V)>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_core/src/de/mod.rs:1987:34: warning TS041 Result<Option<K>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_core/src/de/mod.rs:403:13: warning TS011 the import brings in every name
+serde_core/src/de/mod.rs:550:101: warning TS012 the line is 103 columns, over the 100 column limit
+serde_core/src/de/value.rs:1090:52: warning TS041 Result<Option<V::Value>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_core/src/de/value.rs:1363:48: warning TS041 Result<Option<T::Value>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_core/src/de/value.rs:1391:10: warning TS041 Result<Option<(TK::Value, TV::Value)>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_core/src/de/value.rs:1421:52: warning TS041 Result<Option<T::Value>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_core/src/de/value.rs:144:5: warning TS020 [*] the attribute silences a checker
+serde_core/src/de/value.rs:1538:52: warning TS041 Result<Option<T::Value>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_core/src/de/value.rs:1732:9: warning TS011 the import brings in every name
+serde_core/src/de/value.rs:24:5: warning TS011 the import brings in every name
+serde_core/src/de/value.rs:277:13: warning TS020 [*] the attribute silences a checker
+serde_core/src/de/value.rs:364:5: warning TS020 [*] the attribute silences a checker
+serde_core/src/de/value.rs:464:5: warning TS020 [*] the attribute silences a checker
+serde_core/src/de/value.rs:667:5: warning TS020 [*] the attribute silences a checker
+serde_core/src/de/value.rs:784:5: warning TS020 [*] the attribute silences a checker
+serde_core/src/lib.rs:25:101: warning TS012 the line is 113 columns, over the 100 column limit
+serde_core/src/lib.rs:32:101: warning TS012 the line is 113 columns, over the 100 column limit
+serde_core/src/lib.rs:43:1: warning TS020 [*] the attribute silences a checker
+serde_core/src/lib.rs:44:1: warning TS020 [*] the attribute silences a checker
+serde_core/src/lib.rs:46:1: warning TS020 [*] the attribute silences a checker
+serde_core/src/macros.rs:125:101: warning TS012 the line is 141 columns, over the 100 column limit
+serde_core/src/macros.rs:213:101: warning TS012 the line is 108 columns, over the 100 column limit
+serde_core/src/macros.rs:219:101: warning TS012 the line is 123 columns, over the 100 column limit
+serde_core/src/macros.rs:222:101: warning TS012 the line is 123 columns, over the 100 column limit
+serde_core/src/private/content.rs:1:5: warning TS011 the import brings in every name
+serde_core/src/private/doc.rs:147:101: warning TS012 the line is 103 columns, over the 100 column limit
+serde_core/src/private/doc.rs:151:101: warning TS012 the line is 116 columns, over the 100 column limit
+serde_core/src/private/doc.rs:163:101: warning TS012 the line is 118 columns, over the 100 column limit
+serde_core/src/private/doc.rs:3:5: warning TS011 the import brings in every name
+serde_core/src/private/size_hint.rs:13:11: info TS025 the name leads with the qualifier MAX; put it last
+serde_core/src/private/size_hint.rs:2:5: warning TS011 the import brings in every name
+serde_core/src/private/string.rs:1:5: warning TS011 the import brings in every name
+serde_core/src/ser/fmt.rs:1:5: warning TS011 the import brings in every name
+serde_core/src/ser/impls.rs:1:5: warning TS011 the import brings in every name
+serde_core/src/ser/impls.rs:419:101: warning TS012 the line is 103 columns, over the 100 column limit
+serde_core/src/ser/impls.rs:427:101: warning TS012 the line is 102 columns, over the 100 column limit
+serde_core/src/ser/impls.rs:793:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+serde_core/src/ser/impls.rs:812:19: info TS025 the name leads with the qualifier MAX; put it last
+serde_core/src/ser/impls.rs:836:19: info TS025 the name leads with the qualifier MAX; put it last
+serde_core/src/ser/impls.rs:876:19: info TS025 the name leads with the qualifier MAX; put it last
+serde_core/src/ser/impls.rs:892:19: info TS025 the name leads with the qualifier MAX; put it last
+serde_core/src/ser/impossible.rs:3:5: warning TS011 the import brings in every name
+serde_core/src/ser/mod.rs:110:5: warning TS011 the import brings in every name
+serde_core/src/ser/mod.rs:176:101: warning TS012 the line is 102 columns, over the 100 column limit
+serde_core/src/ser/mod.rs:220:101: warning TS012 the line is 104 columns, over the 100 column limit
+serde_core/src/ser/mod.rs:230:101: warning TS012 the line is 101 columns, over the 100 column limit
+serde_core/src/ser/mod.rs:99:101: warning TS012 the line is 104 columns, over the 100 column limit
+serde_derive/src/bound.rs:130:9: error TS001 visit_path takes part in a call cycle; give it an explicit stack or a bound
+serde_derive/src/bound.rs:138:16: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/bound.rs:154:41: error TS001 visit_type takes part in a call cycle; give it an explicit stack or a bound
+serde_derive/src/bound.rs:195:9: error TS001 visit_path_segment takes part in a call cycle; give it an explicit stack or a bound
+serde_derive/src/bound.rs:199:9: error TS001 visit_path_arguments takes part in a call cycle; give it an explicit stack or a bound
+serde_derive/src/bound.rs:205:101: warning TS012 the line is 102 columns, over the 100 column limit
+serde_derive/src/bound.rs:225:9: error TS001 visit_return_type takes part in a call cycle; give it an explicit stack or a bound
+serde_derive/src/bound.rs:232:9: error TS001 visit_type_param_bound takes part in a call cycle; give it an explicit stack or a bound
+serde_derive/src/bound.rs:97:1: warning TS002 the function is 231 lines, over the 70 line limit
+serde_derive/src/de.rs:307:5: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+serde_derive/src/de.rs:338:8: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/de.rs:366:101: warning TS012 the line is 121 columns, over the 100 column limit
+serde_derive/src/de.rs:451:1: warning TS002 the function is 102 lines, over the 70 line limit
+serde_derive/src/de.rs:50:101: warning TS012 the line is 123 columns, over the 100 column limit
+serde_derive/src/de.rs:555:1: warning TS002 the function is 87 lines, over the 70 line limit
+serde_derive/src/de.rs:582:101: warning TS012 the line is 129 columns, over the 100 column limit
+serde_derive/src/de.rs:586:101: warning TS012 the line is 108 columns, over the 100 column limit
+serde_derive/src/de.rs:65:101: warning TS012 the line is 103 columns, over the 100 column limit
+serde_derive/src/de.rs:66:101: warning TS012 the line is 102 columns, over the 100 column limit
+serde_derive/src/de.rs:691:101: warning TS012 the line is 113 columns, over the 100 column limit
+serde_derive/src/de.rs:692:101: warning TS012 the line is 101 columns, over the 100 column limit
+serde_derive/src/de.rs:745:17: warning TS015 the expression is an unnamed function
+serde_derive/src/de.rs:751:17: warning TS015 the expression is an unnamed function
+serde_derive/src/de.rs:755:13: warning TS015 the expression is an unnamed function
+serde_derive/src/de.rs:758:13: warning TS015 the expression is an unnamed function
+serde_derive/src/de.rs:761:13: warning TS015 the expression is an unnamed function
+serde_derive/src/de.rs:802:101: warning TS012 the line is 101 columns, over the 100 column limit
+serde_derive/src/de/enum_.rs:20:101: warning TS012 the line is 102 columns, over the 100 column limit
+serde_derive/src/de/enum_.rs:28:17: info TS025 the name leads with the qualifier first; put it last
+serde_derive/src/de/enum_adjacently.rs:105:9: info TS025 the name leads with the qualifier next; put it last
+serde_derive/src/de/enum_adjacently.rs:113:101: warning TS012 the line is 125 columns, over the 100 column limit
+serde_derive/src/de/enum_adjacently.rs:122:9: info TS025 the name leads with the qualifier next; put it last
+serde_derive/src/de/enum_adjacently.rs:126:101: warning TS012 the line is 118 columns, over the 100 column limit
+serde_derive/src/de/enum_adjacently.rs:130:101: warning TS012 the line is 105 columns, over the 100 column limit
+serde_derive/src/de/enum_adjacently.rs:138:101: warning TS012 the line is 104 columns, over the 100 column limit
+serde_derive/src/de/enum_adjacently.rs:174:101: warning TS012 the line is 105 columns, over the 100 column limit
+serde_derive/src/de/enum_adjacently.rs:18:101: warning TS012 the line is 111 columns, over the 100 column limit
+serde_derive/src/de/enum_adjacently.rs:194:101: warning TS012 the line is 110 columns, over the 100 column limit
+serde_derive/src/de/enum_adjacently.rs:197:101: warning TS012 the line is 111 columns, over the 100 column limit
+serde_derive/src/de/enum_adjacently.rs:19:1: warning TS002 the function is 306 lines, over the 70 line limit
+serde_derive/src/de/enum_adjacently.rs:214:101: warning TS012 the line is 105 columns, over the 100 column limit
+serde_derive/src/de/enum_adjacently.rs:217:101: warning TS012 the line is 113 columns, over the 100 column limit
+serde_derive/src/de/enum_adjacently.rs:221:101: warning TS012 the line is 104 columns, over the 100 column limit
+serde_derive/src/de/enum_adjacently.rs:234:101: warning TS012 the line is 101 columns, over the 100 column limit
+serde_derive/src/de/enum_adjacently.rs:235:101: warning TS012 the line is 111 columns, over the 100 column limit
+serde_derive/src/de/enum_adjacently.rs:238:101: warning TS012 the line is 105 columns, over the 100 column limit
+serde_derive/src/de/enum_adjacently.rs:255:101: warning TS012 the line is 137 columns, over the 100 column limit
+serde_derive/src/de/enum_adjacently.rs:259:101: warning TS012 the line is 101 columns, over the 100 column limit
+serde_derive/src/de/enum_adjacently.rs:263:101: warning TS012 the line is 105 columns, over the 100 column limit
+serde_derive/src/de/enum_adjacently.rs:264:101: warning TS012 the line is 115 columns, over the 100 column limit
+serde_derive/src/de/enum_adjacently.rs:268:101: warning TS012 the line is 109 columns, over the 100 column limit
+serde_derive/src/de/enum_adjacently.rs:274:101: warning TS012 the line is 101 columns, over the 100 column limit
+serde_derive/src/de/enum_adjacently.rs:279:101: warning TS012 the line is 104 columns, over the 100 column limit
+serde_derive/src/de/enum_adjacently.rs:295:101: warning TS012 the line is 111 columns, over the 100 column limit
+serde_derive/src/de/enum_externally.rs:23:1: warning TS002 the function is 94 lines, over the 70 line limit
+serde_derive/src/de/enum_externally.rs:64:101: warning TS012 the line is 101 columns, over the 100 column limit
+serde_derive/src/de/enum_externally.rs:89:101: warning TS012 the line is 105 columns, over the 100 column limit
+serde_derive/src/de/enum_externally.rs:92:101: warning TS012 the line is 113 columns, over the 100 column limit
+serde_derive/src/de/enum_externally.rs:96:101: warning TS012 the line is 102 columns, over the 100 column limit
+serde_derive/src/de/enum_internally.rs:20:101: warning TS012 the line is 101 columns, over the 100 column limit
+serde_derive/src/de/enum_internally.rs:57:101: warning TS012 the line is 101 columns, over the 100 column limit
+serde_derive/src/de/enum_internally.rs:91:101: warning TS012 the line is 154 columns, over the 100 column limit
+serde_derive/src/de/enum_untagged.rs:21:101: warning TS012 the line is 106 columns, over the 100 column limit
+serde_derive/src/de/enum_untagged.rs:26:5: info TS025 the name leads with the qualifier first; put it last
+serde_derive/src/de/enum_untagged.rs:46:101: warning TS012 the line is 127 columns, over the 100 column limit
+serde_derive/src/de/enum_untagged.rs:47:101: warning TS012 the line is 105 columns, over the 100 column limit
+serde_derive/src/de/enum_untagged.rs:90:101: warning TS012 the line is 107 columns, over the 100 column limit
+serde_derive/src/de/identifier.rs:111:101: warning TS012 the line is 110 columns, over the 100 column limit
+serde_derive/src/de/identifier.rs:148:23: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/de/identifier.rs:14:1: warning TS002 the function is 110 lines, over the 70 line limit
+serde_derive/src/de/identifier.rs:155:9: warning TS020 [*] the attribute silences a checker
+serde_derive/src/de/identifier.rs:185:1: warning TS002 the function is 293 lines, over the 70 line limit
+serde_derive/src/de/identifier.rs:205:9: info TS025 the name leads with the qualifier bytes; put it last
+serde_derive/src/de/identifier.rs:226:27: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/de/identifier.rs:226:9: info TS025 the name leads with the qualifier bytes; put it last
+serde_derive/src/de/identifier.rs:242:31: warning TS012 the line is 116 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+serde_derive/src/de/identifier.rs:29:13: info TS025 the name leads with the qualifier last; put it last
+serde_derive/src/de/identifier.rs:39:31: warning TS015 the expression is an unnamed function
+serde_derive/src/de/identifier.rs:405:29: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/de/identifier.rs:407:13: info TS025 the name leads with the qualifier bytes; put it last
+serde_derive/src/de/identifier.rs:410:101: warning TS012 the line is 109 columns, over the 100 column limit
+serde_derive/src/de/identifier.rs:423:101: warning TS012 the line is 112 columns, over the 100 column limit
+serde_derive/src/de/identifier.rs:442:101: warning TS012 the line is 109 columns, over the 100 column limit
+serde_derive/src/de/struct_.rs:108:101: warning TS012 the line is 117 columns, over the 100 column limit
+serde_derive/src/de/struct_.rs:111:101: warning TS012 the line is 115 columns, over the 100 column limit
+serde_derive/src/de/struct_.rs:146:101: warning TS012 the line is 107 columns, over the 100 column limit
+serde_derive/src/de/struct_.rs:173:101: warning TS012 the line is 105 columns, over the 100 column limit
+serde_derive/src/de/struct_.rs:176:101: warning TS012 the line is 113 columns, over the 100 column limit
+serde_derive/src/de/struct_.rs:17:1: warning TS002 the function is 181 lines, over the 70 line limit
+serde_derive/src/de/struct_.rs:183:101: warning TS012 the line is 104 columns, over the 100 column limit
+serde_derive/src/de/struct_.rs:199:1: warning TS002 the function is 221 lines, over the 70 line limit
+serde_derive/src/de/struct_.rs:269:101: warning TS012 the line is 118 columns, over the 100 column limit
+serde_derive/src/de/struct_.rs:282:101: warning TS012 the line is 120 columns, over the 100 column limit
+serde_derive/src/de/struct_.rs:289:101: warning TS012 the line is 102 columns, over the 100 column limit
+serde_derive/src/de/struct_.rs:294:25: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/de/struct_.rs:304:101: warning TS012 the line is 111 columns, over the 100 column limit
+serde_derive/src/de/struct_.rs:347:44: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/de/struct_.rs:352:101: warning TS012 the line is 101 columns, over the 100 column limit
+serde_derive/src/de/struct_.rs:423:1: warning TS002 the function is 88 lines, over the 70 line limit
+serde_derive/src/de/struct_.rs:478:101: warning TS012 the line is 117 columns, over the 100 column limit
+serde_derive/src/de/struct_.rs:481:101: warning TS012 the line is 113 columns, over the 100 column limit
+serde_derive/src/de/struct_.rs:486:101: warning TS012 the line is 103 columns, over the 100 column limit
+serde_derive/src/de/struct_.rs:494:101: warning TS012 the line is 104 columns, over the 100 column limit
+serde_derive/src/de/struct_.rs:513:1: warning TS002 the function is 157 lines, over the 70 line limit
+serde_derive/src/de/struct_.rs:552:101: warning TS012 the line is 135 columns, over the 100 column limit
+serde_derive/src/de/struct_.rs:559:101: warning TS012 the line is 113 columns, over the 100 column limit
+serde_derive/src/de/struct_.rs:571:101: warning TS012 the line is 118 columns, over the 100 column limit
+serde_derive/src/de/struct_.rs:584:101: warning TS012 the line is 102 columns, over the 100 column limit
+serde_derive/src/de/struct_.rs:590:25: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/de/struct_.rs:600:101: warning TS012 the line is 111 columns, over the 100 column limit
+serde_derive/src/de/struct_.rs:616:16: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/de/struct_.rs:88:101: warning TS012 the line is 107 columns, over the 100 column limit
+serde_derive/src/de/tuple.rs:113:101: warning TS012 the line is 105 columns, over the 100 column limit
+serde_derive/src/de/tuple.rs:116:101: warning TS012 the line is 113 columns, over the 100 column limit
+serde_derive/src/de/tuple.rs:123:101: warning TS012 the line is 107 columns, over the 100 column limit
+serde_derive/src/de/tuple.rs:12:101: warning TS012 the line is 103 columns, over the 100 column limit
+serde_derive/src/de/tuple.rs:13:1: warning TS002 the function is 121 lines, over the 70 line limit
+serde_derive/src/de/tuple.rs:174:101: warning TS012 the line is 119 columns, over the 100 column limit
+serde_derive/src/de/tuple.rs:184:101: warning TS012 the line is 112 columns, over the 100 column limit
+serde_derive/src/de/tuple.rs:186:1: warning TS002 the function is 98 lines, over the 70 line limit
+serde_derive/src/de/tuple.rs:218:101: warning TS012 the line is 109 columns, over the 100 column limit
+serde_derive/src/de/tuple.rs:240:101: warning TS012 the line is 107 columns, over the 100 column limit
+serde_derive/src/de/tuple.rs:242:101: warning TS012 the line is 119 columns, over the 100 column limit
+serde_derive/src/de/tuple.rs:263:101: warning TS012 the line is 117 columns, over the 100 column limit
+serde_derive/src/de/tuple.rs:266:101: warning TS012 the line is 113 columns, over the 100 column limit
+serde_derive/src/de/tuple.rs:273:101: warning TS012 the line is 107 columns, over the 100 column limit
+serde_derive/src/de/tuple.rs:82:101: warning TS012 the line is 107 columns, over the 100 column limit
+serde_derive/src/de/tuple.rs:88:101: warning TS012 the line is 119 columns, over the 100 column limit
+serde_derive/src/de/unit.rs:27:101: warning TS012 the line is 105 columns, over the 100 column limit
+serde_derive/src/de/unit.rs:30:101: warning TS012 the line is 113 columns, over the 100 column limit
+serde_derive/src/deprecated.rs:6:23: warning TS020 [*] the attribute silences a checker
+serde_derive/src/dummy.rs:10:13: warning TS020 [*] the attribute silences a checker
+serde_derive/src/dummy.rs:17:9: warning TS020 [*] the attribute silences a checker
+serde_derive/src/internals/ast.rs:166:101: warning TS012 the line is 144 columns, over the 100 column limit
+serde_derive/src/internals/attr.rs:1015:5: warning TS002 the function is 248 lines, over the 70 line limit
+serde_derive/src/internals/attr.rs:1050:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:1075:17: warning TS039 the chain runs 14 branches, over the 3 allowed; split it into a tree
+serde_derive/src/internals/attr.rs:1092:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:1150:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:1151:29: warning TS008 the branch nests 6 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:1152:33: warning TS008 the branch nests 7 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:1164:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:1191:12: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/internals/attr.rs:1398:6: warning TS041 syn::Result<(Option<syn::LitStr>, Vec<syn::LitStr>)> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_derive/src/internals/attr.rs:1415:6: warning TS041 syn::Result<Option<syn::LitStr>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_derive/src/internals/attr.rs:1424:6: warning TS041 syn::Result<Option<syn::LitStr>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_derive/src/internals/attr.rs:1459:6: warning TS041 syn::Result<Option<syn::Path>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_derive/src/internals/attr.rs:1480:6: warning TS041 syn::Result<Option<syn::ExprPath>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_derive/src/internals/attr.rs:1522:6: warning TS041 syn::Result<Option<syn::Type>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+serde_derive/src/internals/attr.rs:1551:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+serde_derive/src/internals/attr.rs:1736:13: error TS001 collect_lifetimes takes part in a call cycle; give it an explicit stack or a bound
+serde_derive/src/internals/attr.rs:1760:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:1801:5: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+serde_derive/src/internals/attr.rs:1803:37: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/internals/attr.rs:1813:17: error TS001 collect_lifetimes_from_tokens takes part in a call cycle; give it an explicit stack or a bound
+serde_derive/src/internals/attr.rs:237:5: warning TS002 the function is 309 lines, over the 70 line limit
+serde_derive/src/internals/attr.rs:276:17: warning TS039 the chain runs 18 branches, over the 3 allowed; split it into a tree
+serde_derive/src/internals/attr.rs:288:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:294:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:297:33: warning TS008 the branch nests 6 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:2:5: warning TS011 the import brings in every name
+serde_derive/src/internals/attr.rs:311:29: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:312:33: warning TS008 the branch nests 6 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:319:29: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:320:33: warning TS008 the branch nests 6 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:325:41: warning TS008 the branch nests 7 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:350:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:351:29: warning TS008 the branch nests 6 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:352:86: warning TS008 the branch nests 7 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:357:101: warning TS012 the line is 125 columns, over the 100 column limit
+serde_derive/src/internals/attr.rs:362:101: warning TS012 the line is 104 columns, over the 100 column limit
+serde_derive/src/internals/attr.rs:366:101: warning TS012 the line is 104 columns, over the 100 column limit
+serde_derive/src/internals/attr.rs:373:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:374:82: warning TS008 the branch nests 6 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:379:101: warning TS012 the line is 111 columns, over the 100 column limit
+serde_derive/src/internals/attr.rs:417:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:421:82: warning TS008 the branch nests 6 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:426:101: warning TS012 the line is 128 columns, over the 100 column limit
+serde_derive/src/internals/attr.rs:431:101: warning TS012 the line is 124 columns, over the 100 column limit
+serde_derive/src/internals/attr.rs:439:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:471:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:643:29: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:748:5: warning TS002 the function is 168 lines, over the 70 line limit
+serde_derive/src/internals/attr.rs:776:17: warning TS039 the chain runs 13 branches, over the 3 allowed; split it into a tree
+serde_derive/src/internals/attr.rs:796:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:802:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:805:33: warning TS008 the branch nests 6 levels deep, over the 4 level limit
+serde_derive/src/internals/attr.rs:96:5: info TS025 the name leads with the qualifier first; put it last
+serde_derive/src/internals/case.rs:4:5: warning TS011 the import brings in every name
+serde_derive/src/internals/case.rs:66:24: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/internals/check.rs:144:1: warning TS002 the function is 79 lines, over the 70 line limit
+serde_derive/src/internals/check.rs:238:101: warning TS012 the line is 112 columns, over the 100 column limit
+serde_derive/src/internals/check.rs:251:101: warning TS012 the line is 139 columns, over the 100 column limit
+serde_derive/src/internals/check.rs:261:101: warning TS012 the line is 142 columns, over the 100 column limit
+serde_derive/src/internals/check.rs:274:101: warning TS012 the line is 116 columns, over the 100 column limit
+serde_derive/src/internals/check.rs:287:101: warning TS012 the line is 143 columns, over the 100 column limit
+serde_derive/src/internals/check.rs:30:21: info TS025 the name leads with the qualifier first; put it last
+serde_derive/src/internals/check.rs:311:29: warning TS015 the expression is an unnamed function
+serde_derive/src/internals/check.rs:332:24: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/internals/check.rs:338:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+serde_derive/src/internals/check.rs:338:28: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/internals/check.rs:370:1: warning TS002 the function is 77 lines, over the 70 line limit
+serde_derive/src/internals/check.rs:38:21: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+serde_derive/src/internals/check.rs:41:101: warning TS012 the line is 128 columns, over the 100 column limit
+serde_derive/src/internals/check.rs:441:101: warning TS012 the line is 114 columns, over the 100 column limit
+serde_derive/src/internals/check.rs:471:8: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/internals/check.rs:70:12: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/internals/check.rs:89:16: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/internals/check.rs:92:101: warning TS012 the line is 114 columns, over the 100 column limit
+serde_derive/src/internals/ctxt.rs:63:12: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/internals/receiver.rs:107:5: error TS001 visit_type_mut_impl takes part in a call cycle; give it an explicit stack or a bound
+serde_derive/src/internals/receiver.rs:154:5: error TS001 visit_type_path_mut_impl takes part in a call cycle; give it an explicit stack or a bound
+serde_derive/src/internals/receiver.rs:161:5: error TS001 visit_expr_path_mut_impl takes part in a call cycle; give it an explicit stack or a bound
+serde_derive/src/internals/receiver.rs:168:5: error TS001 visit_path_mut takes part in a call cycle; give it an explicit stack or a bound
+serde_derive/src/internals/receiver.rs:174:5: error TS001 visit_path_arguments_mut takes part in a call cycle; give it an explicit stack or a bound
+serde_derive/src/internals/receiver.rs:200:5: error TS001 visit_return_type_mut takes part in a call cycle; give it an explicit stack or a bound
+serde_derive/src/internals/receiver.rs:207:5: error TS001 visit_type_param_bound_mut takes part in a call cycle; give it an explicit stack or a bound
+serde_derive/src/internals/receiver.rs:267:17: error TS001 visit_expr_mut takes part in a call cycle; give it an explicit stack or a bound
+serde_derive/src/internals/receiver.rs:31:12: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/internals/receiver.rs:60:20: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/internals/receiver.rs:74:5: error TS001 visit_type_mut takes part in a call cycle; give it an explicit stack or a bound
+serde_derive/src/internals/receiver.rs:76:16: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/internals/receiver.rs:90:5: error TS001 visit_type_path_mut takes part in a call cycle; give it an explicit stack or a bound
+serde_derive/src/internals/receiver.rs:98:5: error TS001 visit_expr_path_mut takes part in a call cycle; give it an explicit stack or a bound
+serde_derive/src/internals/respan.rs:10:1: error TS001 respan_token takes part in a call cycle; give it an explicit stack or a bound
+serde_derive/src/internals/respan.rs:3:1: error TS001 respan takes part in a call cycle; give it an explicit stack or a bound
+serde_derive/src/lib.rs:17:1: warning TS020 [*] the attribute silences a checker
+serde_derive/src/lib.rs:19:1: warning TS020 [*] the attribute silences a checker
+serde_derive/src/lib.rs:40:1: warning TS020 [*] the attribute silences a checker
+serde_derive/src/lib.rs:67:1: warning TS020 [*] the attribute silences a checker
+serde_derive/src/lib.rs:95:1: warning TS020 [*] the attribute silences a checker
+serde_derive/src/ser.rs:1005:101: warning TS012 the line is 116 columns, over the 100 column limit
+serde_derive/src/ser.rs:1006:101: warning TS012 the line is 112 columns, over the 100 column limit
+serde_derive/src/ser.rs:1249:101: warning TS012 the line is 110 columns, over the 100 column limit
+serde_derive/src/ser.rs:1250:101: warning TS012 the line is 112 columns, over the 100 column limit
+serde_derive/src/ser.rs:290:101: warning TS012 the line is 113 columns, over the 100 column limit
+serde_derive/src/ser.rs:362:101: warning TS012 the line is 107 columns, over the 100 column limit
+serde_derive/src/ser.rs:36:101: warning TS012 the line is 137 columns, over the 100 column limit
+serde_derive/src/ser.rs:388:101: warning TS012 the line is 110 columns, over the 100 column limit
+serde_derive/src/ser.rs:408:8: warning TS023 the condition combines booleans; split it into nested branches
+serde_derive/src/ser.rs:410:33: warning TS012 the line is 143 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+serde_derive/src/ser.rs:421:1: warning TS002 the function is 80 lines, over the 70 line limit
+serde_derive/src/ser.rs:502:1: warning TS002 the function is 72 lines, over the 70 line limit
+serde_derive/src/ser.rs:50:101: warning TS012 the line is 108 columns, over the 100 column limit
+serde_derive/src/ser.rs:641:1: warning TS002 the function is 123 lines, over the 70 line limit
+serde_derive/src/ser.rs:740:101: warning TS012 the line is 113 columns, over the 100 column limit
+serde_derive/src/ser.rs:741:101: warning TS012 the line is 104 columns, over the 100 column limit
+serde_derive/src/ser.rs:746:17: warning TS020 [*] the attribute silences a checker
+serde_derive/src/ser.rs:884:1: warning TS002 the function is 83 lines, over the 70 line limit
+serde_derive/src/ser.rs:968:1: warning TS002 the function is 87 lines, over the 70 line limit
+serde_derive_internals/lib.rs:22:1: warning TS020 [*] the attribute silences a checker
+serde_derive_internals/lib.rs:2:1: warning TS020 [*] the attribute silences a checker
+serde_derive_internals/lib.rs:44:1: warning TS020 [*] the attribute silences a checker
+serde_derive_internals/lib.rs:4:1: warning TS020 [*] the attribute silences a checker
+serde_derive_internals/lib.rs:54:9: warning TS011 the import brings in every name
+test_suite/tests/compiletest.rs:4:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/macros/mod.rs:1:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/regression/issue1904.rs:1:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/regression/issue2371.rs:12:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/regression/issue2371.rs:14:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/regression/issue2371.rs:1:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/regression/issue2371.rs:24:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/regression/issue2371.rs:26:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/regression/issue2371.rs:36:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/regression/issue2371.rs:38:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/regression/issue2371.rs:48:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/regression/issue2371.rs:50:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/regression/issue2409.rs:1:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/regression/issue2415.rs:5:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/regression/issue2792.rs:1:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/regression/issue2844.rs:1:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/regression/issue2846.rs:10:13: warning TS020 [*] the attribute silences a checker
+test_suite/tests/regression/issue2846.rs:1:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_annotations.rs:1620:9: warning TS011 the import brings in every name
+test_suite/tests/test_annotations.rs:1664:9: warning TS011 the import brings in every name
+test_suite/tests/test_annotations.rs:1681:1: warning TS002 the function is 84 lines, over the 70 line limit
+test_suite/tests/test_annotations.rs:1691:9: warning TS011 the import brings in every name
+test_suite/tests/test_annotations.rs:1694:13: warning TS011 the import brings in every name
+test_suite/tests/test_annotations.rs:1851:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_annotations.rs:1853:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_annotations.rs:1946:9: warning TS011 the import brings in every name
+test_suite/tests/test_annotations.rs:1949:5: warning TS002 the function is 102 lines, over the 70 line limit
+test_suite/tests/test_annotations.rs:1:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_annotations.rs:2199:5: warning TS002 the function is 81 lines, over the 70 line limit
+test_suite/tests/test_annotations.rs:2550:13: warning TS011 the import brings in every name
+test_suite/tests/test_annotations.rs:2603:13: warning TS011 the import brings in every name
+test_suite/tests/test_annotations.rs:2606:17: warning TS011 the import brings in every name
+test_suite/tests/test_annotations.rs:2885:17: warning TS011 the import brings in every name
+test_suite/tests/test_annotations.rs:2912:13: warning TS002 the function is 162 lines, over the 70 line limit
+test_suite/tests/test_annotations.rs:3076:13: warning TS002 the function is 162 lines, over the 70 line limit
+test_suite/tests/test_annotations.rs:3240:13: warning TS002 the function is 177 lines, over the 70 line limit
+test_suite/tests/test_annotations.rs:3420:17: warning TS011 the import brings in every name
+test_suite/tests/test_annotations.rs:3546:17: warning TS011 the import brings in every name
+test_suite/tests/test_annotations.rs:504:1: warning TS002 the function is 88 lines, over the 70 line limit
+test_suite/tests/test_annotations.rs:654:1: warning TS002 the function is 122 lines, over the 70 line limit
+test_suite/tests/test_borrow.rs:1:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_de.rs:117:5: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_de.rs:1289:1: warning TS002 the function is 103 lines, over the 70 line limit
+test_suite/tests/test_de.rs:1:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_de.rs:520:16: warning TS015 the expression is an unnamed function
+test_suite/tests/test_de.rs:545:16: warning TS015 the expression is an unnamed function
+test_suite/tests/test_de.rs:570:16: warning TS015 the expression is an unnamed function
+test_suite/tests/test_de.rs:595:16: warning TS015 the expression is an unnamed function
+test_suite/tests/test_de.rs:620:16: warning TS015 the expression is an unnamed function
+test_suite/tests/test_de.rs:645:16: warning TS015 the expression is an unnamed function
+test_suite/tests/test_de.rs:670:16: warning TS015 the expression is an unnamed function
+test_suite/tests/test_de.rs:695:16: warning TS015 the expression is an unnamed function
+test_suite/tests/test_de.rs:720:16: warning TS015 the expression is an unnamed function
+test_suite/tests/test_de.rs:745:16: warning TS015 the expression is an unnamed function
+test_suite/tests/test_de.rs:770:16: warning TS015 the expression is an unnamed function
+test_suite/tests/test_de.rs:795:16: warning TS015 the expression is an unnamed function
+test_suite/tests/test_de_error.rs:1197:101: warning TS012 the line is 101 columns, over the 100 column limit
+test_suite/tests/test_de_error.rs:1:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_de_error.rs:406:1: warning TS002 the function is 81 lines, over the 70 line limit
+test_suite/tests/test_de_error.rs:49:5: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_de_error.rs:65:5: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_de_error.rs:742:1: warning TS002 the function is 81 lines, over the 70 line limit
+test_suite/tests/test_de_error.rs:825:1: warning TS002 the function is 73 lines, over the 70 line limit
+test_suite/tests/test_deprecated.rs:2:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_enum_adjacently_tagged.rs:22:9: warning TS011 the import brings in every name
+test_suite/tests/test_enum_adjacently_tagged.rs:2:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_enum_adjacently_tagged.rs:306:9: warning TS011 the import brings in every name
+test_suite/tests/test_enum_adjacently_tagged.rs:441:9: warning TS011 the import brings in every name
+test_suite/tests/test_enum_adjacently_tagged.rs:516:9: warning TS011 the import brings in every name
+test_suite/tests/test_enum_adjacently_tagged.rs:704:1: warning TS002 the function is 96 lines, over the 70 line limit
+test_suite/tests/test_enum_internally_tagged.rs:1068:1: warning TS002 the function is 92 lines, over the 70 line limit
+test_suite/tests/test_enum_internally_tagged.rs:1162:9: warning TS011 the import brings in every name
+test_suite/tests/test_enum_internally_tagged.rs:1251:8: info TS025 the name leads with the qualifier bytes; put it last
+test_suite/tests/test_enum_internally_tagged.rs:1284:8: info TS025 the name leads with the qualifier bytes; put it last
+test_suite/tests/test_enum_internally_tagged.rs:1317:8: info TS025 the name leads with the qualifier bytes; put it last
+test_suite/tests/test_enum_internally_tagged.rs:1368:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_enum_internally_tagged.rs:242:1: warning TS002 the function is 87 lines, over the 70 line limit
+test_suite/tests/test_enum_internally_tagged.rs:2:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_enum_internally_tagged.rs:331:1: warning TS002 the function is 82 lines, over the 70 line limit
+test_suite/tests/test_enum_internally_tagged.rs:415:9: warning TS011 the import brings in every name
+test_suite/tests/test_enum_internally_tagged.rs:524:5: warning TS002 the function is 78 lines, over the 70 line limit
+test_suite/tests/test_enum_internally_tagged.rs:604:5: warning TS002 the function is 137 lines, over the 70 line limit
+test_suite/tests/test_enum_internally_tagged.rs:744:1: warning TS002 the function is 130 lines, over the 70 line limit
+test_suite/tests/test_enum_internally_tagged.rs:876:9: warning TS011 the import brings in every name
+test_suite/tests/test_enum_internally_tagged.rs:879:5: warning TS002 the function is 159 lines, over the 70 line limit
+test_suite/tests/test_enum_untagged.rs:138:9: warning TS011 the import brings in every name
+test_suite/tests/test_enum_untagged.rs:16:1: warning TS002 the function is 72 lines, over the 70 line limit
+test_suite/tests/test_enum_untagged.rs:296:9: warning TS011 the import brings in every name
+test_suite/tests/test_enum_untagged.rs:2:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_enum_untagged.rs:369:1: warning TS002 the function is 140 lines, over the 70 line limit
+test_suite/tests/test_gen.rs:343:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:37:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:39:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:41:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:436:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:43:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:441:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:446:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:451:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:456:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:45:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:466:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:471:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:476:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:47:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:481:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:491:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:496:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:501:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:506:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:511:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:521:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:526:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:531:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:536:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:53:1: warning TS002 the function is 767 lines, over the 70 line limit
+test_suite/tests/test_gen.rs:541:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:653:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:655:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:666:13: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:681:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:695:5: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:6:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:706:5: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:715:5: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:719:13: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:724:13: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:738:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:771:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_gen.rs:779:5: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_identifier.rs:3:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_identifier.rs:76:9: warning TS011 the import brings in every name
+test_suite/tests/test_identifier.rs:9:9: warning TS011 the import brings in every name
+test_suite/tests/test_ignored_any.rs:1:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_macros.rs:16:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_macros.rs:2:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_macros.rs:655:1: warning TS002 the function is 125 lines, over the 70 line limit
+test_suite/tests/test_macros.rs:841:5: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_macros.rs:848:5: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_macros.rs:855:5: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_macros.rs:862:5: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_remote.rs:100:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_remote.rs:10:5: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_remote.rs:141:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_remote.rs:150:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_remote.rs:159:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_remote.rs:15:5: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_remote.rs:171:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_remote.rs:187:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_remote.rs:1:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_remote.rs:204:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_remote.rs:20:5: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_remote.rs:211:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_remote.rs:217:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_remote.rs:221:5: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_remote.rs:228:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_remote.rs:28:5: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_remote.rs:87:9: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_remote.rs:93:5: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_roundtrip.rs:5:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_self.rs:1:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_self.rs:6:1: warning TS002 the function is 83 lines, over the 70 line limit
+test_suite/tests/test_ser.rs:1:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_serde_path.rs:1:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_serde_path.rs:23:13: warning TS011 the import brings in every name
+test_suite/tests/test_serde_path.rs:32:5: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_serde_path.rs:37:5: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_unstable.rs:2:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/test_value.rs:1:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/ui/conflict/alias-enum.rs:1:1: warning TS020 [*] the attribute silences a checker
+test_suite/tests/unstable/mod.rs:7:5: warning TS020 [*] the attribute silences a checker

@@ -1,0 +1,11 @@
+TS022 assert-parameters
+
+A function asserts what it expects of its parameters, so a wrong argument fails at the call it came from.
+
+languages: go javascript odin python rust typescript zig
+severity: warning
+default: opt-in
+group: stable
+
+TigerStyle: "Assert all function arguments and return values, pre/postconditions and invariants. A function must not operate blindly on data it has not checked."
+NASA P10 Rule 7: "[...] the validity of parameters must be checked inside each function."

@@ -1,0 +1,10 @@
+TS039 else-if-chain
+
+A chain of else-if branches is split into a tree, so every case stays visible.
+
+languages: go javascript odin python rust typescript zig
+severity: warning
+default: on
+group: stable
+
+TigerStyle: "Compound conditions that evaluate multiple booleans make it difficult for the reader to verify that all cases are handled. Split compound conditions into simple conditions using nested `if/else` branches. Split complex `else if` chains into `else { if { } }` trees. This makes the branches and cases clear."

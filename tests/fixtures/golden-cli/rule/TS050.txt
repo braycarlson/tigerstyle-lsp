@@ -1,0 +1,10 @@
+TS050 unused-suppression
+
+A suppression directive that suppresses nothing is removed, so the remaining ones still mean something.
+
+languages: go javascript odin python rust typescript zig
+severity: warning
+default: preview
+group: preview
+
+TigerStyle: "Appreciate, from day one, all compiler warnings at the compiler's strictest setting."

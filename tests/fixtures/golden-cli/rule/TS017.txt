@@ -1,0 +1,11 @@
+TS017 check-return-value
+
+A returned value is used, because a call made only for its effect hides the result it also produced.
+
+languages: go javascript odin python rust typescript zig
+severity: warning
+default: opt-in
+group: stable
+
+TigerStyle: "All errors must be handled."
+NASA P10 Rule 7: "The return value of non-void functions must be checked by each calling function."

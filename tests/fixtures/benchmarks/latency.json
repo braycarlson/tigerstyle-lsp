@@ -1,0 +1,15 @@
+{
+  "commit": "f9cc0c37072361e56e162a9e8509b90604ce7172",
+  "machine": "brayden-ubuntu",
+  "processor": "x86_64",
+  "runs": 10,
+  "warmup": 3,
+  "workloads": {
+    "replay": {
+      "bytes": 366891,
+      "edits": 500,
+      "p50_microseconds": 56610,
+      "p99_microseconds": 60758
+    }
+  }
+}

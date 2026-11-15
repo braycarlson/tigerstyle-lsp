@@ -1,0 +1,11 @@
+TS055 trailing-comma
+
+A wrapped list ends with a trailing comma, so the formatter keeps one element per line and the next element is a one-line change.
+
+languages: javascript odin python rust typescript zig
+severity: info
+default: opt-in
+group: stable
+go: the Go grammar requires the trailing comma when the closing delimiter starts a new line, so a wrapped list without one does not compile
+
+TigerStyle: "To wrap a function signature, call or data structure, add a trailing comma, close your eyes and let `zig fmt` do the rest."

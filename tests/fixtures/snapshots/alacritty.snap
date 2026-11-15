@@ -1,0 +1,690 @@
+alacritty/src/cli.rs:445:13: info TS025 the name leads with the qualifier old; put it last
+alacritty/src/config/bindings.rs:1004:13: warning TS002 the function is 149 lines, over the 70 line limit
+alacritty/src/config/bindings.rs:1070:38: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+alacritty/src/config/bindings.rs:1086:53: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+alacritty/src/config/bindings.rs:1147:20: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/config/bindings.rs:1:1: warning TS020 [*] the attribute silences a checker
+alacritty/src/config/bindings.rs:338:1: warning TS020 [*] the attribute silences a checker
+alacritty/src/config/bindings.rs:411:101: warning TS012 the line is 134 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:412:101: warning TS012 the line is 126 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:413:101: warning TS012 the line is 131 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:414:101: warning TS012 the line is 123 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:430:1: warning TS002 the function is 113 lines, over the 70 line limit
+alacritty/src/config/bindings.rs:444:101: warning TS012 the line is 115 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:445:101: warning TS012 the line is 115 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:446:101: warning TS012 the line is 115 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:447:101: warning TS012 the line is 115 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:448:101: warning TS012 the line is 115 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:449:101: warning TS012 the line is 115 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:451:101: warning TS012 the line is 165 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:452:101: warning TS012 the line is 165 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:453:101: warning TS012 the line is 165 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:454:101: warning TS012 the line is 165 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:455:101: warning TS012 the line is 191 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:456:101: warning TS012 the line is 213 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:457:101: warning TS012 the line is 124 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:458:101: warning TS012 the line is 191 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:459:101: warning TS012 the line is 187 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:460:101: warning TS012 the line is 179 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:462:101: warning TS012 the line is 107 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:463:101: warning TS012 the line is 127 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:464:101: warning TS012 the line is 107 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:465:101: warning TS012 the line is 105 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:466:101: warning TS012 the line is 107 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:467:101: warning TS012 the line is 105 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:468:101: warning TS012 the line is 105 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:469:101: warning TS012 the line is 107 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:470:101: warning TS012 the line is 104 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:471:101: warning TS012 the line is 107 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:472:101: warning TS012 the line is 105 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:473:101: warning TS012 the line is 107 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:474:101: warning TS012 the line is 109 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:475:101: warning TS012 the line is 111 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:477:101: warning TS012 the line is 107 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:478:101: warning TS012 the line is 106 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:479:101: warning TS012 the line is 107 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:480:101: warning TS012 the line is 116 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:483:101: warning TS012 the line is 107 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:484:101: warning TS012 the line is 116 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:485:101: warning TS012 the line is 114 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:486:101: warning TS012 the line is 115 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:487:101: warning TS012 the line is 118 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:488:101: warning TS012 the line is 105 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:489:101: warning TS012 the line is 109 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:491:101: warning TS012 the line is 115 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:492:101: warning TS012 the line is 114 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:493:101: warning TS012 the line is 115 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:494:101: warning TS012 the line is 119 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:495:101: warning TS012 the line is 120 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:496:101: warning TS012 the line is 111 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:497:101: warning TS012 the line is 115 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:498:101: warning TS012 the line is 116 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:499:101: warning TS012 the line is 117 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:512:101: warning TS012 the line is 108 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:514:101: warning TS012 the line is 101 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:516:101: warning TS012 the line is 107 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:517:101: warning TS012 the line is 108 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:518:101: warning TS012 the line is 111 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:519:101: warning TS012 the line is 103 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:520:101: warning TS012 the line is 104 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:521:101: warning TS012 the line is 107 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:522:101: warning TS012 the line is 102 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:523:101: warning TS012 the line is 106 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:524:101: warning TS012 the line is 108 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:525:101: warning TS012 the line is 112 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:531:101: warning TS012 the line is 102 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:533:101: warning TS012 the line is 102 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:535:101: warning TS012 the line is 114 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:536:101: warning TS012 the line is 118 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:548:101: warning TS012 the line is 119 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:549:101: warning TS012 the line is 119 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:550:101: warning TS012 the line is 127 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:551:101: warning TS012 the line is 128 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:552:101: warning TS012 the line is 128 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:553:101: warning TS012 the line is 118 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:554:101: warning TS012 the line is 128 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:555:101: warning TS012 the line is 127 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:556:101: warning TS012 the line is 130 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:557:101: warning TS012 the line is 130 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:558:101: warning TS012 the line is 130 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:559:101: warning TS012 the line is 130 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:560:101: warning TS012 the line is 130 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:583:101: warning TS012 the line is 111 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:586:101: warning TS012 the line is 101 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:587:101: warning TS012 the line is 105 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:588:101: warning TS012 the line is 101 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:589:101: warning TS012 the line is 105 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:598:101: warning TS012 the line is 101 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:599:101: warning TS012 the line is 101 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:600:101: warning TS012 the line is 104 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:601:101: warning TS012 the line is 104 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:602:101: warning TS012 the line is 104 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:603:101: warning TS012 the line is 106 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:607:101: warning TS012 the line is 103 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:608:101: warning TS012 the line is 104 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:610:101: warning TS012 the line is 102 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:612:101: warning TS012 the line is 109 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:616:101: warning TS012 the line is 101 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:617:101: warning TS012 the line is 102 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:618:101: warning TS012 the line is 104 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:619:101: warning TS012 the line is 104 columns, over the 100 column limit
+alacritty/src/config/bindings.rs:670:5: warning TS002 the function is 80 lines, over the 70 line limit
+alacritty/src/config/bindings.rs:67:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/config/bindings.rs:80:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/config/bindings.rs:945:5: warning TS002 the function is 212 lines, over the 70 line limit
+alacritty/src/config/cursor.rs:12:7: info TS025 the name leads with the qualifier MIN; put it last
+alacritty/src/config/cursor.rs:15:7: info TS025 the name leads with the qualifier MIN; put it last
+alacritty/src/config/general.rs:28:5: warning TS020 [*] the attribute silences a checker
+alacritty/src/config/mod.rs:195:1: error TS001 parse_config takes part in a call cycle; give it an explicit stack or a bound
+alacritty/src/config/mod.rs:221:8: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/config/mod.rs:238:1: error TS001 load_imports takes part in a call cycle; give it an explicit stack or a bound
+alacritty/src/config/mod.rs:267:101: warning TS012 the line is 101 columns, over the 100 column limit
+alacritty/src/config/mod.rs:294:8: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/config/mod.rs:340:46: error TS001 walk takes part in a call cycle; give it an explicit stack or a bound
+alacritty/src/config/monitor.rs:181:15: info TS025 the name leads with the qualifier MAX; put it last
+alacritty/src/config/monitor.rs:33:5: warning TS002 the function is 123 lines, over the 70 line limit
+alacritty/src/config/monitor.rs:98:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+alacritty/src/config/scrolling.rs:7:11: info TS025 the name leads with the qualifier MAX; put it last
+alacritty/src/config/serde_utils.rs:23:1: error TS001 merge_tables takes part in a call cycle; give it an explicit stack or a bound
+alacritty/src/config/serde_utils.rs:9:1: error TS001 merge takes part in a call cycle; give it an explicit stack or a bound
+alacritty/src/config/ui_config.rs:40:101: warning TS012 the line is 123 columns, over the 100 column limit
+alacritty/src/config/ui_config.rs:439:20: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/config/window.rs:101:19: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/config/window.rs:113:101: warning TS012 the line is 115 columns, over the 100 column limit
+alacritty/src/config/window.rs:98:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/daemon.rs:161:15: info TS038 the branch states its condition negatively and carries an else; swap the arms
+alacritty/src/display/color.rs:104:29: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+alacritty/src/display/color.rs:105:29: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+alacritty/src/display/color.rs:106:29: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+alacritty/src/display/color.rs:287:24: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/display/color.rs:289:19: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/display/content.rs:162:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+alacritty/src/display/content.rs:179:23: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/display/content.rs:209:5: warning TS002 the function is 91 lines, over the 70 line limit
+alacritty/src/display/content.rs:22:11: info TS025 the name leads with the qualifier MIN; put it last
+alacritty/src/display/content.rs:235:13: info TS025 the name leads with the qualifier num; put it last
+alacritty/src/display/content.rs:259:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/display/content.rs:276:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/display/content.rs:317:13: info TS025 the name leads with the qualifier old; put it last
+alacritty/src/display/content.rs:340:28: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/display/content.rs:469:9: info TS025 the name leads with the qualifier num; put it last
+alacritty/src/display/content.rs:471:10: warning TS041 Option<(Option<char>, bool)> stacks 2 layers of optionality; every layer is a case each caller has to handle
+alacritty/src/display/content.rs:52:31: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/display/content.rs:58:19: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/display/content.rs:98:23: error TS036 the assertion calls next, which changes state; an assertion only reads
+alacritty/src/display/damage.rs:113:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/display/damage.rs:119:17: info TS025 the name leads with the qualifier last; put it last
+alacritty/src/display/damage.rs:123:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/display/damage.rs:183:25: info TS025 the name leads with the qualifier num; put it last
+alacritty/src/display/damage.rs:183:43: info TS025 the name leads with the qualifier num; put it last
+alacritty/src/display/damage.rs:18:9: info TS025 the name leads with the qualifier old; put it last
+alacritty/src/display/damage.rs:20:9: info TS025 the name leads with the qualifier old; put it last
+alacritty/src/display/damage.rs:260:17: info TS025 the name leads with the qualifier total; put it last
+alacritty/src/display/damage.rs:264:17: info TS025 the name leads with the qualifier next; put it last
+alacritty/src/display/hint.rs:123:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/display/hint.rs:20:11: info TS025 the name leads with the qualifier MAX; put it last
+alacritty/src/display/hint.rs:355:24: info TS025 the name leads with the qualifier next; put it last
+alacritty/src/display/hint.rs:355:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+alacritty/src/display/hint.rs:444:5: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+alacritty/src/display/hint.rs:464:5: info TS025 the name leads with the qualifier next; put it last
+alacritty/src/display/hint.rs:505:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+alacritty/src/display/hint.rs:556:27: warning TS006 the loop carries no upper bound; give it a fixed maximum
+alacritty/src/display/hint.rs:557:25: info TS025 the name leads with the qualifier next; put it last
+alacritty/src/display/hint.rs:579:13: info TS025 the name leads with the qualifier next; put it last
+alacritty/src/display/hint.rs:603:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:604:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:606:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:607:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:608:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:609:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:611:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:612:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:613:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:614:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:615:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:616:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:617:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:618:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:620:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:621:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:622:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:623:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:624:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:625:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:626:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:627:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:628:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:629:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:630:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:631:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:632:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:633:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:634:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:635:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:683:13: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:687:13: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/hint.rs:689:26: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty/src/display/meter.rs:23:7: info TS025 the name leads with the qualifier NUM; put it last
+alacritty/src/display/mod.rs:1084:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/display/mod.rs:1108:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/display/mod.rs:1129:5: warning TS002 the function is 88 lines, over the 70 line limit
+alacritty/src/display/mod.rs:1146:13: info TS025 the name leads with the qualifier num; put it last
+alacritty/src/display/mod.rs:1219:62: info TS025 the name leads with the qualifier max; put it last
+alacritty/src/display/mod.rs:1250:13: info TS025 the name leads with the qualifier num; put it last
+alacritty/src/display/mod.rs:1264:13: info TS025 the name leads with the qualifier max; put it last
+alacritty/src/display/mod.rs:1310:13: info TS025 the name leads with the qualifier num; put it last
+alacritty/src/display/mod.rs:1354:9: info TS025 the name leads with the qualifier total; put it last
+alacritty/src/display/mod.rs:1402:13: info TS025 the name leads with the qualifier num; put it last
+alacritty/src/display/mod.rs:1562:5: info TS025 the name leads with the qualifier last; put it last
+alacritty/src/display/mod.rs:1587:13: info TS025 the name leads with the qualifier next; put it last
+alacritty/src/display/mod.rs:15:5: warning TS011 the import brings in every name
+alacritty/src/display/mod.rs:230:5: warning TS020 [*] the attribute silences a checker
+alacritty/src/display/mod.rs:403:5: warning TS002 the function is 141 lines, over the 70 line limit
+alacritty/src/display/mod.rs:496:9: warning TS020 [*] the attribute silences a checker
+alacritty/src/display/mod.rs:608:9: warning TS020 [*] the attribute silences a checker
+alacritty/src/display/mod.rs:612:20: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/display/mod.rs:651:5: warning TS002 the function is 87 lines, over the 70 line limit
+alacritty/src/display/mod.rs:666:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/display/mod.rs:692:17: info TS025 the name leads with the qualifier new; put it last
+alacritty/src/display/mod.rs:714:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/display/mod.rs:775:5: warning TS002 the function is 273 lines, over the 70 line limit
+alacritty/src/display/mod.rs:796:13: info TS025 the name leads with the qualifier total; put it last
+alacritty/src/display/mod.rs:823:13: warning TS015 the expression is an unnamed function
+alacritty/src/display/mod.rs:864:44: warning TS015 the expression is an unnamed function
+alacritty/src/display/mod.rs:864:69: warning TS015 the expression is an unnamed function
+alacritty/src/display/mod.rs:867:24: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/display/mod.rs:942:21: info TS025 the name leads with the qualifier num; put it last
+alacritty/src/display/window.rs:122:5: info TS025 the name leads with the qualifier current; put it last
+alacritty/src/display/window.rs:131:5: warning TS002 the function is 88 lines, over the 70 line limit
+alacritty/src/display/window.rs:189:13: info TS025 the name leads with the qualifier current; put it last
+alacritty/src/display/window.rs:430:12: info TS025 the name leads with the qualifier current; put it last
+alacritty/src/event.rs:112:13: info TS025 the name leads with the qualifier initial; put it last
+alacritty/src/event.rs:1135:17: info TS025 the name leads with the qualifier new; put it last
+alacritty/src/event.rs:1160:13: info TS025 the name leads with the qualifier new; put it last
+alacritty/src/event.rs:1166:13: info TS025 the name leads with the qualifier old; put it last
+alacritty/src/event.rs:1168:13: info TS025 the name leads with the qualifier new; put it last
+alacritty/src/event.rs:1216:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/event.rs:1304:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/event.rs:1330:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+alacritty/src/event.rs:1376:19: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/event.rs:1568:21: info TS025 the name leads with the qualifier old; put it last
+alacritty/src/event.rs:1643:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/event.rs:1736:13: info TS025 the name leads with the qualifier old; put it last
+alacritty/src/event.rs:1772:9: info TS025 the name leads with the qualifier last; put it last
+alacritty/src/event.rs:1773:9: info TS025 the name leads with the qualifier last; put it last
+alacritty/src/event.rs:1841:5: warning TS002 the function is 229 lines, over the 70 line limit
+alacritty/src/event.rs:1869:28: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/event.rs:1875:28: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/event.rs:1882:28: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/event.rs:1891:29: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+alacritty/src/event.rs:1946:29: info TS025 the name leads with the qualifier old; put it last
+alacritty/src/event.rs:1962:28: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/event.rs:203:18: info TS025 the name leads with the qualifier initial; put it last
+alacritty/src/event.rs:234:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/event.rs:285:5: warning TS002 the function is 180 lines, over the 70 line limit
+alacritty/src/event.rs:433:20: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/event.rs:708:13: info TS025 the name leads with the qualifier old; put it last
+alacritty/src/event.rs:710:13: info TS025 the name leads with the qualifier old; put it last
+alacritty/src/event.rs:723:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/event.rs:725:19: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/event.rs:72:7: info TS025 the name leads with the qualifier MAX; put it last
+alacritty/src/event.rs:750:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/event.rs:75:7: info TS025 the name leads with the qualifier MAX; put it last
+alacritty/src/event.rs:780:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/event.rs:798:32: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/event.rs:864:9: warning TS020 [*] the attribute silences a checker
+alacritty/src/event.rs:865:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+alacritty/src/event.rs:867:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/event.rs:923:13: info TS025 the name leads with the qualifier new; put it last
+alacritty/src/event.rs:92:5: info TS025 the name leads with the qualifier initial; put it last
+alacritty/src/event.rs:93:5: info TS025 the name leads with the qualifier initial; put it last
+alacritty/src/event.rs:969:17: info TS025 the name leads with the qualifier last; put it last
+alacritty/src/input/keyboard.rs:178:5: warning TS002 the function is 72 lines, over the 70 line limit
+alacritty/src/input/keyboard.rs:196:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/keyboard.rs:208:34: warning TS015 the expression is an unnamed function
+alacritty/src/input/keyboard.rs:22:5: warning TS002 the function is 82 lines, over the 70 line limit
+alacritty/src/input/keyboard.rs:253:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/keyboard.rs:334:8: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/keyboard.rs:400:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/keyboard.rs:408:30: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/keyboard.rs:417:19: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/keyboard.rs:430:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/keyboard.rs:540:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/keyboard.rs:588:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/keyboard.rs:608:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/mod.rs:1002:17: info TS025 the name leads with the qualifier current; put it last
+alacritty/src/input/mod.rs:1008:17: info TS025 the name leads with the qualifier new; put it last
+alacritty/src/input/mod.rs:1010:17: info TS025 the name leads with the qualifier new; put it last
+alacritty/src/input/mod.rs:1051:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/mod.rs:1057:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/mod.rs:1084:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/mod.rs:1086:19: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/mod.rs:1102:32: warning TS015 the expression is an unnamed function
+alacritty/src/input/mod.rs:1108:19: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/mod.rs:1123:13: info TS025 the name leads with the qualifier min; put it last
+alacritty/src/input/mod.rs:1498:101: warning TS012 the line is 165 columns, over the 100 column limit
+alacritty/src/input/mod.rs:1506:101: warning TS012 the line is 165 columns, over the 100 column limit
+alacritty/src/input/mod.rs:1514:101: warning TS012 the line is 167 columns, over the 100 column limit
+alacritty/src/input/mod.rs:1522:101: warning TS012 the line is 167 columns, over the 100 column limit
+alacritty/src/input/mod.rs:1530:101: warning TS012 the line is 167 columns, over the 100 column limit
+alacritty/src/input/mod.rs:1538:101: warning TS012 the line is 167 columns, over the 100 column limit
+alacritty/src/input/mod.rs:1546:101: warning TS012 the line is 167 columns, over the 100 column limit
+alacritty/src/input/mod.rs:1554:101: warning TS012 the line is 160 columns, over the 100 column limit
+alacritty/src/input/mod.rs:170:5: warning TS002 the function is 276 lines, over the 70 line limit
+alacritty/src/input/mod.rs:373:21: info TS025 the name leads with the qualifier old; put it last
+alacritty/src/input/mod.rs:461:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/mod.rs:466:13: info TS025 the name leads with the qualifier old; put it last
+alacritty/src/input/mod.rs:480:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/mod.rs:500:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/mod.rs:504:19: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/mod.rs:507:13: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+alacritty/src/input/mod.rs:531:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/mod.rs:577:13: info TS025 the name leads with the qualifier max; put it last
+alacritty/src/input/mod.rs:579:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/mod.rs:585:32: warning TS015 the expression is an unnamed function
+alacritty/src/input/mod.rs:592:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/mod.rs:598:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/mod.rs:619:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/mod.rs:62:7: info TS025 the name leads with the qualifier MIN; put it last
+alacritty/src/input/mod.rs:68:7: info TS025 the name leads with the qualifier MAX; put it last
+alacritty/src/input/mod.rs:690:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/mod.rs:697:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/mod.rs:729:21: info TS025 the name leads with the qualifier new; put it last
+alacritty/src/input/mod.rs:730:21: info TS025 the name leads with the qualifier new; put it last
+alacritty/src/input/mod.rs:760:35: info TS025 the name leads with the qualifier new; put it last
+alacritty/src/input/mod.rs:760:57: info TS025 the name leads with the qualifier new; put it last
+alacritty/src/input/mod.rs:780:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/mod.rs:780:9: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+alacritty/src/input/mod.rs:795:19: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/input/mod.rs:900:21: error TS001 on_touch_motion takes part in a call cycle; give it an explicit stack or a bound
+alacritty/src/input/mod.rs:913:34: info TS025 the name leads with the qualifier last; put it last
+alacritty/src/input/mod.rs:997:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/logging.rs:138:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/logging.rs:211:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/logging.rs:64:6: warning TS041 Result<Option<PathBuf>, log::SetLoggerError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+alacritty/src/macos/locale.rs:1:1: warning TS020 [*] the attribute silences a checker
+alacritty/src/macos/locale.rs:57:8: warning TS012 the line is 107 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+alacritty/src/macos/locale.rs:58:101: warning TS012 the line is 102 columns, over the 100 column limit
+alacritty/src/macos/locale.rs:59:101: warning TS012 the line is 103 columns, over the 100 column limit
+alacritty/src/macos/locale.rs:62:8: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/macos/locale.rs:64:9: warning TS020 [*] the attribute silences a checker
+alacritty/src/macos/proc.rs:72:1: warning TS020 [*] the attribute silences a checker
+alacritty/src/main.rs:136:1: warning TS002 the function is 106 lines, over the 70 line limit
+alacritty/src/main.rs:52:5: warning TS020 [*] the attribute silences a checker
+alacritty/src/main.rs:96:1: warning TS020 [*] the attribute silences a checker
+alacritty/src/message_bar.rs:11:7: info TS025 the name leads with the qualifier MIN; put it last
+alacritty/src/message_bar.rs:131:35: info TS025 the name leads with the qualifier num; put it last
+alacritty/src/message_bar.rs:314:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/message_bar.rs:323:17: info TS025 the name leads with the qualifier num; put it last
+alacritty/src/message_bar.rs:324:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+alacritty/src/message_bar.rs:39:5: warning TS002 the function is 71 lines, over the 70 line limit
+alacritty/src/message_bar.rs:405:17: info TS025 the name leads with the qualifier num; put it last
+alacritty/src/message_bar.rs:406:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+alacritty/src/message_bar.rs:40:13: info TS025 the name leads with the qualifier num; put it last
+alacritty/src/message_bar.rs:41:13: info TS025 the name leads with the qualifier total; put it last
+alacritty/src/message_bar.rs:43:13: info TS025 the name leads with the qualifier max; put it last
+alacritty/src/message_bar.rs:51:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/message_bar.rs:61:25: info TS025 the name leads with the qualifier new; put it last
+alacritty/src/migrate/mod.rs:130:1: error TS001 migrate_imports takes part in a call cycle; give it an explicit stack or a bound
+alacritty/src/migrate/mod.rs:232:8: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/migrate/mod.rs:259:40: info TS025 the name leads with the qualifier new; put it last
+alacritty/src/migrate/mod.rs:262:40: info TS025 the name leads with the qualifier new; put it last
+alacritty/src/migrate/mod.rs:35:9: warning TS020 [*] the attribute silences a checker
+alacritty/src/migrate/mod.rs:62:1: error TS001 migrate_config takes part in a call cycle; give it an explicit stack or a bound
+alacritty/src/migrate/mod.rs:76:13: info TS025 the name leads with the qualifier new; put it last
+alacritty/src/migrate/yaml.rs:31:9: info TS025 the name leads with the qualifier new; put it last
+alacritty/src/migrate/yaml.rs:55:13: info TS025 the name leads with the qualifier new; put it last
+alacritty/src/polling/ipc.rs:211:13: error TS028 the error arm catches the error and does nothing with it
+alacritty/src/polling/mod.rs:72:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+alacritty/src/renderer/mod.rs:165:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/renderer/mod.rs:37:1: error TS005 the global is mutable
+alacritty/src/renderer/platform.rs:11:5: warning TS011 the import brings in every name
+alacritty/src/renderer/rects.rs:142:13: info TS025 the name leads with the qualifier max; put it last
+alacritty/src/renderer/rects.rs:15:5: warning TS011 the import brings in every name
+alacritty/src/renderer/rects.rs:208:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/renderer/shader.rs:140:13: info TS025 the name leads with the qualifier max; put it last
+alacritty/src/renderer/shader.rs:162:13: info TS025 the name leads with the qualifier max; put it last
+alacritty/src/renderer/shader.rs:5:5: warning TS011 the import brings in every name
+alacritty/src/renderer/text/atlas.rs:124:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/renderer/text/atlas.rs:147:5: warning TS002 the function is 76 lines, over the 70 line limit
+alacritty/src/renderer/text/atlas.rs:164:33: info TS025 the name leads with the qualifier new; put it last
+alacritty/src/renderer/text/atlas.rs:226:13: info TS025 the name leads with the qualifier next; put it last
+alacritty/src/renderer/text/atlas.rs:254:9: info TS025 the name leads with the qualifier current; put it last
+alacritty/src/renderer/text/atlas.rs:272:17: error TS001 load_glyph takes part in a call cycle; give it an explicit stack or a bound
+alacritty/src/renderer/text/atlas.rs:290:45: info TS025 the name leads with the qualifier current; put it last
+alacritty/src/renderer/text/atlas.rs:7:5: warning TS011 the import brings in every name
+alacritty/src/renderer/text/builtin_font.rs:113:18: info TS025 the name leads with the qualifier num; put it last
+alacritty/src/renderer/text/builtin_font.rs:134:18: info TS025 the name leads with the qualifier num; put it last
+alacritty/src/renderer/text/builtin_font.rs:355:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/renderer/text/builtin_font.rs:373:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/renderer/text/builtin_font.rs:49:1: warning TS002 the function is 549 lines, over the 70 line limit
+alacritty/src/renderer/text/builtin_font.rs:599:1: warning TS002 the function is 72 lines, over the 70 line limit
+alacritty/src/renderer/text/builtin_font.rs:636:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/renderer/text/builtin_font.rs:639:19: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/renderer/text/builtin_font.rs:655:8: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/renderer/text/builtin_font.rs:76:23: warning TS015 the expression is an unnamed function
+alacritty/src/renderer/text/builtin_font.rs:77:23: warning TS015 the expression is an unnamed function
+alacritty/src/renderer/text/builtin_font.rs:808:19: warning TS015 the expression is an unnamed function
+alacritty/src/renderer/text/builtin_font.rs:808:29: warning TS015 the expression is an unnamed function
+alacritty/src/renderer/text/builtin_font.rs:808:59: warning TS015 the expression is an unnamed function
+alacritty/src/renderer/text/builtin_font.rs:83:20: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/renderer/text/builtin_font.rs:89:20: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/renderer/text/builtin_font.rs:903:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/renderer/text/builtin_font.rs:913:29: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+alacritty/src/renderer/text/gles2.rs:115:21: warning TS020 [*] the attribute silences a checker
+alacritty/src/renderer/text/gles2.rs:12:5: warning TS011 the import brings in every name
+alacritty/src/renderer/text/gles2.rs:344:5: info TS025 the name leads with the qualifier current; put it last
+alacritty/src/renderer/text/gles2.rs:34:5: info TS025 the name leads with the qualifier current; put it last
+alacritty/src/renderer/text/gles2.rs:390:17: info TS025 the name leads with the qualifier num; put it last
+alacritty/src/renderer/text/gles2.rs:40:5: warning TS002 the function is 119 lines, over the 70 line limit
+alacritty/src/renderer/text/glsl3.rs:102:21: warning TS020 [*] the attribute silences a checker
+alacritty/src/renderer/text/glsl3.rs:12:5: warning TS011 the import brings in every name
+alacritty/src/renderer/text/glsl3.rs:214:5: info TS025 the name leads with the qualifier current; put it last
+alacritty/src/renderer/text/glsl3.rs:36:5: info TS025 the name leads with the qualifier current; put it last
+alacritty/src/renderer/text/glsl3.rs:42:5: warning TS002 the function is 104 lines, over the 70 line limit
+alacritty/src/renderer/text/glyph_cache.rs:139:35: warning TS015 the expression is an unnamed function
+alacritty/src/renderer/text/glyph_cache.rs:13:5: warning TS011 the import brings in every name
+alacritty/src/renderer/text/mod.rs:122:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/renderer/text/mod.rs:151:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/renderer/text/mod.rs:186:5: info TS025 the name leads with the qualifier current; put it last
+alacritty/src/renderer/text/mod.rs:206:8: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/renderer/text/mod.rs:9:5: warning TS011 the import brings in every name
+alacritty/src/scheduler.rs:61:15: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/string.rs:143:27: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/string.rs:169:5: warning TS002 the function is 80 lines, over the 70 line limit
+alacritty/src/string.rs:34:5: info TS025 the name leads with the qualifier max; put it last
+alacritty/src/string.rs:43:9: info TS025 the name leads with the qualifier max; put it last
+alacritty/src/string.rs:54:17: warning TS020 [*] the attribute silences a checker
+alacritty/src/string.rs:65:17: info TS025 the name leads with the qualifier current; put it last
+alacritty/src/string.rs:69:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+alacritty/src/string.rs:78:24: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/string.rs:94:13: info TS025 the name leads with the qualifier num; put it last
+alacritty/src/string.rs:97:30: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/window_context.rs:169:5: warning TS002 the function is 90 lines, over the 70 line limit
+alacritty/src/window_context.rs:261:37: info TS025 the name leads with the qualifier new; put it last
+alacritty/src/window_context.rs:261:5: warning TS002 the function is 73 lines, over the 70 line limit
+alacritty/src/window_context.rs:262:13: info TS025 the name leads with the qualifier old; put it last
+alacritty/src/window_context.rs:291:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/window_context.rs:305:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/window_context.rs:401:5: warning TS002 the function is 94 lines, over the 70 line limit
+alacritty/src/window_context.rs:427:13: info TS025 the name leads with the qualifier old; put it last
+alacritty/src/window_context.rs:475:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/window_context.rs:487:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/window_context.rs:536:9: info TS025 the name leads with the qualifier old; put it last
+alacritty/src/window_context.rs:540:13: info TS025 the name leads with the qualifier num; put it last
+alacritty/src/window_context.rs:550:13: info TS025 the name leads with the qualifier new; put it last
+alacritty/src/window_context.rs:551:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/window_context.rs:554:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty/src/window_context.rs:556:23: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_config_derive/src/config_deserialize/de_enum.rs:18:27: warning TS015 the expression is an unnamed function
+alacritty_config_derive/src/config_deserialize/de_struct.rs:107:1: warning TS002 the function is 88 lines, over the 70 line limit
+alacritty_config_derive/src/config_deserialize/de_struct.rs:27:9: warning TS020 [*] the attribute silences a checker
+alacritty_config_derive/src/serde_replace.rs:128:35: warning TS015 the expression is an unnamed function
+alacritty_config_derive/src/serde_replace.rs:53:9: warning TS020 [*] the attribute silences a checker
+alacritty_config_derive/src/serde_replace.rs:98:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/event.rs:91:9: info TS025 the name leads with the qualifier num; put it last
+alacritty_terminal/src/event.rs:92:9: info TS025 the name leads with the qualifier num; put it last
+alacritty_terminal/src/event_loop.rs:120:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+alacritty_terminal/src/event_loop.rs:166:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/event_loop.rs:177:22: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+alacritty_terminal/src/event_loop.rs:178:25: warning TS006 the loop carries no upper bound; give it a fixed maximum
+alacritty_terminal/src/event_loop.rs:205:5: warning TS002 the function is 120 lines, over the 70 line limit
+alacritty_terminal/src/event_loop.rs:227:26: warning TS006 the loop carries no upper bound; give it a fixed maximum
+alacritty_terminal/src/event_loop.rs:245:20: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/event_loop.rs:262:33: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+alacritty_terminal/src/event_loop.rs:265:33: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+alacritty_terminal/src/event_loop.rs:266:37: error TS028 the call's error is assigned away; handle it or crash on it by name
+alacritty_terminal/src/event_loop.rs:27:7: info TS025 the name leads with the qualifier MAX; put it last
+alacritty_terminal/src/event_loop.rs:281:33: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+alacritty_terminal/src/event_loop.rs:289:37: warning TS008 the branch nests 6 levels deep, over the 4 level limit
+alacritty_terminal/src/event_loop.rs:299:33: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+alacritty_terminal/src/event_loop.rs:92:9: warning TS006 the loop iterates a source that never ends; bound it with take or a count
+alacritty_terminal/src/grid/mod.rs:141:46: info TS025 the name leads with the qualifier max; put it last
+alacritty_terminal/src/grid/mod.rs:155:13: info TS025 the name leads with the qualifier current; put it last
+alacritty_terminal/src/grid/mod.rs:258:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/grid/mod.rs:317:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+alacritty_terminal/src/grid/mod.rs:318:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/grid/mod.rs:423:13: info TS025 the name leads with the qualifier last; put it last
+alacritty_terminal/src/grid/mod.rs:498:8: info TS025 the name leads with the qualifier last; put it last
+alacritty_terminal/src/grid/mod.rs:639:13: info TS025 the name leads with the qualifier last; put it last
+alacritty_terminal/src/grid/resize.rs:101:5: warning TS002 the function is 142 lines, over the 70 line limit
+alacritty_terminal/src/grid/resize.rs:103:29: warning TS015 the expression is an unnamed function
+alacritty_terminal/src/grid/resize.rs:103:42: warning TS015 the expression is an unnamed function
+alacritty_terminal/src/grid/resize.rs:114:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/grid/resize.rs:123:17: info TS025 the name leads with the qualifier last; put it last
+alacritty_terminal/src/grid/resize.rs:124:22: info TS025 the name leads with the qualifier last; put it last
+alacritty_terminal/src/grid/resize.rs:137:21: info TS025 the name leads with the qualifier last; put it last
+alacritty_terminal/src/grid/resize.rs:138:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/grid/resize.rs:146:21: info TS025 the name leads with the qualifier num; put it last
+alacritty_terminal/src/grid/resize.rs:169:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/grid/resize.rs:174:20: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/grid/resize.rs:184:20: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/grid/resize.rs:230:17: info TS025 the name leads with the qualifier new; put it last
+alacritty_terminal/src/grid/resize.rs:245:5: warning TS002 the function is 144 lines, over the 70 line limit
+alacritty_terminal/src/grid/resize.rs:249:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/grid/resize.rs:254:17: info TS025 the name leads with the qualifier new; put it last
+alacritty_terminal/src/grid/resize.rs:271:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+alacritty_terminal/src/grid/resize.rs:277:28: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/grid/resize.rs:290:20: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/grid/resize.rs:302:20: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/grid/resize.rs:321:20: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/grid/resize.rs:338:24: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/grid/resize.rs:345:24: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/grid/resize.rs:377:19: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/grid/row.rs:113:12: info TS025 the name leads with the qualifier last; put it last
+alacritty_terminal/src/grid/row.rs:62:17: info TS025 the name leads with the qualifier new; put it last
+alacritty_terminal/src/grid/row.rs:95:1: warning TS020 [*] the attribute silences a checker
+alacritty_terminal/src/grid/storage.rs:13:7: info TS025 the name leads with the qualifier MAX; put it last
+alacritty_terminal/src/grid/storage.rs:233:19: info TS038 the branch states its condition negatively and carries an else; swap the arms
+alacritty_terminal/src/grid/tests.rs:124:26: warning TS015 the expression is an unnamed function
+alacritty_terminal/src/grid/tests.rs:124:73: warning TS015 the expression is an unnamed function
+alacritty_terminal/src/grid/tests.rs:160:22: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty_terminal/src/grid/tests.rs:379:1: warning TS020 [*] the attribute silences a checker
+alacritty_terminal/src/grid/tests.rs:3:5: warning TS011 the import brings in every name
+alacritty_terminal/src/index.rs:151:21: info TS025 the name leads with the qualifier total; put it last
+alacritty_terminal/src/index.rs:96:13: info TS025 the name leads with the qualifier last; put it last
+alacritty_terminal/src/selection.rs:153:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/selection.rs:157:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/selection.rs:162:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/selection.rs:172:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/selection.rs:256:20: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/selection.rs:301:20: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/selection.rs:337:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/selection.rs:348:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/selection.rs:373:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/selection.rs:378:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/selection.rs:67:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/cell.rs:17:7: info TS025 the name leads with the qualifier MAX; put it last
+alacritty_terminal/src/term/cell.rs:189:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/cell.rs:286:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/cell.rs:47:1: error TS005 the global is mutable
+alacritty_terminal/src/term/mod.rs:1005:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/mod.rs:1032:13: info TS025 the name leads with the qualifier new; put it last
+alacritty_terminal/src/term/mod.rs:1062:5: warning TS002 the function is 77 lines, over the 70 line limit
+alacritty_terminal/src/term/mod.rs:1094:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/mod.rs:1161:24: info TS025 the name leads with the qualifier max; put it last
+alacritty_terminal/src/term/mod.rs:1196:13: info TS025 the name leads with the qualifier num; put it last
+alacritty_terminal/src/term/mod.rs:1235:13: info TS025 the name leads with the qualifier last; put it last
+alacritty_terminal/src/term/mod.rs:1281:13: info TS025 the name leads with the qualifier current; put it last
+alacritty_terminal/src/term/mod.rs:1314:13: info TS025 the name leads with the qualifier new; put it last
+alacritty_terminal/src/term/mod.rs:1328:9: error TS001 set_keyboard_mode takes part in a call cycle; give it an explicit stack or a bound
+alacritty_terminal/src/term/mod.rs:1373:15: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/mod.rs:1382:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+alacritty_terminal/src/term/mod.rs:1414:13: info TS025 the name leads with the qualifier new; put it last
+alacritty_terminal/src/term/mod.rs:1513:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/mod.rs:1548:13: info TS025 the name leads with the qualifier num; put it last
+alacritty_terminal/src/term/mod.rs:155:35: info TS025 the name leads with the qualifier num; put it last
+alacritty_terminal/src/term/mod.rs:1570:13: info TS025 the name leads with the qualifier old; put it last
+alacritty_terminal/src/term/mod.rs:1595:13: info TS025 the name leads with the qualifier num; put it last
+alacritty_terminal/src/term/mod.rs:1596:13: info TS025 the name leads with the qualifier old; put it last
+alacritty_terminal/src/term/mod.rs:160:29: info TS025 the name leads with the qualifier num; put it last
+alacritty_terminal/src/term/mod.rs:1666:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/mod.rs:1696:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/mod.rs:1792:25: info TS025 the name leads with the qualifier old; put it last
+alacritty_terminal/src/term/mod.rs:195:13: info TS025 the name leads with the qualifier num; put it last
+alacritty_terminal/src/term/mod.rs:225:5: info TS025 the name leads with the qualifier last; put it last
+alacritty_terminal/src/term/mod.rs:229:12: info TS025 the name leads with the qualifier num; put it last
+alacritty_terminal/src/term/mod.rs:229:29: info TS025 the name leads with the qualifier num; put it last
+alacritty_terminal/src/term/mod.rs:237:26: info TS025 the name leads with the qualifier num; put it last
+alacritty_terminal/src/term/mod.rs:237:43: info TS025 the name leads with the qualifier num; put it last
+alacritty_terminal/src/term/mod.rs:2380:24: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/mod.rs:2417:9: warning TS011 the import brings in every name
+alacritty_terminal/src/term/mod.rs:2471:13: info TS025 the name leads with the qualifier num; put it last
+alacritty_terminal/src/term/mod.rs:2484:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/mod.rs:262:25: info TS025 the name leads with the qualifier num; put it last
+alacritty_terminal/src/term/mod.rs:2989:5: warning TS002 the function is 72 lines, over the 70 line limit
+alacritty_terminal/src/term/mod.rs:3010:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty_terminal/src/term/mod.rs:3011:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty_terminal/src/term/mod.rs:3036:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty_terminal/src/term/mod.rs:3052:13: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty_terminal/src/term/mod.rs:3056:13: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty_terminal/src/term/mod.rs:3059:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty_terminal/src/term/mod.rs:3063:5: warning TS002 the function is 96 lines, over the 70 line limit
+alacritty_terminal/src/term/mod.rs:3066:13: info TS025 the name leads with the qualifier num; put it last
+alacritty_terminal/src/term/mod.rs:3161:5: warning TS002 the function is 84 lines, over the 70 line limit
+alacritty_terminal/src/term/mod.rs:36:11: info TS025 the name leads with the qualifier MIN; put it last
+alacritty_terminal/src/term/mod.rs:393:13: info TS025 the name leads with the qualifier old; put it last
+alacritty_terminal/src/term/mod.rs:39:11: info TS025 the name leads with the qualifier MIN; put it last
+alacritty_terminal/src/term/mod.rs:411:13: info TS025 the name leads with the qualifier num; put it last
+alacritty_terminal/src/term/mod.rs:412:13: info TS025 the name leads with the qualifier num; put it last
+alacritty_terminal/src/term/mod.rs:465:13: info TS025 the name leads with the qualifier previous; put it last
+alacritty_terminal/src/term/mod.rs:503:13: info TS025 the name leads with the qualifier old; put it last
+alacritty_terminal/src/term/mod.rs:51:7: info TS025 the name leads with the qualifier INITIAL; put it last
+alacritty_terminal/src/term/mod.rs:594:20: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/mod.rs:616:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/mod.rs:624:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/mod.rs:656:13: info TS025 the name leads with the qualifier old; put it last
+alacritty_terminal/src/term/mod.rs:657:13: info TS025 the name leads with the qualifier old; put it last
+alacritty_terminal/src/term/mod.rs:659:13: info TS025 the name leads with the qualifier num; put it last
+alacritty_terminal/src/term/mod.rs:660:13: info TS025 the name leads with the qualifier num; put it last
+alacritty_terminal/src/term/mod.rs:662:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/mod.rs:672:13: info TS025 the name leads with the qualifier min; put it last
+alacritty_terminal/src/term/mod.rs:687:17: info TS025 the name leads with the qualifier max; put it last
+alacritty_terminal/src/term/mod.rs:756:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/mod.rs:786:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/mod.rs:80:101: warning TS012 the line is 126 columns, over the 100 column limit
+alacritty_terminal/src/term/mod.rs:998:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/search.rs:1078:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty_terminal/src/term/search.rs:127:13: info TS025 the name leads with the qualifier max; put it last
+alacritty_terminal/src/term/search.rs:131:39: info TS025 the name leads with the qualifier max; put it last
+alacritty_terminal/src/term/search.rs:145:9: info TS025 the name leads with the qualifier max; put it last
+alacritty_terminal/src/term/search.rs:152:18: info TS025 the name leads with the qualifier max; put it last
+alacritty_terminal/src/term/search.rs:162:13: info TS025 the name leads with the qualifier first; put it last
+alacritty_terminal/src/term/search.rs:184:9: info TS025 the name leads with the qualifier max; put it last
+alacritty_terminal/src/term/search.rs:191:18: info TS025 the name leads with the qualifier max; put it last
+alacritty_terminal/src/term/search.rs:201:13: info TS025 the name leads with the qualifier first; put it last
+alacritty_terminal/src/term/search.rs:274:5: warning TS002 the function is 160 lines, over the 70 line limit
+alacritty_terminal/src/term/search.rs:279:10: warning TS041 Result<Option<Point>, Box<dyn Error>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+alacritty_terminal/src/term/search.rs:282:13: info TS025 the name leads with the qualifier last; put it last
+alacritty_terminal/src/term/search.rs:302:17: info TS025 the name leads with the qualifier last; put it last
+alacritty_terminal/src/term/search.rs:305:17: info TS025 the name leads with the qualifier last; put it last
+alacritty_terminal/src/term/search.rs:317:17: warning TS006 the loop carries no upper bound; give it a fixed maximum
+alacritty_terminal/src/term/search.rs:333:20: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/search.rs:362:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+alacritty_terminal/src/term/search.rs:373:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/search.rs:379:27: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/search.rs:38:12: warning TS012 the line is 137 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+alacritty_terminal/src/term/search.rs:410:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/search.rs:422:32: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/search.rs:43:13: info TS025 the name leads with the qualifier max; put it last
+alacritty_terminal/src/term/search.rs:446:20: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/search.rs:452:45: info TS025 the name leads with the qualifier new; put it last
+alacritty_terminal/src/term/search.rs:458:45: info TS025 the name leads with the qualifier new; put it last
+alacritty_terminal/src/term/search.rs:492:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+alacritty_terminal/src/term/search.rs:503:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/search.rs:546:13: info TS025 the name leads with the qualifier last; put it last
+alacritty_terminal/src/term/search.rs:549:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+alacritty_terminal/src/term/search.rs:550:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/search.rs:556:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/search.rs:570:13: info TS025 the name leads with the qualifier last; put it last
+alacritty_terminal/src/term/search.rs:573:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/search.rs:580:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/search.rs:584:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/search.rs:594:15: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/term/search.rs:607:15: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/tty/mod.rs:115:9: info TS025 the name leads with the qualifier first; put it last
+alacritty_terminal/src/tty/mod.rs:120:16: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/tty/mod.rs:14:9: warning TS011 the import brings in every name
+alacritty_terminal/src/tty/mod.rs:19:9: warning TS011 the import brings in every name
+alacritty_terminal/src/tty/unix.rs:202:1: warning TS002 the function is 106 lines, over the 70 line limit
+alacritty_terminal/src/tty/unix.rs:51:9: warning TS020 [*] the attribute silences a checker
+alacritty_terminal/src/tty/windows/blocking.rs:109:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/tty/windows/blocking.rs:111:13: error TS028 the error is dropped; handle it or crash on it by name
+alacritty_terminal/src/tty/windows/blocking.rs:165:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+alacritty_terminal/src/tty/windows/blocking.rs:207:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/tty/windows/blocking.rs:208:13: error TS028 the error is dropped; handle it or crash on it by name
+alacritty_terminal/src/tty/windows/blocking.rs:267:17: error TS028 the error is dropped; handle it or crash on it by name
+alacritty_terminal/src/tty/windows/blocking.rs:3:5: warning TS011 the import brings in every name
+alacritty_terminal/src/tty/windows/blocking.rs:46:5: info TS025 the name leads with the qualifier first; put it last
+alacritty_terminal/src/tty/windows/blocking.rs:67:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+alacritty_terminal/src/tty/windows/child.rs:160:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+alacritty_terminal/src/tty/windows/child.rs:44:5: error TS028 the error is dropped; handle it or crash on it by name
+alacritty_terminal/src/tty/windows/child.rs:48:9: error TS028 the error is dropped; handle it or crash on it by name
+alacritty_terminal/src/tty/windows/conpty.rs:110:1: warning TS002 the function is 135 lines, over the 70 line limit
+alacritty_terminal/src/tty/windows/conpty.rs:169:5: warning TS020 [*] the attribute silences a checker
+alacritty_terminal/src/tty/windows/conpty.rs:249:4: warning TS012 the line is 154 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+alacritty_terminal/src/tty/windows/conpty.rs:290:4: warning TS012 the line is 119 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+alacritty_terminal/src/tty/windows/mod.rs:129:4: warning TS012 the line is 123 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+alacritty_terminal/src/tty/windows/mod.rs:211:101: warning TS012 the line is 102 columns, over the 100 column limit
+alacritty_terminal/src/vi_mode.rs:108:23: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/vi_mode.rs:217:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+alacritty_terminal/src/vi_mode.rs:229:4: info TS025 the name leads with the qualifier first; put it last
+alacritty_terminal/src/vi_mode.rs:230:9: info TS025 the name leads with the qualifier last; put it last
+alacritty_terminal/src/vi_mode.rs:255:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+alacritty_terminal/src/vi_mode.rs:260:21: info TS025 the name leads with the qualifier last; put it last
+alacritty_terminal/src/vi_mode.rs:281:27: warning TS015 the expression is an unnamed function
+alacritty_terminal/src/vi_mode.rs:284:12: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/vi_mode.rs:296:8: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/vi_mode.rs:304:13: info TS025 the name leads with the qualifier next; put it last
+alacritty_terminal/src/vi_mode.rs:305:11: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/vi_mode.rs:321:8: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/vi_mode.rs:340:17: info TS025 the name leads with the qualifier next; put it last
+alacritty_terminal/src/vi_mode.rs:341:15: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/vi_mode.rs:347:17: info TS025 the name leads with the qualifier next; put it last
+alacritty_terminal/src/vi_mode.rs:348:15: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/vi_mode.rs:356:15: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/vi_mode.rs:361:15: warning TS023 the condition combines booleans; split it into nested branches
+alacritty_terminal/src/vi_mode.rs:370:4: info TS025 the name leads with the qualifier first; put it last
+alacritty_terminal/src/vi_mode.rs:377:4: info TS025 the name leads with the qualifier last; put it last
+alacritty_terminal/src/vi_mode.rs:74:5: warning TS002 the function is 113 lines, over the 70 line limit
+alacritty_terminal/src/vi_mode.rs:89:20: warning TS023 the condition combines booleans; split it into nested branches

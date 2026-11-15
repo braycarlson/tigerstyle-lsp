@@ -1,0 +1,11 @@
+TS008 nesting-depth
+
+A block nests at most four levels inside its function, so control flow stays readable without a map.
+
+languages: go javascript odin python rust typescript zig
+severity: warning
+default: on
+group: stable
+
+TigerStyle: "Use only very simple, explicit control flow for clarity."
+NASA P10 Rule 1: "Restrict all code to very simple control flow constructs."

@@ -1,0 +1,10 @@
+TS045 no-alias
+
+A binding that renames another value gives one thing two names, which can disagree.
+
+languages: go javascript odin python rust typescript zig
+severity: info
+default: opt-in
+group: stable
+
+TigerStyle: "Don't duplicate variables or take aliases to them. This will reduce the probability that state gets out of sync."

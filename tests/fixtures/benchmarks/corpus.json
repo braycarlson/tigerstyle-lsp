@@ -1,0 +1,23 @@
+{
+  "commit": "f9cc0c37072361e56e162a9e8509b90604ce7172",
+  "machine": "brayden-ubuntu",
+  "processor": "x86_64",
+  "runs": 10,
+  "warmup": 3,
+  "workloads": {
+    "default": {
+      "command": "target/release/tigerstyle-lsp check --isolated --no-cache --exit-zero --format concise --quiet corpus",
+      "instructions": 9118845083,
+      "mean_seconds": 0.6485517802999999,
+      "median_seconds": 0.6479904335000001,
+      "stddev_seconds": 0.0048901476747024684
+    },
+    "select_all": {
+      "command": "target/release/tigerstyle-lsp check --isolated --no-cache --exit-zero --format concise --quiet --select ALL --preview corpus",
+      "instructions": 18114422071,
+      "mean_seconds": 1.2509611818,
+      "median_seconds": 1.2505778520000002,
+      "stddev_seconds": 0.005599212855153738
+    }
+  }
+}

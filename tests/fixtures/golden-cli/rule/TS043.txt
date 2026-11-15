@@ -1,0 +1,12 @@
+TS043 declaration-distance
+
+A binding is declared where it is used and in the block that uses it, so a reader holds one value at a time.
+
+languages: go javascript odin python rust typescript zig
+severity: info
+default: opt-in
+group: stable
+
+TigerStyle: "Calculate or check variables close to where/when they are used. **Don't introduce variables before they are needed.** Don't leave them around where they are not. This will reduce the probability of a POCPOU (place-of-check to place-of-use), a distant cousin to the infamous TOCTOU. Most bugs come down to a semantic gap, caused by a gap in time or space, because it's harder to check code that's not contained along those dimensions."
+TigerStyle: "Declare variables at the **smallest possible scope**, and **minimize the number of variables in scope**, to reduce the probability that variables are misused."
+NASA P10 Rule 6: "Data objects must be declared at the smallest possible level of scope."

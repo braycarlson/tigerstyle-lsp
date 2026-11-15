@@ -1,0 +1,17 @@
+TS021 no-goto
+
+Control flow is structured, so a reader follows it without a map of the labels.
+
+languages: go
+severity: error
+default: on
+group: stable
+javascript: JavaScript has no goto; break and continue with a label are the only non-local jumps
+odin: Odin has no goto; break and continue with a label are the only non-local jumps
+python: Python has no goto; break, continue, and return are the only non-local jumps
+rust: Rust has no goto; its loop labels break and continue to an enclosing loop only
+typescript: TypeScript has no goto; break and continue with a label are the only non-local jumps
+zig: Zig has no goto; its loop labels break and continue to an enclosing loop only
+
+TigerStyle: "Use only very simple, explicit control flow for clarity."
+NASA P10 Rule 1: "Restrict all code to very simple control flow constructs — do not use goto statements, setjmp or longjmp constructs, and direct or indirect recursion."

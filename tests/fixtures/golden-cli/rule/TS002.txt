@@ -1,0 +1,11 @@
+TS002 function-too-long
+
+A function fits in 70 lines, so that one screen holds the whole unit of work.
+
+languages: go javascript odin python rust typescript zig
+severity: warning
+default: on
+group: stable
+
+TigerStyle: "There's a sharp discontinuity between a function fitting on a screen, and having to scroll to see how long it is. For this physical reason we enforce a hard limit of 70 lines per function."
+NASA P10 Rule 4: "No function should be longer than what can be printed on a single sheet of paper in a standard reference format with one line per statement and one line per declaration. Typically, this means no more than about 60 lines of code per function."

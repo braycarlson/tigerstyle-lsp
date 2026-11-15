@@ -1,0 +1,630 @@
+# exit 1
+benches/body.rs:13:101: warning TS012 the line is 114 columns, over the 100 column limit
+benches/body.rs:38:17: warning TS011 the import brings in every name
+benches/body.rs:52:17: warning TS011 the import brings in every name
+benches/body.rs:69:17: warning TS011 the import brings in every name
+benches/end_to_end.rs:284:5: warning TS002 the function is 114 lines, over the 70 line limit
+benches/end_to_end.rs:302:13: info TS025 the name leads with the qualifier bytes; put it last
+benches/end_to_end.rs:341:28: warning TS015 the expression is an unnamed function
+benches/end_to_end.rs:370:32: warning TS015 the expression is an unnamed function
+benches/pipeline.rs:43:17: warning TS006 the loop carries no upper bound; give it a fixed maximum
+benches/pipeline.rs:63:13: error TS028 the error is dropped; handle it or crash on it by name
+benches/pipeline.rs:74:9: info TS025 the name leads with the qualifier total; put it last
+benches/server.rs:41:21: warning TS006 the loop carries no upper bound; give it a fixed maximum
+benches/server.rs:154:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+benches/server.rs:200:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+benches/support/mod.rs:2:1: warning TS020 [*] the attribute silences a checker
+benches/support/tokiort.rs:1:1: warning TS020 [*] the attribute silences a checker
+benches/support/tokiort.rs:49:54: info TS025 the name leads with the qualifier new; put it last
+benches/support/tokiort.rs:186:13: info TS025 the name leads with the qualifier n; put it last
+benches/support/tokiort.rs:188:13: info TS025 the name leads with the qualifier n; put it last
+examples/client_json.rs:67:5: warning TS020 [*] the attribute silences a checker
+examples/echo.rs:25:101: warning TS012 the line is 102 columns, over the 100 column limit
+examples/echo.rs:97:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/gateway.rs:25:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/graceful_shutdown.rs:46:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/graceful_shutdown.rs:77:101: warning TS012 the line is 102 columns, over the 100 column limit
+examples/graceful_shutdown.rs:88:101: warning TS012 the line is 105 columns, over the 100 column limit
+examples/hello-http2.rs:2:1: warning TS020 [*] the attribute silences a checker
+examples/hello-http2.rs:56:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/hello.rs:35:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/http_proxy.rs:34:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/multi_server.rs:38:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/multi_server.rs:55:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/params.rs:19:101: warning TS012 the line is 207 columns, over the 100 column limit
+examples/params.rs:24:1: warning TS002 the function is 87 lines, over the 70 line limit
+examples/params.rs:128:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/send_file.rs:31:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/service_struct_impl.rs:30:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/single_threaded.rs:57:10: warning TS041 Poll<Option<Result<Frame<Self::Data>, Self::Error>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+examples/single_threaded.rs:138:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/single_threaded.rs:234:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/state.rs:31:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/upgrades.rs:153:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/upgrades.rs:161:101: warning TS012 the line is 106 columns, over the 100 column limit
+examples/web_api.rs:115:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/body/chan.rs:71:19: warning TS023 the condition combines booleans; split it into nested branches
+src/body/chan.rs:84:5: warning TS020 [*] the attribute silences a checker
+src/body/chan.rs:93:12: warning TS023 the condition combines booleans; split it into nested branches
+src/body/chan.rs:109:10: warning TS041 Result<(), Option<HeaderMap>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/body/chan.rs:125:5: warning TS020 [*] the attribute silences a checker
+src/body/chan.rs:126:5: warning TS020 [*] the attribute silences a checker
+src/body/chan.rs:127:5: warning TS020 [*] the attribute silences a checker
+src/body/chan.rs:161:10: warning TS041 Poll<Option<Result<bytes::Bytes, crate::Error>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/body/chan.rs:168:30: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/body/chan.rs:249:41: warning TS041 Option<Result<Bytes, crate::Error>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/body/chan.rs:260:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/body/chan.rs:261:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/body/chan.rs:262:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/body/chan.rs:273:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/body/chan.rs:290:21: warning TS015 the expression is an unnamed function
+src/body/incoming.rs:100:5: warning TS020 [*] the attribute silences a checker
+src/body/incoming.rs:118:12: warning TS023 the condition combines booleans; split it into nested branches
+src/body/incoming.rs:147:5: warning TS002 the function is 86 lines, over the 70 line limit
+src/body/incoming.rs:164:10: warning TS041 Poll<Option<Result<Frame<Self::Data>, Self::Error>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/body/incoming.rs:466:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/body/length.rs:18:7: info TS025 the name leads with the qualifier MAX; put it last
+src/body/length.rs:57:16: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/client/conn/http1.rs:104:5: warning TS020 [*] the attribute silences a checker
+src/client/conn/http1.rs:135:5: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/client/conn/http1.rs:139:5: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/client/conn/http1.rs:260:5: warning TS020 [*] the attribute silences a checker
+src/client/conn/http1.rs:501:12: info TS025 the name leads with the qualifier max; put it last
+src/client/conn/http1.rs:511:101: warning TS012 the line is 114 columns, over the 100 column limit
+src/client/conn/http1.rs:516:12: info TS025 the name leads with the qualifier max; put it last
+src/client/conn/http1.rs:553:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/client/conn/http1.rs:554:12: info TS025 the name leads with the qualifier max; put it last
+src/client/conn/http1.rs:605:25: info TS025 the name leads with the qualifier max; put it last
+src/client/conn/http1.rs:608:25: info TS025 the name leads with the qualifier max; put it last
+src/client/conn/http1.rs:644:5: warning TS020 [*] the attribute silences a checker
+src/client/conn/http2.rs:192:5: warning TS020 [*] the attribute silences a checker
+src/client/conn/http2.rs:250:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/client/conn/http2.rs:254:12: info TS025 the name leads with the qualifier current; put it last
+src/client/conn/http2.rs:260:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/client/conn/http2.rs:264:12: info TS025 the name leads with the qualifier current; put it last
+src/client/conn/http2.rs:334:12: info TS025 the name leads with the qualifier initial; put it last
+src/client/conn/http2.rs:347:12: info TS025 the name leads with the qualifier initial; put it last
+src/client/conn/http2.rs:365:12: info TS025 the name leads with the qualifier initial; put it last
+src/client/conn/http2.rs:391:12: info TS025 the name leads with the qualifier max; put it last
+src/client/conn/http2.rs:399:12: info TS025 the name leads with the qualifier max; put it last
+src/client/conn/http2.rs:439:12: info TS025 the name leads with the qualifier max; put it last
+src/client/conn/http2.rs:486:101: warning TS012 the line is 144 columns, over the 100 column limit
+src/client/conn/http2.rs:487:12: info TS025 the name leads with the qualifier max; put it last
+src/client/conn/http2.rs:499:12: info TS025 the name leads with the qualifier max; put it last
+src/client/conn/http2.rs:511:12: info TS025 the name leads with the qualifier max; put it last
+src/client/conn/http2.rs:522:12: info TS025 the name leads with the qualifier max; put it last
+src/client/conn/http2.rs:551:101: warning TS012 the line is 130 columns, over the 100 column limit
+src/client/conn/http2.rs:616:9: warning TS020 [*] the attribute silences a checker
+src/client/conn/http2.rs:650:9: warning TS020 [*] the attribute silences a checker
+src/client/conn/http2.rs:686:9: warning TS020 [*] the attribute silences a checker
+src/client/conn/http2.rs:720:9: warning TS020 [*] the attribute silences a checker
+src/client/conn/http2.rs:755:9: warning TS020 [*] the attribute silences a checker
+src/client/conn/mod.rs:10:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/client/dispatch.rs:94:12: warning TS023 the condition combines booleans; split it into nested branches
+src/client/dispatch.rs:246:5: warning TS020 [*] the attribute silences a checker
+src/client/dispatch.rs:415:19: warning TS020 [*] the attribute silences a checker
+src/client/dispatch.rs:450:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/client/dispatch.rs:474:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/client/dispatch.rs:480:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/client/dispatch.rs:513:17: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/client/dispatch.rs:534:25: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/client/mod.rs:7:101: warning TS012 the line is 178 columns, over the 100 column limit
+src/client/mod.rs:9:101: warning TS012 the line is 137 columns, over the 100 column limit
+src/common/buf.rs:109:13: info TS025 the name leads with the qualifier old; put it last
+src/common/buf.rs:121:13: info TS025 the name leads with the qualifier old; put it last
+src/common/date.rs:41:5: info TS025 the name leads with the qualifier next; put it last
+src/common/date.rs:44:15: error TS005 the global is mutable
+src/common/io/compat.rs:41:14: info TS025 the name leads with the qualifier new; put it last
+src/common/io/compat.rs:41:24: info TS025 the name leads with the qualifier new; put it last
+src/common/io/compat.rs:52:13: info TS025 the name leads with the qualifier n; put it last
+src/common/lock.rs:7:1: warning TS020 [*] the attribute silences a checker
+src/common/time.rs:36:13: warning TS020 [*] the attribute silences a checker
+src/common/time.rs:47:13: warning TS020 [*] the attribute silences a checker
+src/common/time.rs:62:65: info TS025 the name leads with the qualifier new; put it last
+src/common/time.rs:64:13: warning TS020 [*] the attribute silences a checker
+src/common/time.rs:83:17: warning TS020 [*] the attribute silences a checker
+src/error.rs:101:5: warning TS020 [*] the attribute silences a checker
+src/error.rs:500:5: warning TS002 the function is 99 lines, over the 70 line limit
+src/ext/h1_reason_phrase.rs:155:5: warning TS020 [*] the attribute silences a checker
+src/ext/mod.rs:3:101: warning TS012 the line is 104 columns, over the 100 column limit
+src/ext/mod.rs:4:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/ext/mod.rs:6:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/ext/mod.rs:10:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/ext/mod.rs:11:101: warning TS012 the line is 105 columns, over the 100 column limit
+src/ext/mod.rs:16:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/ext/mod.rs:29:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/ext/mod.rs:30:101: warning TS012 the line is 116 columns, over the 100 column limit
+src/ext/mod.rs:31:101: warning TS012 the line is 113 columns, over the 100 column limit
+src/ext/mod.rs:32:101: warning TS012 the line is 121 columns, over the 100 column limit
+src/ext/mod.rs:34:101: warning TS012 the line is 116 columns, over the 100 column limit
+src/ext/mod.rs:70:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/ext/mod.rs:71:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/ext/mod.rs:207:5: info TS025 the name leads with the qualifier num; put it last
+src/ffi/body.rs:28:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/ffi/body.rs:30:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/ffi/body.rs:31:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/ffi/body.rs:114:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/ffi/body.rs:148:101: warning TS012 the line is 127 columns, over the 100 column limit
+src/ffi/body.rs:214:10: warning TS041 Poll<Option<crate::Result<Frame<Bytes>>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/ffi/client.rs:17:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/ffi/client.rs:22:101: warning TS012 the line is 140 columns, over the 100 column limit
+src/ffi/client.rs:64:101: warning TS012 the line is 109 columns, over the 100 column limit
+src/ffi/client.rs:96:101: warning TS012 the line is 113 columns, over the 100 column limit
+src/ffi/client.rs:117:17: warning TS012 the line is 123 columns, over the 100 column limit, and its one token cannot be wrapped
+src/ffi/client.rs:144:101: warning TS012 the line is 103 columns, over the 100 column limit
+src/ffi/client.rs:200:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/ffi/client.rs:210:101: warning TS012 the line is 112 columns, over the 100 column limit
+src/ffi/client.rs:230:101: warning TS012 the line is 104 columns, over the 100 column limit
+src/ffi/client.rs:245:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/ffi/client.rs:269:101: warning TS012 the line is 130 columns, over the 100 column limit
+src/ffi/error.rs:32:5: warning TS020 [*] the attribute silences a checker
+src/ffi/http_types.rs:27:101: warning TS012 the line is 121 columns, over the 100 column limit
+src/ffi/http_types.rs:107:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/ffi/http_types.rs:139:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/ffi/http_types.rs:272:101: warning TS012 the line is 148 columns, over the 100 column limit
+src/ffi/http_types.rs:385:101: warning TS012 the line is 120 columns, over the 100 column limit
+src/ffi/http_types.rs:452:101: warning TS012 the line is 122 columns, over the 100 column limit
+src/ffi/http_types.rs:462:101: warning TS012 the line is 113 columns, over the 100 column limit
+src/ffi/http_types.rs:515:101: warning TS012 the line is 141 columns, over the 100 column limit
+src/ffi/http_types.rs:534:101: warning TS012 the line is 141 columns, over the 100 column limit
+src/ffi/macros.rs:2:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/ffi/macros.rs:8:26: error TS052 the panic is recovered from; corrupt state has to crash
+src/ffi/mod.rs:2:1: warning TS020 [*] the attribute silences a checker
+src/ffi/mod.rs:4:1: warning TS020 [*] the attribute silences a checker
+src/ffi/mod.rs:6:1: warning TS020 [*] the attribute silences a checker
+src/ffi/mod.rs:28:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/ffi/mod.rs:57:9: warning TS011 the import brings in every name
+src/ffi/mod.rs:58:9: warning TS011 the import brings in every name
+src/ffi/mod.rs:59:9: warning TS011 the import brings in every name
+src/ffi/mod.rs:60:9: warning TS011 the import brings in every name
+src/ffi/mod.rs:61:9: warning TS011 the import brings in every name
+src/ffi/mod.rs:62:9: warning TS011 the import brings in every name
+src/ffi/mod.rs:67:1: warning TS020 [*] the attribute silences a checker
+src/ffi/task.rs:52:101: warning TS012 the line is 129 columns, over the 100 column limit
+src/ffi/task.rs:92:101: warning TS012 the line is 108 columns, over the 100 column limit
+src/ffi/task.rs:93:101: warning TS012 the line is 103 columns, over the 100 column limit
+src/ffi/task.rs:103:101: warning TS012 the line is 136 columns, over the 100 column limit
+src/ffi/task.rs:113:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/ffi/task.rs:212:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/headers.rs:176:13: info TS025 the name leads with the qualifier new; put it last
+src/proto/h1/conn.rs:106:19: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/conn.rs:145:19: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/conn.rs:216:5: warning TS002 the function is 122 lines, over the 70 line limit
+src/proto/h1/conn.rs:219:10: warning TS041 Poll<Option<crate::Result<(MessageHead<T::Incoming>, DecodedLength, Wants)>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/proto/h1/conn.rs:317:19: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/conn.rs:318:17: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/conn.rs:326:17: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/conn.rs:339:61: warning TS041 Poll<Option<crate::Result<Z>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/proto/h1/conn.rs:347:12: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/conn.rs:368:10: warning TS041 Poll<Option<io::Result<Frame<Bytes>>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/proto/h1/conn.rs:381:37: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/proto/h1/conn.rs:381:40: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/proto/h1/conn.rs:421:24: error TS001 poll_read_body takes part in a call cycle; give it an explicit stack or a bound
+src/proto/h1/conn.rs:438:9: warning TS024 the assertion is compound; write one assertion for each condition
+src/proto/h1/conn.rs:461:9: warning TS024 the assertion is compound; write one assertion for each condition
+src/proto/h1/conn.rs:470:13: info TS025 the name leads with the qualifier num; put it last
+src/proto/h1/conn.rs:494:9: warning TS024 the assertion is compound; write one assertion for each condition
+src/proto/h1/conn.rs:497:12: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/conn.rs:501:13: info TS025 the name leads with the qualifier num; put it last
+src/proto/h1/conn.rs:547:29: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/proto/h1/conn.rs:576:12: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/conn.rs:732:9: warning TS024 the assertion is compound; write one assertion for each condition
+src/proto/h1/conn.rs:757:12: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/conn.rs:761:9: warning TS024 the assertion is compound; write one assertion for each condition
+src/proto/h1/conn.rs:770:45: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/conn.rs:782:9: warning TS024 the assertion is compound; write one assertion for each condition
+src/proto/h1/conn.rs:816:41: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/conn.rs:883:9: error TS028 the call's error is assigned away; handle it or crash on it by name
+src/proto/h1/conn.rs:955:5: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/conn.rs:1188:13: warning TS011 the import brings in every name
+src/proto/h1/conn.rs:1234:13: warning TS011 the import brings in every name
+src/proto/h1/conn.rs:1299:10: warning TS041 Poll<Option<crate::Result<(MessageHead<T::Incoming>, DecodedLength, Wants)>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/proto/h1/decode.rs:48:9: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/decode.rs:97:9: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/decode.rs:121:9: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/decode.rs:144:5: warning TS002 the function is 95 lines, over the 70 line limit
+src/proto/h1/decode.rs:178:17: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/decode.rs:181:21: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/decode.rs:182:17: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/proto/h1/decode.rs:204:29: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/proto/h1/decode.rs:295:5: info TS025 the name leads with the qualifier max; put it last
+src/proto/h1/decode.rs:296:5: info TS025 the name leads with the qualifier max; put it last
+src/proto/h1/decode.rs:313:13: info TS025 the name leads with the qualifier max; put it last
+src/proto/h1/decode.rs:314:13: info TS025 the name leads with the qualifier max; put it last
+src/proto/h1/decode.rs:537:9: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/decode.rs:560:9: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/decode.rs:592:9: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/decode.rs:623:9: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/decode.rs:744:5: warning TS002 the function is 113 lines, over the 70 line limit
+src/proto/h1/decode.rs:753:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/proto/h1/decode.rs:772:20: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/decode.rs:785:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/proto/h1/decode.rs:815:20: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/decode.rs:821:23: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/proto/h1/decode.rs:822:23: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/proto/h1/decode.rs:823:23: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/proto/h1/decode.rs:824:23: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/proto/h1/decode.rs:825:24: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/proto/h1/decode.rs:826:24: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/proto/h1/decode.rs:827:25: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/proto/h1/decode.rs:828:25: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/proto/h1/decode.rs:841:23: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/proto/h1/decode.rs:842:24: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/proto/h1/decode.rs:843:23: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/proto/h1/decode.rs:844:23: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/proto/h1/decode.rs:845:23: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/proto/h1/decode.rs:846:23: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/proto/h1/decode.rs:847:23: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/proto/h1/decode.rs:848:23: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/proto/h1/decode.rs:864:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/proto/h1/decode.rs:886:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/proto/h1/decode.rs:1031:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/proto/h1/decode.rs:1231:14: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/decode.rs:1232:13: info TS025 the name leads with the qualifier max; put it last
+src/proto/h1/decode.rs:1259:14: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/decode.rs:1260:13: info TS025 the name leads with the qualifier max; put it last
+src/proto/h1/dispatch.rs:39:10: warning TS041 Poll<Option<Result<(Self::PollItem, Self::PollBody), Self::PollError>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/proto/h1/dispatch.rs:61:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/proto/h1/dispatch.rs:102:12: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/dispatch.rs:214:16: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/dispatch.rs:222:16: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/dispatch.rs:244:5: warning TS002 the function is 75 lines, over the 70 line limit
+src/proto/h1/dispatch.rs:245:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/proto/h1/dispatch.rs:268:29: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/proto/h1/dispatch.rs:270:33: warning TS008 the branch nests 6 levels deep, over the 4 level limit
+src/proto/h1/dispatch.rs:275:41: warning TS008 the branch nests 7 levels deep, over the 4 level limit
+src/proto/h1/dispatch.rs:284:33: warning TS008 the branch nests 6 levels deep, over the 4 level limit
+src/proto/h1/dispatch.rs:289:41: warning TS008 the branch nests 7 levels deep, over the 4 level limit
+src/proto/h1/dispatch.rs:375:5: warning TS002 the function is 93 lines, over the 70 line limit
+src/proto/h1/dispatch.rs:376:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/proto/h1/dispatch.rs:379:23: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/dispatch.rs:403:23: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/proto/h1/dispatch.rs:427:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/proto/h1/dispatch.rs:430:29: warning TS008 the branch nests 6 levels deep, over the 4 level limit
+src/proto/h1/dispatch.rs:432:33: warning TS008 the branch nests 7 levels deep, over the 4 level limit
+src/proto/h1/dispatch.rs:439:33: warning TS008 the branch nests 7 levels deep, over the 4 level limit
+src/proto/h1/dispatch.rs:495:12: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/dispatch.rs:640:101: warning TS012 the line is 105 columns, over the 100 column limit
+src/proto/h1/dispatch.rs:728:101: warning TS012 the line is 105 columns, over the 100 column limit
+src/proto/h1/dispatch.rs:753:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/proto/h1/dispatch.rs:819:5: warning TS002 the function is 121 lines, over the 70 line limit
+src/proto/h1/dispatch.rs:904:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/proto/h1/encode.rs:116:36: warning TS041 Result<Option<EncodedBuf<B>>, NotEof> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/proto/h1/encode.rs:178:25: info TS025 the name leads with the qualifier cur; put it last
+src/proto/h1/encode.rs:249:21: warning TS020 [*] the attribute silences a checker
+src/proto/h1/encode.rs:340:7: info TS025 the name puts MAX before BYTES; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/encode.rs:374:5: warning TS020 [*] the attribute silences a checker
+src/proto/h1/encode.rs:391:5: warning TS020 [*] the attribute silences a checker
+src/proto/h1/encode.rs:476:13: info TS025 the name leads with the qualifier max; put it last
+src/proto/h1/io.rs:18:18: info TS025 the name leads with the qualifier MINIMUM; put it last
+src/proto/h1/io.rs:23:18: info TS025 the name puts MAX before SIZE; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/io.rs:30:7: info TS025 the name leads with the qualifier MAX; put it last
+src/proto/h1/io.rs:86:19: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/io.rs:182:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/proto/h1/io.rs:205:29: info TS025 the name leads with the qualifier max; put it last
+src/proto/h1/io.rs:279:12: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/io.rs:288:19: info TS025 the name leads with the qualifier MAX; put it last
+src/proto/h1/io.rs:289:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/proto/h1/io.rs:319:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/proto/h1/io.rs:362:12: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/proto/h1/io.rs:408:26: info TS025 the name leads with the qualifier bytes; put it last
+src/proto/h1/io.rs:529:5: info TS025 the name leads with the qualifier max; put it last
+src/proto/h1/io.rs:563:17: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/proto/h1/io.rs:619:12: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/proto/h1/io.rs:891:17: warning TS015 the expression is an unnamed function
+src/proto/h1/mod.rs:40:5: error TS001 is_client takes part in a call cycle; give it an explicit stack or a bound
+src/proto/h1/mod.rs:44:5: error TS001 is_server takes part in a call cycle; give it an explicit stack or a bound
+src/proto/h1/mod.rs:76:5: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/role.rs:32:7: info TS025 the name leads with the qualifier AVERAGE; put it last
+src/proto/h1/role.rs:34:7: info TS025 the name leads with the qualifier MAX; put it last
+src/proto/h1/role.rs:53:101: warning TS012 the line is 155 columns, over the 100 column limit
+src/proto/h1/role.rs:109:19: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/role.rs:146:5: warning TS002 the function is 243 lines, over the 70 line limit
+src/proto/h1/role.rs:183:33: info TS025 the name leads with the qualifier max; put it last
+src/proto/h1/role.rs:285:24: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/role.rs:320:24: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/role.rs:354:12: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/role.rs:359:12: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/role.rs:390:5: warning TS002 the function is 102 lines, over the 70 line limit
+src/proto/h1/role.rs:406:19: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/role.rs:431:12: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/role.rs:444:17: warning TS020 [*] the attribute silences a checker
+src/proto/h1/role.rs:529:12: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/role.rs:540:12: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/role.rs:662:5: warning TS002 the function is 340 lines, over the 70 line limit
+src/proto/h1/role.rs:676:22: warning TS015 the expression is an unnamed function
+src/proto/h1/role.rs:676:40: warning TS015 the expression is an unnamed function
+src/proto/h1/role.rs:683:17: info TS025 the name leads with the qualifier cur; put it last
+src/proto/h1/role.rs:716:24: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/role.rs:733:37: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/proto/h1/role.rs:733:40: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/role.rs:736:101: warning TS012 the line is 130 columns, over the 100 column limit
+src/proto/h1/role.rs:762:33: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/proto/h1/role.rs:763:37: warning TS008 the branch nests 6 levels deep, over the 4 level limit
+src/proto/h1/role.rs:803:33: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/proto/h1/role.rs:816:24: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/role.rs:822:24: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/role.rs:832:24: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/proto/h1/role.rs:848:24: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/role.rs:851:24: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/proto/h1/role.rs:870:24: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/role.rs:876:24: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/proto/h1/role.rs:931:24: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/role.rs:958:24: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/proto/h1/role.rs:985:12: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/role.rs:1006:13: info TS025 the name leads with the qualifier bytes; put it last
+src/proto/h1/role.rs:1037:5: warning TS002 the function is 177 lines, over the 70 line limit
+src/proto/h1/role.rs:1041:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/proto/h1/role.rs:1064:37: info TS025 the name leads with the qualifier max; put it last
+src/proto/h1/role.rs:1074:45: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/proto/h1/role.rs:1144:24: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h1/role.rs:1241:13: warning TS020 [*] the attribute silences a checker
+src/proto/h1/role.rs:1283:10: warning TS041 Result<Option<(DecodedLength, bool)>, Parse> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/proto/h1/role.rs:1343:5: warning TS002 the function is 135 lines, over the 70 line limit
+src/proto/h1/role.rs:1495:13: info TS025 the name leads with the qualifier first; put it last
+src/proto/h1/role.rs:1584:9: info TS025 the name leads with the qualifier bytes; put it last
+src/proto/h1/role.rs:1977:5: warning TS002 the function is 257 lines, over the 70 line limit
+src/proto/h1/role.rs:2161:9: error TS028 the call's error is dropped; handle it or crash on it by name
+src/proto/h1/role.rs:2172:9: error TS028 the call's error is dropped; handle it or crash on it by name
+src/proto/h1/role.rs:2182:9: error TS028 the call's error is dropped; handle it or crash on it by name
+src/proto/h1/role.rs:2191:9: error TS028 the call's error is dropped; handle it or crash on it by name
+src/proto/h1/role.rs:2200:9: error TS028 the call's error is dropped; handle it or crash on it by name
+src/proto/h1/role.rs:2225:9: error TS028 the call's error is dropped; handle it or crash on it by name
+src/proto/h1/role.rs:2236:5: warning TS002 the function is 329 lines, over the 70 line limit
+src/proto/h1/role.rs:2243:21: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+src/proto/h1/role.rs:2367:9: error TS028 the call's error is dropped; handle it or crash on it by name
+src/proto/h1/role.rs:2376:9: error TS028 the call's error is dropped; handle it or crash on it by name
+src/proto/h1/role.rs:2506:9: error TS028 the call's error is dropped; handle it or crash on it by name
+src/proto/h1/role.rs:2568:5: warning TS002 the function is 75 lines, over the 70 line limit
+src/proto/h1/role.rs:2646:5: warning TS002 the function is 79 lines, over the 70 line limit
+src/proto/h1/role.rs:2884:101: warning TS012 the line is 128 columns, over the 100 column limit
+src/proto/h1/role.rs:3013:101: warning TS012 the line is 110 columns, over the 100 column limit
+src/proto/h1/role.rs:3154:5: warning TS002 the function is 129 lines, over the 70 line limit
+src/proto/h1/role.rs:3171:18: info TS025 the name leads with the qualifier max; put it last
+src/proto/h1/role.rs:3286:8: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/role.rs:3292:25: warning TS015 the expression is an unnamed function
+src/proto/h1/role.rs:3292:26: info TS025 the name leads with the qualifier max; put it last
+src/proto/h1/role.rs:3292:56: warning TS015 the expression is an unnamed function
+src/proto/h1/role.rs:3322:8: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h1/role.rs:3328:26: warning TS015 the expression is an unnamed function
+src/proto/h1/role.rs:3328:27: info TS025 the name leads with the qualifier max; put it last
+src/proto/h1/role.rs:3328:57: warning TS015 the expression is an unnamed function
+src/proto/h2/client.rs:50:7: info TS025 the name puts MAX before SIZE; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h2/client.rs:51:7: info TS025 the name puts MAX before SIZE; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h2/client.rs:52:7: info TS025 the name puts MAX before SIZE; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h2/client.rs:66:16: info TS025 the name leads with the qualifier initial; put it last
+src/proto/h2/client.rs:67:16: info TS025 the name leads with the qualifier initial; put it last
+src/proto/h2/client.rs:68:16: info TS025 the name leads with the qualifier initial; put it last
+src/proto/h2/client.rs:69:16: info TS025 the name leads with the qualifier max; put it last
+src/proto/h2/client.rs:70:16: info TS025 the name leads with the qualifier max; put it last
+src/proto/h2/client.rs:74:16: info TS025 the name leads with the qualifier max; put it last
+src/proto/h2/client.rs:75:16: info TS025 the name leads with the qualifier max; put it last
+src/proto/h2/client.rs:76:16: info TS025 the name leads with the qualifier max; put it last
+src/proto/h2/client.rs:77:16: info TS025 the name leads with the qualifier max; put it last
+src/proto/h2/client.rs:79:16: info TS025 the name leads with the qualifier max; put it last
+src/proto/h2/client.rs:348:12: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h2/client.rs:353:12: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h2/client.rs:450:19: info TS025 the name leads with the qualifier current; put it last
+src/proto/h2/client.rs:453:19: info TS025 the name leads with the qualifier current; put it last
+src/proto/h2/client.rs:533:30: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/proto/h2/client.rs:678:5: warning TS002 the function is 117 lines, over the 70 line limit
+src/proto/h2/client.rs:679:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/proto/h2/client.rs:711:28: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h2/client.rs:719:24: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h2/client.rs:785:21: warning TS020 [*] the attribute silences a checker
+src/proto/h2/mod.rs:142:5: warning TS002 the function is 118 lines, over the 70 line limit
+src/proto/h2/mod.rs:144:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/proto/h2/mod.rs:213:29: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/proto/h2/ping.rs:57:17: info TS025 the name leads with the qualifier next; put it last
+src/proto/h2/ping.rs:72:9: info TS025 the name leads with the qualifier last; put it last
+src/proto/h2/ping.rs:129:5: info TS025 the name leads with the qualifier next; put it last
+src/proto/h2/ping.rs:134:5: info TS025 the name leads with the qualifier last; put it last
+src/proto/h2/ping.rs:144:5: info TS025 the name leads with the qualifier max; put it last
+src/proto/h2/ping.rs:207:21: info TS025 the name leads with the qualifier next; put it last
+src/proto/h2/ping.rs:356:8: info TS025 the name leads with the qualifier last; put it last
+src/proto/h2/ping.rs:398:9: warning TS020 [*] the attribute silences a checker
+src/proto/h2/ping.rs:399:9: warning TS020 [*] the attribute silences a checker
+src/proto/h2/ping.rs:438:20: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h2/ping.rs:472:20: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h2/server.rs:38:7: info TS025 the name puts MAX before SIZE; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h2/server.rs:39:7: info TS025 the name puts MAX before SIZE; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h2/server.rs:40:7: info TS025 the name puts MAX before SIZE; order the qualifiers by descending significance, as in latency_ms_max
+src/proto/h2/server.rs:46:16: info TS025 the name leads with the qualifier initial; put it last
+src/proto/h2/server.rs:47:16: info TS025 the name leads with the qualifier initial; put it last
+src/proto/h2/server.rs:48:16: info TS025 the name leads with the qualifier max; put it last
+src/proto/h2/server.rs:50:16: info TS025 the name leads with the qualifier max; put it last
+src/proto/h2/server.rs:51:16: info TS025 the name leads with the qualifier max; put it last
+src/proto/h2/server.rs:52:16: info TS025 the name leads with the qualifier max; put it last
+src/proto/h2/server.rs:55:16: info TS025 the name leads with the qualifier max; put it last
+src/proto/h2/server.rs:57:16: info TS025 the name leads with the qualifier max; put it last
+src/proto/h2/server.rs:98:1: warning TS020 [*] the attribute silences a checker
+src/proto/h2/server.rs:212:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/proto/h2/server.rs:231:24: warning TS023 the condition combines booleans; split it into nested branches
+src/proto/h2/server.rs:248:5: warning TS002 the function is 95 lines, over the 70 line limit
+src/proto/h2/server.rs:260:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/proto/h2/server.rs:277:59: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/proto/h2/server.rs:286:29: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/proto/h2/server.rs:362:5: warning TS020 [*] the attribute silences a checker
+src/proto/h2/server.rs:441:5: warning TS002 the function is 95 lines, over the 70 line limit
+src/proto/h2/server.rs:443:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/proto/h2/server.rs:452:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/proto/h2/server.rs:486:29: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/proto/h2/server.rs:489:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/proto/h2/server.rs:493:29: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/proto/h2/server.rs:498:101: warning TS012 the line is 112 columns, over the 100 column limit
+src/proto/h2/server.rs:514:24: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/proto/h2/upgrade.rs:70:5: warning TS002 the function is 71 lines, over the 70 line limit
+src/proto/h2/upgrade.rs:77:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/proto/h2/upgrade.rs:172:24: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/proto/h2/upgrade.rs:175:38: warning TS023 the condition combines booleans; split it into nested branches
+src/rt/io.rs:391:101: warning TS012 the line is 105 columns, over the 100 column limit
+src/rt/io.rs:397:101: warning TS012 the line is 109 columns, over the 100 column limit
+src/rt/mod.rs:4:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/rt/mod.rs:8:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/rt/mod.rs:9:101: warning TS012 the line is 123 columns, over the 100 column limit
+src/rt/mod.rs:10:101: warning TS012 the line is 113 columns, over the 100 column limit
+src/rt/mod.rs:12:101: warning TS012 the line is 109 columns, over the 100 column limit
+src/rt/timer.rs:85:54: info TS025 the name leads with the qualifier new; put it last
+src/rt/timer.rs:126:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/rt/timer.rs:141:5: warning TS020 [*] the attribute silences a checker
+src/server/conn/http1.rs:80:5: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+src/server/conn/http1.rs:83:5: info TS025 the name leads with the qualifier max; put it last
+src/server/conn/http1.rs:182:5: warning TS020 [*] the attribute silences a checker
+src/server/conn/http1.rs:341:12: info TS025 the name leads with the qualifier max; put it last
+src/server/conn/http1.rs:351:101: warning TS012 the line is 114 columns, over the 100 column limit
+src/server/conn/http1.rs:356:12: info TS025 the name leads with the qualifier max; put it last
+src/server/conn/http1.rs:364:101: warning TS012 the line is 116 columns, over the 100 column limit
+src/server/conn/http1.rs:398:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/server/conn/http1.rs:399:12: info TS025 the name leads with the qualifier max; put it last
+src/server/conn/http1.rs:457:101: warning TS012 the line is 104 columns, over the 100 column limit
+src/server/conn/http1.rs:493:21: info TS025 the name leads with the qualifier max; put it last
+src/server/conn/http1.rs:496:21: info TS025 the name leads with the qualifier max; put it last
+src/server/conn/http1.rs:527:1: warning TS020 [*] the attribute silences a checker
+src/server/conn/http2.rs:129:12: info TS025 the name leads with the qualifier max; put it last
+src/server/conn/http2.rs:144:12: info TS025 the name leads with the qualifier max; put it last
+src/server/conn/http2.rs:157:12: info TS025 the name leads with the qualifier initial; put it last
+src/server/conn/http2.rs:170:12: info TS025 the name leads with the qualifier initial; put it last
+src/server/conn/http2.rs:199:12: info TS025 the name leads with the qualifier max; put it last
+src/server/conn/http2.rs:215:12: info TS025 the name leads with the qualifier max; put it last
+src/server/conn/http2.rs:249:12: info TS025 the name leads with the qualifier max; put it last
+src/server/conn/http2.rs:278:12: info TS025 the name leads with the qualifier max; put it last
+src/service/service.rs:40:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/trace.rs:3:1: warning TS020 [*] the attribute silences a checker
+tests/client.rs:37:43: warning TS041 Result<(Bytes, Option<HeaderMap>), B::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+tests/client.rs:168:101: warning TS012 the line is 102 columns, over the 100 column limit
+tests/client.rs:186:101: warning TS012 the line is 102 columns, over the 100 column limit
+tests/client.rs:252:9: warning TS020 [*] the attribute silences a checker
+tests/client.rs:280:17: warning TS020 [*] the attribute silences a checker
+tests/client.rs:286:17: warning TS020 [*] the attribute silences a checker
+tests/client.rs:308:13: warning TS020 [*] the attribute silences a checker
+tests/client.rs:313:16: warning TS023 the condition combines booleans; split it into nested branches
+tests/client.rs:349:101: warning TS012 the line is 120 columns, over the 100 column limit
+tests/client.rs:351:27: warning TS012 the line is 128 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+tests/client.rs:372:19: warning TS023 the condition combines booleans; split it into nested branches
+tests/client.rs:375:101: warning TS012 the line is 114 columns, over the 100 column limit
+tests/client.rs:825:101: warning TS012 the line is 109 columns, over the 100 column limit
+tests/client.rs:1175:16: warning TS015 the expression is an unnamed function
+tests/client.rs:1196:16: warning TS015 the expression is an unnamed function
+tests/client.rs:1219:16: warning TS015 the expression is an unnamed function
+tests/client.rs:1250:16: warning TS015 the expression is an unnamed function
+tests/client.rs:1274:16: warning TS015 the expression is an unnamed function
+tests/client.rs:1297:16: warning TS015 the expression is an unnamed function
+tests/client.rs:1461:16: warning TS015 the expression is an unnamed function
+tests/client.rs:1477:16: warning TS015 the expression is an unnamed function
+tests/client.rs:1649:18: warning TS012 the line is 111 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+tests/client.rs:1690:21: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+tests/client.rs:1742:21: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+tests/client.rs:2048:5: warning TS002 the function is 83 lines, over the 70 line limit
+tests/client.rs:2133:5: warning TS002 the function is 88 lines, over the 70 line limit
+tests/client.rs:2280:14: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+tests/client.rs:2313:14: info TS025 the name puts max before size; order the qualifiers by descending significance, as in latency_ms_max
+tests/client.rs:2385:5: warning TS002 the function is 81 lines, over the 70 line limit
+tests/client.rs:2408:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+tests/client.rs:2416:46: warning TS006 the loop carries no upper bound; give it a fixed maximum
+tests/client.rs:2444:17: warning TS006 the loop carries no upper bound; give it a fixed maximum
+tests/client.rs:2468:5: warning TS002 the function is 79 lines, over the 70 line limit
+tests/client.rs:2478:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+tests/client.rs:2484:101: warning TS012 the line is 153 columns, over the 100 column limit
+tests/client.rs:2549:5: warning TS002 the function is 72 lines, over the 70 line limit
+tests/client.rs:2630:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+tests/client.rs:2784:101: warning TS012 the line is 103 columns, over the 100 column limit
+tests/client.rs:2833:5: warning TS002 the function is 85 lines, over the 70 line limit
+tests/client.rs:2834:101: warning TS012 the line is 103 columns, over the 100 column limit
+tests/client.rs:2855:18: warning TS041 Poll<Option<Result<Frame<Self::Data>, Self::Error>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+tests/client.rs:2944:21: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+tests/client.rs:3058:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+tests/client.rs:3158:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+tests/client.rs:3255:5: warning TS002 the function is 157 lines, over the 70 line limit
+tests/client.rs:3419:5: warning TS002 the function is 105 lines, over the 70 line limit
+tests/h1_flush_before_yield.rs:54:10: warning TS041 Poll<Option<Result<Frame<Self::Data>, Self::Error>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+tests/h1_flush_before_yield.rs:91:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+tests/h1_ready_in_flight.rs:80:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+tests/h1_server/fixture.rs:14:9: info TS025 the name leads with the qualifier total; put it last
+tests/h1_server/fixture.rs:34:1: warning TS002 the function is 103 lines, over the 70 line limit
+tests/h1_server/fixture.rs:41:9: info TS025 the name leads with the qualifier total; put it last
+tests/h1_server/fixture.rs:45:13: info TS025 the name leads with the qualifier total; put it last
+tests/h1_server/fixture.rs:95:13: info TS025 the name leads with the qualifier bytes; put it last
+tests/h1_server/fixture.rs:97:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+tests/h1_shutdown_while_buffered.rs:36:5: info TS025 the name leads with the qualifier bytes; put it last
+tests/h1_shutdown_while_buffered.rs:37:5: info TS025 the name leads with the qualifier total; put it last
+tests/h1_shutdown_while_buffered.rs:203:9: error TS028 the error is dropped; handle it or crash on it by name
+tests/integration.rs:4:5: warning TS011 the import brings in every name
+tests/ready_on_poll_stream.rs:119:15: info TS025 the name leads with the qualifier TOTAL; put it last
+tests/ready_on_poll_stream.rs:120:12: warning TS023 the condition combines booleans; split it into nested branches
+tests/server.rs:79:9: warning TS011 the import brings in every name
+tests/server.rs:94:5: warning TS002 the function is 85 lines, over the 70 line limit
+tests/server.rs:159:16: info TS038 the branch states its condition negatively and carries an else; swap the arms
+tests/server.rs:410:16: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:413:16: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:414:16: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:620:16: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:623:16: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:624:16: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:650:16: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:653:16: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:654:16: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:682:16: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:686:16: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:687:16: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:1015:101: warning TS012 the line is 107 columns, over the 100 column limit
+tests/server.rs:1147:22: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:1148:22: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:1150:22: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:1151:22: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:1153:22: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:1154:22: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:1156:22: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:1158:22: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:1159:22: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:1577:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:1581:1: warning TS002 the function is 74 lines, over the 70 line limit
+tests/server.rs:1653:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:1697:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:1888:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+tests/server.rs:1904:20: warning TS015 the expression is an unnamed function
+tests/server.rs:2016:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:2051:1: warning TS002 the function is 108 lines, over the 70 line limit
+tests/server.rs:2099:25: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:2123:16: warning TS023 the condition combines booleans; split it into nested branches
+tests/server.rs:2161:1: warning TS002 the function is 71 lines, over the 70 line limit
+tests/server.rs:2197:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:2269:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:2318:11: info TS025 the name leads with the qualifier TOTAL; put it last
+tests/server.rs:2438:1: warning TS002 the function is 72 lines, over the 70 line limit
+tests/server.rs:2512:1: warning TS002 the function is 78 lines, over the 70 line limit
+tests/server.rs:2592:1: warning TS002 the function is 75 lines, over the 70 line limit
+tests/server.rs:2716:4: info TS025 the name leads with the qualifier max; put it last
+tests/server.rs:2723:4: info TS025 the name leads with the qualifier max; put it last
+tests/server.rs:2730:10: info TS025 the name leads with the qualifier max; put it last
+tests/server.rs:2757:10: info TS025 the name leads with the qualifier max; put it last
+tests/server.rs:2789:10: info TS025 the name leads with the qualifier max; put it last
+tests/server.rs:2792:11: info TS025 the name leads with the qualifier MAX; put it last
+tests/server.rs:2818:10: info TS025 the name leads with the qualifier max; put it last
+tests/server.rs:2821:11: info TS025 the name leads with the qualifier MAX; put it last
+tests/server.rs:2845:10: info TS025 the name leads with the qualifier max; put it last
+tests/server.rs:2848:11: info TS025 the name leads with the qualifier MAX; put it last
+tests/server.rs:2849:11: info TS025 the name leads with the qualifier MAX; put it last
+tests/server.rs:3063:16: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:3066:16: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:3067:16: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+tests/server.rs:3113:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+tests/server.rs:3407:9: info TS025 the name leads with the qualifier last; put it last
+tests/server.rs:3607:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+tests/server.rs:3702:5: warning TS020 [*] the attribute silences a checker
+tests/server.rs:3795:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+tests/server.rs:3896:5: warning TS002 the function is 78 lines, over the 70 line limit
+tests/server.rs:3924:21: warning TS006 the loop carries no upper bound; give it a fixed maximum
+tests/server.rs:3999:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+tests/support/mod.rs:1:1: warning TS020 [*] the attribute silences a checker
+tests/support/mod.rs:24:1: warning TS020 [*] the attribute silences a checker
+tests/support/mod.rs:29:1: warning TS020 [*] the attribute silences a checker
+tests/support/mod.rs:174:9: warning TS020 [*] the attribute silences a checker
+tests/support/mod.rs:188:9: warning TS020 [*] the attribute silences a checker
+tests/support/mod.rs:225:101: warning TS012 the line is 108 columns, over the 100 column limit
+tests/support/mod.rs:239:101: warning TS012 the line is 117 columns, over the 100 column limit
+tests/support/mod.rs:330:1: warning TS002 the function is 160 lines, over the 70 line limit
+tests/support/mod.rs:361:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+tests/support/mod.rs:497:1: warning TS002 the function is 97 lines, over the 70 line limit
+tests/support/mod.rs:499:9: info TS025 the name leads with the qualifier max; put it last
+tests/support/mod.rs:514:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+tests/support/trailers.rs:53:10: warning TS041 Poll<Option<Result<Frame<Self::Data>, Self::Error>>> stacks 2 layers of optionality; every layer is a case each caller has to handle

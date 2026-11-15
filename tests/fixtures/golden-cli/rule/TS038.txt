@@ -1,0 +1,10 @@
+TS038 positive-invariants
+
+A branch that negates its condition and carries an else reads backwards; the positive case belongs first.
+
+languages: go javascript odin python rust typescript zig
+severity: info
+default: on
+group: stable
+
+TigerStyle: "Negations are not easy! State invariants positively. When working with lengths and indexes, this form is easy to get right (and understand) [...] This form is harder, and also goes against the grain of how `index` would typically be compared to `length`, for example, in a loop condition."

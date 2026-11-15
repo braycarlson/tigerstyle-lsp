@@ -1,0 +1,629 @@
+{
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sample.py"
+                },
+                "region": {
+                  "endColumn": 17,
+                  "endLine": 1,
+                  "startColumn": 16,
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the import brings in every name"
+          },
+          "ruleId": "TS011"
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sample.py"
+                },
+                "region": {
+                  "endColumn": 79,
+                  "endLine": 5,
+                  "startColumn": 12,
+                  "startLine": 5
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the function takes 8 parameters, over the 7 the style allows"
+          },
+          "ruleId": "TS003"
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sample.py"
+                },
+                "region": {
+                  "endColumn": 14,
+                  "endLine": 7,
+                  "startColumn": 9,
+                  "startLine": 7
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the loop carries no upper bound; give it a fixed maximum"
+          },
+          "ruleId": "TS006"
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sample.py"
+                },
+                "region": {
+                  "endColumn": 21,
+                  "endLine": 8,
+                  "startColumn": 16,
+                  "startLine": 8
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the condition combines booleans; split it into nested branches"
+          },
+          "ruleId": "TS023"
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sample.py"
+                },
+                "region": {
+                  "endColumn": 11,
+                  "endLine": 10,
+                  "startColumn": 5,
+                  "startLine": 10
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the handler catches every error"
+          },
+          "ruleId": "TS009"
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sample.py"
+                },
+                "region": {
+                  "endColumn": 11,
+                  "endLine": 10,
+                  "startColumn": 5,
+                  "startLine": 10
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the handler does nothing with the error"
+          },
+          "ruleId": "TS010"
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sample.py"
+                },
+                "region": {
+                  "endColumn": 18,
+                  "endLine": 13,
+                  "startColumn": 12,
+                  "startLine": 13
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "the expression is an unnamed function"
+          },
+          "ruleId": "TS015"
+        }
+      ],
+      "tool": {
+        "driver": {
+          "informationUri": "https://github.com/braycarlson/tigerstyle-lsp",
+          "name": "tigerstyle-lsp",
+          "rules": [
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS001.md",
+              "id": "TS001",
+              "name": "no-recursion",
+              "shortDescription": {
+                "text": "A function must not call itself, directly or through a cycle"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS002.md",
+              "id": "TS002",
+              "name": "function-too-long",
+              "shortDescription": {
+                "text": "A function must fit within `function_lines_max`"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS003.md",
+              "id": "TS003",
+              "name": "too-many-parameters",
+              "shortDescription": {
+                "text": "A signature must not exceed `parameters_max` parameters"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS004.md",
+              "id": "TS004",
+              "name": "assert-density",
+              "shortDescription": {
+                "text": "A function needs at least `assertions_per_function_min` assertions"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS005.md",
+              "id": "TS005",
+              "name": "no-mutable-globals",
+              "shortDescription": {
+                "text": "Module-level state must not be mutable"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS006.md",
+              "id": "TS006",
+              "name": "bounded-loops",
+              "shortDescription": {
+                "text": "A loop must have a provable upper bound"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS007.md",
+              "id": "TS007",
+              "name": "no-dynamic-exec",
+              "shortDescription": {
+                "text": "Code must not be built and executed at runtime"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS008.md",
+              "id": "TS008",
+              "name": "nesting-depth",
+              "shortDescription": {
+                "text": "Control flow must not nest deeper than `nesting_depth_max`"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS009.md",
+              "id": "TS009",
+              "name": "no-bare-except",
+              "shortDescription": {
+                "text": "A handler must name the exceptions it catches"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS010.md",
+              "id": "TS010",
+              "name": "no-pass-in-except",
+              "shortDescription": {
+                "text": "A handler must not silently swallow the error"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS011.md",
+              "id": "TS011",
+              "name": "no-star-import",
+              "shortDescription": {
+                "text": "An import must name what it brings in"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS012.md",
+              "id": "TS012",
+              "name": "line-too-long",
+              "shortDescription": {
+                "text": "A line must fit within `line_length_max`"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS013.md",
+              "id": "TS013",
+              "name": "no-global-statement",
+              "shortDescription": {
+                "text": "`global` widens scope; pass values instead"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS014.md",
+              "id": "TS014",
+              "name": "no-nested-functions",
+              "shortDescription": {
+                "text": "Functions belong at module scope where they can be tested"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS015.md",
+              "id": "TS015",
+              "name": "no-lambda",
+              "shortDescription": {
+                "text": "An anonymous function cannot be named or tested; use a named one"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS020.md",
+              "id": "TS020",
+              "name": "no-warning-suppression",
+              "shortDescription": {
+                "text": "Fix the underlying issue rather than silencing the warning"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS023.md",
+              "id": "TS023",
+              "name": "no-compound-condition",
+              "shortDescription": {
+                "text": "Split a compound condition into simple conditions using nested branches"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS024.md",
+              "id": "TS024",
+              "name": "split-compound-assert",
+              "shortDescription": {
+                "text": "Prefer `assert(a); assert(b);` over `assert(a and b);`"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS025.md",
+              "id": "TS025",
+              "name": "big-endian-names",
+              "shortDescription": {
+                "text": "Qualifiers go last: `latency_ms_max`, never `max_latency_ms`"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS029.md",
+              "id": "TS029",
+              "name": "four-space-indent",
+              "shortDescription": {
+                "text": "Indent by four spaces, not two and not tabs"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS030.md",
+              "id": "TS030",
+              "name": "if-braces",
+              "shortDescription": {
+                "text": "A multi-line `if` needs braces"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS031.md",
+              "id": "TS031",
+              "name": "comment-form",
+              "shortDescription": {
+                "text": "Write comments as sentences"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS032.md",
+              "id": "TS032",
+              "name": "snake-case-names",
+              "shortDescription": {
+                "text": "Name functions, variables, and files in `snake_case`"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS037.md",
+              "id": "TS037",
+              "name": "no-abbreviations",
+              "shortDescription": {
+                "text": "Do not abbreviate names"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS038.md",
+              "id": "TS038",
+              "name": "positive-invariants",
+              "shortDescription": {
+                "text": "State an invariant positively"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS042.md",
+              "id": "TS042",
+              "name": "acronym-case",
+              "shortDescription": {
+                "text": "Capitalize an acronym as an acronym"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS047.md",
+              "id": "TS047",
+              "name": "assert-implication",
+              "shortDescription": {
+                "text": "Write an implication as a single-line `if`"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS048.md",
+              "id": "TS048",
+              "name": "main-first",
+              "shortDescription": {
+                "text": "Put `main` first"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS049.md",
+              "id": "TS049",
+              "name": "trivial-assert",
+              "shortDescription": {
+                "text": "Do not write an assertion that cannot fail"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS016.md",
+              "id": "TS016",
+              "name": "no-dynamic-alloc",
+              "shortDescription": {
+                "text": "Do not allocate on the heap after initialization"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS017.md",
+              "id": "TS017",
+              "name": "check-return-value",
+              "shortDescription": {
+                "text": "Use a return value or discard it explicitly"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS018.md",
+              "id": "TS018",
+              "name": "no-complex-macros",
+              "shortDescription": {
+                "text": "A macro must not hide control flow from static analysis"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS019.md",
+              "id": "TS019",
+              "name": "restrict-pointers",
+              "shortDescription": {
+                "text": "A raw pointer bypasses the type system"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS021.md",
+              "id": "TS021",
+              "name": "no-goto",
+              "shortDescription": {
+                "text": "Unstructured jumps cannot be analysed; use structured control flow"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS022.md",
+              "id": "TS022",
+              "name": "assert-parameters",
+              "shortDescription": {
+                "text": "Assert a function's arguments before operating on them"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS026.md",
+              "id": "TS026",
+              "name": "assert-return-value",
+              "shortDescription": {
+                "text": "Assert a function's return value before returning it"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS027.md",
+              "id": "TS027",
+              "name": "explicit-sized-types",
+              "shortDescription": {
+                "text": "Avoid architecture-dependent `usize`/`isize` where a sized type serves"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS028.md",
+              "id": "TS028",
+              "name": "no-silent-error-swallow",
+              "shortDescription": {
+                "text": "An error must be handled, not silently discarded"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS033.md",
+              "id": "TS033",
+              "name": "options-struct",
+              "shortDescription": {
+                "text": "Take an options struct rather than two same-typed parameters"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS034.md",
+              "id": "TS034",
+              "name": "callback-last",
+              "shortDescription": {
+                "text": "Put callbacks last in the parameter list"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS035.md",
+              "id": "TS035",
+              "name": "conditional-compilation",
+              "shortDescription": {
+                "text": "Limit conditional compilation"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS036.md",
+              "id": "TS036",
+              "name": "assert-side-effects",
+              "shortDescription": {
+                "text": "An assertion must not change the program"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS039.md",
+              "id": "TS039",
+              "name": "else-if-chain",
+              "shortDescription": {
+                "text": "Split an `else if` chain into a tree"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS040.md",
+              "id": "TS040",
+              "name": "division-intent",
+              "shortDescription": {
+                "text": "Say which way a division rounds"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS041.md",
+              "id": "TS041",
+              "name": "simple-return-type",
+              "shortDescription": {
+                "text": "Keep the return type simple"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS043.md",
+              "id": "TS043",
+              "name": "declaration-distance",
+              "shortDescription": {
+                "text": "Declare a variable where it is used"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS044.md",
+              "id": "TS044",
+              "name": "member-order",
+              "shortDescription": {
+                "text": "Order a type's members: fields, then types, then methods"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS045.md",
+              "id": "TS045",
+              "name": "no-alias",
+              "shortDescription": {
+                "text": "Do not alias a variable"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS046.md",
+              "id": "TS046",
+              "name": "allocation-grouping",
+              "shortDescription": {
+                "text": "Set a resource's allocation apart from the code around it"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS050.md",
+              "id": "TS050",
+              "name": "unused-suppression",
+              "shortDescription": {
+                "text": "Remove a suppression directive that suppresses nothing"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS051.md",
+              "id": "TS051",
+              "name": "pointer-depth",
+              "shortDescription": {
+                "text": "A pointer must not point at a pointer"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS052.md",
+              "id": "TS052",
+              "name": "no-panic-recovery",
+              "shortDescription": {
+                "text": "A panic must not be recovered from; corrupt state has to crash"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS053.md",
+              "id": "TS053",
+              "name": "explicit-options",
+              "shortDescription": {
+                "text": "Pass options explicitly rather than relying on the callee's defaults"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS054.md",
+              "id": "TS054",
+              "name": "run-to-completion",
+              "shortDescription": {
+                "text": "A function must not suspend after asserting; run to completion"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS055.md",
+              "id": "TS055",
+              "name": "trailing-comma",
+              "shortDescription": {
+                "text": "A wrapped list ends with a trailing comma"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS056.md",
+              "id": "TS056",
+              "name": "bounded-queues",
+              "shortDescription": {
+                "text": "A queue must have a fixed upper bound"
+              }
+            },
+            {
+              "helpUri": "https://github.com/braycarlson/tigerstyle-lsp/blob/main/docs/rules/TS057.md",
+              "id": "TS057",
+              "name": "callback-name-prefix",
+              "shortDescription": {
+                "text": "Name a callback after its caller: `read_sector_callback` for `read_sector`"
+              }
+            }
+          ],
+          "version": "0.1.0"
+        }
+      }
+    }
+  ],
+  "version": "2.1.0"
+}

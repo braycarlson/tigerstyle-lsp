@@ -1,0 +1,13 @@
+TS019 restrict-pointers
+
+A raw pointer takes the lifetime out of the type, so nothing checks the access that follows.
+
+languages: go odin python rust zig
+severity: error
+default: opt-in
+group: stable
+javascript: JavaScript has no pointer type; every name binds a reference the runtime owns
+typescript: TypeScript has no pointer type; every name binds a reference the runtime owns
+
+NASA P10 Rule 9: "The use of pointers should be restricted. Specifically, no more than one level of dereferencing is allowed. Pointer dereference operations may not be hidden in macro definitions or inside typedef declarations. Function pointers are not permitted."
+TigerStyle: "Callbacks go last in the list of parameters. This mirrors control flow: callbacks are also _invoked_ last."

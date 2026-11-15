@@ -1,0 +1,10 @@
+TS053 explicit-options
+
+A call spells the options it passes, so a change to the callee's defaults cannot change what the call does.
+
+languages: go javascript odin python rust typescript zig
+severity: info
+default: opt-in
+group: stable
+
+TigerStyle: "Explicitly pass options to library functions at the call site, instead of relying on the defaults. For example, write `@prefetch(a, .{ .cache = .data, .rw = .read, .locality = 3 });` over `@prefetch(a, .{});`. This improves readability but most of all avoids latent, potentially catastrophic bugs in case the library ever changes its defaults."

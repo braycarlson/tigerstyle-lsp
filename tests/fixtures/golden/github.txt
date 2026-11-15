@@ -1,0 +1,7 @@
+::warning file=sample.py,line=1,col=16,title=TS011 no-star-import::the import brings in every name
+::warning file=sample.py,line=5,col=12,title=TS003 too-many-parameters::the function takes 8 parameters, over the 7 the style allows
+::warning file=sample.py,line=7,col=9,title=TS006 bounded-loops::the loop carries no upper bound; give it a fixed maximum
+::warning file=sample.py,line=8,col=16,title=TS023 no-compound-condition::the condition combines booleans; split it into nested branches
+::warning file=sample.py,line=10,col=5,title=TS009 no-bare-except::the handler catches every error
+::error file=sample.py,line=10,col=5,title=TS010 no-pass-in-except::the handler does nothing with the error
+::warning file=sample.py,line=13,col=12,title=TS015 no-lambda::the expression is an unnamed function

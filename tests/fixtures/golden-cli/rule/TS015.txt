@@ -1,0 +1,12 @@
+TS015 no-lambda
+
+A named function carries a name in the traceback, where a lambda carries none.
+
+languages: go javascript odin python rust typescript
+severity: warning
+default: on
+group: stable
+zig: Zig's anonymous function is a named fn on an anonymous struct, `struct { fn lessThan(...) ... }.lessThan`, which TigerBeetle itself writes 145 times as the comparator idiom; the naming sentence the rule cites is met by the fn name, so the shape is not reported
+
+TigerStyle: "Get the nouns and verbs just right. Great names are the essence of great code, they capture what a thing is or does, and provide a crisp, intuitive mental model."
+TigerStyle: "All control flow should be handled by one function, the rest shouldn't care about control flow at all. In other words, push ifs up and fors down."

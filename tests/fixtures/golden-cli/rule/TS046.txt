@@ -1,0 +1,14 @@
+TS046 allocation-grouping
+
+An allocation and the defer that releases it sit together, set off by blank lines, so a missing defer is visible.
+
+languages: go odin zig
+severity: info
+default: opt-in
+group: stable
+javascript: JavaScript frees by garbage collection rather than at a defer, so the paired-allocation shape has no syntax to anchor on
+python: Python frees by refcount rather than at a defer, so the paired-allocation shape has no syntax to anchor on
+rust: Rust frees on drop rather than at a defer, so the paired-allocation shape this rule looks for has no syntax to anchor on
+typescript: TypeScript frees by garbage collection rather than at a defer, so the paired-allocation shape has no syntax to anchor on
+
+TigerStyle: "Use newlines to **group resource allocation and deallocation**, i.e. before the resource allocation and after the corresponding `defer` statement, to make leaks easier to spot."

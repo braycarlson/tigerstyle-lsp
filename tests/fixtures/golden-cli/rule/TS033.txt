@@ -1,0 +1,11 @@
+TS033 options-struct
+
+Two parameters of one type can be transposed at the call site; take a struct whose fields are named.
+
+languages: go odin python rust typescript zig
+severity: warning
+default: opt-in
+group: stable
+javascript: a JavaScript parameter carries no type, so two adjacent parameters cannot be compared
+
+TigerStyle: "Zig has named arguments through the `options: struct` pattern. Use it when arguments can be mixed up. A function taking two `u64` must use an options struct. If an argument can be `null`, it should be named so that the meaning of `null` literal at the call site is clear."

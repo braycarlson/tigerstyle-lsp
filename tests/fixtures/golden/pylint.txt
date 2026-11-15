@@ -1,0 +1,7 @@
+sample.py:1: [TS011] the import brings in every name
+sample.py:5: [TS003] the function takes 8 parameters, over the 7 the style allows
+sample.py:7: [TS006] the loop carries no upper bound; give it a fixed maximum
+sample.py:8: [TS023] the condition combines booleans; split it into nested branches
+sample.py:10: [TS009] the handler catches every error
+sample.py:10: [TS010] the handler does nothing with the error
+sample.py:13: [TS015] the expression is an unnamed function

@@ -1,0 +1,6 @@
+* text=auto eol=lf
+
+*.jar binary
+
+*.bat text eol=crlf
+tests/fixtures/** -text

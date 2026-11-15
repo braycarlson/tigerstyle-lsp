@@ -1,0 +1,277 @@
+docs/_themes/flask_theme_support.py:4:1: info TS029 the line indents 5 columns, which is not a multiple of 4
+docs/conf.py:127:1: error TS005 the module binds mutable state as html_theme_options; make it a constant or confine it to a function
+docs/conf.py:158:1: error TS005 the module binds mutable state as html_static_path; make it a constant or confine it to a function
+docs/conf.py:174:1: error TS005 the module binds mutable state as html_sidebars; make it a constant or confine it to a function
+docs/conf.py:234:1: error TS005 the module binds mutable state as latex_elements; make it a constant or confine it to a function
+docs/conf.py:248:1: error TS005 the module binds mutable state as latex_documents; make it a constant or confine it to a function
+docs/conf.py:277:1: error TS005 the module binds mutable state as man_pages; make it a constant or confine it to a function
+docs/conf.py:288:1: error TS005 the module binds mutable state as texinfo_documents; make it a constant or confine it to a function
+docs/conf.py:359:1: error TS005 the module binds mutable state as epub_exclude_files; make it a constant or confine it to a function
+docs/conf.py:382:1: error TS005 the module binds mutable state as intersphinx_mapping; make it a constant or confine it to a function
+docs/conf.py:38:1: error TS005 the module binds mutable state as extensions; make it a constant or confine it to a function
+docs/conf.py:46:1: error TS005 the module binds mutable state as templates_path; make it a constant or confine it to a function
+docs/conf.py:88:1: error TS005 the module binds mutable state as exclude_patterns; make it a constant or confine it to a function
+setup.py:3:33: warning TS020 [*] the comment silences a checker
+src/requests/__init__.py:118:9: error TS052 the handler catches an assertion failure; a failed assertion has to crash
+src/requests/__init__.py:152:1: warning TS020 [*] the call silences a checker
+src/requests/__init__.py:73:49: warning TS020 [*] the comment silences a checker
+src/requests/_internal_utils.py:20:1: error TS005 the module binds mutable state as HEADER_VALIDATORS; make it a constant or confine it to a function
+src/requests/_types.py:78:19: warning TS020 [*] the comment silences a checker
+src/requests/_types.py:79:22: warning TS020 [*] the comment silences a checker
+src/requests/adapters.py:101:12: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/requests/adapters.py:107:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/adapters.py:12:16: warning TS020 [*] the comment silences a checker
+src/requests/adapters.py:193:5: info TS025 the name leads with the qualifier max; put it last
+src/requests/adapters.py:205:9: info TS025 the name leads with the qualifier max; put it last
+src/requests/adapters.py:209:18: info TS025 the name leads with the qualifier max; put it last
+src/requests/adapters.py:321:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/adapters.py:331:16: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/adapters.py:339:16: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/requests/adapters.py:349:16: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/requests/adapters.py:355:16: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/adapters.py:360:16: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/adapters.py:379:63: warning TS020 [*] the comment silences a checker
+src/requests/adapters.py:594:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/adapters.py:634:5: warning TS002 the function is 115 lines, over the 70 line limit
+src/requests/adapters.py:63:58: warning TS020 [*] the comment silences a checker
+src/requests/adapters.py:699:101: warning TS012 the line is 112 columns, over the 100 column limit
+src/requests/adapters.py:699:37: warning TS020 [*] the comment silences a checker
+src/requests/adapters.py:700:43: warning TS020 [*] the comment silences a checker
+src/requests/api.py:128:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/requests/api.py:145:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/requests/api.py:162:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/requests/api.py:29:101: warning TS012 the line is 139 columns, over the 100 column limit
+src/requests/api.py:35:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/requests/api.py:38:101: warning TS012 the line is 133 columns, over the 100 column limit
+src/requests/api.py:39:101: warning TS012 the line is 116 columns, over the 100 column limit
+src/requests/api.py:40:101: warning TS012 the line is 116 columns, over the 100 column limit
+src/requests/api.py:41:101: warning TS012 the line is 123 columns, over the 100 column limit
+src/requests/api.py:48:101: warning TS012 the line is 136 columns, over the 100 column limit
+src/requests/api.py:55:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/requests/auth.py:130:5: info TS025 the name leads with the qualifier last; put it last
+src/requests/auth.py:134:5: info TS025 the name leads with the qualifier num; put it last
+src/requests/auth.py:157:5: warning TS002 the function is 110 lines, over the 70 line limit
+src/requests/auth.py:174:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/auth.py:174:9: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+src/requests/auth.py:239:101: warning TS012 the line is 122 columns, over the 100 column limit
+src/requests/auth.py:239:57: warning TS020 [*] the comment silences a checker
+src/requests/auth.py:243:14: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/auth.py:293:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/auth.py:331:55: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/requests/compat.py:107:101: warning TS012 the line is 110 columns, over the 100 column limit
+src/requests/compat.py:107:32: warning TS020 [*] the comment silences a checker
+src/requests/compat.py:42:27: error TS007 the call builds and runs code at runtime
+src/requests/compat.py:69:32: warning TS020 [*] the comment silences a checker
+src/requests/compat.py:76:45: warning TS020 [*] the comment silences a checker
+src/requests/cookies.py:144:8: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/cookies.py:150:36: warning TS020 [*] the comment silences a checker
+src/requests/cookies.py:160:31: warning TS020 [*] the comment silences a checker
+src/requests/cookies.py:175:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/cookies.py:177:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/cookies.py:191:71: warning TS020 [*] the comment silences a checker
+src/requests/cookies.py:211:15: warning TS020 [*] the comment silences a checker
+src/requests/cookies.py:259:35: warning TS020 [*] the comment silences a checker
+src/requests/cookies.py:276:44: warning TS020 [*] the comment silences a checker
+src/requests/cookies.py:293:55: warning TS020 [*] the comment silences a checker
+src/requests/cookies.py:326:101: warning TS012 the line is 134 columns, over the 100 column limit
+src/requests/cookies.py:326:16: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/cookies.py:326:73: warning TS020 [*] the comment silences a checker
+src/requests/cookies.py:342:16: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/cookies.py:348:46: warning TS020 [*] the comment silences a checker
+src/requests/cookies.py:384:13: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/cookies.py:391:18: warning TS020 [*] the comment silences a checker
+src/requests/cookies.py:417:20: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/cookies.py:418:24: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/cookies.py:440:20: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/cookies.py:441:24: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/cookies.py:442:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/requests/cookies.py:469:9: info TS025 the name leads with the qualifier new; put it last
+src/requests/cookies.py:479:101: warning TS012 the line is 137 columns, over the 100 column limit
+src/requests/cookies.py:479:67: warning TS020 [*] the comment silences a checker
+src/requests/cookies.py:487:5: info TS025 the name leads with the qualifier new; put it last
+src/requests/cookies.py:598:16: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/cookies.py:87:101: warning TS012 the line is 108 columns, over the 100 column limit
+src/requests/cookies.py:87:81: warning TS020 [*] the comment silences a checker
+src/requests/exceptions.py:33:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/help.py:106:101: warning TS012 the line is 131 columns, over the 100 column limit
+src/requests/help.py:106:89: warning TS020 [*] the comment silences a checker
+src/requests/help.py:48:5: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+src/requests/help.py:51:39: warning TS020 [*] the comment silences a checker
+src/requests/help.py:52:101: warning TS012 the line is 118 columns, over the 100 column limit
+src/requests/help.py:52:77: warning TS020 [*] the comment silences a checker
+src/requests/help.py:53:60: warning TS020 [*] the comment silences a checker
+src/requests/help.py:55:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/requests/help.py:55:79: warning TS020 [*] the comment silences a checker
+src/requests/hooks.py:22:1: error TS005 the module binds mutable state as HOOKS; make it a constant or confine it to a function
+src/requests/models.py:1020:49: warning TS020 [*] the comment silences a checker
+src/requests/models.py:1024:16: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/models.py:1043:16: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/models.py:1051:31: warning TS020 [*] the comment silences a checker
+src/requests/models.py:1101:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/models.py:15:24: warning TS020 [*] the comment silences a checker
+src/requests/models.py:168:20: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/models.py:180:26: warning TS020 [*] the comment silences a checker
+src/requests/models.py:199:9: info TS025 the name leads with the qualifier new; put it last
+src/requests/models.py:204:16: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/models.py:323:17: warning TS003 the function takes 10 parameters, over the 7 the style allows
+src/requests/models.py:361:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/requests/models.py:413:30: warning TS020 [*] the comment silences a checker
+src/requests/models.py:424:16: warning TS003 the function takes 10 parameters, over the 7 the style allows
+src/requests/models.py:460:101: warning TS012 the line is 105 columns, over the 100 column limit
+src/requests/models.py:460:80: warning TS020 [*] the comment silences a checker
+src/requests/models.py:483:5: warning TS002 the function is 81 lines, over the 70 line limit
+src/requests/models.py:505:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/models.py:551:22: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/requests/models.py:576:5: warning TS002 the function is 77 lines, over the 70 line limit
+src/requests/models.py:588:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/models.py:603:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/models.py:616:101: warning TS012 the line is 109 columns, over the 100 column limit
+src/requests/models.py:616:56: warning TS020 [*] the comment silences a checker
+src/requests/models.py:641:24: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/models.py:649:16: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/models.py:652:27: warning TS020 [*] the comment silences a checker
+src/requests/models.py:663:13: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/models.py:683:101: warning TS012 the line is 134 columns, over the 100 column limit
+src/requests/models.py:683:16: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/models.py:683:61: warning TS020 [*] the comment silences a checker
+src/requests/models.py:685:101: warning TS012 the line is 127 columns, over the 100 column limit
+src/requests/models.py:685:54: warning TS020 [*] the comment silences a checker
+src/requests/models.py:771:34: warning TS020 [*] the comment silences a checker
+src/requests/models.py:784:26: warning TS020 [*] the comment silences a checker
+src/requests/models.py:795:29: warning TS020 [*] the comment silences a checker
+src/requests/models.py:810:30: warning TS020 [*] the comment silences a checker
+src/requests/models.py:899:23: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/requests/models.py:950:17: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/requests/models.py:958:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/models.py:95:45: warning TS020 [*] the comment silences a checker
+src/requests/models.py:960:14: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/packages.py:13:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/packages.py:19:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/packages.py:9:25: error TS007 the call builds and runs code at runtime
+src/requests/sessions.py:118:8: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/sessions.py:121:8: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/sessions.py:128:5: info TS025 the name leads with the qualifier max; put it last
+src/requests/sessions.py:154:33: info TS025 the name leads with the qualifier old; put it last
+src/requests/sessions.py:154:47: info TS025 the name leads with the qualifier new; put it last
+src/requests/sessions.py:156:9: info TS025 the name leads with the qualifier old; put it last
+src/requests/sessions.py:157:9: info TS025 the name leads with the qualifier new; put it last
+src/requests/sessions.py:165:13: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/sessions.py:177:13: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/sessions.py:186:26: warning TS003 the function takes 9 parameters, over the 7 the style allows
+src/requests/sessions.py:186:5: warning TS002 the function is 122 lines, over the 70 line limit
+src/requests/sessions.py:203:9: info TS025 the name leads with the qualifier previous; put it last
+src/requests/sessions.py:231:16: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/sessions.py:234:17: info TS025 the name leads with the qualifier previous; put it last
+src/requests/sessions.py:240:16: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/requests/sessions.py:290:28: warning TS020 [*] the comment silences a checker
+src/requests/sessions.py:324:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/sessions.py:330:9: info TS025 the name leads with the qualifier new; put it last
+src/requests/sessions.py:353:9: info TS025 the name leads with the qualifier new; put it last
+src/requests/sessions.py:365:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/sessions.py:379:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/sessions.py:384:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/sessions.py:389:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/sessions.py:39:24: warning TS020 [*] the comment silences a checker
+src/requests/sessions.py:422:5: info TS025 the name leads with the qualifier max; put it last
+src/requests/sessions.py:488:14: info TS025 the name leads with the qualifier max; put it last
+src/requests/sessions.py:48:23: warning TS020 [*] the comment silences a checker
+src/requests/sessions.py:537:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/sessions.py:557:16: warning TS003 the function takes 16 parameters, over the 7 the style allows
+src/requests/sessions.py:557:5: warning TS002 the function is 97 lines, over the 70 line limit
+src/requests/sessions.py:752:5: warning TS002 the function is 78 lines, over the 70 line limit
+src/requests/sessions.py:820:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/requests/sessions.py:820:34: warning TS020 [*] the comment silences a checker
+src/requests/sessions.py:855:16: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/sessions.py:91:8: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/sessions.py:96:101: warning TS012 the line is 137 columns, over the 100 column limit
+src/requests/sessions.py:96:68: warning TS020 [*] the comment silences a checker
+src/requests/sessions.py:97:62: warning TS020 [*] the comment silences a checker
+src/requests/status_codes.py:120:5: warning TS013 the function rebinds module state
+src/requests/status_codes.py:23:1: error TS005 the module binds mutable state as _codes; make it a constant or confine it to a function
+src/requests/structures.py:118:53: warning TS020 [*] the comment silences a checker
+src/requests/structures.py:82:101: warning TS012 the line is 120 columns, over the 100 column limit
+src/requests/structures.py:82:80: warning TS020 [*] the comment silences a checker
+src/requests/utils.py:1040:40: info TS025 the name leads with the qualifier new; put it last
+src/requests/utils.py:1080:70: warning TS020 [*] the comment silences a checker
+src/requests/utils.py:1114:43: warning TS020 [*] the comment silences a checker
+src/requests/utils.py:1144:8: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/utils.py:116:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/utils.py:137:43: warning TS020 [*] the comment silences a checker
+src/requests/utils.py:161:5: info TS025 the name leads with the qualifier total; put it last
+src/requests/utils.py:162:5: info TS025 the name leads with the qualifier current; put it last
+src/requests/utils.py:164:8: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/utils.py:170:9: info TS025 the name leads with the qualifier total; put it last
+src/requests/utils.py:173:9: info TS025 the name leads with the qualifier total; put it last
+src/requests/utils.py:184:13: info TS025 the name leads with the qualifier total; put it last
+src/requests/utils.py:203:13: info TS025 the name leads with the qualifier current; put it last
+src/requests/utils.py:210:17: info TS025 the name leads with the qualifier current; put it last
+src/requests/utils.py:212:16: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/utils.py:217:21: info TS025 the name leads with the qualifier total; put it last
+src/requests/utils.py:223:21: info TS025 the name leads with the qualifier total; put it last
+src/requests/utils.py:226:9: info TS025 the name leads with the qualifier total; put it last
+src/requests/utils.py:240:22: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/requests/utils.py:268:16: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/utils.py:286:8: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/utils.py:287:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/requests/utils.py:287:40: warning TS020 [*] the comment silences a checker
+src/requests/utils.py:302:11: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/utils.py:305:101: warning TS012 the line is 128 columns, over the 100 column limit
+src/requests/utils.py:306:101: warning TS012 the line is 105 columns, over the 100 column limit
+src/requests/utils.py:336:5: warning TS009 [*] the handler catches every error
+src/requests/utils.py:39:33: warning TS020 [*] the comment silences a checker
+src/requests/utils.py:483:8: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/utils.py:495:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/utils.py:54:101: warning TS012 the line is 110 columns, over the 100 column limit
+src/requests/utils.py:54:32: warning TS020 [*] the comment silences a checker
+src/requests/utils.py:562:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/utils.py:590:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/requests/utils.py:626:8: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/utils.py:653:28: warning TS020 [*] the comment silences a checker
+src/requests/utils.py:689:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/utils.py:775:12: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/utils.py:796:5: info TS025 the name leads with the qualifier old; put it last
+src/requests/utils.py:798:9: info TS025 the name leads with the qualifier old; put it last
+src/requests/utils.py:842:21: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+src/requests/utils.py:855:20: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/utils.py:858:20: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/utils.py:85:1: error TS005 the module binds mutable state as DEFAULT_PORTS; make it a constant or confine it to a function
+src/requests/utils.py:930:5: info TS025 the name leads with the qualifier new; put it last
+src/requests/utils.py:932:8: warning TS023 the condition combines booleans; split it into nested branches
+src/requests/utils.py:968:101: warning TS012 the line is 118 columns, over the 100 column limit
+tests/test_hooks.py:14:17: warning TS015 the expression is an unnamed function
+tests/test_lowlevel.py:275:1: error TS005 the module binds mutable state as _schemes_by_var_prefix; make it a constant or confine it to a function
+tests/test_lowlevel.py:281:1: error TS005 the module binds mutable state as _proxy_combos; make it a constant or confine it to a function
+tests/test_lowlevel.py:286:1: error TS005 the module binds mutable state as _proxy_combos; make it a constant or confine it to a function
+tests/test_requests.py:1037:12: warning TS023 the condition combines booleans; split it into nested branches
+tests/test_requests.py:1446:9: info TS025 the name leads with the qualifier total; put it last
+tests/test_requests.py:1465:16: error TS036 the assertion calls next, which changes state; an assertion only reads
+tests/test_requests.py:1984:51: info TS025 the name leads with the qualifier old; put it last
+tests/test_requests.py:1984:60: info TS025 the name leads with the qualifier new; put it last
+tests/test_requests.py:2016:16: error TS036 the assertion calls read, which changes state; an assertion only reads
+tests/test_requests.py:2019:16: error TS036 the assertion calls read, which changes state; an assertion only reads
+tests/test_requests.py:2023:16: error TS036 the assertion calls read, which changes state; an assertion only reads
+tests/test_requests.py:2030:16: error TS036 the assertion calls read, which changes state; an assertion only reads
+tests/test_requests.py:2033:16: error TS036 the assertion calls read, which changes state; an assertion only reads
+tests/test_requests.py:2037:16: error TS036 the assertion calls read, which changes state; an assertion only reads
+tests/test_requests.py:2316:20: warning TS023 the condition combines booleans; split it into nested branches
+tests/test_requests.py:2429:16: error TS036 the assertion calls setdefault, which changes state; an assertion only reads
+tests/test_requests.py:2430:16: error TS036 the assertion calls setdefault, which changes state; an assertion only reads
+tests/test_requests.py:2612:14: info TS025 the name leads with the qualifier max; put it last
+tests/test_requests.py:332:9: info TS025 the name leads with the qualifier next; put it last
+tests/test_requests.py:355:9: info TS025 the name leads with the qualifier next; put it last
+tests/test_requests.py:598:101: warning TS012 the line is 107 columns, over the 100 column limit
+tests/test_requests.py:688:9: info TS025 the name leads with the qualifier old; put it last
+tests/test_requests.py:735:9: info TS025 the name leads with the qualifier old; put it last
+tests/test_requests.py:789:20: error TS036 the assertion calls read, which changes state; an assertion only reads
+tests/test_requests.py:792:20: error TS036 the assertion calls read, which changes state; an assertion only reads
+tests/test_requests.py:97:72: warning TS020 [*] the comment silences a checker
+tests/test_testserver.py:39:13: info TS025 the name leads with the qualifier new; put it last
+tests/test_testserver.py:99:9: info TS025 the name leads with the qualifier first; put it last
+tests/test_utils.py:129:9: info TS025 the name leads with the qualifier len; put it last
+tests/test_utils.py:527:1: error TS005 the module binds mutable state as http_proxies; make it a constant or confine it to a function
+tests/test_utils.py:531:1: error TS005 the module binds mutable state as all_proxies; make it a constant or confine it to a function
+tests/test_utils.py:535:1: error TS005 the module binds mutable state as mixed_proxies; make it a constant or confine it to a function
+tests/test_utils.py:670:8: warning TS023 the condition combines booleans; split it into nested branches
+tests/testserver/server.py:11:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+tests/testserver/server.py:139:17: warning TS003 the function takes 9 parameters, over the 7 the style allows
+tests/testserver/server.py:16:9: info TS025 the name leads with the qualifier new; put it last

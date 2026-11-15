@@ -1,0 +1,11 @@
+TS041 simple-return-type
+
+A return type carries one layer of optionality, because every layer is a case each caller has to handle.
+
+languages: go odin python rust typescript zig
+severity: warning
+default: on
+group: stable
+javascript: JavaScript has no Option or Result to stack; a value is returned or an error is thrown
+
+TigerStyle: "Use simpler function signatures and return types to reduce dimensionality at the call site, the number of branches that need to be handled at the call site, because this dimensionality can also be viral, propagating through the call chain. For example, as a return type, `void` trumps `bool`, `bool` trumps `u64`, `u64` trumps `?u64`, and `?u64` trumps `!u64`."

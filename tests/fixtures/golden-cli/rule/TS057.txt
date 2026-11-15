@@ -1,0 +1,10 @@
+TS057 callback-name-prefix
+
+A callback is named after the function that hands it over, so the call history reads from the name alone.
+
+languages: go javascript odin python rust typescript zig
+severity: info
+default: opt-in
+group: stable
+
+TigerStyle: "When a single function calls out to a helper function or callback, prefix the name of the helper function with the name of the calling function to show the call history. For example, `read_sector()` and `read_sector_callback()`."

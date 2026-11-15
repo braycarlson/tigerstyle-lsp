@@ -1,0 +1,10 @@
+TS042 acronym-case
+
+An acronym keeps one case throughout a name, so VSRState reads as one word rather than two.
+
+languages: go javascript odin python rust typescript zig
+severity: info
+default: opt-in
+group: stable
+
+TigerStyle: "Use proper capitalization for acronyms (`VSRState`, not `VsrState`)."

@@ -1,0 +1,1116 @@
+.github/workflows/release-notes.py:28:12: warning TS023 the condition combines booleans; split it into nested branches
+.github/workflows/release-notes.py:30:14: warning TS023 the condition combines booleans; split it into nested branches
+clap_bench/benches/complex.rs:1:1: warning TS020 [*] the attribute silences a checker
+clap_bench/benches/complex.rs:26:101: warning TS012 the line is 103 columns, over the 100 column limit
+clap_bench/benches/empty.rs:1:1: warning TS020 [*] the attribute silences a checker
+clap_bench/benches/ripgrep.rs:288:1: warning TS002 the function is 177 lines, over the 70 line limit
+clap_bench/benches/ripgrep.rs:292:15: warning TS015 the expression is an unnamed function
+clap_bench/benches/ripgrep.rs:293:16: warning TS015 the expression is an unnamed function
+clap_bench/benches/ripgrep.rs:69:5: warning TS002 the function is 164 lines, over the 70 line limit
+clap_bench/benches/ripgrep.rs:6:1: warning TS020 [*] the attribute silences a checker
+clap_bench/benches/rustup.rs:28:1: warning TS002 the function is 289 lines, over the 70 line limit
+clap_bench/benches/rustup.rs:5:1: warning TS020 [*] the attribute silences a checker
+clap_bench/benches/simple.rs:1:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/action.rs:248:101: warning TS012 the line is 105 columns, over the 100 column limit
+clap_builder/src/builder/action.rs:33:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/action.rs:375:19: info TS025 the name leads with the qualifier max; put it last
+clap_builder/src/builder/action.rs:61:101: warning TS012 the line is 107 columns, over the 100 column limit
+clap_builder/src/builder/action.rs:81:101: warning TS012 the line is 107 columns, over the 100 column limit
+clap_builder/src/builder/action.rs:84:101: warning TS012 the line is 107 columns, over the 100 column limit
+clap_builder/src/builder/app_settings.rs:1:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/app_settings.rs:3:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/app_settings.rs:76:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/arg.rs:1000:101: warning TS012 the line is 114 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:1001:101: warning TS012 the line is 169 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:1002:101: warning TS012 the line is 115 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:1072:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:1149:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:1209:12: info TS025 the name leads with the qualifier num; put it last
+clap_builder/src/builder/arg.rs:1405:101: warning TS012 the line is 114 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:1660:101: warning TS012 the line is 105 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:1676:101: warning TS012 the line is 105 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:1791:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:1804:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:1898:101: warning TS012 the line is 104 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:1899:101: warning TS012 the line is 104 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:2540:101: warning TS012 the line is 111 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:3327:101: warning TS012 the line is 104 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:3463:101: warning TS012 the line is 105 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:3489:101: warning TS012 the line is 105 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:3599:101: warning TS012 the line is 122 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:3717:101: warning TS012 the line is 104 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:3864:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:3865:101: warning TS012 the line is 103 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:3957:101: warning TS012 the line is 127 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:3963:101: warning TS012 the line is 114 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:4037:101: warning TS012 the line is 115 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:4312:45: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_builder/src/builder/arg.rs:4321:12: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_builder/src/builder/arg.rs:4585:24: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/arg.rs:4588:101: warning TS012 the line is 103 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:4631:12: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_builder/src/builder/arg.rs:4675:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/arg.rs:4692:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/arg.rs:4710:13: info TS025 the name leads with the qualifier num; put it last
+clap_builder/src/builder/arg.rs:4724:13: info TS025 the name leads with the qualifier min; put it last
+clap_builder/src/builder/arg.rs:4748:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/arg.rs:4801:9: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/arg.rs:495:101: warning TS012 the line is 113 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:502:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:530:101: warning TS012 the line is 109 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:606:101: warning TS012 the line is 105 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:81:16: info TS025 the name leads with the qualifier num; put it last
+clap_builder/src/builder/arg.rs:946:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/arg.rs:980:101: warning TS012 the line is 107 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:997:101: warning TS012 the line is 103 columns, over the 100 column limit
+clap_builder/src/builder/arg.rs:998:101: warning TS012 the line is 152 columns, over the 100 column limit
+clap_builder/src/builder/arg_settings.rs:1:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/command.rs:103:5: info TS025 the name leads with the qualifier current; put it last
+clap_builder/src/builder/command.rs:104:5: info TS025 the name leads with the qualifier current; put it last
+clap_builder/src/builder/command.rs:1157:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/command.rs:1257:101: warning TS012 the line is 120 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:1443:12: info TS025 the name leads with the qualifier max; put it last
+clap_builder/src/builder/command.rs:178:21: info TS025 the name leads with the qualifier current; put it last
+clap_builder/src/builder/command.rs:1811:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:1:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/command.rs:2012:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:2044:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:2058:101: warning TS012 the line is 103 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:2099:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:2273:101: warning TS012 the line is 104 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:2274:101: warning TS012 the line is 106 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:2350:101: warning TS012 the line is 105 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:2545:101: warning TS012 the line is 104 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:2565:101: warning TS012 the line is 104 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:2625:101: warning TS012 the line is 103 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:3468:101: warning TS012 the line is 103 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:3726:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/command.rs:3878:101: warning TS012 the line is 104 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:3884:101: warning TS012 the line is 103 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:4036:101: warning TS012 the line is 116 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:4053:101: warning TS012 the line is 114 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:4061:101: warning TS012 the line is 120 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:4070:101: warning TS012 the line is 119 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:4265:12: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_builder/src/builder/command.rs:4366:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/command.rs:4397:5: warning TS002 the function is 97 lines, over the 70 line limit
+clap_builder/src/builder/command.rs:4399:12: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_builder/src/builder/command.rs:4412:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/command.rs:443:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:4446:20: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/command.rs:4449:20: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/command.rs:4457:13: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/command.rs:4475:24: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/command.rs:4478:24: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/command.rs:4481:24: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/command.rs:4495:5: warning TS002 the function is 84 lines, over the 70 line limit
+clap_builder/src/builder/command.rs:4500:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/command.rs:4580:5: warning TS002 the function is 114 lines, over the 70 line limit
+clap_builder/src/builder/command.rs:4583:12: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_builder/src/builder/command.rs:4586:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/command.rs:4589:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:4696:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/command.rs:4706:101: warning TS012 the line is 181 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:4731:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/command.rs:4746:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/command.rs:4803:5: warning TS002 the function is 79 lines, over the 70 line limit
+clap_builder/src/builder/command.rs:4991:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:5062:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+clap_builder/src/builder/command.rs:507:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:5095:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+clap_builder/src/builder/command.rs:5105:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+clap_builder/src/builder/command.rs:5163:27: warning TS015 the expression is an unnamed function
+clap_builder/src/builder/command.rs:5262:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/command.rs:5265:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/command.rs:5271:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/command.rs:533:21: info TS025 the name leads with the qualifier current; put it last
+clap_builder/src/builder/command.rs:619:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/command.rs:626:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:688:9: error TS028 the default hides the error; handle it or crash on it by name
+clap_builder/src/builder/command.rs:763:9: error TS028 the default hides the error; handle it or crash on it by name
+clap_builder/src/builder/command.rs:878:101: warning TS012 the line is 127 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:882:101: warning TS012 the line is 142 columns, over the 100 column limit
+clap_builder/src/builder/command.rs:904:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+clap_builder/src/builder/debug_asserts.rs:100:101: warning TS012 the line is 117 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:11:1: warning TS002 the function is 387 lines, over the 70 line limit
+clap_builder/src/builder/debug_asserts.rs:164:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:179:101: warning TS012 the line is 108 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:18:8: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/debug_asserts.rs:194:101: warning TS012 the line is 111 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:209:101: warning TS012 the line is 109 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:224:101: warning TS012 the line is 109 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:22:101: warning TS012 the line is 108 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:235:101: warning TS012 the line is 108 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:246:101: warning TS012 the line is 108 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:256:101: warning TS012 the line is 116 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:262:101: warning TS012 the line is 117 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:26:101: warning TS012 the line is 103 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:270:101: warning TS012 the line is 111 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:285:101: warning TS012 the line is 153 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:354:13: error TS036 the assertion calls insert, which changes state; an assertion only reads, and this one runs in release builds too
+clap_builder/src/builder/debug_asserts.rs:361:17: error TS036 the assertion calls insert, which changes state; an assertion only reads, and this one runs in release builds too
+clap_builder/src/builder/debug_asserts.rs:36:101: warning TS012 the line is 112 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:378:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:400:8: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/debug_asserts.rs:404:15: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/debug_asserts.rs:452:101: warning TS012 the line is 109 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:456:101: warning TS012 the line is 117 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:461:101: warning TS012 the line is 107 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:493:101: warning TS012 the line is 145 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:508:1: warning TS002 the function is 185 lines, over the 70 line limit
+clap_builder/src/builder/debug_asserts.rs:530:9: info TS025 the name leads with the qualifier num; put it last
+clap_builder/src/builder/debug_asserts.rs:53:101: warning TS012 the line is 107 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:566:24: warning TS015 the expression is an unnamed function
+clap_builder/src/builder/debug_asserts.rs:627:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/debug_asserts.rs:636:23: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/debug_asserts.rs:664:23: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/debug_asserts.rs:679:8: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/builder/debug_asserts.rs:694:1: warning TS002 the function is 109 lines, over the 70 line limit
+clap_builder/src/builder/debug_asserts.rs:761:9: info TS025 the name leads with the qualifier num; put it last
+clap_builder/src/builder/debug_asserts.rs:765:13: info TS025 the name leads with the qualifier num; put it last
+clap_builder/src/builder/debug_asserts.rs:813:101: warning TS012 the line is 138 columns, over the 100 column limit
+clap_builder/src/builder/debug_asserts.rs:86:101: warning TS012 the line is 103 columns, over the 100 column limit
+clap_builder/src/builder/ext.rs:11:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/ext.rs:20:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/ext.rs:27:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/ext.rs:43:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/mod.rs:67:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/os_str.rs:347:9: warning TS011 the import brings in every name
+clap_builder/src/builder/possible_value.rs:190:12: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_builder/src/builder/possible_value.rs:57:101: warning TS012 the line is 111 columns, over the 100 column limit
+clap_builder/src/builder/range.rs:115:19: info TS025 the name leads with the qualifier num; put it last
+clap_builder/src/builder/range.rs:77:12: info TS025 the name leads with the qualifier min; put it last
+clap_builder/src/builder/range.rs:82:12: info TS025 the name leads with the qualifier max; put it last
+clap_builder/src/builder/str.rs:332:9: warning TS011 the import brings in every name
+clap_builder/src/builder/styled_str.rs:1:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/styled_str.rs:226:9: warning TS011 the import brings in every name
+clap_builder/src/builder/styled_str.rs:236:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap_builder/src/builder/styled_str.rs:255:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap_builder/src/builder/styling.rs:22:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap_builder/src/builder/styling.rs:22:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/styling.rs:3:9: warning TS011 the import brings in every name
+clap_builder/src/builder/tests.rs:12:9: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+clap_builder/src/builder/tests.rs:46:9: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+clap_builder/src/builder/value_hint.rs:49:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap_builder/src/builder/value_hint.rs:52:101: warning TS012 the line is 107 columns, over the 100 column limit
+clap_builder/src/builder/value_parser.rs:1074:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_builder/src/builder/value_parser.rs:1101:29: warning TS015 the expression is an unnamed function
+clap_builder/src/builder/value_parser.rs:1123:101: warning TS012 the line is 127 columns, over the 100 column limit
+clap_builder/src/builder/value_parser.rs:1199:101: warning TS012 the line is 103 columns, over the 100 column limit
+clap_builder/src/builder/value_parser.rs:18:101: warning TS012 the line is 107 columns, over the 100 column limit
+clap_builder/src/builder/value_parser.rs:2125:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap_builder/src/builder/value_parser.rs:2150:101: warning TS012 the line is 110 columns, over the 100 column limit
+clap_builder/src/builder/value_parser.rs:2228:101: warning TS012 the line is 116 columns, over the 100 column limit
+clap_builder/src/builder/value_parser.rs:2435:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/value_parser.rs:2440:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/value_parser.rs:2455:9: warning TS011 the import brings in every name
+clap_builder/src/builder/value_parser.rs:2458:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/value_parser.rs:2471:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/value_parser.rs:2488:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/value_parser.rs:2506:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/value_parser.rs:2525:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/value_parser.rs:2539:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/value_parser.rs:2553:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/value_parser.rs:2575:101: warning TS012 the line is 106 columns, over the 100 column limit
+clap_builder/src/builder/value_parser.rs:2625:14: warning TS011 the import brings in every name
+clap_builder/src/builder/value_parser.rs:2632:9: warning TS011 the import brings in every name
+clap_builder/src/builder/value_parser.rs:2634:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/value_parser.rs:2636:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_builder/src/builder/value_parser.rs:2638:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/value_parser.rs:2642:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/value_parser.rs:2649:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/value_parser.rs:2656:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/value_parser.rs:2663:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/value_parser.rs:2670:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/builder/value_parser.rs:664:101: warning TS012 the line is 104 columns, over the 100 column limit
+clap_builder/src/builder/value_parser.rs:702:101: warning TS012 the line is 103 columns, over the 100 column limit
+clap_builder/src/derive.rs:252:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap_builder/src/derive.rs:303:101: warning TS012 the line is 127 columns, over the 100 column limit
+clap_builder/src/derive.rs:38:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap_builder/src/derive.rs:63:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap_builder/src/error/format.rs:140:1: warning TS002 the function is 232 lines, over the 70 line limit
+clap_builder/src/error/format.rs:158:101: warning TS012 the line is 105 columns, over the 100 column limit
+clap_builder/src/error/format.rs:1:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/error/format.rs:201:101: warning TS012 the line is 104 columns, over the 100 column limit
+clap_builder/src/error/format.rs:219:101: warning TS012 the line is 108 columns, over the 100 column limit
+clap_builder/src/error/format.rs:224:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_builder/src/error/format.rs:265:101: warning TS012 the line is 105 columns, over the 100 column limit
+clap_builder/src/error/format.rs:286:101: warning TS012 the line is 146 columns, over the 100 column limit
+clap_builder/src/error/format.rs:296:17: info TS025 the name leads with the qualifier min; put it last
+clap_builder/src/error/format.rs:2:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/error/format.rs:300:43: info TS025 the name leads with the qualifier min; put it last
+clap_builder/src/error/format.rs:306:101: warning TS012 the line is 167 columns, over the 100 column limit
+clap_builder/src/error/format.rs:323:101: warning TS012 the line is 114 columns, over the 100 column limit
+clap_builder/src/error/format.rs:336:17: info TS025 the name leads with the qualifier num; put it last
+clap_builder/src/error/format.rs:340:43: info TS025 the name leads with the qualifier num; put it last
+clap_builder/src/error/format.rs:346:101: warning TS012 the line is 166 columns, over the 100 column limit
+clap_builder/src/error/format.rs:3:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/error/format.rs:434:15: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/error/format.rs:4:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/error/format.rs:60:101: warning TS012 the line is 131 columns, over the 100 column limit
+clap_builder/src/error/kind.rs:227:101: warning TS012 the line is 106 columns, over the 100 column limit
+clap_builder/src/error/kind.rs:255:101: warning TS012 the line is 103 columns, over the 100 column limit
+clap_builder/src/error/mod.rs:199:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_builder/src/error/mod.rs:247:9: error TS028 the call's error is assigned away; handle it or crash on it by name
+clap_builder/src/error/mod.rs:3:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/error/mod.rs:4:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/error/mod.rs:505:101: warning TS012 the line is 114 columns, over the 100 column limit
+clap_builder/src/error/mod.rs:5:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/error/mod.rs:640:9: info TS025 the name leads with the qualifier min; put it last
+clap_builder/src/error/mod.rs:689:9: info TS025 the name leads with the qualifier num; put it last
+clap_builder/src/error/mod.rs:6:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/error/mod.rs:737:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap_builder/src/error/mod.rs:789:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_builder/src/error/mod.rs:7:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/error/mod.rs:837:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/lib.rs:1:101: warning TS012 the line is 122 columns, over the 100 column limit
+clap_builder/src/lib.rs:35:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/macros.rs:203:101: warning TS012 the line is 109 columns, over the 100 column limit
+clap_builder/src/macros.rs:226:101: warning TS012 the line is 109 columns, over the 100 column limit
+clap_builder/src/macros.rs:250:101: warning TS012 the line is 109 columns, over the 100 column limit
+clap_builder/src/macros.rs:269:101: warning TS012 the line is 109 columns, over the 100 column limit
+clap_builder/src/macros.rs:286:101: warning TS012 the line is 109 columns, over the 100 column limit
+clap_builder/src/macros.rs:291:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/macros.rs:29:101: warning TS012 the line is 128 columns, over the 100 column limit
+clap_builder/src/macros.rs:313:101: warning TS012 the line is 109 columns, over the 100 column limit
+clap_builder/src/macros.rs:318:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/macros.rs:340:101: warning TS012 the line is 109 columns, over the 100 column limit
+clap_builder/src/macros.rs:345:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/macros.rs:369:101: warning TS012 the line is 109 columns, over the 100 column limit
+clap_builder/src/macros.rs:374:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/macros.rs:400:20: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/macros.rs:504:101: warning TS012 the line is 106 columns, over the 100 column limit
+clap_builder/src/macros.rs:536:101: warning TS012 the line is 107 columns, over the 100 column limit
+clap_builder/src/macros.rs:558:101: warning TS012 the line is 107 columns, over the 100 column limit
+clap_builder/src/macros.rs:573:101: warning TS012 the line is 141 columns, over the 100 column limit
+clap_builder/src/mkeymap.rs:94:35: info TS025 the name leads with the qualifier new; put it last
+clap_builder/src/output/fmt.rs:13:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/output/help.rs:1:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/output/help_template.rs:1073:45: info TS025 the name leads with the qualifier next; put it last
+clap_builder/src/output/help_template.rs:1088:7: info TS025 the name leads with the qualifier NEXT; put it last
+clap_builder/src/output/help_template.rs:108:13: info TS025 the name leads with the qualifier next; put it last
+clap_builder/src/output/help_template.rs:1159:13: warning TS011 the import brings in every name
+clap_builder/src/output/help_template.rs:1168:13: warning TS011 the import brings in every name
+clap_builder/src/output/help_template.rs:1181:13: warning TS011 the import brings in every name
+clap_builder/src/output/help_template.rs:127:22: info TS025 the name leads with the qualifier current; put it last
+clap_builder/src/output/help_template.rs:128:21: info TS025 the name leads with the qualifier current; put it last
+clap_builder/src/output/help_template.rs:129:21: info TS025 the name leads with the qualifier max; put it last
+clap_builder/src/output/help_template.rs:144:22: info TS025 the name leads with the qualifier current; put it last
+clap_builder/src/output/help_template.rs:149:13: info TS025 the name leads with the qualifier max; put it last
+clap_builder/src/output/help_template.rs:163:5: warning TS002 the function is 91 lines, over the 70 line limit
+clap_builder/src/output/help_template.rs:374:5: warning TS002 the function is 94 lines, over the 70 line limit
+clap_builder/src/output/help_template.rs:403:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/help_template.rs:462:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/help_template.rs:4:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/output/help_template.rs:500:13: info TS025 the name leads with the qualifier next; put it last
+clap_builder/src/output/help_template.rs:505:20: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/help_template.rs:514:40: info TS025 the name leads with the qualifier next; put it last
+clap_builder/src/output/help_template.rs:565:45: info TS025 the name leads with the qualifier next; put it last
+clap_builder/src/output/help_template.rs:572:26: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/help_template.rs:576:19: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_builder/src/output/help_template.rs:57:27: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/help_template.rs:608:5: warning TS002 the function is 119 lines, over the 70 line limit
+clap_builder/src/output/help_template.rs:613:9: info TS025 the name leads with the qualifier next; put it last
+clap_builder/src/output/help_template.rs:640:13: info TS025 the name leads with the qualifier next; put it last
+clap_builder/src/output/help_template.rs:641:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/help_template.rs:663:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/help_template.rs:690:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+clap_builder/src/output/help_template.rs:698:43: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+clap_builder/src/output/help_template.rs:714:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/help_template.rs:716:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/help_template.rs:739:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/help_template.rs:756:5: warning TS002 the function is 100 lines, over the 70 line limit
+clap_builder/src/output/help_template.rs:770:34: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_builder/src/output/help_template.rs:789:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/help_template.rs:838:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/help_template.rs:88:5: info TS025 the name leads with the qualifier next; put it last
+clap_builder/src/output/help_template.rs:933:17: error TS001 write_flat_subcommands takes part in a call cycle; give it an explicit stack or a bound
+clap_builder/src/output/help_template.rs:966:13: info TS025 the name leads with the qualifier next; put it last
+clap_builder/src/output/help_template.rs:995:9: info TS025 the name leads with the qualifier next; put it last
+clap_builder/src/output/textwrap/core.rs:64:19: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/textwrap/mod.rs:76:8: info TS025 the name leads with the qualifier max; put it last
+clap_builder/src/output/textwrap/word_separators.rs:8:17: info TS025 the name leads with the qualifier next; put it last
+clap_builder/src/output/textwrap/word_separators.rs:9:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/textwrap/wrap_algorithms.rs:25:17: info TS025 the name leads with the qualifier first; put it last
+clap_builder/src/output/textwrap/wrap_algorithms.rs:43:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/usage.rs:106:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/usage.rs:107:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/usage.rs:163:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/usage.rs:175:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/usage.rs:182:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/usage.rs:1:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/output/usage.rs:210:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/usage.rs:254:5: warning TS002 the function is 123 lines, over the 70 line limit
+clap_builder/src/output/usage.rs:269:31: warning TS015 the expression is an unnamed function
+clap_builder/src/output/usage.rs:2:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/output/usage.rs:311:25: info TS025 the name leads with the qualifier new; put it last
+clap_builder/src/output/usage.rs:333:17: info TS025 the name leads with the qualifier new; put it last
+clap_builder/src/output/usage.rs:357:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/usage.rs:378:5: warning TS002 the function is 116 lines, over the 70 line limit
+clap_builder/src/output/usage.rs:39:101: warning TS012 the line is 104 columns, over the 100 column limit
+clap_builder/src/output/usage.rs:3:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/output/usage.rs:401:31: warning TS015 the expression is an unnamed function
+clap_builder/src/output/usage.rs:469:24: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/output/usage.rs:470:29: info TS025 the name leads with the qualifier new; put it last
+clap_builder/src/output/usage.rs:471:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+clap_builder/src/output/usage.rs:4:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/parser/arg_matcher.rs:179:13: info TS025 the name leads with the qualifier num; put it last
+clap_builder/src/parser/arg_matcher.rs:84:13: error TS001 fill_in_global_values takes part in a call cycle; give it an explicit stack or a bound
+clap_builder/src/parser/error.rs:50:101: warning TS012 the line is 124 columns, over the 100 column limit
+clap_builder/src/parser/error.rs:5:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/parser/features/suggestions.rs:22:17: info TS025 the name leads with the qualifier new; put it last
+clap_builder/src/parser/features/suggestions.rs:54:6: warning TS041 Option<(String, Option<String>)> stacks 2 layers of optionality; every layer is a case each caller has to handle
+clap_builder/src/parser/features/suggestions.rs:90:9: warning TS011 the import brings in every name
+clap_builder/src/parser/matches/arg_matches.rs:1084:10: warning TS041 Result<Option<&T>, MatchesError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+clap_builder/src/parser/matches/arg_matches.rs:1102:10: warning TS041 Result<Option<ValuesRef<'_, T>>, MatchesError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+clap_builder/src/parser/matches/arg_matches.rs:1121:10: warning TS041 Result<Option<OccurrencesRef<'_, T>>, MatchesError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+clap_builder/src/parser/matches/arg_matches.rs:1135:44: warning TS041 Result<Option<RawValues<'_>>, MatchesError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+clap_builder/src/parser/matches/arg_matches.rs:1153:10: warning TS041 Result<Option<RawOccurrences<'_>>, MatchesError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+clap_builder/src/parser/matches/arg_matches.rs:1171:10: warning TS041 Result<Option<T>, MatchesError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+clap_builder/src/parser/matches/arg_matches.rs:1186:10: warning TS041 Result<Option<Values<T>>, MatchesError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+clap_builder/src/parser/matches/arg_matches.rs:1205:10: warning TS041 Result<Option<Occurrences<T>>, MatchesError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+clap_builder/src/parser/matches/arg_matches.rs:1231:101: warning TS012 the line is 106 columns, over the 100 column limit
+clap_builder/src/parser/matches/arg_matches.rs:1243:41: warning TS041 Result<Option<&MatchedArg>, MatchesError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+clap_builder/src/parser/matches/arg_matches.rs:1252:10: warning TS041 Result<Option<&MatchedArg>, MatchesError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+clap_builder/src/parser/matches/arg_matches.rs:1267:10: warning TS041 Result<Option<MatchedArg>, MatchesError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+clap_builder/src/parser/matches/arg_matches.rs:1303:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/matches/arg_matches.rs:1322:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/matches/arg_matches.rs:1340:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/matches/arg_matches.rs:1362:101: warning TS012 the line is 103 columns, over the 100 column limit
+clap_builder/src/parser/matches/arg_matches.rs:1429:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/parser/matches/arg_matches.rs:1497:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/parser/matches/arg_matches.rs:154:101: warning TS012 the line is 146 columns, over the 100 column limit
+clap_builder/src/parser/matches/arg_matches.rs:1570:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/parser/matches/arg_matches.rs:158:101: warning TS012 the line is 144 columns, over the 100 column limit
+clap_builder/src/parser/matches/arg_matches.rs:1622:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/parser/matches/arg_matches.rs:1657:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/parser/matches/arg_matches.rs:1683:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/parser/matches/arg_matches.rs:1723:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/parser/matches/arg_matches.rs:1755:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/parser/matches/arg_matches.rs:1790:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/parser/matches/arg_matches.rs:186:101: warning TS012 the line is 116 columns, over the 100 column limit
+clap_builder/src/parser/matches/arg_matches.rs:1912:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+clap_builder/src/parser/matches/arg_matches.rs:1918:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+clap_builder/src/parser/matches/arg_matches.rs:1925:20: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+clap_builder/src/parser/matches/arg_matches.rs:23:101: warning TS012 the line is 103 columns, over the 100 column limit
+clap_builder/src/parser/matches/arg_matches.rs:244:101: warning TS012 the line is 112 columns, over the 100 column limit
+clap_builder/src/parser/matches/arg_matches.rs:259:101: warning TS012 the line is 103 columns, over the 100 column limit
+clap_builder/src/parser/matches/arg_matches.rs:481:101: warning TS012 the line is 105 columns, over the 100 column limit
+clap_builder/src/parser/matches/arg_matches.rs:503:101: warning TS012 the line is 112 columns, over the 100 column limit
+clap_builder/src/parser/matches/arg_matches.rs:527:101: warning TS012 the line is 107 columns, over the 100 column limit
+clap_builder/src/parser/matches/matched_arg.rs:107:19: info TS025 the name leads with the qualifier first; put it last
+clap_builder/src/parser/matches/matched_arg.rs:125:19: info TS025 the name leads with the qualifier num; put it last
+clap_builder/src/parser/matches/matched_arg.rs:130:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/parser/matches/matched_arg.rs:131:19: info TS025 the name leads with the qualifier num; put it last
+clap_builder/src/parser/mod.rs:6:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/parser/parser.rs:1000:101: warning TS012 the line is 104 columns, over the 100 column limit
+clap_builder/src/parser/parser.rs:1002:21: info TS025 the name leads with the qualifier cur; put it last
+clap_builder/src/parser/parser.rs:1036:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:1141:5: warning TS002 the function is 193 lines, over the 70 line limit
+clap_builder/src/parser/parser.rs:114:20: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:1179:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:1186:24: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:1201:20: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:1208:20: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:121:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+clap_builder/src/parser/parser.rs:121:28: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:1220:20: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:1222:101: warning TS012 the line is 109 columns, over the 100 column limit
+clap_builder/src/parser/parser.rs:1228:20: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:1237:20: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:1239:101: warning TS012 the line is 109 columns, over the 100 column limit
+clap_builder/src/parser/parser.rs:1251:20: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:1272:20: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:1291:25: info TS025 the name leads with the qualifier next; put it last
+clap_builder/src/parser/parser.rs:1343:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:1343:9: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+clap_builder/src/parser/parser.rs:138:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+clap_builder/src/parser/parser.rs:1455:5: warning TS002 the function is 77 lines, over the 70 line limit
+clap_builder/src/parser/parser.rs:1456:12: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_builder/src/parser/parser.rs:1461:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+clap_builder/src/parser/parser.rs:1472:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+clap_builder/src/parser/parser.rs:1493:12: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_builder/src/parser/parser.rs:179:29: error TS028 the call's error is assigned away; handle it or crash on it by name
+clap_builder/src/parser/parser.rs:187:29: error TS028 the call's error is assigned away; handle it or crash on it by name
+clap_builder/src/parser/parser.rs:198:29: error TS028 the call's error is assigned away; handle it or crash on it by name
+clap_builder/src/parser/parser.rs:241:101: warning TS012 the line is 113 columns, over the 100 column limit
+clap_builder/src/parser/parser.rs:248:101: warning TS012 the line is 138 columns, over the 100 column limit
+clap_builder/src/parser/parser.rs:249:101: warning TS012 the line is 124 columns, over the 100 column limit
+clap_builder/src/parser/parser.rs:255:101: warning TS012 the line is 131 columns, over the 100 column limit
+clap_builder/src/parser/parser.rs:25:5: info TS025 the name leads with the qualifier cur; put it last
+clap_builder/src/parser/parser.rs:263:29: error TS028 the call's error is assigned away; handle it or crash on it by name
+clap_builder/src/parser/parser.rs:271:29: error TS028 the call's error is assigned away; handle it or crash on it by name
+clap_builder/src/parser/parser.rs:304:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+clap_builder/src/parser/parser.rs:351:20: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:380:27: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:393:20: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:394:21: error TS028 the call's error is assigned away; handle it or crash on it by name
+clap_builder/src/parser/parser.rs:411:20: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:428:28: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_builder/src/parser/parser.rs:443:25: error TS028 the call's error is assigned away; handle it or crash on it by name
+clap_builder/src/parser/parser.rs:474:17: error TS028 the call's error is assigned away; handle it or crash on it by name
+clap_builder/src/parser/parser.rs:485:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:48:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/parser/parser.rs:509:5: warning TS002 the function is 73 lines, over the 70 line limit
+clap_builder/src/parser/parser.rs:536:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:565:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:592:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:684:58: info TS025 the name leads with the qualifier current; put it last
+clap_builder/src/parser/parser.rs:685:9: warning TS020 [*] the attribute silences a checker
+clap_builder/src/parser/parser.rs:693:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:739:101: warning TS012 the line is 115 columns, over the 100 column limit
+clap_builder/src/parser/parser.rs:746:24: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:748:101: warning TS012 the line is 104 columns, over the 100 column limit
+clap_builder/src/parser/parser.rs:763:5: warning TS002 the function is 118 lines, over the 70 line limit
+clap_builder/src/parser/parser.rs:76:5: warning TS020 [*] the attribute silences a checker
+clap_builder/src/parser/parser.rs:775:9: warning TS020 [*] the attribute silences a checker
+clap_builder/src/parser/parser.rs:77:5: warning TS002 the function is 431 lines, over the 70 line limit
+clap_builder/src/parser/parser.rs:882:5: warning TS002 the function is 135 lines, over the 70 line limit
+clap_builder/src/parser/parser.rs:893:9: warning TS020 [*] the attribute silences a checker
+clap_builder/src/parser/parser.rs:895:101: warning TS012 the line is 147 columns, over the 100 column limit
+clap_builder/src/parser/parser.rs:895:20: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:899:19: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:909:19: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/parser.rs:933:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+clap_builder/src/parser/parser.rs:999:101: warning TS012 the line is 107 columns, over the 100 column limit
+clap_builder/src/parser/validator.rs:204:35: warning TS015 the expression is an unnamed function
+clap_builder/src/parser/validator.rs:221:5: warning TS002 the function is 123 lines, over the 70 line limit
+clap_builder/src/parser/validator.rs:247:20: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/validator.rs:295:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/validator.rs:29:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/validator.rs:303:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/validator.rs:30:17: info TS025 the name leads with the qualifier num; put it last
+clap_builder/src/parser/validator.rs:313:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/validator.rs:363:22: warning TS015 the expression is an unnamed function
+clap_builder/src/parser/validator.rs:39:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/validator.rs:529:8: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_builder/src/parser/validator.rs:55:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_builder/src/parser/validator.rs:90:101: warning TS012 the line is 107 columns, over the 100 column limit
+clap_builder/src/util/any_value.rs:114:13: warning TS011 the import brings in every name
+clap_builder/src/util/any_value.rs:121:13: warning TS011 the import brings in every name
+clap_builder/src/util/flat_map.rs:1:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/util/flat_set.rs:1:1: warning TS020 [*] the attribute silences a checker
+clap_builder/src/util/id.rs:178:9: warning TS011 the import brings in every name
+clap_builder/src/util/mod.rs:1:1: warning TS020 [*] the attribute silences a checker
+clap_complete/examples/completion-derive.rs:5:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete/examples/completion.rs:19:1: warning TS002 the function is 77 lines, over the 70 line limit
+clap_complete/examples/completion.rs:5:101: warning TS012 the line is 105 columns, over the 100 column limit
+clap_complete/examples/exhaustive.rs:33:1: warning TS020 [*] the attribute silences a checker
+clap_complete/examples/exhaustive.rs:34:1: warning TS002 the function is 182 lines, over the 70 line limit
+clap_complete/src/aot/generator/utils.rs:100:16: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_complete/src/aot/generator/utils.rs:101:20: warning TS023 the condition combines booleans; split it into nested branches
+clap_complete/src/aot/generator/utils.rs:110:27: warning TS023 the condition combines booleans; split it into nested branches
+clap_complete/src/aot/generator/utils.rs:135:8: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_complete/src/aot/generator/utils.rs:75:16: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_complete/src/aot/generator/utils.rs:76:20: warning TS023 the condition combines booleans; split it into nested branches
+clap_complete/src/aot/generator/utils.rs:80:27: warning TS023 the condition combines booleans; split it into nested branches
+clap_complete/src/aot/mod.rs:53:9: warning TS011 the import brings in every name
+clap_complete/src/aot/mod.rs:54:9: warning TS011 the import brings in every name
+clap_complete/src/aot/shells/bash.rs:113:13: error TS001 add_command takes part in a call cycle; give it an explicit stack or a bound
+clap_complete/src/aot/shells/bash.rs:172:1: warning TS002 the function is 83 lines, over the 70 line limit
+clap_complete/src/aot/shells/bash.rs:74:101: warning TS012 the line is 116 columns, over the 100 column limit
+clap_complete/src/aot/shells/elvish.rs:142:48: error TS001 generate_inner takes part in a call cycle; give it an explicit stack or a bound
+clap_complete/src/aot/shells/elvish.rs:71:1: warning TS002 the function is 78 lines, over the 70 line limit
+clap_complete/src/aot/shells/elvish.rs:71:32: info TS025 the name leads with the qualifier previous; put it last
+clap_complete/src/aot/shells/fish.rs:121:101: warning TS012 the line is 105 columns, over the 100 column limit
+clap_complete/src/aot/shells/fish.rs:202:13: error TS001 gen_fish_inner takes part in a call cycle; give it an explicit stack or a bound
+clap_complete/src/aot/shells/fish.rs:250:101: warning TS012 the line is 104 columns, over the 100 column limit
+clap_complete/src/aot/shells/fish.rs:294:101: warning TS012 the line is 106 columns, over the 100 column limit
+clap_complete/src/aot/shells/fish.rs:295:101: warning TS012 the line is 112 columns, over the 100 column limit
+clap_complete/src/aot/shells/fish.rs:32:101: warning TS012 the line is 111 columns, over the 100 column limit
+clap_complete/src/aot/shells/fish.rs:72:1: warning TS002 the function is 141 lines, over the 70 line limit
+clap_complete/src/aot/shells/fish.rs:9:101: warning TS012 the line is 107 columns, over the 100 column limit
+clap_complete/src/aot/shells/powershell.rs:124:48: error TS001 generate_inner takes part in a call cycle; give it an explicit stack or a bound
+clap_complete/src/aot/shells/powershell.rs:140:101: warning TS012 the line is 106 columns, over the 100 column limit
+clap_complete/src/aot/shells/powershell.rs:151:101: warning TS012 the line is 105 columns, over the 100 column limit
+clap_complete/src/aot/shells/powershell.rs:79:32: info TS025 the name leads with the qualifier previous; put it last
+clap_complete/src/aot/shells/shell.rs:137:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_complete/src/aot/shells/zsh.rs:251:24: error TS001 get_subcommands_of takes part in a call cycle; give it an explicit stack or a bound
+clap_complete/src/aot/shells/zsh.rs:296:28: error TS001 parser_of takes part in a call cycle; give it an explicit stack or a bound
+clap_complete/src/aot/shells/zsh.rs:358:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap_complete/src/aot/shells/zsh.rs:484:13: info TS025 the name leads with the qualifier min; put it last
+clap_complete/src/aot/shells/zsh.rs:603:1: warning TS002 the function is 77 lines, over the 70 line limit
+clap_complete/src/aot/shells/zsh.rs:626:13: info TS025 the name leads with the qualifier num; put it last
+clap_complete/src/aot/shells/zsh.rs:629:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_complete/src/aot/shells/zsh.rs:640:30: warning TS023 the condition combines booleans; split it into nested branches
+clap_complete/src/aot/shells/zsh.rs:651:19: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_complete/src/engine/complete.rs:137:1: warning TS002 the function is 108 lines, over the 70 line limit
+clap_complete/src/engine/complete.rs:140:5: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/engine/complete.rs:15:1: warning TS002 the function is 109 lines, over the 70 line limit
+clap_complete/src/engine/complete.rs:176:29: info TS025 the name leads with the qualifier num; put it last
+clap_complete/src/engine/complete.rs:187:20: warning TS023 the condition combines booleans; split it into nested branches
+clap_complete/src/engine/complete.rs:190:39: info TS025 the name leads with the qualifier num; put it last
+clap_complete/src/engine/complete.rs:19:5: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/engine/complete.rs:205:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_complete/src/engine/complete.rs:206:36: error TS001 complete_arg takes part in a call cycle; give it an explicit stack or a bound
+clap_complete/src/engine/complete.rs:246:1: warning TS002 the function is 99 lines, over the 70 line limit
+clap_complete/src/engine/complete.rs:249:5: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/engine/complete.rs:253:5: warning TS039 the chain runs 5 branches, over the 3 allowed; split it into a tree
+clap_complete/src/engine/complete.rs:346:1: warning TS002 the function is 87 lines, over the 70 line limit
+clap_complete/src/engine/complete.rs:349:5: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/engine/complete.rs:356:9: error TS028 the default hides the error; handle it or crash on it by name
+clap_complete/src/engine/complete.rs:40:13: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/engine/complete.rs:437:6: warning TS041 Option<(Option<&'s str>, Result<&'s str, &'o OsStr>)> stacks 2 layers of optionality; every layer is a case each caller has to handle
+clap_complete/src/engine/complete.rs:43:13: info TS025 the name leads with the qualifier next; put it last
+clap_complete/src/engine/complete.rs:45:13: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/engine/complete.rs:501:101: warning TS012 the line is 113 columns, over the 100 column limit
+clap_complete/src/engine/complete.rs:573:8: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_complete/src/engine/complete.rs:626:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+clap_complete/src/engine/complete.rs:63:25: info TS025 the name leads with the qualifier next; put it last
+clap_complete/src/engine/complete.rs:667:9: info TS025 the name leads with the qualifier num; put it last
+clap_complete/src/engine/complete.rs:671:44: warning TS015 the expression is an unnamed function
+clap_complete/src/engine/complete.rs:686:42: info TS025 the name leads with the qualifier num; put it last
+clap_complete/src/engine/complete.rs:703:101: warning TS012 the line is 109 columns, over the 100 column limit
+clap_complete/src/engine/complete.rs:70:9: warning TS039 the chain runs 5 branches, over the 3 allowed; split it into a tree
+clap_complete/src/engine/complete.rs:93:21: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+clap_complete/src/engine/complete.rs:93:24: warning TS023 the condition combines booleans; split it into nested branches
+clap_complete/src/engine/custom.rs:223:101: warning TS012 the line is 109 columns, over the 100 column limit
+clap_complete/src/engine/custom.rs:257:5: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/engine/custom.rs:258:5: warning TS020 [*] the attribute silences a checker
+clap_complete/src/engine/custom.rs:299:12: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/engine/custom.rs:314:17: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/engine/custom.rs:315:13: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/engine/custom.rs:320:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_complete/src/engine/custom.rs:327:1: warning TS002 the function is 76 lines, over the 70 line limit
+clap_complete/src/engine/custom.rs:329:5: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/engine/custom.rs:351:13: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/engine/custom.rs:352:18: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/engine/custom.rs:362:8: warning TS023 the condition combines booleans; split it into nested branches
+clap_complete/src/engine/custom.rs:431:101: warning TS012 the line is 137 columns, over the 100 column limit
+clap_complete/src/engine/custom.rs:451:101: warning TS012 the line is 137 columns, over the 100 column limit
+clap_complete/src/env/mod.rs:187:13: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/env/mod.rs:188:12: error TS028 the default hides the error; handle it or crash on it by name
+clap_complete/src/env/mod.rs:205:9: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/env/mod.rs:213:9: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/env/mod.rs:218:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_complete/src/env/mod.rs:260:9: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/env/mod.rs:275:25: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/env/mod.rs:373:101: warning TS012 the line is 115 columns, over the 100 column limit
+clap_complete/src/env/mod.rs:390:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete/src/env/mod.rs:395:9: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/env/mod.rs:407:101: warning TS012 the line is 111 columns, over the 100 column limit
+clap_complete/src/env/mod.rs:53:101: warning TS012 the line is 125 columns, over the 100 column limit
+clap_complete/src/env/mod.rs:59:26: warning TS012 the line is 133 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+clap_complete/src/env/mod.rs:73:9: warning TS011 the import brings in every name
+clap_complete/src/env/shells.rs:163:101: warning TS012 the line is 113 columns, over the 100 column limit
+clap_complete/src/env/shells.rs:177:9: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/env/shells.rs:221:101: warning TS012 the line is 197 columns, over the 100 column limit
+clap_complete/src/env/shells.rs:228:9: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/env/shells.rs:378:9: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/env/shells.rs:471:9: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/env/shells.rs:532:101: warning TS012 the line is 112 columns, over the 100 column limit
+clap_complete/src/env/shells.rs:533:37: warning TS015 the expression is an unnamed function
+clap_complete/src/env/shells.rs:576:101: warning TS012 the line is 192 columns, over the 100 column limit
+clap_complete/src/env/shells.rs:58:101: warning TS012 the line is 104 columns, over the 100 column limit
+clap_complete/src/env/shells.rs:593:101: warning TS012 the line is 183 columns, over the 100 column limit
+clap_complete/src/env/shells.rs:610:101: warning TS012 the line is 184 columns, over the 100 column limit
+clap_complete/src/env/shells.rs:76:9: info TS025 the name leads with the qualifier current; put it last
+clap_complete/src/lib.rs:51:1: warning TS020 [*] the attribute silences a checker
+clap_complete/src/lib.rs:59:1: warning TS020 [*] the attribute silences a checker
+clap_complete/tests/testsuite/bash.rs:1:1: warning TS020 [*] the attribute silences a checker
+clap_complete/tests/testsuite/bash.rs:260:1: warning TS002 the function is 124 lines, over the 70 line limit
+clap_complete/tests/testsuite/bash.rs:339:9: warning TS024 the assertion is compound; write one assertion for each condition
+clap_complete/tests/testsuite/bash.rs:352:9: warning TS024 the assertion is compound; write one assertion for each condition
+clap_complete/tests/testsuite/bash.rs:406:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_complete/tests/testsuite/bash.rs:427:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap_complete/tests/testsuite/common.rs:191:1: warning TS002 the function is 83 lines, over the 70 line limit
+clap_complete/tests/testsuite/common.rs:2:5: warning TS011 the import brings in every name
+clap_complete/tests/testsuite/common.rs:479:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_complete/tests/testsuite/common.rs:501:8: warning TS023 the condition combines booleans; split it into nested branches
+clap_complete/tests/testsuite/common.rs:504:8: warning TS023 the condition combines booleans; split it into nested branches
+clap_complete/tests/testsuite/common.rs:79:1: info TS029 the line indents with a tab
+clap_complete/tests/testsuite/common.rs:80:1: info TS029 the line indents with a tab
+clap_complete/tests/testsuite/common.rs:82:1: info TS029 the line indents with a tab
+clap_complete/tests/testsuite/common.rs:84:1: info TS029 the line indents with a tab
+clap_complete/tests/testsuite/elvish.rs:2:1: warning TS020 [*] the attribute silences a checker
+clap_complete/tests/testsuite/engine.rs:1078:1: warning TS002 the function is 80 lines, over the 70 line limit
+clap_complete/tests/testsuite/engine.rs:1160:1: warning TS002 the function is 151 lines, over the 70 line limit
+clap_complete/tests/testsuite/engine.rs:1534:55: info TS025 the name leads with the qualifier current; put it last
+clap_complete/tests/testsuite/engine.rs:15:13: warning TS020 [*] the attribute silences a checker
+clap_complete/tests/testsuite/engine.rs:306:1: warning TS002 the function is 93 lines, over the 70 line limit
+clap_complete/tests/testsuite/engine.rs:401:1: warning TS002 the function is 131 lines, over the 70 line limit
+clap_complete/tests/testsuite/engine.rs:989:1: warning TS002 the function is 87 lines, over the 70 line limit
+clap_complete/tests/testsuite/fish.rs:264:101: warning TS012 the line is 110 columns, over the 100 column limit
+clap_complete/tests/testsuite/fish.rs:2:1: warning TS020 [*] the attribute silences a checker
+clap_complete/tests/testsuite/zsh.rs:1:1: warning TS020 [*] the attribute silences a checker
+clap_complete/tests/testsuite/zsh.rs:215:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete/tests/testsuite/zsh.rs:217:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete/tests/testsuite/zsh.rs:278:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete/tests/testsuite/zsh.rs:279:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete/tests/testsuite/zsh.rs:280:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete/tests/testsuite/zsh.rs:281:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete/tests/testsuite/zsh.rs:282:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete/tests/testsuite/zsh.rs:283:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete/tests/testsuite/zsh.rs:284:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete/tests/testsuite/zsh.rs:285:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete/tests/testsuite/zsh.rs:286:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete/tests/testsuite/zsh.rs:395:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete/tests/testsuite/zsh.rs:396:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete/tests/testsuite/zsh.rs:397:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete/tests/testsuite/zsh.rs:398:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete/tests/testsuite/zsh.rs:399:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete/tests/testsuite/zsh.rs:400:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete/tests/testsuite/zsh.rs:401:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete/tests/testsuite/zsh.rs:402:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete/tests/testsuite/zsh.rs:403:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_complete_nushell/examples/test.rs:14:1: warning TS002 the function is 166 lines, over the 70 line limit
+clap_complete_nushell/src/lib.rs:134:1: warning TS002 the function is 74 lines, over the 70 line limit
+clap_complete_nushell/src/lib.rs:1:101: warning TS012 the line is 128 columns, over the 100 column limit
+clap_complete_nushell/src/lib.rs:249:13: error TS001 generate_completion takes part in a call cycle; give it an explicit stack or a bound
+clap_complete_nushell/tests/common.rs:194:1: warning TS002 the function is 75 lines, over the 70 line limit
+clap_complete_nushell/tests/common.rs:1:1: warning TS020 [*] the attribute silences a checker
+clap_complete_nushell/tests/common.rs:270:15: info TS025 the name leads with the qualifier last; put it last
+clap_complete_nushell/tests/common.rs:464:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_complete_nushell/tests/common.rs:486:8: warning TS023 the condition combines booleans; split it into nested branches
+clap_complete_nushell/tests/common.rs:489:8: warning TS023 the condition combines booleans; split it into nested branches
+clap_complete_nushell/tests/common.rs:4:5: warning TS011 the import brings in every name
+clap_complete_nushell/tests/nushell.rs:100:4: info TS025 the name leads with the qualifier last; put it last
+clap_derive/src/attr.rs:199:1: warning TS020 [*] the attribute silences a checker
+clap_derive/src/attr.rs:27:24: warning TS039 the chain runs 6 branches, over the 3 allowed; split it into a tree
+clap_derive/src/derives/args.rs:113:101: warning TS012 the line is 116 columns, over the 100 column limit
+clap_derive/src/derives/args.rs:117:101: warning TS012 the line is 124 columns, over the 100 column limit
+clap_derive/src/derives/args.rs:123:101: warning TS012 the line is 132 columns, over the 100 column limit
+clap_derive/src/derives/args.rs:127:101: warning TS012 the line is 140 columns, over the 100 column limit
+clap_derive/src/derives/args.rs:134:9: warning TS020 [*] the attribute silences a checker
+clap_derive/src/derives/args.rs:141:9: warning TS020 [*] the attribute silences a checker
+clap_derive/src/derives/args.rs:175:1: warning TS002 the function is 270 lines, over the 70 line limit
+clap_derive/src/derives/args.rs:223:101: warning TS012 the line is 103 columns, over the 100 column limit
+clap_derive/src/derives/args.rs:235:21: info TS025 the name leads with the qualifier next; put it last
+clap_derive/src/derives/args.rs:236:21: info TS025 the name leads with the qualifier next; put it last
+clap_derive/src/derives/args.rs:239:101: warning TS012 the line is 134 columns, over the 100 column limit
+clap_derive/src/derives/args.rs:250:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_derive/src/derives/args.rs:349:39: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_derive/src/derives/args.rs:366:25: warning TS020 [*] the attribute silences a checker
+clap_derive/src/derives/args.rs:384:27: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_derive/src/derives/args.rs:406:101: warning TS012 the line is 115 columns, over the 100 column limit
+clap_derive/src/derives/args.rs:409:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_derive/src/derives/args.rs:446:1: warning TS002 the function is 110 lines, over the 70 line limit
+clap_derive/src/derives/args.rs:469:101: warning TS012 the line is 140 columns, over the 100 column limit
+clap_derive/src/derives/args.rs:470:101: warning TS012 the line is 117 columns, over the 100 column limit
+clap_derive/src/derives/args.rs:480:101: warning TS012 the line is 107 columns, over the 100 column limit
+clap_derive/src/derives/args.rs:507:101: warning TS012 the line is 115 columns, over the 100 column limit
+clap_derive/src/derives/args.rs:517:101: warning TS012 the line is 114 columns, over the 100 column limit
+clap_derive/src/derives/args.rs:557:1: warning TS002 the function is 105 lines, over the 70 line limit
+clap_derive/src/derives/args.rs:568:17: warning TS020 [*] the attribute silences a checker
+clap_derive/src/derives/args.rs:58:1: warning TS002 the function is 114 lines, over the 70 line limit
+clap_derive/src/derives/args.rs:590:101: warning TS012 the line is 116 columns, over the 100 column limit
+clap_derive/src/derives/args.rs:598:101: warning TS012 the line is 109 columns, over the 100 column limit
+clap_derive/src/derives/args.rs:623:101: warning TS012 the line is 115 columns, over the 100 column limit
+clap_derive/src/derives/args.rs:631:101: warning TS012 the line is 108 columns, over the 100 column limit
+clap_derive/src/derives/args.rs:663:1: warning TS002 the function is 103 lines, over the 70 line limit
+clap_derive/src/derives/args.rs:741:101: warning TS012 the line is 180 columns, over the 100 column limit
+clap_derive/src/derives/args.rs:747:101: warning TS012 the line is 178 columns, over the 100 column limit
+clap_derive/src/derives/args.rs:775:101: warning TS012 the line is 109 columns, over the 100 column limit
+clap_derive/src/derives/args.rs:775:9: warning TS020 [*] the attribute silences a checker
+clap_derive/src/derives/args.rs:80:9: info TS025 the name leads with the qualifier initial; put it last
+clap_derive/src/derives/args.rs:91:9: warning TS020 [*] the attribute silences a checker
+clap_derive/src/derives/args.rs:98:9: warning TS020 [*] the attribute silences a checker
+clap_derive/src/derives/into_app.rs:32:9: warning TS020 [*] the attribute silences a checker
+clap_derive/src/derives/into_app.rs:39:9: warning TS020 [*] the attribute silences a checker
+clap_derive/src/derives/into_app.rs:80:9: warning TS020 [*] the attribute silences a checker
+clap_derive/src/derives/into_app.rs:87:9: warning TS020 [*] the attribute silences a checker
+clap_derive/src/derives/parser.rs:98:9: warning TS020 [*] the attribute silences a checker
+clap_derive/src/derives/subcommand.rs:105:9: warning TS020 [*] the attribute silences a checker
+clap_derive/src/derives/subcommand.rs:112:9: warning TS020 [*] the attribute silences a checker
+clap_derive/src/derives/subcommand.rs:144:1: warning TS002 the function is 231 lines, over the 70 line limit
+clap_derive/src/derives/subcommand.rs:166:101: warning TS012 the line is 151 columns, over the 100 column limit
+clap_derive/src/derives/subcommand.rs:169:39: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_derive/src/derives/subcommand.rs:191:43: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_derive/src/derives/subcommand.rs:196:25: info TS025 the name leads with the qualifier next; put it last
+clap_derive/src/derives/subcommand.rs:197:25: info TS025 the name leads with the qualifier next; put it last
+clap_derive/src/derives/subcommand.rs:204:101: warning TS012 the line is 111 columns, over the 100 column limit
+clap_derive/src/derives/subcommand.rs:229:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_derive/src/derives/subcommand.rs:238:45: warning TS012 the line is 110 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+clap_derive/src/derives/subcommand.rs:252:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_derive/src/derives/subcommand.rs:258:39: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_derive/src/derives/subcommand.rs:263:21: info TS025 the name leads with the qualifier initial; put it last
+clap_derive/src/derives/subcommand.rs:290:35: info TS025 the name leads with the qualifier initial; put it last
+clap_derive/src/derives/subcommand.rs:330:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_derive/src/derives/subcommand.rs:343:39: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_derive/src/derives/subcommand.rs:364:27: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_derive/src/derives/subcommand.rs:440:1: warning TS002 the function is 145 lines, over the 70 line limit
+clap_derive/src/derives/subcommand.rs:458:101: warning TS012 the line is 116 columns, over the 100 column limit
+clap_derive/src/derives/subcommand.rs:467:101: warning TS012 the line is 151 columns, over the 100 column limit
+clap_derive/src/derives/subcommand.rs:46:1: warning TS002 the function is 97 lines, over the 70 line limit
+clap_derive/src/derives/subcommand.rs:480:101: warning TS012 the line is 129 columns, over the 100 column limit
+clap_derive/src/derives/subcommand.rs:487:101: warning TS012 the line is 121 columns, over the 100 column limit
+clap_derive/src/derives/subcommand.rs:514:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_derive/src/derives/subcommand.rs:520:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_derive/src/derives/subcommand.rs:536:101: warning TS012 the line is 114 columns, over the 100 column limit
+clap_derive/src/derives/subcommand.rs:563:101: warning TS012 the line is 171 columns, over the 100 column limit
+clap_derive/src/derives/subcommand.rs:569:101: warning TS012 the line is 120 columns, over the 100 column limit
+clap_derive/src/derives/subcommand.rs:574:101: warning TS012 the line is 118 columns, over the 100 column limit
+clap_derive/src/derives/subcommand.rs:580:17: warning TS012 the line is 156 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+clap_derive/src/derives/subcommand.rs:586:1: warning TS002 the function is 101 lines, over the 70 line limit
+clap_derive/src/derives/subcommand.rs:638:101: warning TS012 the line is 102 columns, over the 100 column limit
+clap_derive/src/derives/subcommand.rs:653:101: warning TS012 the line is 115 columns, over the 100 column limit
+clap_derive/src/derives/subcommand.rs:679:101: warning TS012 the line is 103 columns, over the 100 column limit
+clap_derive/src/derives/subcommand.rs:67:9: info TS025 the name leads with the qualifier initial; put it last
+clap_derive/src/derives/subcommand.rs:71:9: warning TS020 [*] the attribute silences a checker
+clap_derive/src/derives/subcommand.rs:78:9: warning TS020 [*] the attribute silences a checker
+clap_derive/src/derives/subcommand.rs:93:101: warning TS012 the line is 116 columns, over the 100 column limit
+clap_derive/src/derives/subcommand.rs:99:101: warning TS012 the line is 132 columns, over the 100 column limit
+clap_derive/src/derives/value_enum.rs:54:9: warning TS020 [*] the attribute silences a checker
+clap_derive/src/derives/value_enum.rs:61:9: warning TS020 [*] the attribute silences a checker
+clap_derive/src/derives/value_enum.rs:91:101: warning TS012 the line is 103 columns, over the 100 column limit
+clap_derive/src/dummies.rs:39:101: warning TS012 the line is 120 columns, over the 100 column limit
+clap_derive/src/item.rs:1017:13: info TS025 the name leads with the qualifier next; put it last
+clap_derive/src/item.rs:1022:13: info TS025 the name leads with the qualifier next; put it last
+clap_derive/src/item.rs:1208:1: warning TS020 [*] the attribute silences a checker
+clap_derive/src/item.rs:1271:49: warning TS041 Result<Option<Self>, syn::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+clap_derive/src/item.rs:1369:8: warning TS023 the condition combines booleans; split it into nested branches
+clap_derive/src/item.rs:1396:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_derive/src/item.rs:1402:19: warning TS023 the condition combines booleans; split it into nested branches
+clap_derive/src/item.rs:1440:18: warning TS015 the expression is an unnamed function
+clap_derive/src/item.rs:297:9: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+clap_derive/src/item.rs:327:101: warning TS012 the line is 114 columns, over the 100 column limit
+clap_derive/src/item.rs:345:16: warning TS023 the condition combines booleans; split it into nested branches
+clap_derive/src/item.rs:426:5: warning TS002 the function is 482 lines, over the 70 line limit
+clap_derive/src/item.rs:45:5: info TS025 the name leads with the qualifier next; put it last
+clap_derive/src/item.rs:46:5: info TS025 the name leads with the qualifier next; put it last
+clap_derive/src/item.rs:474:101: warning TS012 the line is 117 columns, over the 100 column limit
+clap_derive/src/item.rs:484:101: warning TS012 the line is 117 columns, over the 100 column limit
+clap_derive/src/item.rs:496:101: warning TS012 the line is 111 columns, over the 100 column limit
+clap_derive/src/item.rs:546:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap_derive/src/item.rs:554:101: warning TS012 the line is 101 columns, over the 100 column limit
+clap_derive/src/item.rs:585:101: warning TS012 the line is 111 columns, over the 100 column limit
+clap_derive/src/item.rs:588:33: warning TS012 the line is 103 columns, over the 100 column limit, and its one token cannot be wrapped
+clap_derive/src/item.rs:595:101: warning TS012 the line is 111 columns, over the 100 column limit
+clap_derive/src/item.rs:629:101: warning TS012 the line is 107 columns, over the 100 column limit
+clap_derive/src/item.rs:644:101: warning TS012 the line is 119 columns, over the 100 column limit
+clap_derive/src/item.rs:651:45: warning TS012 the line is 123 columns, over the 100 column limit, and its one token cannot be wrapped
+clap_derive/src/item.rs:655:101: warning TS012 the line is 122 columns, over the 100 column limit
+clap_derive/src/item.rs:656:101: warning TS012 the line is 119 columns, over the 100 column limit
+clap_derive/src/item.rs:658:68: warning TS012 the line is 149 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+clap_derive/src/item.rs:665:101: warning TS012 the line is 119 columns, over the 100 column limit
+clap_derive/src/item.rs:672:101: warning TS012 the line is 122 columns, over the 100 column limit
+clap_derive/src/item.rs:673:101: warning TS012 the line is 119 columns, over the 100 column limit
+clap_derive/src/item.rs:675:68: warning TS012 the line is 149 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+clap_derive/src/item.rs:713:101: warning TS012 the line is 111 columns, over the 100 column limit
+clap_derive/src/item.rs:716:33: warning TS012 the line is 103 columns, over the 100 column limit, and its one token cannot be wrapped
+clap_derive/src/item.rs:723:101: warning TS012 the line is 125 columns, over the 100 column limit
+clap_derive/src/item.rs:757:101: warning TS012 the line is 110 columns, over the 100 column limit
+clap_derive/src/item.rs:772:101: warning TS012 the line is 133 columns, over the 100 column limit
+clap_derive/src/item.rs:779:45: warning TS012 the line is 130 columns, over the 100 column limit, and its one token cannot be wrapped
+clap_derive/src/item.rs:783:101: warning TS012 the line is 136 columns, over the 100 column limit
+clap_derive/src/item.rs:784:101: warning TS012 the line is 133 columns, over the 100 column limit
+clap_derive/src/item.rs:786:68: warning TS012 the line is 151 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+clap_derive/src/item.rs:793:101: warning TS012 the line is 133 columns, over the 100 column limit
+clap_derive/src/item.rs:800:101: warning TS012 the line is 136 columns, over the 100 column limit
+clap_derive/src/item.rs:801:101: warning TS012 the line is 133 columns, over the 100 column limit
+clap_derive/src/item.rs:803:68: warning TS012 the line is 151 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+clap_derive/src/item.rs:860:1: info TS029 the line indents 17 columns, which is not a multiple of 4
+clap_derive/src/item.rs:918:35: warning TS023 the condition combines booleans; split it into nested branches
+clap_derive/src/item.rs:979:19: info TS025 the name leads with the qualifier initial; put it last
+clap_derive/src/item.rs:980:13: info TS025 the name leads with the qualifier next; put it last
+clap_derive/src/item.rs:981:13: info TS025 the name leads with the qualifier next; put it last
+clap_derive/src/macros.rs:3:9: warning TS020 [*] the attribute silences a checker
+clap_derive/src/macros.rs:4:14: warning TS011 the import brings in every name
+clap_derive/src/utils/doc_comments.rs:103:8: warning TS023 the condition combines booleans; split it into nested branches
+clap_derive/src/utils/doc_comments.rs:196:17: info TS025 the name leads with the qualifier last; put it last
+clap_derive/src/utils/doc_comments.rs:219:17: info TS025 the name leads with the qualifier new; put it last
+clap_derive/src/utils/doc_comments.rs:232:5: warning TS002 the function is 178 lines, over the 70 line limit
+clap_derive/src/utils/doc_comments.rs:46:5: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+clap_derive/src/utils/doc_comments.rs:63:24: info TS025 the name leads with the qualifier first; put it last
+clap_derive/src/utils/doc_comments.rs:80:13: info TS025 the name leads with the qualifier last; put it last
+clap_derive/src/utils/doc_comments.rs:93:16: info TS038 the branch states its condition negatively and carries an else; swap the arms
+clap_derive/src/utils/error.rs:2:5: warning TS020 [*] the attribute silences a checker
+clap_derive/src/utils/error.rs:7:5: warning TS020 [*] the attribute silences a checker
+clap_derive/src/utils/ty.rs:25:17: warning TS015 the expression is an unnamed function
+clap_lex/src/ext.rs:114:101: warning TS012 the line is 156 columns, over the 100 column limit
+clap_lex/src/ext.rs:144:101: warning TS012 the line is 125 columns, over the 100 column limit
+clap_lex/src/ext.rs:156:101: warning TS012 the line is 156 columns, over the 100 column limit
+clap_lex/src/ext.rs:179:101: warning TS012 the line is 104 columns, over the 100 column limit
+clap_lex/src/ext.rs:180:101: warning TS012 the line is 112 columns, over the 100 column limit
+clap_lex/src/ext.rs:93:101: warning TS012 the line is 122 columns, over the 100 column limit
+clap_lex/src/ext.rs:99:101: warning TS012 the line is 104 columns, over the 100 column limit
+clap_lex/src/lib.rs:324:30: warning TS041 Option<(Result<&'s str, &'s OsStr>, Option<&'s OsStr>)> stacks 2 layers of optionality; every layer is a case each caller has to handle
+clap_lex/src/lib.rs:391:101: warning TS012 the line is 154 columns, over the 100 column limit
+clap_lex/src/lib.rs:439:36: warning TS041 Option<Result<char, &'s OsStr>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+clap_lex/src/lib.rs:506:21: warning TS023 the condition combines booleans; split it into nested branches
+clap_lex/src/lib.rs:510:28: warning TS023 the condition combines booleans; split it into nested branches
+clap_lex/src/lib.rs:70:101: warning TS012 the line is 109 columns, over the 100 column limit
+clap_lex/tests/testsuite/lexer.rs:39:18: info TS025 the name leads with the qualifier first; put it last
+clap_mangen/src/lib.rs:134:13: error TS001 generate takes part in a call cycle; give it an explicit stack or a bound
+clap_mangen/src/lib.rs:166:12: warning TS023 the condition combines booleans; split it into nested branches
+clap_mangen/src/render.rs:144:5: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+clap_mangen/src/render.rs:211:27: warning TS023 the condition combines booleans; split it into nested branches
+clap_mangen/src/render.rs:221:1: warning TS002 the function is 99 lines, over the 70 line limit
+clap_mangen/src/render.rs:242:21: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+clap_mangen/src/render.rs:251:21: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+clap_mangen/src/render.rs:251:24: warning TS023 the condition combines booleans; split it into nested branches
+clap_mangen/src/render.rs:32:1: warning TS002 the function is 78 lines, over the 70 line limit
+clap_mangen/src/render.rs:459:8: warning TS023 the condition combines booleans; split it into nested branches
+clap_mangen/tests/testsuite/common.rs:165:1: warning TS002 the function is 83 lines, over the 70 line limit
+clap_mangen/tests/testsuite/common.rs:2:5: warning TS011 the import brings in every name
+examples/derive_ref/augment_args.rs:21:101: warning TS012 the line is 103 columns, over the 100 column limit
+examples/derive_ref/hand_subcommand.rs:1:1: warning TS020 [*] the attribute silences a checker
+examples/find.rs:24:101: warning TS012 the line is 120 columns, over the 100 column limit
+examples/git-derive.rs:139:5: error TS001 expand_aliases takes part in a call cycle; give it an explicit stack or a bound
+examples/git-derive.rs:143:16: error TS028 the default hides the error; handle it or crash on it by name
+examples/git.rs:106:5: error TS001 expand_aliases takes part in a call cycle; give it an explicit stack or a bound
+examples/git.rs:109:1: warning TS002 the function is 79 lines, over the 70 line limit
+examples/git.rs:110:19: error TS028 the default hides the error; handle it or crash on it by name
+examples/git.rs:183:101: warning TS012 the line is 101 columns, over the 100 column limit
+examples/git.rs:97:9: info TS025 the name leads with the qualifier new; put it last
+examples/pacman.rs:117:9: warning TS011 the import brings in every name
+examples/pacman.rs:150:16: warning TS023 the condition combines booleans; split it into nested branches
+examples/pacman.rs:155:13: error TS001 write_help takes part in a call cycle; give it an explicit stack or a bound
+examples/repl-derive.rs:6:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/repl.rs:6:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/tutorial_builder/04_03_relations.rs:5:1: warning TS002 the function is 74 lines, over the 70 line limit
+examples/tutorial_builder/04_04_custom.rs:33:12: warning TS023 the condition combines booleans; split it into nested branches
+examples/tutorial_builder/04_04_custom.rs:6:1: warning TS002 the function is 79 lines, over the 70 line limit
+examples/tutorial_derive/04_04_custom.rs:44:12: warning TS023 the condition combines booleans; split it into nested branches
+examples/typed-derive/builtin.rs:21:101: warning TS012 the line is 108 columns, over the 100 column limit
+examples/typed-derive/custom.rs:75:9: warning TS020 [*] the attribute silences a checker
+examples/typed-derive/foreign_crate.rs:19:9: error TS001 fmt takes part in a call cycle; give it an explicit stack or a bound
+src/_concepts.rs:103:1: warning TS020 [*] the attribute silences a checker
+src/_concepts.rs:12:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/_concepts.rs:28:101: warning TS012 the line is 124 columns, over the 100 column limit
+src/_concepts.rs:31:101: warning TS012 the line is 109 columns, over the 100 column limit
+src/_concepts.rs:40:101: warning TS012 the line is 114 columns, over the 100 column limit
+src/_concepts.rs:57:101: warning TS012 the line is 130 columns, over the 100 column limit
+src/_concepts.rs:59:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/_cookbook/mod.rs:39:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/_cookbook/pacman.rs:2:1: warning TS020 [*] the attribute silences a checker
+src/_derive/_tutorial.rs:102:101: warning TS012 the line is 120 columns, over the 100 column limit
+src/_derive/_tutorial.rs:200:101: warning TS012 the line is 115 columns, over the 100 column limit
+src/_derive/_tutorial.rs:256:1: warning TS020 [*] the attribute silences a checker
+src/_derive/_tutorial.rs:257:5: warning TS011 the import brings in every name
+src/_derive/_tutorial.rs:32:101: warning TS012 the line is 116 columns, over the 100 column limit
+src/_derive/_tutorial.rs:45:101: warning TS012 the line is 158 columns, over the 100 column limit
+src/_derive/_tutorial.rs:52:101: warning TS012 the line is 200 columns, over the 100 column limit
+src/_derive/_tutorial.rs:80:101: warning TS012 the line is 115 columns, over the 100 column limit
+src/_derive/mod.rs:101:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/_derive/mod.rs:102:101: warning TS012 the line is 141 columns, over the 100 column limit
+src/_derive/mod.rs:142:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/_derive/mod.rs:146:101: warning TS012 the line is 222 columns, over the 100 column limit
+src/_derive/mod.rs:149:101: warning TS012 the line is 130 columns, over the 100 column limit
+src/_derive/mod.rs:152:101: warning TS012 the line is 130 columns, over the 100 column limit
+src/_derive/mod.rs:153:101: warning TS012 the line is 108 columns, over the 100 column limit
+src/_derive/mod.rs:156:101: warning TS012 the line is 164 columns, over the 100 column limit
+src/_derive/mod.rs:158:101: warning TS012 the line is 103 columns, over the 100 column limit
+src/_derive/mod.rs:163:101: warning TS012 the line is 164 columns, over the 100 column limit
+src/_derive/mod.rs:180:101: warning TS012 the line is 130 columns, over the 100 column limit
+src/_derive/mod.rs:181:101: warning TS012 the line is 166 columns, over the 100 column limit
+src/_derive/mod.rs:183:101: warning TS012 the line is 149 columns, over the 100 column limit
+src/_derive/mod.rs:184:101: warning TS012 the line is 139 columns, over the 100 column limit
+src/_derive/mod.rs:186:101: warning TS012 the line is 149 columns, over the 100 column limit
+src/_derive/mod.rs:194:101: warning TS012 the line is 117 columns, over the 100 column limit
+src/_derive/mod.rs:199:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/_derive/mod.rs:202:101: warning TS012 the line is 103 columns, over the 100 column limit
+src/_derive/mod.rs:217:101: warning TS012 the line is 143 columns, over the 100 column limit
+src/_derive/mod.rs:239:101: warning TS012 the line is 133 columns, over the 100 column limit
+src/_derive/mod.rs:255:101: warning TS012 the line is 152 columns, over the 100 column limit
+src/_derive/mod.rs:262:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/_derive/mod.rs:265:101: warning TS012 the line is 130 columns, over the 100 column limit
+src/_derive/mod.rs:269:101: warning TS012 the line is 131 columns, over the 100 column limit
+src/_derive/mod.rs:270:101: warning TS012 the line is 136 columns, over the 100 column limit
+src/_derive/mod.rs:274:101: warning TS012 the line is 137 columns, over the 100 column limit
+src/_derive/mod.rs:275:101: warning TS012 the line is 114 columns, over the 100 column limit
+src/_derive/mod.rs:277:101: warning TS012 the line is 145 columns, over the 100 column limit
+src/_derive/mod.rs:280:101: warning TS012 the line is 146 columns, over the 100 column limit
+src/_derive/mod.rs:281:101: warning TS012 the line is 125 columns, over the 100 column limit
+src/_derive/mod.rs:284:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/_derive/mod.rs:289:101: warning TS012 the line is 150 columns, over the 100 column limit
+src/_derive/mod.rs:291:101: warning TS012 the line is 149 columns, over the 100 column limit
+src/_derive/mod.rs:299:101: warning TS012 the line is 162 columns, over the 100 column limit
+src/_derive/mod.rs:315:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/_derive/mod.rs:316:5: warning TS012 the line is 111 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+src/_derive/mod.rs:317:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/_derive/mod.rs:318:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/_derive/mod.rs:322:101: warning TS012 the line is 154 columns, over the 100 column limit
+src/_derive/mod.rs:323:5: warning TS012 the line is 154 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+src/_derive/mod.rs:324:101: warning TS012 the line is 154 columns, over the 100 column limit
+src/_derive/mod.rs:325:101: warning TS012 the line is 154 columns, over the 100 column limit
+src/_derive/mod.rs:326:101: warning TS012 the line is 154 columns, over the 100 column limit
+src/_derive/mod.rs:327:101: warning TS012 the line is 154 columns, over the 100 column limit
+src/_derive/mod.rs:328:101: warning TS012 the line is 154 columns, over the 100 column limit
+src/_derive/mod.rs:329:101: warning TS012 the line is 140 columns, over the 100 column limit
+src/_derive/mod.rs:330:101: warning TS012 the line is 140 columns, over the 100 column limit
+src/_derive/mod.rs:331:101: warning TS012 the line is 157 columns, over the 100 column limit
+src/_derive/mod.rs:332:101: warning TS012 the line is 157 columns, over the 100 column limit
+src/_derive/mod.rs:338:101: warning TS012 the line is 107 columns, over the 100 column limit
+src/_derive/mod.rs:342:101: warning TS012 the line is 112 columns, over the 100 column limit
+src/_derive/mod.rs:349:101: warning TS012 the line is 125 columns, over the 100 column limit
+src/_derive/mod.rs:350:101: warning TS012 the line is 128 columns, over the 100 column limit
+src/_derive/mod.rs:424:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/_derive/mod.rs:511:101: warning TS012 the line is 102 columns, over the 100 column limit
+src/_derive/mod.rs:88:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/_derive/mod.rs:89:101: warning TS012 the line is 119 columns, over the 100 column limit
+src/_derive/mod.rs:91:101: warning TS012 the line is 112 columns, over the 100 column limit
+src/_derive/mod.rs:92:101: warning TS012 the line is 117 columns, over the 100 column limit
+src/_faq.rs:40:101: warning TS012 the line is 103 columns, over the 100 column limit
+src/_faq.rs:41:101: warning TS012 the line is 112 columns, over the 100 column limit
+src/_faq.rs:45:101: warning TS012 the line is 547 columns, over the 100 column limit
+src/_faq.rs:49:101: warning TS012 the line is 566 columns, over the 100 column limit
+src/_faq.rs:53:101: warning TS012 the line is 178 columns, over the 100 column limit
+src/_faq.rs:54:101: warning TS012 the line is 110 columns, over the 100 column limit
+src/_faq.rs:56:101: warning TS012 the line is 152 columns, over the 100 column limit
+src/_faq.rs:57:101: warning TS012 the line is 218 columns, over the 100 column limit
+src/_faq.rs:5:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/_faq.rs:67:101: warning TS012 the line is 103 columns, over the 100 column limit
+src/_faq.rs:6:101: warning TS012 the line is 126 columns, over the 100 column limit
+src/_faq.rs:88:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/_faq.rs:8:101: warning TS012 the line is 109 columns, over the 100 column limit
+src/_faq.rs:92:101: warning TS012 the line is 202 columns, over the 100 column limit
+src/_faq.rs:94:101: warning TS012 the line is 175 columns, over the 100 column limit
+src/_faq.rs:9:101: warning TS012 the line is 101 columns, over the 100 column limit
+src/_features.rs:17:101: warning TS012 the line is 136 columns, over the 100 column limit
+src/_features.rs:18:101: warning TS012 the line is 159 columns, over the 100 column limit
+src/_features.rs:19:77: warning TS012 the line is 201 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+src/_features.rs:21:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/_features.rs:3:101: warning TS012 the line is 119 columns, over the 100 column limit
+src/_features.rs:7:101: warning TS012 the line is 117 columns, over the 100 column limit
+src/_tutorial.rs:194:101: warning TS012 the line is 115 columns, over the 100 column limit
+src/_tutorial.rs:245:1: warning TS020 [*] the attribute silences a checker
+src/_tutorial.rs:246:5: warning TS011 the import brings in every name
+src/_tutorial.rs:31:101: warning TS012 the line is 116 columns, over the 100 column limit
+src/_tutorial.rs:80:101: warning TS012 the line is 105 columns, over the 100 column limit
+src/_tutorial.rs:98:101: warning TS012 the line is 110 columns, over the 100 column limit
+src/bin/stdio-fixture.rs:3:1: warning TS002 the function is 106 lines, over the 70 line limit
+src/bin/stdio-fixture.rs:4:5: warning TS020 [*] the attribute silences a checker
+src/lib.rs:15:101: warning TS012 the line is 109 columns, over the 100 column limit
+src/lib.rs:1:101: warning TS012 the line is 122 columns, over the 100 column limit
+src/lib.rs:21:101: warning TS012 the line is 185 columns, over the 100 column limit
+src/lib.rs:61:101: warning TS012 the line is 103 columns, over the 100 column limit
+src/lib.rs:62:101: warning TS012 the line is 115 columns, over the 100 column limit
+src/lib.rs:66:101: warning TS012 the line is 132 columns, over the 100 column limit
+src/lib.rs:77:101: warning TS012 the line is 131 columns, over the 100 column limit
+src/lib.rs:90:9: warning TS011 the import brings in every name
+tests/builder/action.rs:1:1: warning TS020 [*] the attribute silences a checker
+tests/builder/arg_matches.rs:49:101: warning TS012 the line is 122 columns, over the 100 column limit
+tests/builder/arg_matches.rs:62:101: warning TS012 the line is 169 columns, over the 100 column limit
+tests/builder/command.rs:28:9: error TS036 the assertion calls replace, which changes state; an assertion only reads, and this one runs in release builds too
+tests/builder/conflicts.rs:523:101: warning TS012 the line is 104 columns, over the 100 column limit
+tests/builder/default_missing_vals.rs:168:1: warning TS020 [*] the attribute silences a checker
+tests/builder/env.rs:466:26: info TS038 the branch states its condition negatively and carries an else; swap the arms
+tests/builder/error.rs:230:13: error TS036 the assertion calls remove, which changes state; an assertion only reads, and this one runs in release builds too
+tests/builder/error.rs:231:13: error TS036 the assertion calls remove, which changes state; an assertion only reads, and this one runs in release builds too
+tests/builder/error.rs:232:13: error TS036 the assertion calls insert, which changes state; an assertion only reads, and this one runs in release builds too
+tests/builder/flag_subcommands.rs:435:101: warning TS012 the line is 121 columns, over the 100 column limit
+tests/builder/flag_subcommands.rs:457:101: warning TS012 the line is 102 columns, over the 100 column limit
+tests/builder/flag_subcommands.rs:472:101: warning TS012 the line is 121 columns, over the 100 column limit
+tests/builder/flag_subcommands.rs:483:101: warning TS012 the line is 124 columns, over the 100 column limit
+tests/builder/flag_subcommands.rs:494:101: warning TS012 the line is 124 columns, over the 100 column limit
+tests/builder/flag_subcommands.rs:504:101: warning TS012 the line is 118 columns, over the 100 column limit
+tests/builder/flag_subcommands.rs:514:101: warning TS012 the line is 123 columns, over the 100 column limit
+tests/builder/flags.rs:220:101: warning TS012 the line is 120 columns, over the 100 column limit
+tests/builder/help.rs:1042:101: warning TS012 the line is 107 columns, over the 100 column limit
+tests/builder/help.rs:1043:101: warning TS012 the line is 105 columns, over the 100 column limit
+tests/builder/help.rs:1045:1: info TS029 the line indents 11 columns, which is not a multiple of 4
+tests/builder/help.rs:1079:101: warning TS012 the line is 111 columns, over the 100 column limit
+tests/builder/help.rs:1080:101: warning TS012 the line is 109 columns, over the 100 column limit
+tests/builder/help.rs:1081:101: warning TS012 the line is 104 columns, over the 100 column limit
+tests/builder/help.rs:1082:1: info TS029 the line indents 15 columns, which is not a multiple of 4
+tests/builder/help.rs:1202:101: warning TS012 the line is 134 columns, over the 100 column limit
+tests/builder/help.rs:1224:4: info TS025 the name leads with the qualifier old; put it last
+tests/builder/help.rs:1246:4: info TS025 the name leads with the qualifier old; put it last
+tests/builder/help.rs:1275:101: warning TS012 the line is 113 columns, over the 100 column limit
+tests/builder/help.rs:1276:101: warning TS012 the line is 118 columns, over the 100 column limit
+tests/builder/help.rs:1300:1: info TS029 the line indents with a tab
+tests/builder/help.rs:1301:1: info TS029 the line indents with a tab
+tests/builder/help.rs:1303:89: warning TS012 the line is 113 columns, over the 100 column limit
+tests/builder/help.rs:1304:101: warning TS012 the line is 117 columns, over the 100 column limit
+tests/builder/help.rs:1306:1: info TS029 the line indents with a tab
+tests/builder/help.rs:1307:1: info TS029 the line indents with a tab
+tests/builder/help.rs:1313:1: info TS029 the line indents with a tab
+tests/builder/help.rs:1315:89: warning TS012 the line is 113 columns, over the 100 column limit
+tests/builder/help.rs:1318:1: info TS029 the line indents with a tab
+tests/builder/help.rs:1319:1: info TS029 the line indents with a tab
+tests/builder/help.rs:1325:1: info TS029 the line indents with a tab
+tests/builder/help.rs:1327:89: warning TS012 the line is 113 columns, over the 100 column limit
+tests/builder/help.rs:1328:101: warning TS012 the line is 117 columns, over the 100 column limit
+tests/builder/help.rs:1330:1: info TS029 the line indents with a tab
+tests/builder/help.rs:1425:1: warning TS002 the function is 82 lines, over the 70 line limit
+tests/builder/help.rs:1829:101: warning TS012 the line is 199 columns, over the 100 column limit
+tests/builder/help.rs:1838:101: warning TS012 the line is 210 columns, over the 100 column limit
+tests/builder/help.rs:1847:101: warning TS012 the line is 220 columns, over the 100 column limit
+tests/builder/help.rs:1859:4: info TS025 the name leads with the qualifier last; put it last
+tests/builder/help.rs:1889:4: info TS025 the name leads with the qualifier last; put it last
+tests/builder/help.rs:1920:4: info TS025 the name leads with the qualifier last; put it last
+tests/builder/help.rs:1958:4: info TS025 the name leads with the qualifier last; put it last
+tests/builder/help.rs:2071:101: warning TS012 the line is 115 columns, over the 100 column limit
+tests/builder/help.rs:2229:1: warning TS002 the function is 77 lines, over the 70 line limit
+tests/builder/help.rs:3940:1: warning TS002 the function is 158 lines, over the 70 line limit
+tests/builder/help.rs:4100:1: warning TS002 the function is 71 lines, over the 70 line limit
+tests/builder/help.rs:4250:1: warning TS002 the function is 93 lines, over the 70 line limit
+tests/builder/help.rs:4346:1: warning TS002 the function is 93 lines, over the 70 line limit
+tests/builder/help.rs:4442:1: warning TS002 the function is 184 lines, over the 70 line limit
+tests/builder/help.rs:4629:1: warning TS002 the function is 184 lines, over the 70 line limit
+tests/builder/help.rs:572:101: warning TS012 the line is 114 columns, over the 100 column limit
+tests/builder/help.rs:629:101: warning TS012 the line is 114 columns, over the 100 column limit
+tests/builder/macros.rs:3:5: warning TS011 the import brings in every name
+tests/builder/main.rs:1:1: warning TS020 [*] the attribute silences a checker
+tests/builder/multiple_values.rs:1446:1: warning TS002 the function is 115 lines, over the 70 line limit
+tests/builder/multiple_values.rs:1563:1: warning TS002 the function is 95 lines, over the 70 line limit
+tests/builder/multiple_values.rs:1852:1: warning TS002 the function is 99 lines, over the 70 line limit
+tests/builder/multiple_values.rs:2122:4: info TS025 the name leads with the qualifier num; put it last
+tests/builder/positionals.rs:270:4: info TS025 the name leads with the qualifier last; put it last
+tests/builder/positionals.rs:288:4: info TS025 the name leads with the qualifier last; put it last
+tests/builder/positionals.rs:299:4: info TS025 the name leads with the qualifier last; put it last
+tests/builder/positionals.rs:310:101: warning TS012 the line is 102 columns, over the 100 column limit
+tests/builder/positionals.rs:321:101: warning TS012 the line is 102 columns, over the 100 column limit
+tests/builder/posix_compatible.rs:343:101: warning TS012 the line is 104 columns, over the 100 column limit
+tests/builder/possible_values.rs:581:21: error TS036 the assertion calls lock, which changes state; an assertion only reads, and this one runs in release builds too
+tests/builder/possible_values.rs:614:21: error TS036 the assertion calls lock, which changes state; an assertion only reads, and this one runs in release builds too
+tests/builder/require.rs:1136:9: warning TS011 the import brings in every name
+tests/builder/require.rs:1236:101: warning TS012 the line is 112 columns, over the 100 column limit
+tests/builder/require.rs:1245:101: warning TS012 the line is 112 columns, over the 100 column limit
+tests/builder/require.rs:1258:101: warning TS012 the line is 118 columns, over the 100 column limit
+tests/builder/require.rs:1271:101: warning TS012 the line is 119 columns, over the 100 column limit
+tests/builder/require.rs:376:101: warning TS012 the line is 101 columns, over the 100 column limit
+tests/builder/tests.rs:220:21: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+tests/builder/tests.rs:90:1: warning TS002 the function is 152 lines, over the 70 line limit
+tests/builder/unique_args.rs:14:101: warning TS012 the line is 117 columns, over the 100 column limit
+tests/builder/unique_args.rs:25:101: warning TS012 the line is 120 columns, over the 100 column limit
+tests/builder/unique_args.rs:3:101: warning TS012 the line is 106 columns, over the 100 column limit
+tests/builder/utf8.rs:347:101: warning TS012 the line is 157 columns, over the 100 column limit
+tests/builder/utf8.rs:366:101: warning TS012 the line is 157 columns, over the 100 column limit
+tests/builder/utils.rs:1:1: warning TS020 [*] the attribute silences a checker
+tests/builder/version.rs:285:101: warning TS012 the line is 219 columns, over the 100 column limit
+tests/builder/version.rs:298:101: warning TS012 the line is 213 columns, over the 100 column limit
+tests/builder/version.rs:348:101: warning TS012 the line is 105 columns, over the 100 column limit
+tests/builder/version.rs:363:101: warning TS012 the line is 101 columns, over the 100 column limit
+tests/derive/app_name.rs:4:5: warning TS011 the import brings in every name
+tests/derive/arguments.rs:19:5: warning TS011 the import brings in every name
+tests/derive/author_version_about.rs:17:5: warning TS011 the import brings in every name
+tests/derive/custom_string_parsers.rs:20:5: warning TS011 the import brings in every name
+tests/derive/default_value.rs:118:1: warning TS002 the function is 84 lines, over the 70 line limit
+tests/derive/default_value.rs:288:5: warning TS020 [*] the attribute silences a checker
+tests/derive/default_value.rs:5:5: warning TS011 the import brings in every name
+tests/derive/default_value.rs:90:101: warning TS012 the line is 104 columns, over the 100 column limit
+tests/derive/doc_comments_help.rs:19:5: warning TS011 the import brings in every name
+tests/derive/explicit_name_no_renaming.rs:3:5: warning TS011 the import brings in every name
+tests/derive/flags.rs:218:9: warning TS020 [*] the attribute silences a checker
+tests/derive/flags.rs:59:101: warning TS012 the line is 119 columns, over the 100 column limit
+tests/derive/flags.rs:61:101: warning TS012 the line is 119 columns, over the 100 column limit
+tests/derive/flatten.rs:17:5: warning TS011 the import brings in every name
+tests/derive/help.rs:501:101: warning TS012 the line is 118 columns, over the 100 column limit
+tests/derive/help.rs:517:101: warning TS012 the line is 124 columns, over the 100 column limit
+tests/derive/help.rs:64:1: warning TS002 the function is 110 lines, over the 70 line limit
+tests/derive/help.rs:66:5: warning TS020 [*] the attribute silences a checker
+tests/derive/issues.rs:112:13: info TS025 the name leads with the qualifier num; put it last
+tests/derive/issues.rs:5:5: warning TS011 the import brings in every name
+tests/derive/macros.rs:26:17: warning TS020 [*] the attribute silences a checker
+tests/derive/markdown.rs:140:101: warning TS012 the line is 103 columns, over the 100 column limit
+tests/derive/naming.rs:205:5: warning TS020 [*] the attribute silences a checker
+tests/derive/naming.rs:7:5: warning TS020 [*] the attribute silences a checker
+tests/derive/naming.rs:92:5: warning TS020 [*] the attribute silences a checker
+tests/derive/non_literal_attributes.rs:20:5: warning TS011 the import brings in every name
+tests/derive/options.rs:15:1: warning TS020 [*] the attribute silences a checker
+tests/derive/options.rs:19:5: warning TS011 the import brings in every name
+tests/derive/options.rs:232:27: warning TS041 Result<Option<String>, std::convert::Infallible> stacks 2 layers of optionality; every layer is a case each caller has to handle
+tests/derive/options.rs:257:9: warning TS020 [*] the attribute silences a checker
+tests/derive/rename_all_env.rs:5:5: warning TS011 the import brings in every name
+tests/derive/skip.rs:72:5: warning TS020 [*] the attribute silences a checker
+tests/derive/subcommands.rs:17:5: warning TS011 the import brings in every name
+tests/derive/subcommands.rs:573:9: warning TS020 [*] the attribute silences a checker
+tests/derive/subcommands.rs:577:9: warning TS020 [*] the attribute silences a checker
+tests/derive/subcommands.rs:582:5: warning TS020 [*] the attribute silences a checker
+tests/derive/type_alias_regressions.rs:6:1: warning TS020 [*] the attribute silences a checker
+tests/derive/utils.rs:6:1: warning TS020 [*] the attribute silences a checker
+tests/derive/value_enum.rs:184:5: warning TS020 [*] the attribute silences a checker
+tests/derive/value_enum.rs:396:5: warning TS020 [*] the attribute silences a checker
+tests/derive/value_enum.rs:427:5: warning TS020 [*] the attribute silences a checker

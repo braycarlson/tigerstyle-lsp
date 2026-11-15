@@ -1,0 +1,3 @@
+# tigerstyle-lsp
+
+A linter for TigerStyle and NASA's Power of Ten. The linter checks Go, JavaScript, Odin, Python, Rust, TypeScript, and Zig, with rules that cover recursion, loop bounds, and assertion density. The same checks run from the command line and as a language server, with extensions for VS Code, IntelliJ, and Sublime Text. A `tigerstyle.toml` file selects the rules, a fix can be applied automatically, and a baseline holds back existing findings so a project can adopt the rules gradually. The rules are tuned on labeled findings from pinned projects such as TigerBeetle, Zig, and Django, so a false positive narrows the rule. The full list is in [docs/rules.md](docs/rules.md).

@@ -1,0 +1,16 @@
+0:5 identifier
+6:1 punctuation:assign
+8:6 string
+14:1 newline
+15:3 identifier
+19:1 punctuation:assign
+21:14 string
+35:1 newline
+36:6 identifier
+43:1 punctuation:assign
+45:10 string
+55:1 newline
+56:5 identifier
+62:1 punctuation:assign
+64:1 number
+65:1 newline

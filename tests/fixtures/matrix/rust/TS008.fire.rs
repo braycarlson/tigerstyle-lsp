@@ -1,0 +1,11 @@
+fn deep(flag: bool, value: u32) -> u32 {
+    if flag {
+        if value > 0 {
+            if value > 1 {
+                return 1;
+            }
+        }
+    }
+
+    0
+}

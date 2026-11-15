@@ -1,0 +1,15 @@
+0:5 keyword:constant
+6:5 identifier
+12:1 punctuation:assign
+14:6 string
+20:1 punctuation:semicolon
+22:5 keyword:constant
+28:6 identifier
+35:1 punctuation:assign
+37:10 string
+47:1 punctuation:semicolon
+49:5 keyword:constant
+55:5 identifier
+61:1 punctuation:assign
+63:1 number
+64:1 punctuation:semicolon

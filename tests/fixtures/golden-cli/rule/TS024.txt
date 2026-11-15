@@ -1,0 +1,10 @@
+TS024 split-compound-assert
+
+A compound assertion splits into one assertion per condition, so a failure reports which half broke.
+
+languages: go javascript odin python rust typescript zig
+severity: warning
+default: on
+group: stable
+
+TigerStyle: "Split compound assertions: prefer `assert(a); assert(b);` over `assert(a and b);`. The former is simpler to read, and provides more precise information if the condition fails."

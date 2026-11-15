@@ -1,0 +1,10 @@
+TS034 callback-last
+
+A callback parameter comes last, because it is the one the function invokes.
+
+languages: go javascript odin python rust typescript zig
+severity: warning
+default: opt-in
+group: stable
+
+TigerStyle: "Callbacks go last in the list of parameters. This mirrors control flow: callbacks are also _invoked_ last."

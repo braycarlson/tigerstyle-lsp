@@ -1,0 +1,86 @@
+[
+  {
+    "check_name": "TS011",
+    "description": "the import brings in every name",
+    "fingerprint": "e7464f4d831950c7",
+    "location": {
+      "lines": {
+        "begin": 1
+      },
+      "path": "sample.py"
+    },
+    "severity": "minor"
+  },
+  {
+    "check_name": "TS003",
+    "description": "the function takes 8 parameters, over the 7 the style allows",
+    "fingerprint": "ff95132162145926",
+    "location": {
+      "lines": {
+        "begin": 5
+      },
+      "path": "sample.py"
+    },
+    "severity": "minor"
+  },
+  {
+    "check_name": "TS006",
+    "description": "the loop carries no upper bound; give it a fixed maximum",
+    "fingerprint": "7542ce1831d23783",
+    "location": {
+      "lines": {
+        "begin": 7
+      },
+      "path": "sample.py"
+    },
+    "severity": "minor"
+  },
+  {
+    "check_name": "TS023",
+    "description": "the condition combines booleans; split it into nested branches",
+    "fingerprint": "f1fc03f899350abb",
+    "location": {
+      "lines": {
+        "begin": 8
+      },
+      "path": "sample.py"
+    },
+    "severity": "minor"
+  },
+  {
+    "check_name": "TS009",
+    "description": "the handler catches every error",
+    "fingerprint": "9b3ef6394a430de6",
+    "location": {
+      "lines": {
+        "begin": 10
+      },
+      "path": "sample.py"
+    },
+    "severity": "minor"
+  },
+  {
+    "check_name": "TS010",
+    "description": "the handler does nothing with the error",
+    "fingerprint": "52574a013e693fc0",
+    "location": {
+      "lines": {
+        "begin": 10
+      },
+      "path": "sample.py"
+    },
+    "severity": "major"
+  },
+  {
+    "check_name": "TS015",
+    "description": "the expression is an unnamed function",
+    "fingerprint": "0d3ec9470404a3c5",
+    "location": {
+      "lines": {
+        "begin": 13
+      },
+      "path": "sample.py"
+    },
+    "severity": "minor"
+  }
+]

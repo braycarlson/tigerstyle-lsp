@@ -1,0 +1,10 @@
+TS048 main-first
+
+The entry point comes first in the file, so a reader meets the top of the call graph before its parts.
+
+languages: go javascript odin python rust typescript zig
+severity: info
+default: opt-in
+group: stable
+
+TigerStyle: "_Order_ matters for readability (even if it doesn't affect semantics). On the first read, a file is read top-down, so put important things near the top. The `main` function goes first."

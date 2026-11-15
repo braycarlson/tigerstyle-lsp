@@ -1,0 +1,13 @@
+TS035 conditional-compilation
+
+One program is built for every target, because a branch taken at build time is a branch no test covers.
+
+languages: go odin rust zig
+severity: warning
+default: opt-in
+group: stable
+javascript: JavaScript has no build step; a check of the platform or the environment is a runtime branch
+python: Python has no build step; a check of the platform or the interpreter version is a runtime branch
+typescript: TypeScript has no build step of its own; a check of the platform or the environment is a runtime branch
+
+NASA P10 Rule 8: "The use of conditional compilation directives is often also dubious, but cannot always be avoided. This means that there should rarely be justification for more than one or two conditional compilation directives even in large software development efforts, beyond the standard boilerplate that avoids multiple inclusion of the same header file. Each such use should be flagged by a tool-based checker and justified in the code."

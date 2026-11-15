@@ -1,0 +1,15 @@
+0:30 comment
+31:3 keyword:other
+35:2 keyword:function
+38:5 identifier
+43:1 punctuation:paren-open
+44:1 identifier
+45:1 punctuation:colon
+47:3 identifier
+50:1 punctuation:paren-close
+52:3 identifier
+56:1 block-start
+62:6 keyword:return
+69:1 identifier
+70:1 punctuation:semicolon
+72:1 block-end

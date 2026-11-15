@@ -1,0 +1,14 @@
+TS007 no-dynamic-exec
+
+Code is not built and run at runtime, because nothing can be checked before it executes.
+
+languages: javascript python typescript
+severity: error
+default: on
+group: stable
+go: Go has no eval or exec; there is no runtime string-to-code path to report
+odin: Odin has no eval or exec; there is no runtime string-to-code path to report
+rust: Rust has no eval or exec; there is no runtime string-to-code path to report
+zig: Zig has no eval or exec; there is no runtime string-to-code path to report
+
+NASA P10 Rule 10: "All code must be checked daily with at least one, but preferably more than one, state-of-the-art static source code analyzer and should pass the analyses with zero warnings."

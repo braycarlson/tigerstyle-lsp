@@ -1,0 +1,10 @@
+TS025 big-endian-names
+
+A name is ordered from most significant word to least, so related names sort and read together.
+
+languages: go javascript odin python rust typescript zig
+severity: info
+default: on
+group: stable
+
+TigerStyle: "Add units or qualifiers to variable names, and put the units or qualifiers last, sorted by descending significance, so that the variable starts with the most significant word, and ends with the least significant word. For example, `latency_ms_max` rather than `max_latency_ms`."

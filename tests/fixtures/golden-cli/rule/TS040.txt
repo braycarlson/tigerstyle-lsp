@@ -1,0 +1,15 @@
+TS040 division-intent
+
+Integer division names the way it rounds, because the remainder is discarded either way.
+
+languages: rust zig
+severity: info
+default: opt-in
+group: stable
+go: integer division is spelled with the same operator as float division; telling them apart needs type inference this linter does not do
+javascript: integer division is spelled with the same operator as float division; telling them apart needs type inference this linter does not do
+odin: integer division is spelled with the same operator as float division; telling them apart needs type inference this linter does not do
+python: the // operator already names the rounding, and telling / apart needs type inference this linter does not do
+typescript: integer division is spelled with the same operator as float division; telling them apart needs type inference this linter does not do
+
+TigerStyle: "Show your intent with respect to division. For example, use `@divExact()`, `@divFloor()` or `div_ceil()` to show the reader you've thought through all the interesting scenarios where rounding may be involved."

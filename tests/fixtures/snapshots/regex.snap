@@ -1,0 +1,1063 @@
+fuzz/fuzz_targets/ast_roundtrip.rs:35:28: warning TS015 the expression is an unnamed function
+regex-automata/src/dfa/accel.rs:165:27: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/dfa/accel.rs:170:13: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/dfa/accel.rs:202:13: info TS025 the name puts bytes before len; order the qualifiers by descending significance, as in latency_ms_max
+regex-automata/src/dfa/automaton.rs:1300:10: warning TS041 Result<Option<HalfMatch>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/dfa/automaton.rs:1489:10: warning TS041 Result<Option<HalfMatch>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/dfa/automaton.rs:1821:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/automaton.rs:1952:10: warning TS041 Result<Option<HalfMatch>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/dfa/automaton.rs:1960:10: warning TS041 Result<Option<HalfMatch>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/dfa/automaton.rs:2038:16: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/dfa/automaton.rs:2191:5: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-automata/src/dfa/automaton.rs:2212:5: warning TS039 the chain runs 5 branches, over the 3 allowed; split it into a tree
+regex-automata/src/dfa/dense.rs:1209:5: warning TS002 the function is 74 lines, over the 70 line limit
+regex-automata/src/dfa/dense.rs:1214:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/dense.rs:1221:26: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-automata/src/dfa/dense.rs:1535:15: warning TS003 the function takes 8 parameters, over the 7 the style allows
+regex-automata/src/dfa/dense.rs:2371:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/dense.rs:2604:5: warning TS002 the function is 214 lines, over the 70 line limit
+regex-automata/src/dfa/dense.rs:2649:17: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/dfa/dense.rs:2656:13: warning TS015 the expression is an unnamed function
+regex-automata/src/dfa/dense.rs:2663:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/dense.rs:2667:21: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/dfa/dense.rs:2668:21: info TS025 the name leads with the qualifier cur; put it last
+regex-automata/src/dfa/dense.rs:2679:29: info TS025 the name leads with the qualifier cur; put it last
+regex-automata/src/dfa/dense.rs:2680:29: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/dfa/dense.rs:2725:21: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/dfa/dense.rs:2726:21: info TS025 the name leads with the qualifier cur; put it last
+regex-automata/src/dfa/dense.rs:2728:21: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/dfa/dense.rs:2769:21: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/dfa/dense.rs:2770:21: info TS025 the name leads with the qualifier cur; put it last
+regex-automata/src/dfa/dense.rs:2823:5: warning TS002 the function is 98 lines, over the 70 line limit
+regex-automata/src/dfa/dense.rs:2872:21: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/dfa/dense.rs:2873:21: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/dfa/dense.rs:2894:21: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/dfa/dense.rs:2931:24: warning TS015 the expression is an unnamed function
+regex-automata/src/dfa/dense.rs:2941:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/dense.rs:2953:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/dense.rs:3272:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/dense.rs:3428:13: info TS025 the name puts bytes before len; order the qualifiers by descending significance, as in latency_ms_max
+regex-automata/src/dfa/dense.rs:3639:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/dense.rs:3988:5: warning TS002 the function is 102 lines, over the 70 line limit
+regex-automata/src/dfa/dense.rs:4061:13: info TS025 the name puts bytes before len; order the qualifiers by descending significance, as in latency_ms_max
+regex-automata/src/dfa/dense.rs:4397:13: info TS025 the name puts bytes before len; order the qualifiers by descending significance, as in latency_ms_max
+regex-automata/src/dfa/dense.rs:4953:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/dense.rs:5045:13: warning TS011 the import brings in every name
+regex-automata/src/dfa/dense.rs:5199:9: warning TS011 the import brings in every name
+regex-automata/src/dfa/dense.rs:5275:13: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/dfa/dense.rs:668:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/determinize.rs:215:5: warning TS002 the function is 77 lines, over the 70 line limit
+regex-automata/src/dfa/determinize.rs:216:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/determinize.rs:234:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-automata/src/dfa/determinize.rs:244:22: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/dfa/determinize.rs:268:17: info TS025 the name leads with the qualifier total; put it last
+regex-automata/src/dfa/determinize.rs:366:5: warning TS002 the function is 88 lines, over the 70 line limit
+regex-automata/src/dfa/determinize.rs:402:12: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-automata/src/dfa/determinize.rs:412:12: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-automata/src/dfa/minimize.rs:140:29: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+regex-automata/src/dfa/minimize.rs:140:40: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-automata/src/dfa/minimize.rs:171:17: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/dfa/minimize.rs:183:21: warning TS015 the expression is an unnamed function
+regex-automata/src/dfa/minimize.rs:209:14: info TS025 the name leads with the qualifier old; put it last
+regex-automata/src/dfa/minimize.rs:223:17: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/dfa/minimize.rs:246:21: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/dfa/minimize.rs:260:21: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/dfa/minimize.rs:300:8: info TS025 the name leads with the qualifier initial; put it last
+regex-automata/src/dfa/minimize.rs:388:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/minimize.rs:395:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-automata/src/dfa/minimize.rs:422:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/minimize.rs:430:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-automata/src/dfa/minimize.rs:87:5: warning TS002 the function is 191 lines, over the 70 line limit
+regex-automata/src/dfa/minimize.rs:89:27: warning TS015 the expression is an unnamed function
+regex-automata/src/dfa/minimize.rs:92:24: warning TS015 the expression is an unnamed function
+regex-automata/src/dfa/onepass.rs:1112:5: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/dfa/onepass.rs:1978:10: warning TS041 Result<Option<PatternID>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/dfa/onepass.rs:2010:10: warning TS041 Result<Option<PatternID>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/dfa/onepass.rs:2032:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/onepass.rs:2042:5: warning TS002 the function is 142 lines, over the 70 line limit
+regex-automata/src/dfa/onepass.rs:2047:10: warning TS041 Result<Option<PatternID>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/dfa/onepass.rs:2130:17: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/dfa/onepass.rs:2153:24: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/onepass.rs:2160:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/onepass.rs:2206:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/onepass.rs:2337:8: info TS025 the name leads with the qualifier last; put it last
+regex-automata/src/dfa/onepass.rs:2377:5: warning TS002 the function is 76 lines, over the 70 line limit
+regex-automata/src/dfa/onepass.rs:3052:13: warning TS011 the import brings in every name
+regex-automata/src/dfa/onepass.rs:3064:13: warning TS011 the import brings in every name
+regex-automata/src/dfa/onepass.rs:3101:9: warning TS011 the import brings in every name
+regex-automata/src/dfa/onepass.rs:3105:25: warning TS015 the expression is an unnamed function
+regex-automata/src/dfa/onepass.rs:3113:25: warning TS015 the expression is an unnamed function
+regex-automata/src/dfa/onepass.rs:3123:25: warning TS015 the expression is an unnamed function
+regex-automata/src/dfa/onepass.rs:3139:8: info TS025 the name leads with the qualifier max; put it last
+regex-automata/src/dfa/onepass.rs:525:26: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-automata/src/dfa/onepass.rs:581:5: warning TS002 the function is 148 lines, over the 70 line limit
+regex-automata/src/dfa/onepass.rs:741:17: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/dfa/onepass.rs:775:13: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/dfa/onepass.rs:874:13: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/dfa/regex.rs:477:10: warning TS041 Result<Option<Match>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/dfa/remapper.rs:135:17: info TS025 the name leads with the qualifier cur; put it last
+regex-automata/src/dfa/remapper.rs:136:21: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/dfa/remapper.rs:140:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-automata/src/dfa/search.rs:100:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/search.rs:126:13: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+regex-automata/src/dfa/search.rs:132:21: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+regex-automata/src/dfa/search.rs:134:25: warning TS008 the branch nests 6 levels deep, over the 4 level limit
+regex-automata/src/dfa/search.rs:146:33: warning TS008 the branch nests 7 levels deep, over the 4 level limit
+regex-automata/src/dfa/search.rs:148:37: warning TS008 the branch nests 8 levels deep, over the 4 level limit
+regex-automata/src/dfa/search.rs:18:6: warning TS041 Result<Option<HalfMatch>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/dfa/search.rs:200:6: warning TS041 Result<Option<HalfMatch>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/dfa/search.rs:212:1: warning TS002 the function is 106 lines, over the 70 line limit
+regex-automata/src/dfa/search.rs:216:6: warning TS041 Result<Option<HalfMatch>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/dfa/search.rs:237:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-automata/src/dfa/search.rs:242:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/search.rs:270:13: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+regex-automata/src/dfa/search.rs:342:1: warning TS002 the function is 109 lines, over the 70 line limit
+regex-automata/src/dfa/search.rs:383:13: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+regex-automata/src/dfa/search.rs:386:21: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+regex-automata/src/dfa/search.rs:389:29: warning TS008 the branch nests 6 levels deep, over the 4 level limit
+regex-automata/src/dfa/search.rs:391:33: warning TS008 the branch nests 7 levels deep, over the 4 level limit
+regex-automata/src/dfa/search.rs:453:1: warning TS002 the function is 105 lines, over the 70 line limit
+regex-automata/src/dfa/search.rs:45:1: warning TS002 the function is 150 lines, over the 70 line limit
+regex-automata/src/dfa/search.rs:505:13: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+regex-automata/src/dfa/search.rs:50:6: warning TS041 Result<Option<HalfMatch>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/dfa/sparse.rs:1219:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/sparse.rs:1401:5: warning TS002 the function is 80 lines, over the 70 line limit
+regex-automata/src/dfa/sparse.rs:1542:5: warning TS002 the function is 160 lines, over the 70 line limit
+regex-automata/src/dfa/sparse.rs:1560:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/sparse.rs:1565:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/sparse.rs:1569:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/sparse.rs:1592:13: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/dfa/sparse.rs:1639:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/sparse.rs:1644:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/sparse.rs:1669:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/sparse.rs:1673:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/sparse.rs:1859:14: info TS025 the name leads with the qualifier old; put it last
+regex-automata/src/dfa/sparse.rs:1860:17: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/dfa/sparse.rs:1874:5: warning TS002 the function is 96 lines, over the 70 line limit
+regex-automata/src/dfa/sparse.rs:1946:13: info TS025 the name puts bytes before len; order the qualifiers by descending significance, as in latency_ms_max
+regex-automata/src/dfa/sparse.rs:226:5: warning TS002 the function is 179 lines, over the 70 line limit
+regex-automata/src/dfa/sparse.rs:2303:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/sparse.rs:2666:13: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/dfa/sparse.rs:387:13: info TS025 the name leads with the qualifier old; put it last
+regex-automata/src/dfa/sparse.rs:388:17: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/dfa/sparse.rs:389:21: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/dfa/special.rs:169:16: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/dfa/special.rs:171:16: info TS025 the name leads with the qualifier max; put it last
+regex-automata/src/dfa/special.rs:173:16: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/dfa/special.rs:175:16: info TS025 the name leads with the qualifier max; put it last
+regex-automata/src/dfa/special.rs:177:16: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/dfa/special.rs:179:16: info TS025 the name leads with the qualifier max; put it last
+regex-automata/src/dfa/special.rs:229:27: warning TS015 the expression is an unnamed function
+regex-automata/src/dfa/special.rs:238:13: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/dfa/special.rs:239:13: info TS025 the name leads with the qualifier max; put it last
+regex-automata/src/dfa/special.rs:240:13: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/dfa/special.rs:241:13: info TS025 the name leads with the qualifier max; put it last
+regex-automata/src/dfa/special.rs:242:13: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/dfa/special.rs:243:13: info TS025 the name leads with the qualifier max; put it last
+regex-automata/src/dfa/special.rs:264:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/special.rs:267:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/special.rs:270:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/special.rs:273:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/special.rs:276:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/special.rs:279:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/special.rs:295:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/special.rs:298:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/special.rs:301:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/special.rs:304:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/special.rs:307:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/dfa/special.rs:310:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/hybrid/dfa.rs:1142:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/hybrid/dfa.rs:1564:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/hybrid/dfa.rs:1857:5: info TS025 the name leads with the qualifier bytes; put it last
+regex-automata/src/hybrid/dfa.rs:2003:12: info TS025 the name puts total before len; order the qualifiers by descending significance, as in latency_ms_max
+regex-automata/src/hybrid/dfa.rs:2285:5: error TS001 add_state takes part in a call cycle; give it an explicit stack or a bound
+regex-automata/src/hybrid/dfa.rs:2313:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/hybrid/dfa.rs:2331:5: error TS001 next_state_id takes part in a call cycle; give it an explicit stack or a bound
+regex-automata/src/hybrid/dfa.rs:2360:5: error TS001 try_clear_cache takes part in a call cycle; give it an explicit stack or a bound
+regex-automata/src/hybrid/dfa.rs:2362:21: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/hybrid/dfa.rs:2364:29: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/hybrid/dfa.rs:2366:25: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/hybrid/dfa.rs:2457:5: error TS001 clear_cache takes part in a call cycle; give it an explicit stack or a bound
+regex-automata/src/hybrid/dfa.rs:2477:22: info TS025 the name leads with the qualifier old; put it last
+regex-automata/src/hybrid/dfa.rs:2489:17: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/hybrid/dfa.rs:2517:5: error TS001 init_cache takes part in a call cycle; give it an explicit stack or a bound
+regex-automata/src/hybrid/dfa.rs:2897:5: info TS025 the name leads with the qualifier minimum; put it last
+regex-automata/src/hybrid/dfa.rs:2898:5: info TS025 the name leads with the qualifier minimum; put it last
+regex-automata/src/hybrid/dfa.rs:3370:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/hybrid/dfa.rs:3682:12: info TS025 the name leads with the qualifier minimum; put it last
+regex-automata/src/hybrid/dfa.rs:3726:12: info TS025 the name leads with the qualifier minimum; put it last
+regex-automata/src/hybrid/dfa.rs:3792:12: info TS025 the name puts minimum before count; order the qualifiers by descending significance, as in latency_ms_max
+regex-automata/src/hybrid/dfa.rs:3800:12: info TS025 the name puts minimum before bytes; order the qualifiers by descending significance, as in latency_ms_max
+regex-automata/src/hybrid/dfa.rs:3837:12: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-automata/src/hybrid/dfa.rs:4088:13: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/hybrid/dfa.rs:4216:16: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/hybrid/dfa.rs:4285:5: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-automata/src/hybrid/dfa.rs:42:7: info TS025 the name leads with the qualifier MIN; put it last
+regex-automata/src/hybrid/dfa.rs:4301:4: info TS025 the name leads with the qualifier minimum; put it last
+regex-automata/src/hybrid/dfa.rs:4305:9: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/hybrid/dfa.rs:4335:4: info TS025 the name leads with the qualifier minimum; put it last
+regex-automata/src/hybrid/dfa.rs:4375:9: info TS025 the name leads with the qualifier max; put it last
+regex-automata/src/hybrid/dfa.rs:4396:9: warning TS011 the import brings in every name
+regex-automata/src/hybrid/dfa.rs:593:10: warning TS041 Result<Option<HalfMatch>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/hybrid/dfa.rs:794:10: warning TS041 Result<Option<HalfMatch>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/hybrid/error.rs:215:101: warning TS012 the line is 101 columns, over the 100 column limit
+regex-automata/src/hybrid/id.rs:173:11: info TS025 the name leads with the qualifier MAX; put it last
+regex-automata/src/hybrid/id.rs:176:11: info TS025 the name leads with the qualifier MAX; put it last
+regex-automata/src/hybrid/regex.rs:446:10: warning TS041 Result<Option<Match>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/hybrid/search.rs:17:6: warning TS041 Result<Option<HalfMatch>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/hybrid/search.rs:197:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/hybrid/search.rs:233:13: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+regex-automata/src/hybrid/search.rs:239:21: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+regex-automata/src/hybrid/search.rs:241:25: warning TS008 the branch nests 6 levels deep, over the 4 level limit
+regex-automata/src/hybrid/search.rs:256:33: warning TS008 the branch nests 7 levels deep, over the 4 level limit
+regex-automata/src/hybrid/search.rs:258:37: warning TS008 the branch nests 8 levels deep, over the 4 level limit
+regex-automata/src/hybrid/search.rs:306:6: warning TS041 Result<Option<HalfMatch>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/hybrid/search.rs:318:1: warning TS002 the function is 129 lines, over the 70 line limit
+regex-automata/src/hybrid/search.rs:323:6: warning TS041 Result<Option<HalfMatch>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/hybrid/search.rs:345:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-automata/src/hybrid/search.rs:377:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/hybrid/search.rs:415:13: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+regex-automata/src/hybrid/search.rs:472:1: warning TS002 the function is 99 lines, over the 70 line limit
+regex-automata/src/hybrid/search.rs:50:1: warning TS002 the function is 250 lines, over the 70 line limit
+regex-automata/src/hybrid/search.rs:517:13: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+regex-automata/src/hybrid/search.rs:520:21: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+regex-automata/src/hybrid/search.rs:523:29: warning TS008 the branch nests 6 levels deep, over the 4 level limit
+regex-automata/src/hybrid/search.rs:525:33: warning TS008 the branch nests 7 levels deep, over the 4 level limit
+regex-automata/src/hybrid/search.rs:56:6: warning TS041 Result<Option<HalfMatch>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/hybrid/search.rs:573:1: warning TS002 the function is 98 lines, over the 70 line limit
+regex-automata/src/hybrid/search.rs:629:13: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+regex-automata/src/lib.rs:312:1: warning TS012 the line is 104 columns, over the 100 column limit, and its one token cannot be wrapped
+regex-automata/src/lib.rs:325:101: warning TS012 the line is 104 columns, over the 100 column limit
+regex-automata/src/lib.rs:485:101: warning TS012 the line is 111 columns, over the 100 column limit
+regex-automata/src/lib.rs:488:101: warning TS012 the line is 106 columns, over the 100 column limit
+regex-automata/src/lib.rs:638:9: warning TS011 the import brings in every name
+regex-automata/src/macros.rs:3:1: warning TS020 [*] the attribute silences a checker
+regex-automata/src/meta/error.rs:227:13: warning TS011 the import brings in every name
+regex-automata/src/meta/limited.rs:111:8: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/limited.rs:129:5: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/meta/limited.rs:130:6: warning TS041 Result<Option<HalfMatch>, RetryError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/limited.rs:138:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-automata/src/meta/limited.rs:171:8: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/limited.rs:45:1: warning TS002 the function is 78 lines, over the 70 line limit
+regex-automata/src/meta/limited.rs:48:5: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/meta/limited.rs:49:6: warning TS041 Result<Option<HalfMatch>, RetryError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/limited.rs:59:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-automata/src/meta/literal.rs:29:8: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/prefix.rs:138:13: error TS001 hir_is_disjoint_from_class takes part in a call cycle; give it an explicit stack or a bound
+regex-automata/src/meta/prefix.rs:150:5: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-automata/src/meta/prefix.rs:160:40: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-automata/src/meta/prefix.rs:170:40: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-automata/src/meta/prefix.rs:217:37: error TS001 hir_can_consume_byte takes part in a call cycle; give it an explicit stack or a bound
+regex-automata/src/meta/regex.rs:1136:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/regex.rs:1252:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/regex.rs:1296:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/regex.rs:1451:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/regex.rs:2038:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/regex.rs:2042:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/regex.rs:2063:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/regex.rs:921:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/regex.rs:979:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/reverse_inner.rs:250:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-automata/src/meta/reverse_inner.rs:292:62: error TS001 flatten takes part in a call cycle; give it an explicit stack or a bound
+regex-automata/src/meta/reverse_inner.rs:59:8: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/reverse_suffix.rs:102:13: error TS001 strip_literal_suffix_at takes part in a call cycle; give it an explicit stack or a bound
+regex-automata/src/meta/reverse_suffix.rs:128:1: error TS001 strip_repetition_literal_suffix takes part in a call cycle; give it an explicit stack or a bound
+regex-automata/src/meta/reverse_suffix.rs:20:8: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/reverse_suffix.rs:86:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/reverse_suffix.rs:93:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/stopat.rs:104:6: warning TS041 Result<Result<HalfMatch, usize>, RetryFailError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/stopat.rs:55:6: warning TS041 Result<Result<HalfMatch, usize>, RetryFailError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/stopat.rs:64:13: warning TS039 the chain runs 4 branches, over the 3 allowed; split it into a tree
+regex-automata/src/meta/strategy.rs:1133:5: warning TS002 the function is 105 lines, over the 70 line limit
+regex-automata/src/meta/strategy.rs:1176:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/strategy.rs:1244:10: warning TS041 Result<Option<HalfMatch>, RetryError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/strategy.rs:1246:17: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/meta/strategy.rs:1247:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-automata/src/meta/strategy.rs:1277:10: warning TS041 Result<Option<HalfMatch>, RetryFailError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/strategy.rs:1300:9: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/meta/strategy.rs:1301:10: warning TS041 Result<Option<HalfMatch>, RetryError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/strategy.rs:1535:5: warning TS002 the function is 121 lines, over the 70 line limit
+regex-automata/src/meta/strategy.rs:1580:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/strategy.rs:1638:22: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-automata/src/meta/strategy.rs:1662:10: warning TS041 Result<Option<Match>, RetryError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/strategy.rs:1664:17: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/meta/strategy.rs:1665:17: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/meta/strategy.rs:1666:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-automata/src/meta/strategy.rs:1727:10: warning TS041 Result<Result<HalfMatch, usize>, RetryFailError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/strategy.rs:1750:9: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/meta/strategy.rs:1751:10: warning TS041 Result<Option<HalfMatch>, RetryError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/strategy.rs:229:5: warning TS002 the function is 82 lines, over the 70 line limit
+regex-automata/src/meta/strategy.rs:43:5: warning TS020 [*] the attribute silences a checker
+regex-automata/src/meta/strategy.rs:465:5: warning TS002 the function is 86 lines, over the 70 line limit
+regex-automata/src/meta/strategy.rs:498:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/strategy.rs:524:30: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-automata/src/meta/strategy.rs:557:10: warning TS041 Option<Result<Option<Match>, RetryFailError>> stacks 3 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/strategy.rs:81:1: warning TS002 the function is 111 lines, over the 70 line limit
+regex-automata/src/meta/strategy.rs:942:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/strategy.rs:957:10: warning TS041 Result<Option<HalfMatch>, RetryFailError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/wrappers.rs:1005:9: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/meta/wrappers.rs:1006:10: warning TS041 Result<Option<HalfMatch>, RetryError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/wrappers.rs:1138:9: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/meta/wrappers.rs:1139:10: warning TS041 Result<Option<HalfMatch>, RetryError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/wrappers.rs:1307:9: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/meta/wrappers.rs:1308:10: warning TS041 Result<Option<HalfMatch>, RetryError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/wrappers.rs:175:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/wrappers.rs:198:10: warning TS041 Result<Option<BoundedBacktrackerEngine>, BuildError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/wrappers.rs:201:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/wrappers.rs:267:8: info TS025 the name leads with the qualifier max; put it last
+regex-automata/src/meta/wrappers.rs:341:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/wrappers.rs:376:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/meta/wrappers.rs:547:5: warning TS002 the function is 77 lines, over the 70 line limit
+regex-automata/src/meta/wrappers.rs:630:10: warning TS041 Result<Option<Match>, RetryFailError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/wrappers.rs:649:10: warning TS041 Result<Option<HalfMatch>, RetryFailError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/wrappers.rs:669:10: warning TS041 Result<Result<HalfMatch, usize>, RetryFailError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/wrappers.rs:691:10: warning TS041 Result<Option<HalfMatch>, RetryFailError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/wrappers.rs:711:9: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/meta/wrappers.rs:712:10: warning TS041 Result<Option<HalfMatch>, RetryError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/wrappers.rs:839:5: warning TS002 the function is 90 lines, over the 70 line limit
+regex-automata/src/meta/wrappers.rs:934:10: warning TS041 Result<Option<Match>, RetryFailError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/wrappers.rs:951:10: warning TS041 Result<Option<HalfMatch>, RetryFailError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/wrappers.rs:969:10: warning TS041 Result<Result<HalfMatch, usize>, RetryFailError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/meta/wrappers.rs:987:10: warning TS041 Result<Option<HalfMatch>, RetryFailError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/nfa/thompson/backtrack.rs:1298:10: warning TS041 Result<Option<PatternID>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/nfa/thompson/backtrack.rs:1336:10: warning TS041 Result<Option<HalfMatch>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/nfa/thompson/backtrack.rs:1362:10: warning TS041 Result<Option<HalfMatch>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/nfa/thompson/backtrack.rs:1434:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-automata/src/nfa/thompson/backtrack.rs:1461:5: warning TS002 the function is 95 lines, over the 70 line limit
+regex-automata/src/nfa/thompson/backtrack.rs:1469:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-automata/src/nfa/thompson/backtrack.rs:1583:27: warning TS041 Option<Result<Match, MatchError>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/nfa/thompson/backtrack.rs:1621:27: warning TS041 Option<Result<Captures, MatchError>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/nfa/thompson/backtrack.rs:1849:19: warning TS015 the expression is an unnamed function
+regex-automata/src/nfa/thompson/backtrack.rs:1859:13: info TS025 the name leads with the qualifier max; put it last
+regex-automata/src/nfa/thompson/backtrack.rs:1901:8: info TS025 the name leads with the qualifier max; put it last
+regex-automata/src/nfa/thompson/backtrack.rs:41:8: info TS025 the name leads with the qualifier min; put it last
+regex-automata/src/nfa/thompson/backtrack.rs:817:12: info TS025 the name leads with the qualifier max; put it last
+regex-automata/src/nfa/thompson/backtrack.rs:943:10: warning TS041 Result<Option<Match>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/nfa/thompson/builder.rs:1148:13: info TS025 the name leads with the qualifier old; put it last
+regex-automata/src/nfa/thompson/builder.rs:410:5: warning TS002 the function is 194 lines, over the 70 line limit
+regex-automata/src/nfa/thompson/builder.rs:570:21: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/nfa/thompson/builder.rs:669:12: info TS025 the name leads with the qualifier current; put it last
+regex-automata/src/nfa/thompson/compiler.rs:1020:40: warning TS011 the import brings in every name
+regex-automata/src/nfa/thompson/compiler.rs:1030:63: error TS001 c takes part in a call cycle; give it an explicit stack or a bound
+regex-automata/src/nfa/thompson/compiler.rs:1050:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-automata/src/nfa/thompson/compiler.rs:1070:5: error TS001 c_alt_slice takes part in a call cycle; give it an explicit stack or a bound
+regex-automata/src/nfa/thompson/compiler.rs:1078:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/compiler.rs:1141:5: error TS001 c_cap takes part in a call cycle; give it an explicit stack or a bound
+regex-automata/src/nfa/thompson/compiler.rs:1166:5: error TS001 c_repetition takes part in a call cycle; give it an explicit stack or a bound
+regex-automata/src/nfa/thompson/compiler.rs:1184:5: error TS001 c_bounded takes part in a call cycle; give it an explicit stack or a bound
+regex-automata/src/nfa/thompson/compiler.rs:1250:5: error TS001 c_at_least takes part in a call cycle; give it an explicit stack or a bound
+regex-automata/src/nfa/thompson/compiler.rs:1250:5: warning TS002 the function is 74 lines, over the 70 line limit
+regex-automata/src/nfa/thompson/compiler.rs:1331:5: error TS001 c_zero_or_one takes part in a call cycle; give it an explicit stack or a bound
+regex-automata/src/nfa/thompson/compiler.rs:1347:5: error TS001 c_exactly takes part in a call cycle; give it an explicit stack or a bound
+regex-automata/src/nfa/thompson/compiler.rs:1395:5: warning TS002 the function is 120 lines, over the 70 line limit
+regex-automata/src/nfa/thompson/compiler.rs:1417:16: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-automata/src/nfa/thompson/compiler.rs:965:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/literal_trie.rs:151:5: warning TS002 the function is 86 lines, over the 70 line limit
+regex-automata/src/nfa/thompson/literal_trie.rs:173:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-automata/src/nfa/thompson/literal_trie.rs:379:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/literal_trie.rs:427:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/nfa.rs:1272:5: warning TS002 the function is 73 lines, over the 70 line limit
+regex-automata/src/nfa/thompson/nfa.rs:1284:13: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-automata/src/nfa/thompson/nfa.rs:1449:36: info TS025 the name leads with the qualifier old; put it last
+regex-automata/src/nfa/thompson/nfa.rs:2043:9: warning TS011 the import brings in every name
+regex-automata/src/nfa/thompson/nfa.rs:2066:24: warning TS015 the expression is an unnamed function
+regex-automata/src/nfa/thompson/nfa.rs:2085:24: warning TS015 the expression is an unnamed function
+regex-automata/src/nfa/thompson/pikevm.rs:1224:5: warning TS002 the function is 160 lines, over the 70 line limit
+regex-automata/src/nfa/thompson/pikevm.rs:1277:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/pikevm.rs:1283:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/pikevm.rs:1347:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/pikevm.rs:1374:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/pikevm.rs:1432:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/pikevm.rs:1435:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/pikevm.rs:1439:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/pikevm.rs:1448:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/pikevm.rs:1520:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/pikevm.rs:1570:29: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/nfa/thompson/pikevm.rs:1582:29: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/nfa/thompson/pikevm.rs:1625:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-automata/src/nfa/thompson/pikevm.rs:1664:5: warning TS002 the function is 86 lines, over the 70 line limit
+regex-automata/src/nfa/thompson/pikevm.rs:1679:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-automata/src/nfa/thompson/pikevm.rs:55:5: error TS005 the global is mutable
+regex-automata/src/nfa/thompson/range_trie.rs:217:5: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/nfa/thompson/range_trie.rs:262:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-automata/src/nfa/thompson/range_trie.rs:295:5: warning TS002 the function is 132 lines, over the 70 line limit
+regex-automata/src/nfa/thompson/range_trie.rs:319:21: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/nfa/thompson/range_trie.rs:330:21: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-automata/src/nfa/thompson/range_trie.rs:335:29: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/nfa/thompson/range_trie.rs:361:21: warning TS015 the expression is an unnamed function
+regex-automata/src/nfa/thompson/range_trie.rs:391:33: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+regex-automata/src/nfa/thompson/range_trie.rs:391:36: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/range_trie.rs:403:33: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/nfa/thompson/range_trie.rs:411:29: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+regex-automata/src/nfa/thompson/range_trie.rs:466:29: info TS025 the name leads with the qualifier old; put it last
+regex-automata/src/nfa/thompson/range_trie.rs:474:13: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/nfa/thompson/range_trie.rs:478:35: info TS025 the name leads with the qualifier old; put it last
+regex-automata/src/nfa/thompson/range_trie.rs:478:43: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/nfa/thompson/range_trie.rs:488:21: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/nfa/thompson/range_trie.rs:508:9: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/nfa/thompson/range_trie.rs:522:9: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/nfa/thompson/range_trie.rs:535:9: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/nfa/thompson/range_trie.rs:611:5: info TS025 the name leads with the qualifier old; put it last
+regex-automata/src/nfa/thompson/range_trie.rs:613:5: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/nfa/thompson/range_trie.rs:666:17: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/nfa/thompson/range_trie.rs:789:21: warning TS015 the expression is an unnamed function
+regex-automata/src/nfa/thompson/range_trie.rs:789:43: warning TS015 the expression is an unnamed function
+regex-automata/src/nfa/thompson/range_trie.rs:793:19: warning TS015 the expression is an unnamed function
+regex-automata/src/nfa/thompson/range_trie.rs:794:19: warning TS015 the expression is an unnamed function
+regex-automata/src/nfa/thompson/range_trie.rs:795:20: warning TS015 the expression is an unnamed function
+regex-automata/src/nfa/thompson/range_trie.rs:800:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/range_trie.rs:800:9: warning TS039 the chain runs 12 branches, over the 3 allowed; split it into a tree
+regex-automata/src/nfa/thompson/range_trie.rs:803:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/range_trie.rs:806:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/range_trie.rs:809:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/range_trie.rs:812:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/range_trie.rs:815:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/range_trie.rs:818:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/range_trie.rs:821:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/range_trie.rs:824:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/range_trie.rs:827:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/range_trie.rs:830:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/range_trie.rs:833:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/nfa/thompson/range_trie.rs:947:5: warning TS002 the function is 101 lines, over the 70 line limit
+regex-automata/src/nfa/thompson/range_trie.rs:948:21: warning TS015 the expression is an unnamed function
+regex-automata/src/nfa/thompson/range_trie.rs:948:43: warning TS015 the expression is an unnamed function
+regex-automata/src/nfa/thompson/range_trie.rs:952:19: warning TS015 the expression is an unnamed function
+regex-automata/src/nfa/thompson/range_trie.rs:953:19: warning TS015 the expression is an unnamed function
+regex-automata/src/nfa/thompson/range_trie.rs:954:20: warning TS015 the expression is an unnamed function
+regex-automata/src/util/alphabet.rs:1054:5: warning TS002 the function is 85 lines, over the 70 line limit
+regex-automata/src/util/alphabet.rs:117:16: info TS025 the name leads with the qualifier num; put it last
+regex-automata/src/util/alphabet.rs:418:13: info TS025 the name leads with the qualifier cur; put it last
+regex-automata/src/util/alphabet.rs:556:5: info TS025 the name leads with the qualifier cur; put it last
+regex-automata/src/util/alphabet.rs:558:5: info TS025 the name leads with the qualifier last; put it last
+regex-automata/src/util/alphabet.rs:575:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/alphabet.rs:638:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-automata/src/util/alphabet.rs:648:24: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/alphabet.rs:726:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-automata/src/util/alphabet.rs:899:20: warning TS015 the expression is an unnamed function
+regex-automata/src/util/alphabet.rs:908:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/alphabet.rs:922:9: warning TS011 the import brings in every name
+regex-automata/src/util/captures.rs:1266:27: warning TS041 Option<Option<Span>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/util/captures.rs:2279:17: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/util/captures.rs:2280:22: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/util/captures.rs:2404:8: info TS025 the name leads with the qualifier first; put it last
+regex-automata/src/util/captures.rs:2435:13: warning TS011 the import brings in every name
+regex-automata/src/util/captures.rs:2493:27: warning TS041 Option<Option<&'a str>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/util/captures.rs:2519:5: info TS025 the name leads with the qualifier current; put it last
+regex-automata/src/util/captures.rs:2526:27: warning TS041 Option<(PatternID, usize, Option<&'a str>)> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/util/captures.rs:2546:24: error TS001 next takes part in a call cycle; give it an explicit stack or a bound
+regex-automata/src/util/determinize/mod.rs:137:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/determinize/mod.rs:142:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/determinize/mod.rs:157:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/determinize/mod.rs:176:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/determinize/mod.rs:180:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/determinize/mod.rs:220:8: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/determinize/mod.rs:234:8: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/determinize/mod.rs:241:8: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/determinize/mod.rs:341:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/determinize/mod.rs:344:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/determinize/mod.rs:385:5: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-automata/src/util/determinize/mod.rs:390:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-automata/src/util/determinize/mod.rs:448:1: warning TS002 the function is 132 lines, over the 70 line limit
+regex-automata/src/util/determinize/mod.rs:583:1: warning TS002 the function is 100 lines, over the 70 line limit
+regex-automata/src/util/determinize/mod.rs:634:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/determinize/mod.rs:652:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/determinize/mod.rs:92:1: warning TS002 the function is 262 lines, over the 70 line limit
+regex-automata/src/util/determinize/state.rs:465:19: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-automata/src/util/determinize/state.rs:477:12: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-automata/src/util/determinize/state.rs:512:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-automata/src/util/determinize/state.rs:526:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-automata/src/util/empty.rs:166:6: warning TS041 Result<Option<T>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/util/empty.rs:180:6: warning TS041 Result<Option<T>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/util/empty.rs:187:1: warning TS002 the function is 79 lines, over the 70 line limit
+regex-automata/src/util/empty.rs:193:6: warning TS041 Result<Option<T>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/util/empty.rs:243:5: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-automata/src/util/empty.rs:258:19: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/util/empty.rs:258:30: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/util/escape.rs:34:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/escape.rs:56:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-automata/src/util/int.rs:46:1: warning TS020 [*] the attribute silences a checker
+regex-automata/src/util/interpolate.rs:263:8: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/interpolate.rs:271:5: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-automata/src/util/interpolate.rs:298:5: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-automata/src/util/iter.rs:155:5: info TS025 the name leads with the qualifier last; put it last
+regex-automata/src/util/iter.rs:397:10: warning TS041 Result<Option<HalfMatch>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/util/iter.rs:425:10: warning TS041 Result<Option<Match>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/util/iter.rs:433:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/iter.rs:627:10: warning TS041 Result<Option<HalfMatch>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/util/iter.rs:671:10: warning TS041 Result<Option<Match>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/util/iter.rs:731:27: warning TS041 Option<Result<HalfMatch, MatchError>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/util/iter.rs:846:27: warning TS041 Option<Result<Match, MatchError>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/util/iter.rs:955:27: warning TS041 Option<Result<Captures, MatchError>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/util/look.rs:1660:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/look.rs:2414:5: warning TS002 the function is 101 lines, over the 70 line limit
+regex-automata/src/util/look.rs:731:5: warning TS002 the function is 102 lines, over the 70 line limit
+regex-automata/src/util/look.rs:878:28: warning TS015 the expression is an unnamed function
+regex-automata/src/util/look.rs:883:27: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/memchr.rs:7:16: warning TS011 the import brings in every name
+regex-automata/src/util/pool.rs:381:11: info TS025 the name leads with the qualifier MAX; put it last
+regex-automata/src/util/prefilter/aho_corasick.rs:45:44: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-automata/src/util/prefilter/memchr.rs:118:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/prefilter/memchr.rs:184:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/prefilter/mod.rs:150:5: info TS025 the name leads with the qualifier max; put it last
+regex-automata/src/util/prefilter/mod.rs:208:17: info TS025 the name leads with the qualifier max; put it last
+regex-automata/src/util/prefilter/mod.rs:218:9: info TS025 the name leads with the qualifier max; put it last
+regex-automata/src/util/prefilter/mod.rs:426:12: info TS025 the name leads with the qualifier max; put it last
+regex-automata/src/util/prefilter/teddy.rs:35:5: info TS025 the name leads with the qualifier minimum; put it last
+regex-automata/src/util/prefilter/teddy.rs:65:17: info TS025 the name leads with the qualifier minimum; put it last
+regex-automata/src/util/primitives.rs:412:13: info TS025 the name leads with the qualifier next; put it last
+regex-automata/src/util/search.rs:1770:101: warning TS012 the line is 103 columns, over the 100 column limit
+regex-automata/src/util/search.rs:1886:9: warning TS012 the line is 109 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+regex-automata/src/util/search.rs:1888:9: warning TS012 the line is 107 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+regex-automata/src/util/search.rs:426:9: warning TS024 the assertion is compound; write one assertion for each condition
+regex-automata/src/util/sparse_set.rs:129:37: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/util/sparse_set.rs:58:37: info TS025 the name leads with the qualifier new; put it last
+regex-automata/src/util/start.rs:246:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/start.rs:434:17: warning TS015 the expression is an unnamed function
+regex-automata/src/util/start.rs:458:17: warning TS015 the expression is an unnamed function
+regex-automata/src/util/utf8.rs:56:39: warning TS041 Option<Result<char, u8>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/util/utf8.rs:79:44: warning TS041 Option<Result<char, u8>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/src/util/utf8.rs:85:11: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/wire.rs:219:13: warning TS011 the import brings in every name
+regex-automata/src/util/wire.rs:338:11: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/src/util/wire.rs:421:9: info TS025 the name leads with the qualifier first; put it last
+regex-automata/src/util/wire.rs:423:9: info TS025 the name leads with the qualifier first; put it last
+regex-automata/src/util/wire.rs:424:14: info TS025 the name leads with the qualifier first; put it last
+regex-automata/src/util/wire.rs:901:9: warning TS011 the import brings in every name
+regex-automata/tests/dfa/api.rs:76:1: warning TS002 the function is 87 lines, over the 70 line limit
+regex-automata/tests/dfa/api.rs:80:10: warning TS041 Result<Option<HalfMatch>, MatchError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-automata/tests/dfa/api.rs:84:17: info TS025 the name leads with the qualifier last; put it last
+regex-automata/tests/dfa/onepass/suite.rs:61:5: warning TS015 the expression is an unnamed function
+regex-automata/tests/dfa/onepass/suite.rs:82:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-automata/tests/dfa/suite.rs:150:23: warning TS015 the expression is an unnamed function
+regex-automata/tests/dfa/suite.rs:185:23: warning TS015 the expression is an unnamed function
+regex-automata/tests/dfa/suite.rs:215:23: warning TS015 the expression is an unnamed function
+regex-automata/tests/dfa/suite.rs:269:5: warning TS015 the expression is an unnamed function
+regex-automata/tests/dfa/suite.rs:38:23: warning TS015 the expression is an unnamed function
+regex-automata/tests/hybrid/api.rs:57:1: warning TS002 the function is 76 lines, over the 70 line limit
+regex-automata/tests/hybrid/suite.rs:153:4: info TS025 the name leads with the qualifier min; put it last
+regex-automata/tests/hybrid/suite.rs:167:5: warning TS015 the expression is an unnamed function
+regex-automata/tests/hybrid/suite.rs:38:23: warning TS015 the expression is an unnamed function
+regex-automata/tests/lib.rs:16:1: warning TS020 [*] the attribute silences a checker
+regex-automata/tests/meta/suite.rs:109:5: warning TS015 the expression is an unnamed function
+regex-automata/tests/nfa/thompson/backtrack/suite.rs:103:5: warning TS015 the expression is an unnamed function
+regex-automata/tests/nfa/thompson/backtrack/suite.rs:42:23: warning TS015 the expression is an unnamed function
+regex-automata/tests/nfa/thompson/backtrack/suite.rs:68:4: info TS025 the name leads with the qualifier min; put it last
+regex-automata/tests/nfa/thompson/pikevm/suite.rs:32:23: warning TS015 the expression is an unnamed function
+regex-automata/tests/nfa/thompson/pikevm/suite.rs:56:5: warning TS015 the expression is an unnamed function
+regex-capi/src/lib.rs:6:9: warning TS011 the import brings in every name
+regex-capi/src/lib.rs:7:9: warning TS011 the import brings in every name
+regex-capi/src/macros.rs:11:26: error TS052 the panic is recovered from; corrupt state has to crash
+regex-capi/src/rure.rs:260:13: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-capi/src/rure.rs:48:5: info TS025 the name leads with the qualifier last; put it last
+regex-capi/src/rure.rs:49:5: info TS025 the name leads with the qualifier last; put it last
+regex-cli/args/dfa.rs:110:5: warning TS002 the function is 132 lines, over the 70 line limit
+regex-cli/args/hybrid.rs:96:5: warning TS002 the function is 135 lines, over the 70 line limit
+regex-cli/args/meta.rs:124:5: warning TS002 the function is 159 lines, over the 70 line limit
+regex-cli/args/mod.rs:188:6: warning TS041 anyhow::Result<Option<T>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-cli/args/mod.rs:245:15: info TS025 the name leads with the qualifier MIN; put it last
+regex-cli/args/mod.rs:248:13: info TS025 the name leads with the qualifier max; put it last
+regex-cli/args/syntax.rs:133:5: warning TS002 the function is 136 lines, over the 70 line limit
+regex-cli/cmd/compile_test.rs:606:5: warning TS002 the function is 144 lines, over the 70 line limit
+regex-cli/cmd/compile_test.rs:611:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-cli/cmd/compile_test.rs:62:1: warning TS002 the function is 77 lines, over the 70 line limit
+regex-cli/cmd/compile_test.rs:632:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-cli/cmd/compile_test.rs:671:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-cli/cmd/compile_test.rs:695:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-cli/cmd/debug/dfa.rs:253:1: warning TS002 the function is 74 lines, over the 70 line limit
+regex-cli/cmd/debug/dfa.rs:96:1: warning TS002 the function is 72 lines, over the 70 line limit
+regex-cli/cmd/debug/literal.rs:159:5: warning TS002 the function is 73 lines, over the 70 line limit
+regex-cli/cmd/debug/literal.rs:15:1: warning TS002 the function is 92 lines, over the 70 line limit
+regex-cli/cmd/find/capture/dfa.rs:59:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/capture/dfa.rs:8:1: warning TS002 the function is 77 lines, over the 70 line limit
+regex-cli/cmd/find/capture/mod.rs:101:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/capture/mod.rs:152:1: warning TS002 the function is 79 lines, over the 70 line limit
+regex-cli/cmd/find/capture/mod.rs:205:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/capture/mod.rs:232:1: warning TS002 the function is 100 lines, over the 70 line limit
+regex-cli/cmd/find/capture/mod.rs:284:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/capture/mod.rs:356:17: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-cli/cmd/find/capture/mod.rs:365:33: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+regex-cli/cmd/find/capture/mod.rs:53:1: warning TS002 the function is 98 lines, over the 70 line limit
+regex-cli/cmd/find/capture/nfa.rs:137:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/capture/nfa.rs:59:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/capture/nfa.rs:86:1: warning TS002 the function is 77 lines, over the 70 line limit
+regex-cli/cmd/find/capture/nfa.rs:8:1: warning TS002 the function is 77 lines, over the 70 line limit
+regex-cli/cmd/find/half/dfa.rs:112:1: warning TS002 the function is 101 lines, over the 70 line limit
+regex-cli/cmd/find/half/dfa.rs:166:22: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/half/dfa.rs:194:22: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/half/dfa.rs:194:40: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/half/dfa.rs:214:1: warning TS002 the function is 101 lines, over the 70 line limit
+regex-cli/cmd/find/half/dfa.rs:268:22: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/half/dfa.rs:296:22: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/half/dfa.rs:296:40: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/half/dfa.rs:64:22: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/half/dfa.rs:8:1: warning TS002 the function is 103 lines, over the 70 line limit
+regex-cli/cmd/find/half/dfa.rs:92:22: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/half/dfa.rs:92:40: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/half/mod.rs:161:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/half/mod.rs:161:36: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/half/mod.rs:254:29: warning TS003 the function takes 9 parameters, over the 7 the style allows
+regex-cli/cmd/find/half/mod.rs:271:17: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-cli/cmd/find/half/mod.rs:297:29: warning TS003 the function takes 8 parameters, over the 7 the style allows
+regex-cli/cmd/find/half/mod.rs:313:17: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-cli/cmd/find/half/mod.rs:95:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/half/mod.rs:95:36: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/match/dfa.rs:148:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/match/dfa.rs:148:36: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/match/dfa.rs:167:1: warning TS002 the function is 78 lines, over the 70 line limit
+regex-cli/cmd/find/match/dfa.rs:227:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/match/dfa.rs:227:36: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/match/dfa.rs:246:1: warning TS002 the function is 74 lines, over the 70 line limit
+regex-cli/cmd/find/match/dfa.rs:299:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/match/dfa.rs:299:36: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/match/dfa.rs:70:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/match/dfa.rs:70:36: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/match/dfa.rs:89:1: warning TS002 the function is 77 lines, over the 70 line limit
+regex-cli/cmd/find/match/dfa.rs:8:1: warning TS002 the function is 80 lines, over the 70 line limit
+regex-cli/cmd/find/match/mod.rs:160:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/match/mod.rs:160:36: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/match/mod.rs:228:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/match/mod.rs:228:36: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/match/mod.rs:94:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/match/mod.rs:94:36: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/match/nfa.rs:136:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/match/nfa.rs:136:36: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/match/nfa.rs:61:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/match/nfa.rs:61:36: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/match/nfa.rs:83:1: warning TS002 the function is 74 lines, over the 70 line limit
+regex-cli/cmd/find/match/nfa.rs:8:1: warning TS002 the function is 74 lines, over the 70 line limit
+regex-cli/cmd/find/which/dfa.rs:131:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/which/dfa.rs:199:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/which/dfa.rs:63:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/which/mod.rs:112:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/which/mod.rs:132:1: warning TS002 the function is 71 lines, over the 70 line limit
+regex-cli/cmd/find/which/mod.rs:189:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/find/which/nfa.rs:63:18: warning TS015 the expression is an unnamed function
+regex-cli/cmd/generate/fowler.rs:137:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-cli/cmd/generate/fowler.rs:140:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-cli/cmd/generate/fowler.rs:278:5: warning TS002 the function is 109 lines, over the 70 line limit
+regex-cli/cmd/generate/fowler.rs:282:10: warning TS041 anyhow::Result<Option<DatTest>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-cli/cmd/generate/fowler.rs:288:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-cli/cmd/generate/fowler.rs:327:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-cli/cmd/generate/fowler.rs:361:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-cli/cmd/generate/fowler.rs:409:37: error TS001 count_capturing_groups_ast takes part in a call cycle; give it an explicit stack or a bound
+regex-cli/cmd/generate/serialize/dfa.rs:440:5: warning TS002 the function is 94 lines, over the 70 line limit
+regex-cli/cmd/generate/serialize/dfa.rs:535:5: warning TS002 the function is 85 lines, over the 70 line limit
+regex-cli/cmd/generate/serialize/dfa.rs:621:5: warning TS002 the function is 109 lines, over the 70 line limit
+regex-cli/cmd/generate/serialize/dfa.rs:731:5: warning TS002 the function is 97 lines, over the 70 line limit
+regex-cli/cmd/generate/unicode.rs:182:15: warning TS015 the expression is an unnamed function
+regex-cli/cmd/generate/unicode.rs:19:1: warning TS002 the function is 100 lines, over the 70 line limit
+regex-lite/src/hir/mod.rs:261:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/mod.rs:263:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/mod.rs:274:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/mod.rs:637:13: warning TS011 the import brings in every name
+regex-lite/src/hir/mod.rs:788:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-lite/src/hir/parse.rs:1004:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/parse.rs:1010:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-lite/src/hir/parse.rs:1087:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/parse.rs:1165:21: warning TS015 the expression is an unnamed function
+regex-lite/src/hir/parse.rs:1171:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/parse.rs:1187:15: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/parse.rs:1290:18: info TS025 the name leads with the qualifier next; put it last
+regex-lite/src/hir/parse.rs:1299:17: error TS001 recurse takes part in a call cycle; give it an explicit stack or a bound
+regex-lite/src/hir/parse.rs:1489:23: warning TS015 the expression is an unnamed function
+regex-lite/src/hir/parse.rs:1526:5: warning TS002 the function is 94 lines, over the 70 line limit
+regex-lite/src/hir/parse.rs:1664:5: warning TS002 the function is 122 lines, over the 70 line limit
+regex-lite/src/hir/parse.rs:1788:5: warning TS002 the function is 73 lines, over the 70 line limit
+regex-lite/src/hir/parse.rs:2027:5: warning TS002 the function is 94 lines, over the 70 line limit
+regex-lite/src/hir/parse.rs:2030:13: warning TS012 the line is 124 columns, over the 100 column limit, and its one token cannot be wrapped
+regex-lite/src/hir/parse.rs:321:23: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/parse.rs:323:23: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/parse.rs:339:8: info TS025 the name puts next before index; order the qualifiers by descending significance, as in latency_ms_max
+regex-lite/src/hir/parse.rs:397:5: error TS001 parse_inner takes part in a call cycle; give it an explicit stack or a bound
+regex-lite/src/hir/parse.rs:401:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-lite/src/hir/parse.rs:493:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/parse.rs:496:23: warning TS015 the expression is an unnamed function
+regex-lite/src/hir/parse.rs:508:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/parse.rs:543:52: warning TS041 Result<Option<Hir>, Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-lite/src/hir/parse.rs:546:29: warning TS015 the expression is an unnamed function
+regex-lite/src/hir/parse.rs:566:15: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/parse.rs:570:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/parse.rs:619:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/parse.rs:641:15: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/parse.rs:673:15: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/parse.rs:676:15: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/parse.rs:680:15: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/parse.rs:725:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/parse.rs:778:28: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-lite/src/hir/parse.rs:792:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/parse.rs:817:30: warning TS041 Result<Option<Hir>, Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-lite/src/hir/parse.rs:817:5: error TS001 parse_group takes part in a call cycle; give it an explicit stack or a bound
+regex-lite/src/hir/parse.rs:823:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/parse.rs:865:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-lite/src/hir/parse.rs:909:17: info TS025 the name leads with the qualifier last; put it last
+regex-lite/src/hir/parse.rs:913:15: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/hir/parse.rs:979:5: warning TS002 the function is 80 lines, over the 70 line limit
+regex-lite/src/hir/parse.rs:987:37: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-lite/src/interpolate.rs:216:8: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/interpolate.rs:224:5: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-lite/src/interpolate.rs:251:5: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-lite/src/lib.rs:694:21: warning TS012 the line is 132 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+regex-lite/src/lib.rs:862:1: warning TS020 [*] the attribute silences a checker
+regex-lite/src/lib.rs:875:9: warning TS011 the import brings in every name
+regex-lite/src/nfa.rs:158:27: warning TS041 Option<Option<&'a str>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-lite/src/nfa.rs:304:51: error TS001 c takes part in a call cycle; give it an explicit stack or a bound
+regex-lite/src/nfa.rs:362:5: error TS001 c_repetition takes part in a call cycle; give it an explicit stack or a bound
+regex-lite/src/nfa.rs:380:5: error TS001 c_bounded takes part in a call cycle; give it an explicit stack or a bound
+regex-lite/src/nfa.rs:443:5: error TS001 c_at_least takes part in a call cycle; give it an explicit stack or a bound
+regex-lite/src/nfa.rs:511:5: error TS001 c_zero_or_one takes part in a call cycle; give it an explicit stack or a bound
+regex-lite/src/nfa.rs:527:5: error TS001 c_exactly takes part in a call cycle; give it an explicit stack or a bound
+regex-lite/src/nfa.rs:534:5: error TS001 c_capture takes part in a call cycle; give it an explicit stack or a bound
+regex-lite/src/nfa.rs:666:17: info TS025 the name leads with the qualifier new; put it last
+regex-lite/src/pikevm.rs:118:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/pikevm.rs:171:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/pikevm.rs:198:13: warning TS003 the function takes 8 parameters, over the 7 the style allows
+regex-lite/src/pikevm.rs:241:12: warning TS003 the function takes 8 parameters, over the 7 the style allows
+regex-lite/src/pikevm.rs:258:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/pikevm.rs:274:31: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/pikevm.rs:317:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-lite/src/pikevm.rs:355:5: warning TS002 the function is 82 lines, over the 70 line limit
+regex-lite/src/pikevm.rs:370:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-lite/src/pikevm.rs:449:5: info TS025 the name leads with the qualifier last; put it last
+regex-lite/src/pikevm.rs:72:5: warning TS002 the function is 108 lines, over the 70 line limit
+regex-lite/src/pikevm.rs:822:26: info TS025 the name leads with the qualifier new; put it last
+regex-lite/src/string.rs:2350:27: warning TS041 Option<Option<&'r str>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-lite/src/string.rs:2395:27: warning TS041 Option<Option<Match<'h>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-lite/src/string.rs:907:21: info TS025 the name leads with the qualifier last; put it last
+regex-lite/src/string.rs:912:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/string.rs:927:17: info TS025 the name leads with the qualifier last; put it last
+regex-lite/src/string.rs:934:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/src/utf8.rs:106:1: info TS029 the line indents 6 columns, which is not a multiple of 4
+regex-lite/src/utf8.rs:107:1: info TS029 the line indents 6 columns, which is not a multiple of 4
+regex-lite/src/utf8.rs:108:1: info TS029 the line indents 6 columns, which is not a multiple of 4
+regex-lite/src/utf8.rs:109:1: info TS029 the line indents 6 columns, which is not a multiple of 4
+regex-lite/src/utf8.rs:110:1: info TS029 the line indents 6 columns, which is not a multiple of 4
+regex-lite/src/utf8.rs:111:1: info TS029 the line indents 6 columns, which is not a multiple of 4
+regex-lite/src/utf8.rs:112:1: info TS029 the line indents 6 columns, which is not a multiple of 4
+regex-lite/src/utf8.rs:113:1: info TS029 the line indents 6 columns, which is not a multiple of 4
+regex-lite/src/utf8.rs:114:1: info TS029 the line indents 6 columns, which is not a multiple of 4
+regex-lite/src/utf8.rs:136:13: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-lite/src/utf8.rs:92:1: info TS029 the line indents 7 columns, which is not a multiple of 4
+regex-lite/src/utf8.rs:93:1: info TS029 the line indents 7 columns, which is not a multiple of 4
+regex-lite/src/utf8.rs:94:1: info TS029 the line indents 7 columns, which is not a multiple of 4
+regex-lite/src/utf8.rs:95:1: info TS029 the line indents 7 columns, which is not a multiple of 4
+regex-lite/src/utf8.rs:96:1: info TS029 the line indents 7 columns, which is not a multiple of 4
+regex-lite/src/utf8.rs:97:1: info TS029 the line indents 7 columns, which is not a multiple of 4
+regex-lite/src/utf8.rs:98:1: info TS029 the line indents 7 columns, which is not a multiple of 4
+regex-lite/src/utf8.rs:99:1: info TS029 the line indents 6 columns, which is not a multiple of 4
+regex-lite/tests/string.rs:102:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/tests/string.rs:117:8: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/tests/string.rs:123:8: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/tests/string.rs:132:8: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/tests/string.rs:84:8: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/tests/string.rs:90:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/tests/string.rs:93:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-lite/tests/string.rs:96:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/mod.rs:1655:26: warning TS015 the expression is an unnamed function
+regex-syntax/src/ast/mod.rs:1656:25: warning TS015 the expression is an unnamed function
+regex-syntax/src/ast/mod.rs:1658:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-syntax/src/ast/mod.rs:1713:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/mod.rs:1719:26: warning TS015 the expression is an unnamed function
+regex-syntax/src/ast/mod.rs:1720:25: warning TS015 the expression is an unnamed function
+regex-syntax/src/ast/mod.rs:1722:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-syntax/src/ast/mod.rs:1760:19: warning TS015 the expression is an unnamed function
+regex-syntax/src/ast/mod.rs:1761:24: warning TS015 the expression is an unnamed function
+regex-syntax/src/ast/mod.rs:202:5: warning TS002 the function is 109 lines, over the 70 line limit
+regex-syntax/src/ast/mod.rs:203:13: warning TS011 the import brings in every name
+regex-syntax/src/ast/mod.rs:58:13: warning TS011 the import brings in every name
+regex-syntax/src/ast/mod.rs:863:13: warning TS011 the import brings in every name
+regex-syntax/src/ast/mod.rs:941:5: warning TS002 the function is 100 lines, over the 70 line limit
+regex-syntax/src/ast/parse.rs:1074:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/parse.rs:1103:5: warning TS002 the function is 104 lines, over the 70 line limit
+regex-syntax/src/ast/parse.rs:1131:13: info TS025 the name leads with the qualifier count; put it last
+regex-syntax/src/ast/parse.rs:1149:28: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-syntax/src/ast/parse.rs:1150:21: info TS025 the name leads with the qualifier count; put it last
+regex-syntax/src/ast/parse.rs:1164:21: info TS025 the name leads with the qualifier count; put it last
+regex-syntax/src/ast/parse.rs:1177:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/parse.rs:1185:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/parse.rs:1240:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/parse.rs:1307:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-syntax/src/ast/parse.rs:1361:17: info TS025 the name leads with the qualifier last; put it last
+regex-syntax/src/ast/parse.rs:1362:15: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/parse.rs:1479:5: warning TS002 the function is 118 lines, over the 70 line limit
+regex-syntax/src/ast/parse.rs:1543:23: warning TS015 the expression is an unnamed function
+regex-syntax/src/ast/parse.rs:1572:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/parse.rs:1620:10: warning TS041 Result<Option<ast::AssertionKind>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-syntax/src/ast/parse.rs:1623:29: warning TS015 the expression is an unnamed function
+regex-syntax/src/ast/parse.rs:1647:15: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/parse.rs:1651:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/parse.rs:1684:9: warning TS024 the assertion is compound; write one assertion for each condition
+regex-syntax/src/ast/parse.rs:1687:15: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/parse.rs:1752:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/parse.rs:1795:15: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/parse.rs:1847:15: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/parse.rs:1851:15: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/parse.rs:1856:15: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/parse.rs:1882:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-syntax/src/ast/parse.rs:1955:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/parse.rs:2034:38: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-syntax/src/ast/parse.rs:2063:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/parse.rs:2120:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/parse.rs:2136:15: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/parse.rs:2167:5: warning TS002 the function is 74 lines, over the 70 line limit
+regex-syntax/src/ast/parse.rs:2181:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/parse.rs:2635:5: warning TS002 the function is 156 lines, over the 70 line limit
+regex-syntax/src/ast/parse.rs:263:5: info TS025 the name leads with the qualifier initial; put it last
+regex-syntax/src/ast/parse.rs:2871:5: warning TS002 the function is 152 lines, over the 70 line limit
+regex-syntax/src/ast/parse.rs:3067:5: warning TS002 the function is 222 lines, over the 70 line limit
+regex-syntax/src/ast/parse.rs:3291:5: warning TS002 the function is 286 lines, over the 70 line limit
+regex-syntax/src/ast/parse.rs:3579:5: warning TS002 the function is 158 lines, over the 70 line limit
+regex-syntax/src/ast/parse.rs:3771:5: warning TS002 the function is 210 lines, over the 70 line limit
+regex-syntax/src/ast/parse.rs:3983:5: warning TS002 the function is 257 lines, over the 70 line limit
+regex-syntax/src/ast/parse.rs:4242:5: warning TS002 the function is 184 lines, over the 70 line limit
+regex-syntax/src/ast/parse.rs:441:8: info TS025 the name puts next before index; order the qualifiers by descending significance, as in latency_ms_max
+regex-syntax/src/ast/parse.rs:4501:5: warning TS002 the function is 193 lines, over the 70 line limit
+regex-syntax/src/ast/parse.rs:4714:5: warning TS002 the function is 73 lines, over the 70 line limit
+regex-syntax/src/ast/parse.rs:4890:5: warning TS002 the function is 83 lines, over the 70 line limit
+regex-syntax/src/ast/parse.rs:4975:5: warning TS002 the function is 103 lines, over the 70 line limit
+regex-syntax/src/ast/parse.rs:5103:5: warning TS002 the function is 581 lines, over the 70 line limit
+regex-syntax/src/ast/parse.rs:5686:5: warning TS002 the function is 277 lines, over the 70 line limit
+regex-syntax/src/ast/parse.rs:6017:5: warning TS002 the function is 196 lines, over the 70 line limit
+regex-syntax/src/ast/parse.rs:612:23: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/parse.rs:614:23: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/ast/parse.rs:6215:5: warning TS002 the function is 77 lines, over the 70 line limit
+regex-syntax/src/ast/parse.rs:676:13: warning TS011 the import brings in every name
+regex-syntax/src/ast/parse.rs:716:21: info TS025 the name leads with the qualifier old; put it last
+regex-syntax/src/ast/parse.rs:717:21: info TS025 the name leads with the qualifier new; put it last
+regex-syntax/src/ast/parse.rs:72:13: warning TS011 the import brings in every name
+regex-syntax/src/ast/parse.rs:745:13: warning TS011 the import brings in every name
+regex-syntax/src/ast/parse.rs:936:9: info TS025 the name leads with the qualifier next; put it last
+regex-syntax/src/ast/parse.rs:937:9: info TS025 the name leads with the qualifier next; put it last
+regex-syntax/src/ast/parse.rs:93:13: warning TS011 the import brings in every name
+regex-syntax/src/ast/parse.rs:940:13: info TS025 the name leads with the qualifier new; put it last
+regex-syntax/src/ast/parse.rs:986:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-syntax/src/ast/print.rs:125:13: warning TS011 the import brings in every name
+regex-syntax/src/ast/print.rs:154:13: warning TS011 the import brings in every name
+regex-syntax/src/ast/print.rs:178:13: warning TS011 the import brings in every name
+regex-syntax/src/ast/print.rs:200:13: warning TS011 the import brings in every name
+regex-syntax/src/ast/print.rs:209:13: warning TS011 the import brings in every name
+regex-syntax/src/ast/print.rs:256:13: warning TS011 the import brings in every name
+regex-syntax/src/ast/print.rs:322:13: warning TS011 the import brings in every name
+regex-syntax/src/ast/print.rs:331:13: warning TS011 the import brings in every name
+regex-syntax/src/ast/print.rs:343:13: warning TS011 the import brings in every name
+regex-syntax/src/ast/print.rs:377:13: warning TS011 the import brings in every name
+regex-syntax/src/ast/print.rs:378:13: warning TS011 the import brings in every name
+regex-syntax/src/ast/visitor.rs:214:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-syntax/src/ast/visitor.rs:228:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-syntax/src/ast/visitor.rs:265:10: warning TS041 Result<Option<Frame<'a>>, V::Err> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-syntax/src/ast/visitor.rs:318:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-syntax/src/ast/visitor.rs:330:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-syntax/src/debug.rs:18:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/debug.rs:41:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-syntax/src/debug.rs:77:44: warning TS041 Option<Result<char, u8>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-syntax/src/debug.rs:79:9: warning TS039 the chain runs 5 branches, over the 3 allowed; split it into a tree
+regex-syntax/src/error.rs:167:27: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-syntax/src/hir/interval.rs:161:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/hir/interval.rs:192:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-syntax/src/hir/interval.rs:212:5: warning TS002 the function is 91 lines, over the 70 line limit
+regex-syntax/src/hir/interval.rs:213:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/hir/interval.rs:231:22: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/hir/interval.rs:262:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/hir/interval.rs:265:21: info TS025 the name leads with the qualifier old; put it last
+regex-syntax/src/hir/interval.rs:540:8: info TS025 the name leads with the qualifier min; put it last
+regex-syntax/src/hir/interval.rs:541:8: info TS025 the name leads with the qualifier max; put it last
+regex-syntax/src/hir/interval.rs:548:8: info TS025 the name leads with the qualifier min; put it last
+regex-syntax/src/hir/interval.rs:551:8: info TS025 the name leads with the qualifier max; put it last
+regex-syntax/src/hir/interval.rs:566:8: info TS025 the name leads with the qualifier min; put it last
+regex-syntax/src/hir/interval.rs:569:8: info TS025 the name leads with the qualifier max; put it last
+regex-syntax/src/hir/literal.rs:1293:13: info TS025 the name leads with the qualifier first; put it last
+regex-syntax/src/hir/literal.rs:1489:12: info TS025 the name puts first before bytes; order the qualifiers by descending significance, as in latency_ms_max
+regex-syntax/src/hir/literal.rs:1517:12: info TS025 the name puts last before bytes; order the qualifiers by descending significance, as in latency_ms_max
+regex-syntax/src/hir/literal.rs:1570:12: info TS025 the name leads with the qualifier max; put it last
+regex-syntax/src/hir/literal.rs:1580:12: info TS025 the name leads with the qualifier max; put it last
+regex-syntax/src/hir/literal.rs:1590:12: info TS025 the name leads with the qualifier min; put it last
+regex-syntax/src/hir/literal.rs:1598:12: info TS025 the name leads with the qualifier max; put it last
+regex-syntax/src/hir/literal.rs:172:13: warning TS011 the import brings in every name
+regex-syntax/src/hir/literal.rs:1835:5: warning TS002 the function is 176 lines, over the 70 line limit
+regex-syntax/src/hir/literal.rs:187:54: error TS001 extract takes part in a call cycle; give it an explicit stack or a bound
+regex-syntax/src/hir/literal.rs:1882:16: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/hir/literal.rs:2129:12: info TS025 the name puts first before bytes; order the qualifiers by descending significance, as in latency_ms_max
+regex-syntax/src/hir/literal.rs:2141:12: info TS025 the name puts last before bytes; order the qualifiers by descending significance, as in latency_ms_max
+regex-syntax/src/hir/literal.rs:2215:5: info TS025 the name leads with the qualifier next; put it last
+regex-syntax/src/hir/literal.rs:2296:12: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-syntax/src/hir/literal.rs:2343:5: warning TS020 [*] the attribute silences a checker
+regex-syntax/src/hir/literal.rs:2348:5: warning TS020 [*] the attribute silences a checker
+regex-syntax/src/hir/literal.rs:2457:5: warning TS002 the function is 113 lines, over the 70 line limit
+regex-syntax/src/hir/literal.rs:2583:5: warning TS002 the function is 73 lines, over the 70 line limit
+regex-syntax/src/hir/literal.rs:2887:5: warning TS002 the function is 294 lines, over the 70 line limit
+regex-syntax/src/hir/literal.rs:395:5: error TS001 extract_concat takes part in a call cycle; give it an explicit stack or a bound
+regex-syntax/src/hir/literal.rs:415:5: error TS001 extract_alternation takes part in a call cycle; give it an explicit stack or a bound
+regex-syntax/src/hir/literal.rs:448:5: error TS001 extract_repetition takes part in a call cycle; give it an explicit stack or a bound
+regex-syntax/src/hir/literal.rs:475:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/hir/mod.rs:1175:12: info TS025 the name leads with the qualifier minimum; put it last
+regex-syntax/src/hir/mod.rs:1185:12: info TS025 the name leads with the qualifier maximum; put it last
+regex-syntax/src/hir/mod.rs:1198:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/hir/mod.rs:121:13: warning TS011 the import brings in every name
+regex-syntax/src/hir/mod.rs:1248:24: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/hir/mod.rs:1254:22: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/hir/mod.rs:1448:12: info TS025 the name leads with the qualifier minimum; put it last
+regex-syntax/src/hir/mod.rs:1460:12: info TS025 the name leads with the qualifier maximum; put it last
+regex-syntax/src/hir/mod.rs:1475:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/hir/mod.rs:1932:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-syntax/src/hir/mod.rs:1975:5: info TS025 the name leads with the qualifier minimum; put it last
+regex-syntax/src/hir/mod.rs:1976:5: info TS025 the name leads with the qualifier maximum; put it last
+regex-syntax/src/hir/mod.rs:2000:12: info TS025 the name leads with the qualifier minimum; put it last
+regex-syntax/src/hir/mod.rs:2015:12: info TS025 the name leads with the qualifier maximum; put it last
+regex-syntax/src/hir/mod.rs:2310:5: warning TS002 the function is 83 lines, over the 70 line limit
+regex-syntax/src/hir/mod.rs:2350:18: info TS025 the name leads with the qualifier min; put it last
+regex-syntax/src/hir/mod.rs:2350:36: info TS025 the name leads with the qualifier max; put it last
+regex-syntax/src/hir/mod.rs:2505:13: info TS025 the name leads with the qualifier minimum; put it last
+regex-syntax/src/hir/mod.rs:2509:13: info TS025 the name leads with the qualifier maximum; put it last
+regex-syntax/src/hir/mod.rs:2540:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/hir/mod.rs:2571:5: warning TS002 the function is 82 lines, over the 70 line limit
+regex-syntax/src/hir/mod.rs:2607:25: info TS025 the name leads with the qualifier minimum; put it last
+regex-syntax/src/hir/mod.rs:2619:25: info TS025 the name leads with the qualifier maximum; put it last
+regex-syntax/src/hir/mod.rs:2631:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-syntax/src/hir/mod.rs:2642:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+regex-syntax/src/hir/mod.rs:3027:1: error TS001 lift_common_prefix takes part in a call cycle; give it an explicit stack or a bound
+regex-syntax/src/hir/mod.rs:3511:5: warning TS002 the function is 71 lines, over the 70 line limit
+regex-syntax/src/hir/mod.rs:3584:5: warning TS002 the function is 71 lines, over the 70 line limit
+regex-syntax/src/hir/mod.rs:3807:19: warning TS015 the expression is an unnamed function
+regex-syntax/src/hir/mod.rs:390:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/hir/mod.rs:392:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/hir/mod.rs:467:33: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+regex-syntax/src/hir/mod.rs:474:33: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+regex-syntax/src/hir/mod.rs:572:5: error TS001 alternation takes part in a call cycle; give it an explicit stack or a bound
+regex-syntax/src/hir/mod.rs:950:12: info TS025 the name leads with the qualifier minimum; put it last
+regex-syntax/src/hir/mod.rs:997:12: info TS025 the name leads with the qualifier maximum; put it last
+regex-syntax/src/hir/print.rs:317:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/hir/print.rs:325:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/hir/print.rs:90:5: warning TS002 the function is 165 lines, over the 70 line limit
+regex-syntax/src/hir/translate.rs:1028:13: warning TS011 the import brings in every name
+regex-syntax/src/hir/translate.rs:1085:13: warning TS011 the import brings in every name
+regex-syntax/src/hir/translate.rs:1107:13: warning TS011 the import brings in every name
+regex-syntax/src/hir/translate.rs:1123:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/hir/translate.rs:1175:8: info TS025 the name leads with the qualifier bytes; put it last
+regex-syntax/src/hir/translate.rs:1191:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/hir/translate.rs:1320:9: warning TS011 the import brings in every name
+regex-syntax/src/hir/translate.rs:1484:5: warning TS020 [*] the attribute silences a checker
+regex-syntax/src/hir/translate.rs:1489:5: warning TS020 [*] the attribute silences a checker
+regex-syntax/src/hir/translate.rs:1562:5: warning TS020 [*] the attribute silences a checker
+regex-syntax/src/hir/translate.rs:1579:5: warning TS020 [*] the attribute silences a checker
+regex-syntax/src/hir/translate.rs:1733:5: warning TS002 the function is 72 lines, over the 70 line limit
+regex-syntax/src/hir/translate.rs:1904:5: warning TS002 the function is 86 lines, over the 70 line limit
+regex-syntax/src/hir/translate.rs:2028:17: warning TS015 the expression is an unnamed function
+regex-syntax/src/hir/translate.rs:2029:17: warning TS015 the expression is an unnamed function
+regex-syntax/src/hir/translate.rs:2030:17: warning TS015 the expression is an unnamed function
+regex-syntax/src/hir/translate.rs:2031:17: warning TS015 the expression is an unnamed function
+regex-syntax/src/hir/translate.rs:2118:5: warning TS002 the function is 103 lines, over the 70 line limit
+regex-syntax/src/hir/translate.rs:2286:5: warning TS002 the function is 117 lines, over the 70 line limit
+regex-syntax/src/hir/translate.rs:231:9: info TS025 the name leads with the qualifier old; put it last
+regex-syntax/src/hir/translate.rs:2454:5: warning TS002 the function is 115 lines, over the 70 line limit
+regex-syntax/src/hir/translate.rs:2701:5: warning TS002 the function is 138 lines, over the 70 line limit
+regex-syntax/src/hir/translate.rs:2841:5: warning TS002 the function is 115 lines, over the 70 line limit
+regex-syntax/src/hir/translate.rs:2991:5: warning TS002 the function is 88 lines, over the 70 line limit
+regex-syntax/src/hir/translate.rs:305:31: info TS025 the name leads with the qualifier old; put it last
+regex-syntax/src/hir/translate.rs:3265:19: warning TS015 the expression is an unnamed function
+regex-syntax/src/hir/translate.rs:3355:24: warning TS015 the expression is an unnamed function
+regex-syntax/src/hir/translate.rs:3356:22: warning TS015 the expression is an unnamed function
+regex-syntax/src/hir/translate.rs:3425:24: warning TS015 the expression is an unnamed function
+regex-syntax/src/hir/translate.rs:3426:22: warning TS015 the expression is an unnamed function
+regex-syntax/src/hir/translate.rs:3445:13: warning TS015 the expression is an unnamed function
+regex-syntax/src/hir/translate.rs:3478:13: warning TS015 the expression is an unnamed function
+regex-syntax/src/hir/translate.rs:347:21: info TS025 the name leads with the qualifier old; put it last
+regex-syntax/src/hir/translate.rs:367:5: warning TS002 the function is 100 lines, over the 70 line limit
+regex-syntax/src/hir/translate.rs:3734:19: warning TS012 the line is 128 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+regex-syntax/src/hir/translate.rs:3741:19: warning TS012 the line is 775 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+regex-syntax/src/hir/translate.rs:441:21: info TS025 the name leads with the qualifier old; put it last
+regex-syntax/src/hir/translate.rs:494:5: warning TS002 the function is 93 lines, over the 70 line limit
+regex-syntax/src/hir/translate.rs:620:13: warning TS011 the import brings in every name
+regex-syntax/src/hir/translate.rs:805:13: info TS025 the name leads with the qualifier old; put it last
+regex-syntax/src/hir/translate.rs:806:17: info TS025 the name leads with the qualifier new; put it last
+regex-syntax/src/hir/translate.rs:841:54: warning TS041 Result<Option<Hir>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-syntax/src/hir/translate.rs:887:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/hir/visitor.rs:117:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-syntax/src/hir/visitor.rs:131:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-syntax/src/lib.rs:138:101: warning TS012 the line is 111 columns, over the 100 column limit
+regex-syntax/src/lib.rs:141:101: warning TS012 the line is 106 columns, over the 100 column limit
+regex-syntax/src/unicode.rs:184:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/unicode.rs:21:5: warning TS020 [*] the attribute silences a checker
+regex-syntax/src/unicode.rs:309:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/unicode.rs:352:9: warning TS011 the import brings in every name
+regex-syntax/src/unicode.rs:480:20: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/unicode.rs:503:6: warning TS041 Result<Option<&'static str>, Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-syntax/src/unicode.rs:517:6: warning TS041 Result<Option<&'static str>, Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-syntax/src/unicode.rs:532:6: warning TS041 Result<Option<&'static str>, Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-syntax/src/unicode.rs:541:24: warning TS041 Result<Option<&'static str>, Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-syntax/src/unicode.rs:553:27: warning TS041 Result<Option<&'static str>, Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-syntax/src/unicode.rs:589:6: warning TS041 Result<Option<PropertyValues>, Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-syntax/src/unicode.rs:598:32: warning TS041 Result<Option<PropertyValues>, Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-syntax/src/unicode.rs:610:35: warning TS041 Result<Option<PropertyValues>, Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+regex-syntax/src/unicode.rs:624:1: warning TS020 [*] the attribute silences a checker
+regex-syntax/src/unicode.rs:699:1: error TS001 gencat takes part in a call cycle; give it an explicit stack or a bound
+regex-syntax/src/unicode.rs:705:5: error TS001 imp takes part in a call cycle; give it an explicit stack or a bound
+regex-syntax/src/unicode.rs:918:13: info TS025 the name leads with the qualifier next; put it last
+regex-syntax/src/unicode.rs:924:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/unicode.rs:926:19: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/unicode.rs:938:8: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/unicode_tables/mod.rs:14:1: warning TS020 [*] the attribute silences a checker
+regex-syntax/src/unicode_tables/mod.rs:18:1: warning TS020 [*] the attribute silences a checker
+regex-syntax/src/utf8.rs:137:13: warning TS011 the import brings in every name
+regex-syntax/src/utf8.rs:204:13: warning TS011 the import brings in every name
+regex-syntax/src/utf8.rs:341:21: warning TS006 the loop carries no upper bound; give it a fixed maximum
+regex-syntax/src/utf8.rs:353:24: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/utf8.rs:365:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+regex-syntax/src/utf8.rs:370:25: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+regex-syntax/src/utf8.rs:397:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-syntax/src/utf8.rs:445:4: info TS025 the name leads with the qualifier max; put it last
+regex-syntax/src/utf8.rs:512:13: warning TS011 the import brings in every name
+regex-syntax/src/utf8.rs:546:13: warning TS011 the import brings in every name
+regex-syntax/src/utf8.rs:585:9: warning TS024 the assertion is compound; write one assertion for each condition
+regex-syntax/src/utf8.rs:76:101: warning TS012 the line is 116 columns, over the 100 column limit
+regex-syntax/src/utf8.rs:79:1: warning TS012 the line is 165 columns, over the 100 column limit, and its one token cannot be wrapped
+regex-syntax/src/utf8.rs:87:7: info TS025 the name leads with the qualifier MAX; put it last
+regex-test/lib.rs:1482:12: error TS052 the panic is recovered from; corrupt state has to crash
+regex-test/lib.rs:816:5: warning TS002 the function is 94 lines, over the 70 line limit
+regex-test/lib.rs:832:20: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-test/lib.rs:848:12: warning TS023 the condition combines booleans; split it into nested branches
+regex-test/lib.rs:871:26: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-test/lib.rs:880:29: info TS038 the branch states its condition negatively and carries an else; swap the arms
+regex-test/lib.rs:891:29: info TS038 the branch states its condition negatively and carries an else; swap the arms
+src/builders.rs:1:1: warning TS020 [*] the attribute silences a checker
+src/bytes.rs:91:17: warning TS011 the import brings in every name
+src/bytes.rs:91:37: warning TS011 the import brings in every name
+src/bytes.rs:91:54: warning TS011 the import brings in every name
+src/error.rs:59:5: warning TS020 [*] the attribute silences a checker
+src/lib.rs:1275:101: warning TS012 the line is 111 columns, over the 100 column limit
+src/lib.rs:1278:101: warning TS012 the line is 106 columns, over the 100 column limit
+src/lib.rs:1363:17: warning TS011 the import brings in every name
+src/lib.rs:1363:38: warning TS011 the import brings in every name
+src/lib.rs:1363:56: warning TS011 the import brings in every name
+src/lib.rs:998:21: warning TS012 the line is 132 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+src/pattern.rs:10:5: info TS025 the name leads with the qualifier next; put it last
+src/pattern.rs:9:5: info TS025 the name leads with the qualifier last; put it last
+src/regex/bytes.rs:1014:17: info TS025 the name leads with the qualifier last; put it last
+src/regex/bytes.rs:1021:16: warning TS023 the condition combines booleans; split it into nested branches
+src/regex/bytes.rs:2398:27: warning TS041 Option<Option<&'r str>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/regex/bytes.rs:2443:27: warning TS041 Option<Option<Match<'h>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/regex/bytes.rs:2763:101: warning TS012 the line is 105 columns, over the 100 column limit
+src/regex/bytes.rs:994:21: info TS025 the name leads with the qualifier last; put it last
+src/regex/bytes.rs:999:20: warning TS023 the condition combines booleans; split it into nested branches
+src/regex/string.rs:1004:16: warning TS023 the condition combines booleans; split it into nested branches
+src/regex/string.rs:2403:27: warning TS041 Option<Option<&'r str>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/regex/string.rs:2448:27: warning TS041 Option<Option<Match<'h>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+src/regex/string.rs:977:21: info TS025 the name leads with the qualifier last; put it last
+src/regex/string.rs:982:20: warning TS023 the condition combines booleans; split it into nested branches
+src/regex/string.rs:997:17: info TS025 the name leads with the qualifier last; put it last
+src/regexset/bytes.rs:665:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/regexset/bytes.rs:680:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/regexset/string.rs:661:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+src/regexset/string.rs:676:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+tests/fuzz/mod.rs:142:4: info TS025 the name leads with the qualifier minimum; put it last
+tests/regression.rs:71:15: warning TS012 the line is 145 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+tests/searcher.rs:13:9: warning TS020 [*] the attribute silences a checker
+tests/searcher.rs:20:13: warning TS006 the loop carries no upper bound; give it a fixed maximum
+tests/suite_bytes.rs:68:8: warning TS023 the condition combines booleans; split it into nested branches
+tests/suite_bytes.rs:74:8: warning TS023 the condition combines booleans; split it into nested branches
+tests/suite_bytes.rs:86:8: warning TS023 the condition combines booleans; split it into nested branches
+tests/suite_bytes_set.rs:50:8: warning TS023 the condition combines booleans; split it into nested branches
+tests/suite_bytes_set.rs:62:8: warning TS023 the condition combines booleans; split it into nested branches
+tests/suite_string.rs:76:8: warning TS023 the condition combines booleans; split it into nested branches
+tests/suite_string.rs:82:8: warning TS023 the condition combines booleans; split it into nested branches
+tests/suite_string.rs:93:8: warning TS023 the condition combines booleans; split it into nested branches
+tests/suite_string_set.rs:58:8: warning TS023 the condition combines booleans; split it into nested branches
+tests/suite_string_set.rs:69:8: warning TS023 the condition combines booleans; split it into nested branches

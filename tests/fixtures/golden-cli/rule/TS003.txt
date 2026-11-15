@@ -1,0 +1,10 @@
+TS003 too-many-parameters
+
+A function takes at most `parameters_max` parameters; past that the arguments are easy to mix up and belong in an options struct.
+
+languages: go javascript odin python rust typescript zig
+severity: warning
+default: on
+group: stable
+
+TigerStyle: "Good function shape is often the inverse of an hourglass: a few parameters, a simple return type, and a lot of meaty logic between the braces."

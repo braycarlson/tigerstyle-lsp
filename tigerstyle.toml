@@ -1,0 +1,5 @@
+extend-exclude = ["corpus/**", "tests/fixtures/**"]
+extend-select = ["TS022", "TS026"]
+
+[extend-per-file-ignores]
+"editors/vscode/src/extension.ts" = ["TS005"]

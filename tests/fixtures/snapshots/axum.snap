@@ -1,0 +1,860 @@
+axum-core/src/body.rs:102:101: warning TS012 the line is 115 columns, over the 100 column limit
+axum-core/src/body.rs:148:10: warning TS041 Poll<Option<Result<Frame<Self::Data>, Self::Error>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum-core/src/body.rs:177:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+axum-core/src/body.rs:181:21: error TS028 the error arm catches the error and does nothing with it
+axum-core/src/body.rs:197:10: warning TS041 Poll<Option<Result<Frame<Self::Data>, Self::Error>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum-core/src/body.rs:231:10: warning TS041 Poll<Option<Result<Frame<Self::Data>, Self::Error>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum-core/src/body.rs:23:5: error TS028 the default hides the error; handle it or crash on it by name
+axum-core/src/body.rs:51:9: error TS028 the default hides the error; handle it or crash on it by name
+axum-core/src/body.rs:78:101: warning TS012 the line is 110 columns, over the 100 column limit
+axum-core/src/body/unknown.rs:32:10: warning TS041 Poll<Option<Result<Frame<Self::Data>, Self::Error>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum-core/src/ext_traits/mod.rs:31:5: warning TS020 [*] the attribute silences a checker
+axum-core/src/ext_traits/request.rs:238:101: warning TS012 the line is 106 columns, over the 100 column limit
+axum-core/src/ext_traits/request.rs:403:5: warning TS020 [*] the attribute silences a checker
+axum-core/src/ext_traits/request_parts.rs:103:101: warning TS012 the line is 106 columns, over the 100 column limit
+axum-core/src/ext_traits/request_parts.rs:172:5: warning TS020 [*] the attribute silences a checker
+axum-core/src/ext_traits/request_parts.rs:38:101: warning TS012 the line is 104 columns, over the 100 column limit
+axum-core/src/ext_traits/request_parts.rs:84:101: warning TS012 the line is 104 columns, over the 100 column limit
+axum-core/src/extract/mod.rs:32:5: warning TS020 [*] the attribute silences a checker
+axum-core/src/extract/mod.rs:36:5: warning TS020 [*] the attribute silences a checker
+axum-core/src/extract/mod.rs:53:101: warning TS012 the line is 130 columns, over the 100 column limit
+axum-core/src/extract/mod.rs:79:101: warning TS012 the line is 130 columns, over the 100 column limit
+axum-core/src/extract/option.rs:21:10: warning TS041 impl Future<Output = Result<Option<Self>, Self::Rejection>> + Send stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum-core/src/extract/option.rs:35:10: warning TS041 impl Future<Output = Result<Option<Self>, Self::Rejection>> + Send stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum-core/src/extract/option.rs:48:5: warning TS020 [*] the attribute silences a checker
+axum-core/src/extract/option.rs:52:10: warning TS041 impl Future<Output = Result<Option<T>, Self::Rejection>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum-core/src/extract/option.rs:65:5: warning TS020 [*] the attribute silences a checker
+axum-core/src/extract/option.rs:66:55: warning TS041 Result<Option<T>, Self::Rejection> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum-core/src/extract/rejection.rs:24:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+axum-core/src/extract/request_parts.rs:134:9: warning TS020 [*] the attribute silences a checker
+axum-core/src/extract/request_parts.rs:178:50: warning TS011 the import brings in every name
+axum-core/src/extract/request_parts.rs:1:13: warning TS011 the import brings in every name
+axum-core/src/extract/request_parts.rs:77:9: warning TS020 [*] the attribute silences a checker
+axum-core/src/extract/tuple.rs:23:9: warning TS020 [*] the attribute silences a checker
+axum-core/src/extract/tuple.rs:32:101: warning TS012 the line is 104 columns, over the 100 column limit
+axum-core/src/extract/tuple.rs:49:9: warning TS020 [*] the attribute silences a checker
+axum-core/src/extract/tuple.rs:58:101: warning TS012 the line is 109 columns, over the 100 column limit
+axum-core/src/extract/tuple.rs:63:101: warning TS012 the line is 119 columns, over the 100 column limit
+axum-core/src/extract/tuple.rs:68:101: warning TS012 the line is 106 columns, over the 100 column limit
+axum-core/src/lib.rs:11:1: warning TS020 [*] the attribute silences a checker
+axum-core/src/macros.rs:167:17: warning TS020 [*] the attribute silences a checker
+axum-core/src/macros.rs:324:5: warning TS020 [*] the attribute silences a checker
+axum-core/src/response/into_response.rs:257:10: warning TS041 Poll<Option<Result<Frame<Self::Data>, Self::Error>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum-core/src/response/into_response.rs:278:21: info TS025 the name leads with the qualifier total; put it last
+axum-core/src/response/into_response.rs:403:9: warning TS020 [*] the attribute silences a checker
+axum-core/src/response/into_response.rs:426:9: warning TS020 [*] the attribute silences a checker
+axum-core/src/response/into_response.rs:455:9: warning TS020 [*] the attribute silences a checker
+axum-core/src/response/into_response.rs:475:9: warning TS020 [*] the attribute silences a checker
+axum-core/src/response/into_response.rs:504:9: warning TS020 [*] the attribute silences a checker
+axum-core/src/response/into_response_parts.rs:245:9: warning TS020 [*] the attribute silences a checker
+axum-core/src/response/mod.rs:191:1: warning TS020 [*] the attribute silences a checker
+axum-extra/src/body/async_read_body.rs:77:10: warning TS041 Poll<Option<Result<http_body::Frame<Self::Data>, Self::Error>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum-extra/src/either.rs:109:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:111:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:121:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:123:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:125:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:135:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:137:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:139:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:141:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:151:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:153:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:155:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:157:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:159:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:169:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:171:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:173:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:175:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:177:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:179:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:189:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:191:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:193:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:195:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:197:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:199:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:201:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:211:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:213:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:215:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:217:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:219:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:221:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:223:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:225:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/either.rs:23:101: warning TS012 the line is 123 columns, over the 100 column limit
+axum-extra/src/either.rs:243:101: warning TS012 the line is 104 columns, over the 100 column limit
+axum-extra/src/either.rs:245:101: warning TS012 the line is 112 columns, over the 100 column limit
+axum-extra/src/either.rs:250:101: warning TS012 the line is 103 columns, over the 100 column limit
+axum-extra/src/either.rs:36:101: warning TS012 the line is 123 columns, over the 100 column limit
+axum-extra/src/either.rs:87:101: warning TS012 the line is 101 columns, over the 100 column limit
+axum-extra/src/either.rs:91:101: warning TS012 the line is 121 columns, over the 100 column limit
+axum-extra/src/extract/cookie/mod.rs:204:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/extract/cookie/private.rs:107:101: warning TS012 the line is 105 columns, over the 100 column limit
+axum-extra/src/extract/cookie/private.rs:241:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/extract/cookie/private.rs:298:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+axum-extra/src/extract/cookie/signed.rs:124:101: warning TS012 the line is 104 columns, over the 100 column limit
+axum-extra/src/extract/cookie/signed.rs:259:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/extract/cookie/signed.rs:316:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+axum-extra/src/extract/form.rs:121:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/extract/form.rs:126:9: warning TS020 [*] the attribute silences a checker
+axum-extra/src/extract/form.rs:145:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/extract/form.rs:156:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/extract/form.rs:1:1: warning TS020 [*] the attribute silences a checker
+axum-extra/src/extract/form.rs:91:9: warning TS011 the import brings in every name
+axum-extra/src/extract/json_deserializer.rs:12:101: warning TS012 the line is 110 columns, over the 100 column limit
+axum-extra/src/extract/json_deserializer.rs:14:101: warning TS012 the line is 101 columns, over the 100 column limit
+axum-extra/src/extract/json_deserializer.rs:209:9: warning TS011 the import brings in every name
+axum-extra/src/extract/json_deserializer.rs:25:101: warning TS012 the line is 103 columns, over the 100 column limit
+axum-extra/src/extract/json_deserializer.rs:272:24: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/extract/json_deserializer.rs:296:21: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/extract/json_deserializer.rs:312:101: warning TS012 the line is 121 columns, over the 100 column limit
+axum-extra/src/extract/json_deserializer.rs:362:101: warning TS012 the line is 161 columns, over the 100 column limit
+axum-extra/src/extract/json_deserializer.rs:370:13: warning TS020 [*] the attribute silences a checker
+axum-extra/src/extract/json_deserializer.rs:408:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/extract/json_deserializer.rs:409:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/extract/json_deserializer.rs:410:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/extract/json_deserializer.rs:411:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/extract/json_deserializer.rs:412:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/extract/json_deserializer.rs:438:9: warning TS020 [*] the attribute silences a checker
+axum-extra/src/extract/json_deserializer.rs:440:9: warning TS020 [*] the attribute silences a checker
+axum-extra/src/extract/json_deserializer.rs:446:9: warning TS020 [*] the attribute silences a checker
+axum-extra/src/extract/json_deserializer.rs:448:9: warning TS020 [*] the attribute silences a checker
+axum-extra/src/extract/json_deserializer.rs:474:101: warning TS012 the line is 115 columns, over the 100 column limit
+axum-extra/src/extract/mod.rs:40:1: warning TS020 [*] the attribute silences a checker
+axum-extra/src/extract/mod.rs:46:1: warning TS020 [*] the attribute silences a checker
+axum-extra/src/extract/multipart.rs:110:43: warning TS041 Result<Option<Field>, MultipartError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum-extra/src/extract/multipart.rs:151:9: warning TS012 the line is 110 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+axum-extra/src/extract/multipart.rs:159:9: warning TS012 the line is 110 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+axum-extra/src/extract/multipart.rs:166:101: warning TS012 the line is 116 columns, over the 100 column limit
+axum-extra/src/extract/multipart.rs:229:38: warning TS041 Result<Option<Bytes>, MultipartError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum-extra/src/extract/multipart.rs:287:24: error TS001 status_code_from_multer_error takes part in a call cycle; give it an explicit stack or a bound
+axum-extra/src/extract/multipart.rs:310:24: error TS001 is_body_limit_error takes part in a call cycle; give it an explicit stack or a bound
+axum-extra/src/extract/multipart.rs:364:9: warning TS011 the import brings in every name
+axum-extra/src/extract/multipart.rs:378:24: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/extract/multipart.rs:380:21: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/extract/multipart.rs:426:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/extract/query.rs:181:9: warning TS011 the import brings in every name
+axum-extra/src/extract/query.rs:1:1: warning TS020 [*] the attribute silences a checker
+axum-extra/src/extract/query.rs:210:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/extract/query.rs:216:9: warning TS020 [*] the attribute silences a checker
+axum-extra/src/extract/query.rs:229:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/extract/query.rs:259:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/extract/query.rs:284:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/handler/mod.rs:119:10: warning TS020 [*] the attribute silences a checker
+axum-extra/src/handler/mod.rs:161:1: warning TS020 [*] the attribute silences a checker
+axum-extra/src/handler/mod.rs:77:101: warning TS012 the line is 121 columns, over the 100 column limit
+axum-extra/src/handler/mod.rs:90:101: warning TS012 the line is 121 columns, over the 100 column limit
+axum-extra/src/handler/or.rs:111:9: warning TS011 the import brings in every name
+axum-extra/src/handler/or.rs:143:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/handler/or.rs:146:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/handler/or.rs:149:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/handler/or.rs:16:1: warning TS020 [*] the attribute silences a checker
+axum-extra/src/json_lines.rs:178:9: warning TS011 the import brings in every name
+axum-extra/src/json_lines.rs:198:28: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/json_lines.rs:199:28: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/json_lines.rs:200:28: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/lib.rs:16:101: warning TS012 the line is 101 columns, over the 100 column limit
+axum-extra/src/lib.rs:18:101: warning TS012 the line is 112 columns, over the 100 column limit
+axum-extra/src/lib.rs:20:101: warning TS012 the line is 107 columns, over the 100 column limit
+axum-extra/src/lib.rs:23:101: warning TS012 the line is 104 columns, over the 100 column limit
+axum-extra/src/lib.rs:30:101: warning TS012 the line is 112 columns, over the 100 column limit
+axum-extra/src/lib.rs:31:101: warning TS012 the line is 121 columns, over the 100 column limit
+axum-extra/src/lib.rs:39:1: warning TS020 [*] the attribute silences a checker
+axum-extra/src/lib.rs:42:1: warning TS020 [*] the attribute silences a checker
+axum-extra/src/middleware.rs:30:101: warning TS012 the line is 101 columns, over the 100 column limit
+axum-extra/src/middleware.rs:70:18: warning TS041 Poll<Option<Result<http_body::Frame<Self::Data>, Self::Error>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum-extra/src/protobuf.rs:160:9: warning TS011 the import brings in every name
+axum-extra/src/protobuf.rs:216:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/protobuf.rs:239:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/response/content_disposition.rs:13:16: warning TS023 the condition combines booleans; split it into nested branches
+axum-extra/src/response/file_stream.rs:126:60: info TS025 the name leads with the qualifier total; put it last
+axum-extra/src/response/file_stream.rs:177:101: warning TS012 the line is 110 columns, over the 100 column limit
+axum-extra/src/response/file_stream.rs:192:13: info TS025 the name leads with the qualifier total; put it last
+axum-extra/src/response/file_stream.rs:686:21: error TS028 the default hides the error; handle it or crash on it by name
+axum-extra/src/response/multiple.rs:131:101: warning TS012 the line is 104 columns, over the 100 column limit
+axum-extra/src/response/multiple.rs:143:101: warning TS012 the line is 108 columns, over the 100 column limit
+axum-extra/src/response/multiple.rs:151:101: warning TS012 the line is 124 columns, over the 100 column limit
+axum-extra/src/response/multiple.rs:171:101: warning TS012 the line is 167 columns, over the 100 column limit
+axum-extra/src/response/multiple.rs:266:101: warning TS012 the line is 101 columns, over the 100 column limit
+axum-extra/src/response/multiple.rs:268:101: warning TS012 the line is 114 columns, over the 100 column limit
+axum-extra/src/response/multiple.rs:269:101: warning TS012 the line is 119 columns, over the 100 column limit
+axum-extra/src/response/multiple.rs:26:101: warning TS012 the line is 112 columns, over the 100 column limit
+axum-extra/src/response/multiple.rs:351:101: warning TS012 the line is 151 columns, over the 100 column limit
+axum-extra/src/response/multiple.rs:84:12: warning TS012 the line is 110 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+axum-extra/src/response/multiple.rs:85:101: warning TS012 the line is 107 columns, over the 100 column limit
+axum-extra/src/response/multiple.rs:90:101: warning TS012 the line is 102 columns, over the 100 column limit
+axum-extra/src/response/multiple.rs:91:101: warning TS012 the line is 113 columns, over the 100 column limit
+axum-extra/src/response/multiple.rs:94:101: warning TS012 the line is 119 columns, over the 100 column limit
+axum-extra/src/response/multiple.rs:95:101: warning TS012 the line is 116 columns, over the 100 column limit
+axum-extra/src/routing/mod.rs:118:1: warning TS020 [*] the attribute silences a checker
+axum-extra/src/routing/mod.rs:435:13: info TS025 the name leads with the qualifier new; put it last
+axum-extra/src/routing/mod.rs:441:21: info TS025 the name leads with the qualifier new; put it last
+axum-extra/src/routing/mod.rs:45:12: warning TS023 the condition combines booleans; split it into nested branches
+axum-extra/src/routing/mod.rs:475:9: info TS025 the name leads with the qualifier new; put it last
+axum-extra/src/routing/mod.rs:477:9: info TS025 the name leads with the qualifier new; put it last
+axum-extra/src/routing/mod.rs:495:9: warning TS011 the import brings in every name
+axum-extra/src/routing/mod.rs:540:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/routing/mod.rs:548:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/routing/resource.rs:158:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/routing/resource.rs:178:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/routing/resource.rs:181:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/routing/resource.rs:186:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/routing/resource.rs:191:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/routing/resource.rs:196:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/routing/resource.rs:201:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/routing/resource.rs:206:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/routing/resource.rs:211:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/routing/typed.rs:264:101: warning TS012 the line is 102 columns, over the 100 column limit
+axum-extra/src/routing/typed.rs:453:5: warning TS020 [*] the attribute silences a checker
+axum-extra/src/typed_header.rs:217:9: warning TS011 the import brings in every name
+axum-extra/src/typed_header.rs:272:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/typed_header.rs:276:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum-extra/src/typed_header.rs:91:10: warning TS041 Result<Option<Self>, Self::Rejection> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum-macros/src/axum_test.rs:40:12: warning TS023 the condition combines booleans; split it into nested branches
+axum-macros/src/debug_handler.rs:11:1: warning TS002 the function is 79 lines, over the 70 line limit
+axum-macros/src/debug_handler.rs:128:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+axum-macros/src/debug_handler.rs:144:9: info TS025 the name leads with the qualifier max; put it last
+axum-macros/src/debug_handler.rs:223:1: warning TS002 the function is 117 lines, over the 70 line limit
+axum-macros/src/debug_handler.rs:300:36: warning TS023 the condition combines booleans; split it into nested branches
+axum-macros/src/debug_handler.rs:321:13: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:330:13: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:33:13: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:418:9: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:419:9: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:428:9: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:429:9: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:447:9: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:448:9: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:479:9: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:480:9: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:489:9: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:490:9: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:498:1: warning TS002 the function is 78 lines, over the 70 line limit
+axum-macros/src/debug_handler.rs:530:48: info TS038 the branch states its condition negatively and carries an else; swap the arms
+axum-macros/src/debug_handler.rs:622:1: warning TS002 the function is 88 lines, over the 70 line limit
+axum-macros/src/debug_handler.rs:654:13: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:655:13: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:664:13: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:665:13: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:680:13: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:681:13: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:693:13: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:694:13: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:747:13: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:748:13: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:758:13: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:759:13: warning TS020 [*] the attribute silences a checker
+axum-macros/src/debug_handler.rs:786:21: warning TS008 the branch nests 5 levels deep, over the 4 level limit
+axum-macros/src/debug_handler.rs:827:9: info TS025 the name leads with the qualifier next; put it last
+axum-macros/src/from_ref.rs:57:9: warning TS020 [*] the attribute silences a checker
+axum-macros/src/from_ref.rs:79:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+axum-macros/src/from_request/attr.rs:26:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+axum-macros/src/from_request/attr.rs:72:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+axum-macros/src/from_request/mod.rs:1049:17: info TS025 the name leads with the qualifier last; put it last
+axum-macros/src/from_request/mod.rs:1074:1: warning TS020 [*] the attribute silences a checker
+axum-macros/src/from_request/mod.rs:230:1: warning TS002 the function is 86 lines, over the 70 line limit
+axum-macros/src/from_request/mod.rs:234:6: warning TS041 syn::Result<Option<Ident>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum-macros/src/from_request/mod.rs:330:1: warning TS002 the function is 73 lines, over the 70 line limit
+axum-macros/src/from_request/mod.rs:412:1: warning TS002 the function is 240 lines, over the 70 line limit
+axum-macros/src/from_request/mod.rs:433:17: warning TS015 the expression is an unnamed function
+axum-macros/src/from_request/mod.rs:491:51: warning TS012 the line is 116 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+axum-macros/src/from_request/mod.rs:506:101: warning TS012 the line is 112 columns, over the 100 column limit
+axum-macros/src/from_request/mod.rs:519:101: warning TS012 the line is 101 columns, over the 100 column limit
+axum-macros/src/from_request/mod.rs:526:101: warning TS012 the line is 108 columns, over the 100 column limit
+axum-macros/src/from_request/mod.rs:540:101: warning TS012 the line is 104 columns, over the 100 column limit
+axum-macros/src/from_request/mod.rs:565:101: warning TS012 the line is 108 columns, over the 100 column limit
+axum-macros/src/from_request/mod.rs:580:101: warning TS012 the line is 104 columns, over the 100 column limit
+axum-macros/src/from_request/mod.rs:614:101: warning TS012 the line is 103 columns, over the 100 column limit
+axum-macros/src/from_request/mod.rs:711:1: warning TS002 the function is 171 lines, over the 70 line limit
+axum-macros/src/from_request/mod.rs:781:101: warning TS012 the line is 129 columns, over the 100 column limit
+axum-macros/src/from_request/mod.rs:786:101: warning TS012 the line is 132 columns, over the 100 column limit
+axum-macros/src/from_request/mod.rs:791:101: warning TS012 the line is 134 columns, over the 100 column limit
+axum-macros/src/from_request/mod.rs:796:101: warning TS012 the line is 137 columns, over the 100 column limit
+axum-macros/src/from_request/mod.rs:813:101: warning TS012 the line is 107 columns, over the 100 column limit
+axum-macros/src/from_request/mod.rs:816:101: warning TS012 the line is 112 columns, over the 100 column limit
+axum-macros/src/from_request/mod.rs:835:101: warning TS012 the line is 109 columns, over the 100 column limit
+axum-macros/src/from_request/mod.rs:847:101: warning TS012 the line is 119 columns, over the 100 column limit
+axum-macros/src/from_request/mod.rs:858:101: warning TS012 the line is 114 columns, over the 100 column limit
+axum-macros/src/from_request/mod.rs:860:101: warning TS012 the line is 102 columns, over the 100 column limit
+axum-macros/src/from_request/mod.rs:870:101: warning TS012 the line is 129 columns, over the 100 column limit
+axum-macros/src/from_request/mod.rs:883:1: warning TS002 the function is 106 lines, over the 70 line limit
+axum-macros/src/from_request/mod.rs:93:1: warning TS002 the function is 136 lines, over the 70 line limit
+axum-macros/src/from_request/mod.rs:956:101: warning TS012 the line is 105 columns, over the 100 column limit
+axum-macros/src/from_request/mod.rs:977:101: warning TS012 the line is 115 columns, over the 100 column limit
+axum-macros/src/lib.rs:139:101: warning TS012 the line is 111 columns, over the 100 column limit
+axum-macros/src/lib.rs:374:101: warning TS012 the line is 130 columns, over the 100 column limit
+axum-macros/src/lib.rs:560:101: warning TS012 the line is 103 columns, over the 100 column limit
+axum-macros/src/lib.rs:662:101: warning TS012 the line is 113 columns, over the 100 column limit
+axum-macros/src/lib.rs:6:1: warning TS020 [*] the attribute silences a checker
+axum-macros/src/lib.rs:771:25: info TS025 the name leads with the qualifier last; put it last
+axum-macros/src/typed_path.rs:120:13: warning TS020 [*] the attribute silences a checker
+axum-macros/src/typed_path.rs:121:13: warning TS020 [*] the attribute silences a checker
+axum-macros/src/typed_path.rs:169:1: warning TS002 the function is 104 lines, over the 70 line limit
+axum-macros/src/typed_path.rs:16:8: warning TS023 the condition combines booleans; split it into nested branches
+axum-macros/src/typed_path.rs:176:9: info TS025 the name leads with the qualifier num; put it last
+axum-macros/src/typed_path.rs:183:9: info TS025 the name leads with the qualifier num; put it last
+axum-macros/src/typed_path.rs:226:13: warning TS020 [*] the attribute silences a checker
+axum-macros/src/typed_path.rs:227:13: warning TS020 [*] the attribute silences a checker
+axum-macros/src/typed_path.rs:282:1: warning TS002 the function is 75 lines, over the 70 line limit
+axum-macros/src/typed_path.rs:394:5: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+axum-macros/src/typed_path.rs:403:16: warning TS023 the condition combines booleans; split it into nested branches
+axum-macros/src/typed_path.rs:444:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+axum-macros/src/typed_path.rs:451:20: warning TS023 the condition combines booleans; split it into nested branches
+axum-macros/src/typed_path.rs:473:5: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+axum-macros/src/typed_path.rs:67:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+axum-macros/src/with_position.rs:86:20: info TS038 the branch states its condition negatively and carries an else; swap the arms
+axum-macros/tests/debug_handler/fail/single_wrong_return_tuple.rs:1:1: warning TS020 [*] the attribute silences a checker
+axum-macros/tests/debug_handler/fail/too_many_extractors.rs:5:17: warning TS003 the function takes 17 parameters, over the 7 the style allows
+axum-macros/tests/debug_handler/fail/wrong_return_tuple.rs:1:1: warning TS020 [*] the attribute silences a checker
+axum/benches/benches.rs:138:5: warning TS002 the function is 81 lines, over the 70 line limit
+axum/benches/benches.rs:149:16: warning TS023 the condition combines booleans; split it into nested branches
+axum/benches/benches.rs:15:1: warning TS002 the function is 76 lines, over the 70 line limit
+axum/benches/benches.rs:166:9: warning TS020 [*] the attribute silences a checker
+axum/benches/benches.rs:1:1: warning TS020 [*] the attribute silences a checker
+axum/src/boxed.rs:105:1: warning TS020 [*] the attribute silences a checker
+axum/src/boxed.rs:25:25: warning TS015 the expression is an unnamed function
+axum/src/boxed.rs:66:5: warning TS020 [*] the attribute silences a checker
+axum/src/error_handling/mod.rs:151:1: warning TS020 [*] the attribute silences a checker
+axum/src/error_handling/mod.rs:176:13: warning TS020 [*] the attribute silences a checker
+axum/src/error_handling/mod.rs:258:9: warning TS011 the import brings in every name
+axum/src/extension.rs:110:10: warning TS041 Result<Option<Self>, Self::Rejection> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum/src/extension.rs:156:101: warning TS012 the line is 105 columns, over the 100 column limit
+axum/src/extension.rs:1:13: warning TS011 the import brings in every name
+axum/src/extension.rs:232:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extension.rs:236:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extension.rs:240:101: warning TS012 the line is 188 columns, over the 100 column limit
+axum/src/extension.rs:240:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extension.rs:244:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extension.rs:93:101: warning TS012 the line is 109 columns, over the 100 column limit
+axum/src/extract/connect_info.rs:134:101: warning TS012 the line is 112 columns, over the 100 column limit
+axum/src/extract/connect_info.rs:204:101: warning TS012 the line is 103 columns, over the 100 column limit
+axum/src/extract/connect_info.rs:230:13: warning TS011 the import brings in every name
+axum/src/extract/connect_info.rs:234:5: warning TS020 [*] the attribute silences a checker
+axum/src/extract/connect_info.rs:235:5: warning TS020 [*] the attribute silences a checker
+axum/src/extract/connect_info.rs:27:101: warning TS012 the line is 112 columns, over the 100 column limit
+axum/src/extract/connect_info.rs:5:101: warning TS012 the line is 112 columns, over the 100 column limit
+axum/src/extract/connect_info.rs:73:101: warning TS012 the line is 112 columns, over the 100 column limit
+axum/src/extract/matched_path.rs:150:9: warning TS011 the import brings in every name
+axum/src/extract/matched_path.rs:165:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/matched_path.rs:181:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/matched_path.rs:1:13: warning TS011 the import brings in every name
+axum/src/extract/matched_path.rs:200:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/matched_path.rs:419:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/matched_path.rs:439:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/matched_path.rs:93:10: warning TS041 Result<Option<Self>, Self::Rejection> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum/src/extract/mod.rs:100:31: warning TS011 the import brings in every name
+axum/src/extract/multipart.rs:108:43: warning TS041 Result<Option<Field<'_>>, MultipartError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum/src/extract/multipart.rs:147:9: warning TS012 the line is 110 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+axum/src/extract/multipart.rs:155:9: warning TS012 the line is 110 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+axum/src/extract/multipart.rs:162:101: warning TS012 the line is 116 columns, over the 100 column limit
+axum/src/extract/multipart.rs:225:38: warning TS041 Result<Option<Bytes>, MultipartError> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum/src/extract/multipart.rs:278:24: error TS001 status_code_from_multer_error takes part in a call cycle; give it an explicit stack or a bound
+axum/src/extract/multipart.rs:301:24: error TS001 is_body_limit_error takes part in a call cycle; give it an explicit stack or a bound
+axum/src/extract/multipart.rs:362:32: warning TS011 the import brings in every name
+axum/src/extract/multipart.rs:376:24: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/multipart.rs:378:21: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/multipart.rs:430:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/multipart.rs:90:56: warning TS041 Result<Option<Self>, Self::Rejection> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum/src/extract/nested_path.rs:120:9: warning TS011 the import brings in every name
+axum/src/extract/nested_path.rs:96:17: info TS025 the name leads with the qualifier new; put it last
+axum/src/extract/original_uri.rs:77:19: error TS028 the default hides the error; handle it or crash on it by name
+axum/src/extract/path/de.rs:241:48: warning TS041 Result<Option<K::Value>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum/src/extract/path/de.rs:449:60: warning TS041 Result<Option<T::Value>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum/src/extract/path/de.rs:614:52: warning TS041 Result<Option<T::Value>, Self::Error> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum/src/extract/path/de.rs:682:13: warning TS020 [*] the attribute silences a checker
+axum/src/extract/path/de.rs:865:9: warning TS020 [*] the attribute silences a checker
+axum/src/extract/path/de.rs:883:9: warning TS020 [*] the attribute silences a checker
+axum/src/extract/path/inner_path.rs:130:101: warning TS012 the line is 116 columns, over the 100 column limit
+axum/src/extract/path/inner_path.rs:134:101: warning TS012 the line is 122 columns, over the 100 column limit
+axum/src/extract/path/inner_path.rs:166:10: warning TS041 Result<Option<Self>, Self::Rejection> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum/src/extract/path/inner_path.rs:192:101: warning TS012 the line is 121 columns, over the 100 column limit
+axum/src/extract/path/inner_path.rs:216:9: warning TS011 the import brings in every name
+axum/src/extract/path/inner_path.rs:249:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:24:101: warning TS012 the line is 104 columns, over the 100 column limit
+axum/src/extract/path/inner_path.rs:272:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:293:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:321:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:362:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:388:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:409:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:433:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:458:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:480:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:484:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:505:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:530:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:586:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:590:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:594:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:629:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:633:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:654:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:667:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:690:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:705:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/inner_path.rs:720:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:1002:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:1041:101: warning TS012 the line is 139 columns, over the 100 column limit
+axum/src/extract/path/mod.rs:1062:101: warning TS012 the line is 139 columns, over the 100 column limit
+axum/src/extract/path/mod.rs:1069:9: warning TS020 [*] the attribute silences a checker
+axum/src/extract/path/mod.rs:149:101: warning TS012 the line is 104 columns, over the 100 column limit
+axum/src/extract/path/mod.rs:155:101: warning TS012 the line is 116 columns, over the 100 column limit
+axum/src/extract/path/mod.rs:159:101: warning TS012 the line is 122 columns, over the 100 column limit
+axum/src/extract/path/mod.rs:189:10: warning TS041 Result<Option<Self>, Self::Rejection> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum/src/extract/path/mod.rs:227:5: warning TS020 [*] the attribute silences a checker
+axum/src/extract/path/mod.rs:360:101: warning TS012 the line is 143 columns, over the 100 column limit
+axum/src/extract/path/mod.rs:629:31: warning TS011 the import brings in every name
+axum/src/extract/path/mod.rs:675:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:693:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:696:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:716:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:719:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:745:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:748:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:764:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:767:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:783:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:786:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:813:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:817:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:829:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:831:101: warning TS012 the line is 120 columns, over the 100 column limit
+axum/src/extract/path/mod.rs:837:9: warning TS020 [*] the attribute silences a checker
+axum/src/extract/path/mod.rs:853:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:860:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:908:5: warning TS002 the function is 76 lines, over the 70 line limit
+axum/src/extract/path/mod.rs:962:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:965:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:968:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:974:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:979:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:982:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:996:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/path/mod.rs:9:15: warning TS011 the import brings in every name
+axum/src/extract/query.rs:108:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/query.rs:150:9: warning TS020 [*] the attribute silences a checker
+axum/src/extract/query.rs:163:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/query.rs:1:13: warning TS011 the import brings in every name
+axum/src/extract/query.rs:81:13: warning TS015 the expression is an unnamed function
+axum/src/extract/raw_form.rs:116:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/raw_form.rs:39:12: warning TS023 the condition combines booleans; split it into nested branches
+axum/src/extract/raw_form.rs:67:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/raw_form.rs:77:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/raw_form.rs:86:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/extract/rejection.rs:7:9: warning TS011 the import brings in every name
+axum/src/extract/state.rs:299:101: warning TS012 the line is 114 columns, over the 100 column limit
+axum/src/extract/ws.rs:1107:101: warning TS012 the line is 111 columns, over the 100 column limit
+axum/src/extract/ws.rs:1197:5: warning TS020 [*] the attribute silences a checker
+axum/src/extract/ws.rs:1205:5: warning TS020 [*] the attribute silences a checker
+axum/src/extract/ws.rs:1270:13: warning TS006 the loop iterates a source that never ends; bound it with take or a count
+axum/src/extract/ws.rs:140:101: warning TS012 the line is 105 columns, over the 100 column limit
+axum/src/extract/ws.rs:142:5: warning TS011 the import brings in every name
+axum/src/extract/ws.rs:237:12: info TS025 the name leads with the qualifier max; put it last
+axum/src/extract/ws.rs:243:12: info TS025 the name leads with the qualifier max; put it last
+axum/src/extract/ws.rs:249:12: info TS025 the name leads with the qualifier max; put it last
+axum/src/extract/ws.rs:430:13: warning TS020 [*] the attribute silences a checker
+axum/src/extract/ws.rs:432:13: warning TS020 [*] the attribute silences a checker
+axum/src/extract/ws.rs:610:37: warning TS041 Option<Result<Message, Error>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum/src/extract/ws.rs:641:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+axum/src/extract/ws.rs:807:101: warning TS012 the line is 134 columns, over the 100 column limit
+axum/src/form.rs:160:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/form.rs:170:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/form.rs:238:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/form.rs:248:9: warning TS020 [*] the attribute silences a checker
+axum/src/form.rs:267:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/form.rs:26:101: warning TS012 the line is 101 columns, over the 100 column limit
+axum/src/form.rs:278:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/form.rs:2:22: warning TS011 the import brings in every name
+axum/src/form.rs:87:21: warning TS015 the expression is an unnamed function
+axum/src/handler/mod.rs:226:9: warning TS020 [*] the attribute silences a checker
+axum/src/handler/mod.rs:266:5: warning TS020 [*] the attribute silences a checker
+axum/src/handler/mod.rs:267:5: warning TS020 [*] the attribute silences a checker
+axum/src/handler/mod.rs:355:101: warning TS012 the line is 103 columns, over the 100 column limit
+axum/src/handler/mod.rs:404:33: warning TS011 the import brings in every name
+axum/src/handler/mod.rs:423:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/handler/mod.rs:446:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/handler/service.rs:102:101: warning TS012 the line is 116 columns, over the 100 column limit
+axum/src/handler/service.rs:111:9: warning TS011 the import brings in every name
+axum/src/json.rs:123:55: warning TS041 Result<Option<Self>, Self::Rejection> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum/src/json.rs:15:101: warning TS012 the line is 106 columns, over the 100 column limit
+axum/src/json.rs:161:101: warning TS012 the line is 103 columns, over the 100 column limit
+axum/src/json.rs:20:101: warning TS012 the line is 103 columns, over the 100 column limit
+axum/src/json.rs:240:32: warning TS011 the import brings in every name
+axum/src/json.rs:293:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/json.rs:294:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/json.rs:295:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/json.rs:296:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/json.rs:297:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/json.rs:2:22: warning TS011 the import brings in every name
+axum/src/json.rs:340:9: warning TS020 [*] the attribute silences a checker
+axum/src/json.rs:342:9: warning TS020 [*] the attribute silences a checker
+axum/src/json.rs:348:9: warning TS020 [*] the attribute silences a checker
+axum/src/json.rs:350:9: warning TS020 [*] the attribute silences a checker
+axum/src/json.rs:369:101: warning TS012 the line is 115 columns, over the 100 column limit
+axum/src/lib.rs:498:101: warning TS012 the line is 102 columns, over the 100 column limit
+axum/src/lib.rs:500:101: warning TS012 the line is 138 columns, over the 100 column limit
+axum/src/lib.rs:502:101: warning TS012 the line is 160 columns, over the 100 column limit
+axum/src/lib.rs:504:101: warning TS012 the line is 161 columns, over the 100 column limit
+axum/src/lib.rs:505:101: warning TS012 the line is 162 columns, over the 100 column limit
+axum/src/lib.rs:507:101: warning TS012 the line is 112 columns, over the 100 column limit
+axum/src/lib.rs:535:101: warning TS012 the line is 122 columns, over the 100 column limit
+axum/src/lib.rs:547:1: warning TS020 [*] the attribute silences a checker
+axum/src/lib.rs:573:1: warning TS020 [*] the attribute silences a checker
+axum/src/macros.rs:71:1: warning TS020 [*] the attribute silences a checker
+axum/src/macros.rs:79:1: warning TS020 [*] the attribute silences a checker
+axum/src/macros.rs:87:1: warning TS020 [*] the attribute silences a checker
+axum/src/macros.rs:93:1: warning TS020 [*] the attribute silences a checker
+axum/src/middleware/from_extractor.rs:165:9: warning TS011 the import brings in every name
+axum/src/middleware/from_extractor.rs:236:5: warning TS020 [*] the attribute silences a checker
+axum/src/middleware/from_extractor.rs:271:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+axum/src/middleware/from_extractor.rs:274:17: info TS025 the name leads with the qualifier new; put it last
+axum/src/middleware/from_extractor.rs:305:49: warning TS011 the import brings in every name
+axum/src/middleware/from_extractor.rs:364:5: warning TS020 [*] the attribute silences a checker
+axum/src/middleware/from_fn.rs:258:9: warning TS020 [*] the attribute silences a checker
+axum/src/middleware/from_fn.rs:259:101: warning TS012 the line is 103 columns, over the 100 column limit
+axum/src/middleware/from_fn.rs:31:101: warning TS012 the line is 103 columns, over the 100 column limit
+axum/src/middleware/map_request.rs:251:9: warning TS020 [*] the attribute silences a checker
+axum/src/middleware/map_request.rs:252:101: warning TS012 the line is 108 columns, over the 100 column limit
+axum/src/middleware/map_request.rs:369:5: warning TS020 [*] the attribute silences a checker
+axum/src/middleware/map_request.rs:416:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/middleware/map_request.rs:437:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/middleware/map_response.rs:233:9: warning TS020 [*] the attribute silences a checker
+axum/src/middleware/map_response.rs:234:101: warning TS012 the line is 105 columns, over the 100 column limit
+axum/src/middleware/map_response.rs:345:5: warning TS020 [*] the attribute silences a checker
+axum/src/response/mod.rs:101:5: warning TS020 [*] the attribute silences a checker
+axum/src/response/mod.rs:135:5: warning TS020 [*] the attribute silences a checker
+axum/src/response/mod.rs:136:5: warning TS002 the function is 120 lines, over the 70 line limit
+axum/src/response/mod.rs:258:5: warning TS002 the function is 132 lines, over the 70 line limit
+axum/src/response/mod.rs:65:101: warning TS012 the line is 106 columns, over the 100 column limit
+axum/src/response/mod.rs:89:9: warning TS011 the import brings in every name
+axum/src/response/sse.rs:1018:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/response/sse.rs:1027:25: error TS036 the assertion calls next, which changes state; an assertion only reads, and this one runs in release builds too
+axum/src/response/sse.rs:157:10: warning TS041 Poll<Option<Result<Frame<Self::Data>, Self::Error>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum/src/response/sse.rs:190:26: info TS025 the name leads with the qualifier bytes; put it last
+axum/src/response/sse.rs:194:34: info TS025 the name leads with the qualifier bytes; put it last
+axum/src/response/sse.rs:308:101: warning TS012 the line is 105 columns, over the 100 column limit
+axum/src/response/sse.rs:326:101: warning TS012 the line is 105 columns, over the 100 column limit
+axum/src/response/sse.rs:377:101: warning TS012 the line is 101 columns, over the 100 column limit
+axum/src/response/sse.rs:444:101: warning TS012 the line is 121 columns, over the 100 column limit
+axum/src/response/sse.rs:492:32: info TS025 the name leads with the qualifier bytes; put it last
+axum/src/response/sse.rs:540:12: warning TS023 the condition combines booleans; split it into nested branches
+axum/src/response/sse.rs:544:17: info TS025 the name leads with the qualifier last; put it last
+axum/src/response/sse.rs:546:16: warning TS023 the condition combines booleans; split it into nested branches
+axum/src/response/sse.rs:553:16: warning TS023 the condition combines booleans; split it into nested branches
+axum/src/response/sse.rs:613:5: info TS025 the name leads with the qualifier max; put it last
+axum/src/response/sse.rs:734:31: warning TS011 the import brings in every name
+axum/src/response/sse.rs:787:13: info TS025 the name leads with the qualifier first; put it last
+axum/src/response/sse.rs:876:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/response/sse.rs:900:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/response/sse.rs:901:20: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/response/sse.rs:903:17: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/response/sse.rs:967:24: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/into_make_service.rs:52:13: warning TS011 the import brings in every name
+axum/src/routing/method_filter.rs:27:101: warning TS012 the line is 117 columns, over the 100 column limit
+axum/src/routing/method_routing.rs:1054:24: warning TS015 the expression is an unnamed function
+axum/src/routing/method_routing.rs:1054:45: warning TS015 the expression is an unnamed function
+axum/src/routing/method_routing.rs:1083:12: warning TS023 the condition combines booleans; split it into nested branches
+axum/src/routing/method_routing.rs:1100:24: warning TS015 the expression is an unnamed function
+axum/src/routing/method_routing.rs:1496:5: warning TS020 [*] the attribute silences a checker
+axum/src/routing/method_routing.rs:1512:5: warning TS020 [*] the attribute silences a checker
+axum/src/routing/method_routing.rs:1528:5: warning TS020 [*] the attribute silences a checker
+axum/src/routing/method_routing.rs:205:101: warning TS012 the line is 101 columns, over the 100 column limit
+axum/src/routing/method_routing.rs:234:101: warning TS012 the line is 118 columns, over the 100 column limit
+axum/src/routing/method_routing.rs:310:101: warning TS012 the line is 118 columns, over the 100 column limit
+axum/src/routing/method_routing.rs:801:101: warning TS012 the line is 116 columns, over the 100 column limit
+axum/src/routing/method_routing.rs:888:5: warning TS002 the function is 131 lines, over the 70 line limit
+axum/src/routing/mod.rs:131:9: warning TS020 [*] the attribute silences a checker
+axum/src/routing/mod.rs:143:9: warning TS020 [*] the attribute silences a checker
+axum/src/routing/mod.rs:214:12: warning TS023 the condition combines booleans; split it into nested branches
+axum/src/routing/mod.rs:240:12: warning TS023 the condition combines booleans; split it into nested branches
+axum/src/routing/mod.rs:358:5: warning TS020 [*] the attribute silences a checker
+axum/src/routing/mod.rs:399:33: warning TS020 [*] the attribute silences a checker
+axum/src/routing/mod.rs:419:33: warning TS020 [*] the attribute silences a checker
+axum/src/routing/mod.rs:468:101: warning TS012 the line is 111 columns, over the 100 column limit
+axum/src/routing/mod.rs:61:101: warning TS012 the line is 141 columns, over the 100 column limit
+axum/src/routing/mod.rs:779:1: warning TS020 [*] the attribute silences a checker
+axum/src/routing/mod.rs:826:9: warning TS011 the import brings in every name
+axum/src/routing/path_router.rs:279:5: warning TS020 [*] the attribute silences a checker
+axum/src/routing/path_router.rs:282:9: warning TS020 [*] the attribute silences a checker
+axum/src/routing/route.rs:151:12: warning TS023 the condition combines booleans; split it into nested branches
+axum/src/routing/route.rs:156:16: warning TS023 the condition combines booleans; split it into nested branches
+axum/src/routing/route.rs:166:101: warning TS012 the line is 149 columns, over the 100 column limit
+axum/src/routing/route.rs:201:13: warning TS020 [*] the attribute silences a checker
+axum/src/routing/route.rs:242:31: warning TS011 the import brings in every name
+axum/src/routing/route.rs:246:13: warning TS011 the import brings in every name
+axum/src/routing/strip_prefix.rs:120:9: info TS025 the name leads with the qualifier new; put it last
+axum/src/routing/strip_prefix.rs:174:9: warning TS006 the loop runs until a call says stop; assert or decrement a bound in the body
+axum/src/routing/strip_prefix.rs:232:5: warning TS020 [*] the attribute silences a checker
+axum/src/routing/strip_prefix.rs:44:21: info TS025 the name leads with the qualifier new; put it last
+axum/src/routing/strip_prefix.rs:540:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+axum/src/routing/strip_prefix.rs:542:16: warning TS023 the condition combines booleans; split it into nested branches
+axum/src/routing/strip_prefix.rs:56:1: warning TS002 the function is 76 lines, over the 70 line limit
+axum/src/routing/tests/fallback.rs:105:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:109:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:122:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:12:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:138:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:154:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:16:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:176:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:194:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:1:5: warning TS011 the import brings in every name
+axum/src/routing/tests/fallback.rs:225:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:229:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:245:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:249:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:265:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:269:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:27:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:284:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:288:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:303:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:307:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:318:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:31:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:329:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:346:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:363:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:365:9: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:379:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:391:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:43:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:55:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:56:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:60:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:73:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/fallback.rs:93:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/get_to_head.rs:1:5: warning TS011 the import brings in every name
+axum/src/routing/tests/get_to_head.rs:39:9: warning TS011 the import brings in every name
+axum/src/routing/tests/get_to_head.rs:5:9: warning TS011 the import brings in every name
+axum/src/routing/tests/handle_error.rs:1:5: warning TS011 the import brings in every name
+axum/src/routing/tests/merge.rs:1:5: warning TS011 the import brings in every name
+axum/src/routing/tests/merge.rs:240:9: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/merge.rs:251:9: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/merge.rs:273:9: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/merge.rs:284:9: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/merge.rs:307:9: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/merge.rs:318:9: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/merge.rs:329:9: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/merge.rs:351:9: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/merge.rs:362:9: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/merge.rs:371:1: warning TS020 [*] the attribute silences a checker
+axum/src/routing/tests/merge.rs:382:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/merge.rs:384:9: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/merge.rs:392:9: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/merge.rs:395:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/merge.rs:438:9: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/merge.rs:70:24: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/merge.rs:83:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/merge.rs:84:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/merge.rs:87:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/merge.rs:88:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:1113:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:1135:1: warning TS020 [*] the attribute silences a checker
+axum/src/routing/tests/mod.rs:1220:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:1225:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:125:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:129:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:1311:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:1336:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:133:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:137:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:14:9: warning TS011 the import brings in every name
+axum/src/routing/tests/mod.rs:154:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:158:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:192:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:196:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:200:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:204:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:326:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:381:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:385:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:406:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:418:15: warning TS015 the expression is an unnamed function
+axum/src/routing/tests/mod.rs:423:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:424:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:425:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:426:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:427:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:429:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:430:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:431:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:432:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:433:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:434:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:447:15: warning TS015 the expression is an unnamed function
+axum/src/routing/tests/mod.rs:452:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:453:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:454:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:455:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:458:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:459:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:460:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:461:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:463:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:464:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:465:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:466:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:468:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:481:15: warning TS015 the expression is an unnamed function
+axum/src/routing/tests/mod.rs:486:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:487:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:488:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:489:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:492:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:493:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:495:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:496:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:498:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:509:15: warning TS015 the expression is an unnamed function
+axum/src/routing/tests/mod.rs:514:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:517:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:519:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:520:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:534:15: warning TS015 the expression is an unnamed function
+axum/src/routing/tests/mod.rs:539:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:540:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:541:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:542:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:546:101: warning TS012 the line is 140 columns, over the 100 column limit
+axum/src/routing/tests/mod.rs:556:101: warning TS012 the line is 126 columns, over the 100 column limit
+axum/src/routing/tests/mod.rs:568:101: warning TS012 the line is 130 columns, over the 100 column limit
+axum/src/routing/tests/mod.rs:580:101: warning TS012 the line is 130 columns, over the 100 column limit
+axum/src/routing/tests/mod.rs:674:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:677:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:736:1: warning TS020 [*] the attribute silences a checker
+axum/src/routing/tests/mod.rs:833:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:837:13: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/mod.rs:953:9: info TS025 the name leads with the qualifier new; put it last
+axum/src/routing/tests/nest.rs:139:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/nest.rs:143:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/nest.rs:163:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/nest.rs:186:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/nest.rs:1:5: warning TS011 the import brings in every name
+axum/src/routing/tests/nest.rs:212:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/nest.rs:213:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/nest.rs:214:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/nest.rs:231:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/nest.rs:232:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/nest.rs:282:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/nest.rs:283:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/nest.rs:284:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/nest.rs:285:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/nest.rs:286:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/nest.rs:302:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/nest.rs:322:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/nest.rs:45:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/nest.rs:49:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/nest.rs:53:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/tests/nest.rs:57:16: error TS036 the assertion changes state; an assertion only reads, and this one runs in release builds too
+axum/src/routing/url_params.rs:18:9: info TS025 the name leads with the qualifier current; put it last
+axum/src/serve/listener.rs:250:101: warning TS012 the line is 109 columns, over the 100 column limit
+axum/src/serve/listener.rs:39:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+axum/src/serve/listener.rs:59:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+axum/src/serve/mod.rs:1007:5: warning TS020 [*] the attribute silences a checker
+axum/src/serve/mod.rs:1008:5: warning TS002 the function is 169 lines, over the 70 line limit
+axum/src/serve/mod.rs:1023:36: warning TS015 the expression is an unnamed function
+axum/src/serve/mod.rs:103:101: warning TS012 the line is 103 columns, over the 100 column limit
+axum/src/serve/mod.rs:105:101: warning TS012 the line is 124 columns, over the 100 column limit
+axum/src/serve/mod.rs:107:101: warning TS012 the line is 144 columns, over the 100 column limit
+axum/src/serve/mod.rs:108:101: warning TS012 the line is 128 columns, over the 100 column limit
+axum/src/serve/mod.rs:1360:21: error TS028 the error is dropped; handle it or crash on it by name
+axum/src/serve/mod.rs:1526:18: warning TS041 std::task::Poll<Option<Result<http_body::Frame<Self::Data>, Self::Error>>> stacks 2 layers of optionality; every layer is a case each caller has to handle
+axum/src/serve/mod.rs:1528:101: warning TS012 the line is 110 columns, over the 100 column limit
+axum/src/serve/mod.rs:1528:17: warning TS020 [*] the attribute silences a checker
+axum/src/serve/mod.rs:1567:14: info TS025 the name leads with the qualifier max; put it last
+axum/src/serve/mod.rs:1595:9: error TS028 the error is dropped; handle it or crash on it by name
+axum/src/serve/mod.rs:1606:14: info TS025 the name leads with the qualifier max; put it last
+axum/src/serve/mod.rs:1662:14: info TS025 the name leads with the qualifier max; put it last
+axum/src/serve/mod.rs:1724:14: info TS025 the name leads with the qualifier max; put it last
+axum/src/serve/mod.rs:1755:9: error TS028 the error is dropped; handle it or crash on it by name
+axum/src/serve/mod.rs:1768:14: info TS025 the name leads with the qualifier max; put it last
+axum/src/serve/mod.rs:1827:14: info TS025 the name leads with the qualifier max; put it last
+axum/src/serve/mod.rs:1870:14: info TS025 the name leads with the qualifier max; put it last
+axum/src/serve/mod.rs:1870:5: warning TS002 the function is 71 lines, over the 70 line limit
+axum/src/serve/mod.rs:1905:17: error TS028 the error is dropped; handle it or crash on it by name
+axum/src/serve/mod.rs:1947:14: info TS025 the name leads with the qualifier max; put it last
+axum/src/serve/mod.rs:195:12: info TS025 the name leads with the qualifier max; put it last
+axum/src/serve/mod.rs:1975:21: error TS028 the error is dropped; handle it or crash on it by name
+axum/src/serve/mod.rs:293:9: info TS025 the name leads with the qualifier max; put it last
+axum/src/serve/mod.rs:539:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+axum/src/serve/mod.rs:687:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+axum/src/serve/mod.rs:788:1: warning TS002 the function is 107 lines, over the 70 line limit
+axum/src/serve/mod.rs:833:9: warning TS020 [*] the attribute silences a checker
+axum/src/serve/mod.rs:851:13: info TS025 the name leads with the qualifier max; put it last
+axum/src/serve/mod.rs:852:13: info TS025 the name leads with the qualifier max; put it last
+axum/src/serve/mod.rs:859:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+axum/src/service_ext.rs:16:101: warning TS012 the line is 102 columns, over the 100 column limit
+axum/src/service_ext.rs:29:101: warning TS012 the line is 102 columns, over the 100 column limit
+axum/src/test_helpers/mod.rs:19:1: warning TS020 [*] the attribute silences a checker
+axum/src/test_helpers/mod.rs:1:1: warning TS020 [*] the attribute silences a checker
+axum/src/test_helpers/mod.rs:6:9: warning TS011 the import brings in every name
+axum/src/test_helpers/test_client.rs:120:5: warning TS020 [*] the attribute silences a checker
+axum/src/test_helpers/test_client.rs:154:5: warning TS020 [*] the attribute silences a checker
+axum/src/test_helpers/test_client.rs:163:5: warning TS020 [*] the attribute silences a checker
+axum/src/test_helpers/test_client.rs:69:5: warning TS020 [*] the attribute silences a checker
+axum/src/test_helpers/test_client.rs:76:5: warning TS020 [*] the attribute silences a checker
+axum/src/test_helpers/test_client.rs:83:5: warning TS020 [*] the attribute silences a checker
+axum/src/test_helpers/tracing_helpers.rs:11:5: warning TS011 the import brings in every name
+examples/chat/src/main.rs:112:9: warning TS006 the loop iterates a source that never ends; bound it with take or a count
+examples/chat/src/main.rs:72:1: warning TS002 the function is 75 lines, over the 70 line limit
+examples/chat/src/main.rs:85:16: info TS038 the branch states its condition negatively and carries an else; swap the arms
+examples/compression/src/tests.rs:117:21: error TS036 the assertion changes state; an assertion only reads
+examples/compression/src/tests.rs:13:5: warning TS011 the import brings in every name
+examples/compression/src/tests.rs:33:21: error TS036 the assertion changes state; an assertion only reads
+examples/compression/src/tests.rs:55:21: error TS036 the assertion changes state; an assertion only reads
+examples/compression/src/tests.rs:77:21: error TS036 the assertion changes state; an assertion only reads
+examples/compression/src/tests.rs:99:21: error TS036 the assertion changes state; an assertion only reads
+examples/consume-body-in-extractor-or-middleware/src/main.rs:41:1: warning TS020 [*] the attribute silences a checker
+examples/consume-body-in-extractor-or-middleware/src/main.rs:50:1: warning TS020 [*] the attribute silences a checker
+examples/customize-extractor-error/src/derive_from_request.rs:13:101: warning TS012 the line is 120 columns, over the 100 column limit
+examples/customize-path-rejection/src/main.rs:59:5: warning TS002 the function is 78 lines, over the 70 line limit
+examples/diesel-async-postgres/src/main.rs:21:5: warning TS011 the import brings in every name
+examples/diesel-async-postgres/src/main.rs:91:10: info TS025 the name leads with the qualifier new; put it last
+examples/diesel-postgres/src/main.rs:20:5: warning TS011 the import brings in every name
+examples/diesel-postgres/src/main.rs:94:10: info TS025 the name leads with the qualifier new; put it last
+examples/error-handling/src/main.rs:12:101: warning TS012 the line is 122 columns, over the 100 column limit
+examples/error-handling/src/main.rs:13:101: warning TS012 the line is 148 columns, over the 100 column limit
+examples/error-handling/src/main.rs:192:101: warning TS012 the line is 126 columns, over the 100 column limit
+examples/error-handling/src/main.rs:19:101: warning TS012 the line is 122 columns, over the 100 column limit
+examples/error-handling/src/main.rs:20:101: warning TS012 the line is 135 columns, over the 100 column limit
+examples/error-handling/src/main.rs:21:101: warning TS012 the line is 148 columns, over the 100 column limit
+examples/error-handling/src/main.rs:97:5: info TS025 the name leads with the qualifier next; put it last
+examples/form/src/main.rs:63:1: warning TS020 [*] the attribute silences a checker
+examples/http-proxy/src/main.rs:68:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/jwt/src/main.rs:42:34: warning TS012 the line is 187 columns, over the 100 column limit, and its widest token cannot be wrapped; move the token to a line of its own
+examples/jwt/src/main.rs:88:8: warning TS023 the condition combines booleans; split it into nested branches
+examples/jwt/src/main.rs:92:8: warning TS023 the condition combines booleans; split it into nested branches
+examples/key-value-store/src/main.rs:117:1: warning TS020 [*] the attribute silences a checker
+examples/key-value-store/src/main.rs:127:5: warning TS020 [*] the attribute silences a checker
+examples/low-level-native-tls/src/main.rs:45:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/low-level-openssl/src/main.rs:19:1: warning TS002 the function is 81 lines, over the 70 line limit
+examples/low-level-openssl/src/main.rs:57:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/low-level-rustls/src/main.rs:49:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/oauth/src/main.rs:218:1: warning TS020 [*] the attribute silences a checker
+examples/oauth/src/main.rs:373:10: warning TS041 Result<Option<Self>, Self::Rejection> stacks 2 layers of optionality; every layer is a case each caller has to handle
+examples/prometheus-metrics/src/main.rs:95:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/serve-with-hyper/src/main.rs:38:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/serve-with-hyper/src/main.rs:95:5: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/simple-router-wasm/src/main.rs:40:1: warning TS020 [*] the attribute silences a checker
+examples/sse/assets/script.js:1:1: error TS005 the global is mutable
+examples/sse/assets/script.js:3:25: warning TS015 the expression is an unnamed function
+examples/static-file-server/src/main.rs:98:1: warning TS020 [*] the attribute silences a checker
+examples/templates-minijinja/src/main.rs:83:101: warning TS012 the line is 109 columns, over the 100 column limit
+examples/testing-websockets/src/main.rs:48:5: warning TS006 the loop iterates a source that never ends; bound it with take or a count
+examples/tls-graceful-shutdown/src/main.rs:121:20: warning TS015 the expression is an unnamed function
+examples/tls-rustls/src/main.rs:20:1: warning TS020 [*] the attribute silences a checker
+examples/tls-rustls/src/main.rs:67:1: warning TS020 [*] the attribute silences a checker
+examples/tls-rustls/src/main.rs:72:1: warning TS020 [*] the attribute silences a checker
+examples/tls-rustls/src/main.rs:7:1: warning TS020 [*] the attribute silences a checker
+examples/tls-rustls/src/main.rs:87:20: warning TS015 the expression is an unnamed function
+examples/tracing-aka-logging/src/main.rs:22:1: warning TS002 the function is 71 lines, over the 70 line limit
+examples/unix-domain-socket/src/main.rs:86:5: warning TS020 [*] the attribute silences a checker
+examples/websockets-http2/src/main.rs:72:9: warning TS006 the loop carries no upper bound; give it a fixed maximum
+examples/websockets/src/client.rs:25:7: info TS025 the name leads with the qualifier N; put it last
+examples/websockets/src/client.rs:47:1: warning TS002 the function is 74 lines, over the 70 line limit
+examples/websockets/src/main.rs:101:1: warning TS002 the function is 113 lines, over the 70 line limit
+examples/websockets/src/main.rs:153:13: info TS025 the name leads with the qualifier n; put it last
